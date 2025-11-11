@@ -1,0 +1,141 @@
+# ==============================================
+# 操作系统相关文件
+# ==============================================
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.font-unix
+.hidden
+.swp
+.swo
+
+
+# ==============================================
+# 开发语言相关
+# ==============================================
+# Go
+*.o
+*.a
+*.so
+*.exe
+go.sum
+vendor/
+*.test
+.idea/
+.vscode/
+
+# Java
+*.class
+target/
+build/
+out/
+.gradle/
+*.iml
+.classpath
+.project
+.settings/
+
+# Node.js
+node_modules/
+dist/
+build/
+npm-debug.log*
+yarn-debug.log*
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+env/
+*.egg-info/
+.coverage
+
+# C/C++
+*.obj
+*.o
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+Makefile
+
+
+# ==============================================
+# 工具/框架相关
+# ==============================================
+# Git 自身
+.gitignore~
+.gitattributes~
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# 包管理工具
+package-lock.json
+yarn.lock
+requirements.txt
+vendor/
+
+
+# ==============================================
+# AI 工具相关（含 Claude、Codex 等）
+# ==============================================
+# Claude 相关
+.claude/
+**/.claude/
+chapters/.claude/settings.local.json
+
+# Codex/GitHub Copilot 相关
+.codex/
+**/.codex/
+.codex-cache/
+**/.codex-cache/
+copilot/
+**/copilot/
+.copilot-context/
+**/.copilot-context/
+
+# 通用 AI 工具缓存/模型
+*.bin        # 模型二进制文件
+*.pth        # PyTorch 模型
+models/      # 模型存放目录
+ai_cache/    # AI 缓存目录
+*.ai-generated  # AI 生成的临时文件
+
+
+# ==============================================
+# 敏感文件（通用规则）
+# ==============================================
+*.local.json
+*.secret
+*.key
+*.pem
+*.token
+.env*
+!*.env.example  # 保留示例环境文件（可选）
+logs/
+*.log
+tmp/
+temp/
