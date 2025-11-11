@@ -290,24 +290,17 @@ Part 1 Ch 1 (企业架构基础)
 ### 加入微信交流群
 
 <div align="center">
-<img src="./assets/qr-wechat-group.png" alt="微信交流群二维码" width="200"/>
+<img src="./assets/qr-wechat-group.jpg" alt="微信交流群二维码" width="200"/>
 <p><i>扫码加入微信交流群，与安全专家交流</i></p>
 </div>
 
-### 请作者喝咖啡 ☕
+### 请作者喝一杯咖啡 ☕
 
 您的支持是我们持续创作的动力！
 
 <div align="center">
-<table>
-<tr>
-<td align="center">
-<img src="./assets/qr-wechat-donate.png" alt="微信收款码" width="200"/>
-<br/>
-<b>微信赞赏</b>
-</td>
-</tr>
-</table>
+<img src="./assets/qr-wechat-donate.jpg" alt="微信收款码" width="200"/>
+<p><i>请作者喝一杯咖啡</i></p>
 </div>
 
 ---
