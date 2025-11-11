@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(lsof:*)",
+      "Bash(launchctl:*)",
+      "Read(//Library/SystemExtensions/D51A0F00-9184-4BAF-A0CE-74E658CF325A/**)",
+      "Bash(systemextensionsctl:*)",
+      "Bash(awk:*)",
+      "Bash(ps:*)",
+      "Bash(codesign:*)",
+      "Bash(otool:*)",
+      "Read(//Library/**)",
+      "Read(//Applications/**)",
+      "Bash(plutil:*)",
+      "Bash(nm:*)",
+      "Bash(csrutil:*)",
+      "Bash(grep:*)",
+      "Bash(size:*)",
+      "Bash(cat:*)",
+      "Bash(ping:*)",
+      "Bash(nc:*)",
+      "Bash(curl:*)",
+      "Bash(chmod:*)",
+      "Bash(find:*)",
+      "Bash(class-dump:*)",
+      "Read(//opt/**)",
+      "Read(//Users/10017730/**)",
+      "Bash(python3:*)",
+      "Bash(/usr/bin/python3:*)",
+      "Bash(clang:*)",
+      "Bash(xcode-select:*)",
+      "Bash(/usr/bin/xcode-select:*)",
+      "Read(//usr/bin/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
