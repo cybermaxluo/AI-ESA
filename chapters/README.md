@@ -176,7 +176,6 @@ For Security Leaders, Architects, and Practitioners
 ## 更多资源
 
 - [完整目录树](../docs/AI-ESA_TOC.md) — 详细的章节目录树
-- [阅读指南](../docs/READING_GUIDE.md) — 按角色定制的阅读路径
 - [术语表](../docs/GLOSSARY.md) — 核心术语完整索引（中英对照、定义、应用场景）
 - [作者团队](../docs/AUTHORS.md) — 作者背景与联系方式
 
