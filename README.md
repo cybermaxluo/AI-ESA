@@ -3,7 +3,7 @@
 # AI驱动的企业安全：架构、方法论与实践
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![GitHub last commit](https://img.shields.io/github/last-commit/cybermaxluo/ai-powered-enterprise-security)](https://github.com/cybermaxluo/ai-powered-enterprise-security/commits/main)
+[![GitHub last commit](https://img.shields.io/github/last-commit/cybermaxluo/AI-ESA)](https://github.com/cybermaxluo/AI-ESA/commits/main)
 
 ## 本书定位
 
