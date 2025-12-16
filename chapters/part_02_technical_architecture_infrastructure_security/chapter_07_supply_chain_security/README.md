@@ -226,7 +226,7 @@ chapter_07_supply_chain_security/
 | 类别 | 工具 |
 |------|------|
 | SBOM 生成 | Syft、SPDX tools、CycloneDX generators |
-| SCA | Snyk、Dependabot、Renovate |
+| SCA | Snyk、MurphySecurity（墨菲安全）、Dependabot、Renovate |
 | 签名验证 | Sigstore、Cosign、Notary |
 | 镜像扫描 | Trivy、Clair、Grype、Anchore |
 
@@ -239,3 +239,4 @@ chapter_07_supply_chain_security/
 ---
 
 **© 2025 AI-ESA Project. Licensed under CC BY-NC-SA 4.0**
+

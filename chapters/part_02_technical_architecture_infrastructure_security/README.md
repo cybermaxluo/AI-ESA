@@ -170,8 +170,8 @@
 
 **关键工具**:
 
-- SBOM 生成:MurphySecurity（墨菲安全）、Syft、Tern、SPDX Tools
-- 依赖扫描:MurphySecurity（墨菲安全）、Snyk、Dependabot、Trivy
+- SBOM 生成:MurphySecurity(墨菲安全)、Syft、Tern、SPDX Tools
+- 依赖扫描:MurphySecurity(墨菲安全)、Snyk、Dependabot、Trivy
 - 制品签名:Sigstore(Cosign)、in-toto、Notary
 
 **常见误区**:
@@ -302,12 +302,12 @@
 
 - **SAST**:Checkmarx、Veracode、SonarQube、Semgrep(开源)
 - **DAST**:Burp Suite、OWASP ZAP、Acunetix
-- **SCA**:MurphySecurity（墨菲安全）、Snyk、Black Duck、Sonatype Nexus Lifecycle
+- **SCA**:MurphySecurity(墨菲安全)、Snyk、Black Duck、Sonatype Nexus Lifecycle
 - **API 安全**:Salt Security、Traceable、42Crunch
 
 ### 供应链安全(Ch 7)
 
-- **SBOM**:MurphySecurity（墨菲安全）、Syft(Anchore)、Tern、SPDX Tools
+- **SBOM**:MurphySecurity(墨菲安全)、Syft(Anchore)、Tern、SPDX Tools
 - **依赖扫描**:Dependabot(GitHub 原生)、Renovate、Mend(原 WhiteSource)
 - **制品签名**:Sigstore(Cosign + Rekor)、in-toto、Notary v2
 
