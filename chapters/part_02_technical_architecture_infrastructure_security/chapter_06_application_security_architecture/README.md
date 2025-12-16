@@ -87,13 +87,10 @@
 
 本章节综合整合以下原始指南与文档:
 
-1. **comprehensive_appsec_architecture_guide_v3.md** - 应用安全架构核心指南
-2. **threat_modeling.md** (Chapter 4) - 威胁建模方法论
-3. **third_party_supply_chain_security_guide.md** - 供应链安全
-4. **devsecops_practice.md** (Chapter 5) - DevSecOps 实践
-5. OWASP 系列标准(SAMM、Top 10、ASVS、MASVS)
-6. SDL/SSDLC 最佳实践
-7. 云原生安全标准与模式
+1. 《互联网跨境企业应用安全架构指南》：全球化业务的应用安全架构落地实践
+2. OWASP 系列标准(SAMM、Top 10、ASVS、MASVS)
+3. SDL/SSDLC 最佳实践
+4. 云原生安全标准与模式
 
 ---
 
@@ -120,7 +117,6 @@
 - **Chapter 15**: Security for AI → AI/LLM 安全治理与防护
 
 ---
-
 
 ## 导航
 
