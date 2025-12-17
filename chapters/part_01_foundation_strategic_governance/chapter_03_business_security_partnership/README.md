@@ -133,7 +133,7 @@ BISO 应该向谁汇报？
 
 ## 贡献与反馈
 
-本章内容基于企业实践总结。文档所有者：Max Luo（微信公众号：白帽子罗棋琛）。版本信息：v1.0（2025 年 1 月）。
+本章内容基于主编的《安全BP（GSBP）与 BISO 团队建设实践指南》企业实践总结。
 
 ---
 
@@ -143,5 +143,5 @@ BISO 应该向谁汇报？
 
 ---
 
-© 2025 AI-ESA Project. Licensed under CC BY-NC-SA 4.0
+**© 2025 AI-ESA Project. Licensed under CC BY-NC-SA 4.0**
 

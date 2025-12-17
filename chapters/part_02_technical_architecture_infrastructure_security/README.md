@@ -396,7 +396,7 @@
 
 ---
 
-## 导航 | Navigation
+## 导航
 
 **[← 上一部分：Part 1 - Foundation &amp; Governance](../part_01_foundation_strategic_governance/)** | **[返回章节导航](../)** | **[→ 下一部分：Part 3 - Data &amp; Privacy](../part_03_data_security_privacy/)**
 
