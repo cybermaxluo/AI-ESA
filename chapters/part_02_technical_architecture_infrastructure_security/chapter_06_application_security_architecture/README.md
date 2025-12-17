@@ -2,9 +2,9 @@
 
 ## 应用安全架构与 DevSecOps
 
-**目标读者**: Security Architects, AppSec Engineers, DevSecOps Engineers, Development Leads
+**目标读者**：Security Architects, AppSec Engineers, DevSecOps Engineers, Development Leads
 
-**核心价值**: 建立覆盖全生命周期的应用安全架构体系,实现安全左移与持续保障
+**核心价值**：建立覆盖全生命周期的应用安全架构体系，实现安全左移与持续保障
 
 ---
 
@@ -19,15 +19,15 @@
 ### 6.1 应用安全战略与业务对齐 (AppSec Strategy & Business Alignment)
 
 - 6.1.1 应用安全战略规划
-- 6.1.2 业务安全伙伴(BISO)机制
-- 6.1.3 应用安全成熟度模型(OWASP SAMM、BSIMM)
-- 6.1.4 安全KPI与业务价值量化
+- 6.1.2 业务安全伙伴 (BISO) 机制
+- 6.1.3 应用安全成熟度模型 (OWASP SAMM, BSIMM)
+- 6.1.4 安全 KPI 与业务价值量化
 
 ### 6.2 应用安全架构设计 (AppSec Architecture Design)
 
-- 6.2.1 安全架构框架(TOGAF、SABSA、零信任)
-- 6.2.2 威胁建模方法论(STRIDE、PASTA、LINDDUN)
-- 6.2.3 安全设计原则(纵深防御、最小权限、隐私设计)
+- 6.2.1 安全架构框架 (TOGAF, SABSA, 零信任)
+- 6.2.2 威胁建模方法论 (STRIDE, PASTA, LINDDUN)
+- 6.2.3 安全设计原则 (纵深防御, 最小权限, 隐私设计)
 - 6.2.4 参考架构与模式
 
 ### 6.3 SDL 十大关键实践 (SDL Ten Key Practices)
@@ -36,13 +36,13 @@
 - 6.3.2 安全需求与威胁建模
 - 6.3.3 安全设计评审
 - 6.3.4 安全编码规范
-- 6.3.5 安全测试(SAST/DAST/IAST/SCA)
+- 6.3.5 安全测试 (SAST, DAST, IAST, SCA)
 - 6.3.6 安全发布与运营
 
 ### 6.4 安全工程工具链 (Security Engineering Toolchain)
 
-- 6.4.1 IDE安全插件集成
-- 6.4.2 CI/CD安全工具链
+- 6.4.1 IDE 安全插件集成
+- 6.4.2 CI/CD 安全工具链
 - 6.4.3 安全质量门禁
 - 6.4.4 漏洞管理平台
 - 6.4.5 工具链集成最佳实践
@@ -51,7 +51,7 @@
 
 - 6.5.1 应用安全服务目录
 - 6.5.2 漏洞管理生命周期
-- 6.5.3 安全监控(RASP、WAF、IAST)
+- 6.5.3 安全监控 (RASP, WAF, IAST)
 - 6.5.4 应急响应与事件处置
 - 6.5.5 应用安全指标体系
 
@@ -85,36 +85,36 @@
 
 ## 内容来源
 
-本章节综合整合以下原始指南与文档:
+本章节综合整合以下原始指南与文档：
 
 1. 《互联网跨境企业应用安全架构指南》：全球化业务的应用安全架构落地实践
-2. OWASP 系列标准(SAMM、Top 10、ASVS、MASVS)
-3. SDL/SSDLC 最佳实践
+2. OWASP 系列标准 (SAMM, Top 10, ASVS, MASVS)
+3. SDL/SSDLC 实践
 4. 云原生安全标准与模式
 
 ---
 
 ## 关键特色
 
-**全生命周期覆盖**: 从战略到运营的完整安全实践
-**业务价值导向**: 安全BP机制与业务KPI对齐
-**标准框架对齐**: OWASP SAMM、BSIMM、NIST SSDF等业界标准
-**工具链自动化**: SAST、DAST、IAST、SCA等工具集成
-**实战案例丰富**: 互联网、金融、科技等多行业案例
-**分阶段实施**: 评估→起步→加速→优化→改进的渐进式路径
+**全生命周期覆盖**：从战略到运营的完整安全实践
+**业务价值导向**：安全 BP 机制与业务 KPI 对齐
+**标准框架对齐**：OWASP SAMM, BSIMM, NIST SSDF 等业界标准
+**工具链自动化**：SAST, DAST, IAST, SCA 等工具集成
+**实战案例丰富**：互联网、金融、科技等多行业案例
+**分阶段实施**：评估→起步→加速→优化→改进的渐进式路径
 
 ---
 
 ## 与其他章节关系
 
-- **Chapter 1**: 企业架构基础 → 提供顶层架构逻辑
-- **Chapter 4**: 安全架构与工程 → 提供架构设计原则与威胁建模
-- **Chapter 5**: 云安全架构 → 云原生应用安全基础
-- **Chapter 7**: 供应链安全 → 软件供应链深度治理(SBOM、SLSA)
-- **Chapter 9**: 隐私合规 → 全球数据主权与隐私工程
-- **Chapter 11**: 安全运营 → 应用安全监控与响应
-- **Chapter 14**: AI for Cybersecurity → AI 赋能代码审查与漏洞检测
-- **Chapter 15**: Security for AI → AI/LLM 安全治理与防护
+- **Chapter 1**：企业架构基础 → 提供顶层架构逻辑
+- **Chapter 4**：安全架构与工程 → 提供架构设计原则与威胁建模
+- **Chapter 5**：云安全架构 → 云原生应用安全基础
+- **Chapter 7**：供应链安全 → 软件供应链深度治理 (SBOM, SLSA)
+- **Chapter 9**：隐私合规 → 全球数据主权与隐私工程
+- **Chapter 11**：安全运营 → 应用安全监控与响应
+- **Chapter 14**：AI for Cybersecurity → AI 赋能代码审查与漏洞检测
+- **Chapter 15**：Security for AI → AI/LLM 安全治理与防护
 
 ---
 
