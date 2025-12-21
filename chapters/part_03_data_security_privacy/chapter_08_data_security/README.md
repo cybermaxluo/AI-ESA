@@ -1,4 +1,4 @@
-# Chapter 8: Data Security
+# Chapter 8: 数据安全 (Data Security)
 
 ## 数据安全治理
 
