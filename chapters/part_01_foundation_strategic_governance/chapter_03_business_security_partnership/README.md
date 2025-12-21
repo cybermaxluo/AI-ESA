@@ -18,7 +18,7 @@ BISO（Business Information Security Officer）模式代表安全职能从"技�
 
 [3.0 执行摘要](3.0_executive_summary.md)：本章核心观点与关键结论概述。
 
-[3.1 BISO 职责定位与使命](3.1_biso_role_mission.md)：明确 GSBP 与 BISO 的职责边界，定义使命陈述与价值主张，绘制利益相关方地图，建立安全中心—BISO—业务线的三方协作机制。
+[3.1 BISO 职责定位与使命](3.1_biso_role_mission.md)：明确 GSBP 与 BISO 的职责边界，定义使命陈述与价值主张，绘制利益相关方地图，建立安全中心-BISO-业务线的三方协作机制。
 
 [3.2 BISO 组织架构设计](3.2_biso_organization_design.md)：比较集中式、嵌入式、混合式三种组织模型，探讨汇报关系与双重汇报机制，设计从 Junior GSBP 到 Lead BISO 的角色分层，规划团队规模配比，建立全球 BISO 网络协作机制。
 
@@ -26,7 +26,7 @@ BISO（Business Information Security Officer）模式代表安全职能从"技�
 
 ### Part 2：业务共创
 
-[3.3 业务安全伙伴关系生命周期](3.3_business_partnership_lifecycle.md)：覆盖关系建立期（Onboarding 与信任构建）、合作深化期（需求管理与优先级治理）、价值交付期（Playbook 执行与质量保障）、持续优化期（VOC 反馈与服务改进）四个阶段。
+[3.3 业务安全伙伴关系生命周期](3.3_business_partnership_lifecycle.md)：覆盖关系建立期（onboarding 与信任构建）、合作深化期（需求管理与优先级治理）、价值交付期（playbook 执行与质量保障）、持续优化期（VOC 反馈与服务改进）四个阶段。
 
 [3.4 关键场景 Playbook](3.4_key_scenario_playbooks.md)：提供五个典型场景的标准化操作流程——产品上线安全评审（含 AI 功能评估）、营销活动风险评估（反作弊、隐私合规）、供应商接入安全评估（TPRM 全生命周期）、新兴技术安全评估（AI、区块链、物联网）、并购安全尽调。
 
@@ -38,7 +38,7 @@ BISO（Business Information Security Officer）模式代表安全职能从"技�
 
 [3.6 案例研究](3.6_case_studies.md)：分析四个实践案例——跨境电商 BISO 体系建设、金融科技全球 BISO 网络、SaaS 企业 BISO 快速响应模式、零售企业 BISO 转型，总结常见陷阱与成功要素。
 
-[3.7 附录：模板与工具](3.7_appendix_templates_tools.md)：提供六类实用模板（BISO 使命陈述与服务目录、利益相关方地图与沟通节奏表、需求管理与优先级矩阵、Playbook 标准模板、QBR 报告模板、BISO 能力评估矩阵），推荐协作工具、GRC 平台、知识管理工具。
+[3.7 附录：模板与工具](3.7_appendix_templates_tools.md)：提供六类实用模板（BISO 使命陈述与服务目录、利益相关方地图与沟通节奏表、需求管理与优先级矩阵、playbook 标准模板、QBR 报告模板、BISO 能力评估矩阵），推荐协作工具、GRC 平台、知识管理工具。
 
 ---
 
@@ -46,13 +46,13 @@ BISO（Business Information Security Officer）模式代表安全职能从"技�
 
 本章涉及的关键术语反映了业务安全伙伴关系的核心要素：
 
-- GSBP（Global Security Business Partner）：嵌入业务线的安全 BP，承担安全团队与业务部门之间的连接职能
-- BISO（Business Information Security Officer）：面向业务单元的安全负责人，承担战略共担、治理与合规责任
-- BRM（Business Relationship Management）：业务关系管理框架，用于定义伙伴关系生命周期
-- Playbook：安全场景操作手册，是标准化服务交付的核心工具
-- QBR（Quarterly Business Review）：季度业务回顾会议，用于汇报指标与对齐战略
-- VOC（Voice of Customer）：业务反馈收集机制
-- RACI：责任矩阵（Responsible, Accountable, Consulted, Informed），明确角色分工
+- **GSBP** (Global Security Business Partner)：嵌入业务线的安全 BP，承担安全团队与业务部门之间的连接职能
+- **BISO** (Business Information Security Officer)：面向业务单元的安全负责人，承担战略共担、治理与合规责任
+- **BRM** (Business Relationship Management)：业务关系管理框架，用于定义伙伴关系生命周期
+- **Playbook**：安全场景操作手册，是标准化服务交付的核心工具
+- **QBR** (Quarterly Business Review)：季度业务回顾会议，用于汇报指标与对齐战略
+- **VOC** (Voice of Customer)：业务反馈收集机制
+- **RACI**：责任矩阵（Responsible, Accountable, Consulted, Informed），明确角色分工
 
 ---
 
@@ -62,7 +62,7 @@ BISO 服务质量的衡量需要三类指标的平衡组合：
 
 结果类指标关注安全成果：业务安全风险敞口变化率、重大安全事件数量、合规审计通过率、监管罚款情况。
 
-过程类指标关注服务效率：需求 SLA 达成率、Playbook 执行率、风险例外关闭周期、供应链安全合规率。
+过程类指标关注服务效率：需求 SLA 达成率、playbook 执行率、风险例外关闭周期、供应链安全合规率。
 
 体验类指标关注业务满意度：VOC 满意度评分、净推荐值（NPS）、业务团队自助率、培训覆盖率。
 
@@ -105,7 +105,7 @@ BISO 模式的核心转变体现在五个维度：
 
 生命周期管理：遵循关系建立→合作深化→价值交付→持续优化的四阶段模型，每个阶段有明确目标与活动。
 
-服务标准化：通过 Playbook 覆盖常见场景，实现服务交付的一致性与可复制性。标准化不是僵化，而是为创新释放时间。
+服务标准化：通过 playbook 覆盖常见场景，实现服务交付的一致性与可复制性。标准化不是僵化，而是为创新释放时间。
 
 价值证明：用业务语言（上线速度、合规认证、客户赢单）而非技术术语证明价值，建立数据驱动的价值叙事。
 
@@ -133,13 +133,13 @@ BISO 应该向谁汇报？
 
 ## 贡献与反馈
 
-本章内容基于主编的《安全BP（GSBP）与 BISO 团队建设实践指南》企业实践总结。
+本章内容基于主编的《安全 BP（GSBP）与 BISO 团队建设实践指南》企业实践总结。
 
 ---
 
 ## 导航
 
-[← 上一章](../chapter_02_grc_governance_risk_compliance/) | [返回 Part 1](../) | [返回章节导航](../../) | [→ 下一章](../../part_02_technical_architecture_infrastructure_security/chapter_04_security_architecture_engineering/)
+**[← 上一章：第 2 章](../chapter_02_grc_governance_risk_compliance/)** | **[返回 Part 目录](../)** | **[下一章：第 4 章 →](../../part_02_technical_architecture_infrastructure_security/chapter_04_security_architecture_engineering/)**
 
 ---
 
