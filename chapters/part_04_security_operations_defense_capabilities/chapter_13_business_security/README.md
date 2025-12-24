@@ -14,9 +14,7 @@
 
 ### 直接业务价值保护
 
-- 财务损失防护：防御薅羊毛、交易欺诈、账号接管、数据爬取等直接经济损失
-- 用户信任保障：通过内容安全、垃圾信息过滤、数据隐私保护维护用户信任
-- 合规风险管控：满足反洗钱 (anti-money laundering, AML)、know your customer (KYC)、数据隐私等监管要求
+业务安全直接保护企业核心价值：财务损失防护方面，防御薅羊毛、交易欺诈、账号接管、数据爬取等直接经济损失；用户信任保障方面，通过内容安全、垃圾信息过滤、数据隐私保护维护用户信任；合规风险管控方面，满足反洗钱 (anti-money laundering, AML)、know your customer (KYC)、数据隐私等监管要求。
 
 ### 业务安全 vs. 技术安全
 
@@ -30,13 +28,7 @@
 
 ### AI/ML 技术核心应用
 
-业务安全是 AI/ML 落地较成熟的领域之一：
-
-- 实时风控决策：规则引擎 + ML 模型混合决策 (百毫秒级响应)
-- 异常检测：设备指纹、行为序列、user and entity behavior analytics (UEBA)
-- 欺诈模式识别：图神经网络 (graph neural network, GNN) 团伙识别、关系欺诈检测
-- 内容审核：natural language processing (NLP) 文本分类、computer vision (CV) 图片识别、多模态审核
-- 对抗性学习：应对黑产对抗式机器学习攻击
+业务安全是 AI/ML 落地较成熟的领域之一。核心应用包括：实时风控决策采用规则引擎 + ML 模型混合决策（百毫秒级响应）；异常检测依托设备指纹、行为序列、user and entity behavior analytics (UEBA)；欺诈模式识别使用图神经网络 (graph neural network, GNN) 进行团伙识别与关系欺诈检测；内容审核结合 natural language processing (NLP) 文本分类、computer vision (CV) 图片识别、多模态审核；对抗性学习用于应对黑产对抗式机器学习攻击。
 
 ---
 
@@ -102,48 +94,21 @@ ATO 防护     反欺诈/AML    反垃圾       刷单检测
 
 ### 阶段 1: 规则引擎基础能力建设
 
-核心能力：
+**核心能力**：黑名单/白名单管理、基础规则引擎 (Drools/Easy Rules)、人工审核流程建立、设备指纹初步部署。
 
-- 黑名单/白名单管理
-- 基础规则引擎 (Drools/Easy Rules)
-- 人工审核流程建立
-- 设备指纹初步部署
-
-验收标准：
-
-- 规则引擎上线，覆盖核心业务场景
-- 人工审核流程可运转
-- 基础数据采集与日志记录完备
+**验收标准**：规则引擎上线并覆盖核心业务场景，人工审核流程可运转，基础数据采集与日志记录完备。
 
 ### 阶段 2: 机器学习模型引入
 
-核心能力：
+**核心能力**：特征工程与特征平台、ML 模型训练与上线 (XGBoost/LightGBM)、设备指纹 + 行为序列、A/B 测试与效果评估。
 
-- 特征工程与特征平台
-- ML 模型训练与上线 (XGBoost/LightGBM)
-- 设备指纹 + 行为序列
-- A/B 测试与效果评估
-
-验收标准：
-
-- 首个 ML 模型上线并稳定运行
-- 误拦率相比纯规则阶段下降
-- 人工审核占比降低
+**验收标准**：首个 ML 模型上线并稳定运行，误拦率相比纯规则阶段下降，人工审核占比降低。
 
 ### 阶段 3: 高级能力与持续优化
 
-核心能力：
+**核心能力**：GNN 团伙欺诈识别、实时特征计算优化、对抗性机器学习防护、AI-generated content (AIGC) 内容检测。
 
-- GNN 团伙欺诈识别
-- 实时特征计算优化
-- 对抗性机器学习防护
-- AI-generated content (AIGC) 内容检测
-
-验收标准：
-
-- 高级模型（如 GNN）在特定场景上线
-- 误拦率与漏放率维持在业务可接受范围
-- 团伙欺诈识别能力显著提升
+**验收标准**：高级模型（如 GNN）在特定场景上线，误拦率与漏放率维持在业务可接受范围，团伙欺诈识别能力显著提升。
 
 ---
 
@@ -151,34 +116,23 @@ ATO 防护     反欺诈/AML    反垃圾       刷单检测
 
 ### 业务理解与数据洞察
 
-- 业务上下文：深入理解业务流程、用户行为、黑产攻击模式
-- 数据质量：高质量标注数据（正负样本比例接近平衡）
-- 特征工程：领域专家 + 数据科学家协作，提炼有效特征
+业务安全建设需要深入理解业务上下文（业务流程、用户行为、黑产攻击模式），确保数据质量（高质量标注数据，正负样本比例接近平衡），并通过领域专家与数据科学家协作进行有效的特征工程。
 
 ### 规则引擎 + ML 模型混合
 
-- 规则引擎：覆盖多数场景，响应快（毫秒级），可解释性强
-- machine learning (ML) 模型：覆盖复杂场景，效果好，响应较慢（百毫秒级）
-- 混合决策：规则引擎优先，ML 模型补充，人工兜底
+规则引擎覆盖多数场景，响应快（毫秒级），可解释性强；machine learning (ML) 模型覆盖复杂场景，效果好，响应较慢（百毫秒级）；混合决策采用规则引擎优先、ML 模型补充、人工兜底的策略。
 
 ### 误拦率 vs. 漏放率平衡
 
-- 业务增长期：降低误拦率，放行更多正常用户（业务优先）
-- 风险高发期：提高拦截率，防止损失扩大（风控收紧）
-- 平衡艺术：动态调整风控阈值，实时监控业务指标
+业务增长期应降低误拦率，放行更多正常用户（业务优先）；风险高发期应提高拦截率，防止损失扩大（风控收紧）；平衡艺术在于动态调整风控阈值，实时监控业务指标。
 
 ### 人工审核与模型协同
 
-- 分层审核：L1/L2/L3 审核，不同风险级别不同审核强度
-- 主动学习：人工审核结果反馈模型，持续优化
-- 质量监控：审核准确率、一致性监控
+实施分层审核（L1/L2/L3），不同风险级别采用不同审核强度；通过主动学习将人工审核结果反馈模型，持续优化；同时进行审核准确率与一致性的质量监控。
 
 ### 黑灰产情报网络
 
-- 设备云识别：识别模拟器、群控软件、云手机
-- 打码平台：识别验证码打码服务
-- 黑产 IP 库：收集黑产 IP, 代理 IP, VPN 出口
-- 行业共享：参与行业情报共享（information sharing and analysis center/information sharing and analysis organization, ISAC/ISAO）
+情报能力建设包括：设备云识别（识别模拟器、群控软件、云手机），打码平台识别（识别验证码打码服务），黑产 IP 库（收集黑产 IP、代理 IP、VPN 出口），以及行业共享（参与 information sharing and analysis center/information sharing and analysis organization, ISAC/ISAO）。
 
 ---
 
@@ -200,24 +154,15 @@ ATO 防护     反欺诈/AML    反垃圾       刷单检测
 
 ### 领先指标 (预防性)
 
-- 规则覆盖率：规则引擎覆盖场景百分比
-- 模型 area under curve (AUC)：ML 模型 AUC 值
-- 特征数量：有效特征数量
-- 响应时间：决策引擎响应时间 P99
+领先指标用于衡量能力建设水平：规则覆盖率（规则引擎覆盖场景百分比）、模型 area under curve (AUC)（ML 模型 AUC 值）、特征数量（有效特征数量）、响应时间（决策引擎响应时间 P99）。
 
 ### 滞后指标 (检测性)
 
-- 误拦率：误杀正常用户比例
-- 漏放率：漏放欺诈用户比例
-- 人工审核占比：需人工审核比例
-- 损失金额：年度欺诈损失占 GMV 比例
+滞后指标用于衡量实际效果：误拦率（误杀正常用户比例）、漏放率（漏放欺诈用户比例）、人工审核占比（需人工审核比例）、损失金额（年度欺诈损失占 GMV 比例）。
 
 ### 业务成果
 
-- 损失防护：每年避免业务损失金额
-- gross merchandise volume (GMV) 影响：风控对 GMV 的负面影响
-- 用户体验：用户投诉率
-- 合规就绪：通过 AML/KYC 审计
+业务成果指标包括：损失防护（每年避免业务损失金额）、gross merchandise volume (GMV) 影响（风控对 GMV 的负面影响）、用户体验（用户投诉率）、合规就绪（通过 AML/KYC 审计）。
 
 ---
 
@@ -225,29 +170,23 @@ ATO 防护     反欺诈/AML    反垃圾       刷单检测
 
 ### 规则引擎
 
-- 开源：Drools, Easy Rules
-- 商业：阿里云风控、腾讯天御
+规则引擎选型包括开源方案（Drools、Easy Rules）和商业方案（阿里云风控、腾讯天御）。
 
 ### 机器学习框架
 
-- 传统 ML：scikit-learn, XGBoost, LightGBM
-- 深度学习：TensorFlow, PyTorch
-- 图计算：NetworkX, Deep Graph Library (DGL)
+机器学习框架涵盖传统 ML（scikit-learn、XGBoost、LightGBM）、深度学习（TensorFlow、PyTorch）以及图计算（NetworkX、Deep Graph Library (DGL)）。
 
 ### 特征平台
 
-- 开源：Feast
-- 商业：Tecton
+特征平台可选开源方案（Feast）或商业方案（Tecton）。
 
 ### 设备指纹
 
-- 开源：FingerprintJS
-- 商业：ThreatMetrix, Sift
+设备指纹技术可选开源方案（FingerprintJS）或商业方案（ThreatMetrix、Sift）。
 
 ### 内容审核
 
-- NLP：BERT, RoBERTa, generative pre-trained transformer (GPT) (fine-tuned)
-- CV：ResNet, EfficientNet, you only look once (YOLO)
+内容审核技术栈包括 NLP（BERT、RoBERTa、generative pre-trained transformer (GPT) fine-tuned）和 CV（ResNet、EfficientNet、you only look once (YOLO)）。
 
 ---
 
@@ -255,21 +194,15 @@ ATO 防护     反欺诈/AML    反垃圾       刷单检测
 
 ### 框架与标准
 
-- Open Web Application Security Project (OWASP) Automated Threats
-- Payment Card Industry Data Security Standard (PCI DSS)
-- Financial Action Task Force (FATF) Recommendations (金融行动特别工作组反洗钱标准)
+主要参考框架包括 Open Web Application Security Project (OWASP) Automated Threats、Payment Card Industry Data Security Standard (PCI DSS)、Financial Action Task Force (FATF) Recommendations（金融行动特别工作组反洗钱标准）。
 
 ### 行业参考
 
-- FICO 欺诈检测白皮书
-- Forter 电商反欺诈报告
-- Sift Science 数字信任报告
+行业参考资料包括 FICO 欺诈检测白皮书、Forter 电商反欺诈报告、Sift Science 数字信任报告。
 
 ### 技术社区
 
-- knowledge discovery and data mining (KDD) 会议论文
-- special interest group on information retrieval (SIGIR) 会议论文
-- 各大互联网公司技术博客（美团技术、阿里技术、腾讯技术）
+技术社区资源包括 knowledge discovery and data mining (KDD) 会议论文、special interest group on information retrieval (SIGIR) 会议论文，以及各大互联网公司技术博客（美团技术、阿里技术、腾讯技术）。
 
 ---
 
@@ -287,19 +220,13 @@ ATO 防护     反欺诈/AML    反垃圾       刷单检测
 
 ## 前提知识
 
-建议先学习以下章节：
-
-- [Ch 1](../../part_01_foundation_strategic_governance/chapter_01_enterprise_architecture_foundation/)：理解企业架构全景
-- [Ch 6](../../part_02_technical_architecture_infrastructure_security/chapter_06_application_security_architecture/)：理解应用层安全基础
-- [Ch 8](../../part_03_data_security_privacy/chapter_08_data_security/)：理解数据安全与隐私保护
+建议先学习以下章节：[Ch 1](../../part_01_foundation_strategic_governance/chapter_01_enterprise_architecture_foundation/)（理解企业架构全景）、[Ch 6](../../part_02_technical_architecture_infrastructure_security/chapter_06_application_security_architecture/)（理解应用层安全基础）、[Ch 8](../../part_03_data_security_privacy/chapter_08_data_security/)（理解数据安全与隐私保护）。
 
 ---
 
 ## 认证推荐
 
-- Certified Information Systems Security Professional (CISSP) + 数据科学背景
-- Certified Information Security Manager (CISM) + 业务理解
-- 机器学习认证：Coursera ML, TensorFlow 认证
+业务安全从业者推荐认证包括：Certified Information Systems Security Professional (CISSP) + 数据科学背景、Certified Information Security Manager (CISM) + 业务理解、机器学习认证（Coursera ML、TensorFlow 认证）。
 
 ---
 

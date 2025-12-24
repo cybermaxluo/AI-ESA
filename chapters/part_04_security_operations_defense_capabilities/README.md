@@ -289,15 +289,53 @@
 
 ## 与认证体系的映射
 
-本部分内容覆盖以下专业认证的核心知识域：
+本部分内容覆盖以下专业认证的核心知识域，推荐以 OffSec、HackTheBox、GIAC 系列为主：
 
-- CySA+（CompTIA Cybersecurity Analyst）：Ch 11 SOC 分析与威胁检测
-- GCIH（GIAC Certified Incident Handler）：Ch 11 事件响应
-- GCFA（GIAC Certified Forensic Analyst）：Ch 11 数字取证与调查
-- OSCP（Offensive Security Certified Professional）：Ch 12 渗透测试
-- CRTO（Certified Red Team Operator）：Ch 12 红队运营
+### SOC / 蓝队认证
 
-建议 SOC 分析师至少持有 CySA+ 或 GCIH 认证，红队成员可选择 OSCP 或 CRTO 认证。
+| 认证 | 提供方 | 级别 | 价格参考 | 说明 |
+|------|--------|------|----------|------|
+| **SOC-200 (OSDA)** | OffSec | 基础 | ~$1,649 | Security Operations and Defensive Analysis，OffSec 防御系列基础认证 |
+| **HTB CDSA** | HackTheBox | 中级 | ~$490 | Certified Defensive Security Analyst，性价比高，实战导向 |
+| **GIAC GSOC** | SANS/GIAC | 基础 | ~$8,500+ | Security Operations Certified，含培训费用，体系完整但价格较高 |
+| **GIAC GCIH** | SANS/GIAC | 中级 | ~$8,500+ | Certified Incident Handler，事件响应领域权威认证 |
+| **GIAC GCIA** | SANS/GIAC | 中级 | ~$8,500+ | Certified Intrusion Analyst，入侵分析与网络取证 |
+| **GIAC GCFA** | SANS/GIAC | 高级 | ~$8,500+ | Certified Forensic Analyst，数字取证与恶意软件分析 |
+
+### 渗透测试认证
+
+| 认证 | 提供方 | 级别 | 价格参考 | 说明 |
+|------|--------|------|----------|------|
+| **OSCP (PEN-200)** | OffSec | 基础 | ~$1,649 | 渗透测试行业金标准，实操考试 24 小时，必考认证 |
+| **HTB CPTS** | HackTheBox | 基础 | ~$490 | Certified Penetration Testing Specialist，性价比极高，难度接近 OSCP |
+| **HTB CBBH** | HackTheBox | 基础 | ~$490 | Certified Bug Bounty Hunter，专注 Web 渗透，适合入门 |
+| **GIAC GPEN** | SANS/GIAC | 中级 | ~$8,500+ | Penetration Tester，理论扎实但实操偏弱 |
+| **GIAC GWAPT** | SANS/GIAC | 中级 | ~$8,500+ | Web Application Penetration Tester |
+
+### 红队认证
+
+| 认证 | 提供方 | 级别 | 价格参考 | 说明 |
+|------|--------|------|----------|------|
+| **OSEP (PEN-300)** | OffSec | 高级 | ~$1,649 | Evasion Techniques and Breaching Defenses，红队核心技能，强烈推荐 |
+| **CRTO** | Zero-Point Security | 高级 | ~$499 | Certified Red Team Operator，Cobalt Strike 专精，性价比极高 |
+| **CRTP** | Altered Security | 中级 | ~$249 | Certified Red Team Professional，Active Directory 攻防，性价比高 |
+| **GIAC GXPN** | SANS/GIAC | 高级 | ~$8,500+ | Exploit Researcher and Advanced Penetration Tester |
+
+### 全栈 / 专家级认证
+
+| 认证 | 提供方 | 级别 | 价格参考 | 说明 |
+|------|--------|------|----------|------|
+| **OSCE3** | OffSec | 专家 | ~$5,000+ | 需通过 OSEP + OSWE + OSED 三项认证，红队专家标志 |
+| ├─ OSEP (PEN-300) | OffSec | 高级 | ~$1,649 | 高级渗透与规避技术 |
+| ├─ OSWE (WEB-300) | OffSec | 高级 | ~$1,649 | 高级 Web 应用安全与代码审计 |
+| └─ OSED (EXP-301) | OffSec | 高级 | ~$1,649 | Windows 用户态漏洞利用开发 |
+
+### 认证建议
+
+- **SOC 分析师路径**：HTB CDSA（性价比高）→ SOC-200 (OSDA) → GIAC GCIH（预算充足时）
+- **渗透测试路径**：HTB CPTS/CBBH（入门）→ OSCP（必考）→ GIAC GPEN（可选）
+- **红队路径**：OSCP → CRTP/CRTO（性价比高）→ OSEP → OSCE3（专家目标）
+- **预算有限优先选择**：HTB 系列和 CRTO/CRTP 性价比最高；OffSec 系列行业认可度最高；GIAC 系列体系完整但价格较高，适合企业培训预算
 
 ---
 

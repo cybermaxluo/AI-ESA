@@ -295,11 +295,21 @@ SOC 建设的三个核心困境、本章目标与关键成功要素。
 
 ### 认证
 
-- GIAC Security Operations Certified (GSOC)
-- GIAC Certified Incident Handler (GCIH)
-- GIAC Certified Intrusion Analyst (GCIA)
-- Certified SOC Analyst (CSA)
-- Splunk Certified Security Professional
+推荐以 OffSec、HackTheBox、GIAC 系列为主：
+
+| 认证 | 提供方 | 级别 | 价格参考 | 说明 |
+|------|--------|------|----------|------|
+| **SOC-200 (OSDA)** | OffSec | 基础 | ~$1,649 | Security Operations and Defensive Analysis，OffSec 防御系列基础认证，实操导向 |
+| **HTB CDSA** | HackTheBox | 中级 | ~$490 | Certified Defensive Security Analyst，性价比极高，实战场景丰富 |
+| **GIAC GSOC** | SANS/GIAC | 基础 | ~$8,500+ | Security Operations Certified，含培训，体系完整但价格较高 |
+| **GIAC GCIH** | SANS/GIAC | 中级 | ~$8,500+ | Certified Incident Handler，事件响应领域权威认证 |
+| **GIAC GCIA** | SANS/GIAC | 中级 | ~$8,500+ | Certified Intrusion Analyst，入侵分析与网络取证 |
+| **GIAC GCFA** | SANS/GIAC | 高级 | ~$8,500+ | Certified Forensic Analyst，数字取证与恶意软件分析 |
+
+**认证路径建议**：
+- **预算有限**：HTB CDSA（~$490，性价比最高）→ SOC-200 (OSDA)
+- **预算充足**：SOC-200 (OSDA) → GIAC GCIH → GIAC GCFA
+- **厂商认证（可选）**：Splunk Certified Security Professional、Elastic Certified Analyst
 
 ### 图书
 
