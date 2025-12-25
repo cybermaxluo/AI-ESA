@@ -180,41 +180,6 @@
 
 ---
 
-## Key Concepts（核心概念）
-
-- **Red Team（红队）**：模拟真实攻击者的团队，通过对抗性测试验证企业安全能力
-- **Blue Team（蓝队）**：防御方团队，负责检测、响应与处置安全事件
-- **Purple Team（紫队）**：红蓝协作团队，负责将红队 TTP 转化为检测/防御改进
-- **TTP（Tactics, Techniques & Procedures）**：攻击战术、技术与流程
-- **Kill Chain（杀伤链）**：描述攻击生命周期的模型
-- **ATT&CK Framework**：MITRE 开发的攻击技术知识库
-- **RoE（Rules of Engagement）**：交战规则，界定红队行动边界
-- **Adversary Simulation（对抗性模拟）**：模拟特定威胁行为者的攻击行为
-- **BAS（Breach and Attack Simulation）**：自动化攻击模拟平台
-- **DDP（Detection Development Plan）**：检测改进计划
-- **RTMF（Red Team Maturity Framework）**：红队成熟度框架
-- **C2（Command and Control）**：指挥与控制基础设施
-- **OSINT（Open Source Intelligence）**：开源情报收集
-- **Assumed Breach**：假定已突破外部防线的演练模式
-
----
-
-## Target Audience（目标读者）
-
-本章面向以下角色：
-
-- CSO/CISO：理解红队战略价值、投资回报和治理模型
-- Security Architects：设计红队能力架构和技术栈
-- Red Team Leaders：规划建设路径、演练流程和工具栈
-- Penetration Testers：从渗透测试过渡到红队能力
-- Purple Team Members：理解红蓝协作模式和检测改进方法
-- SOC/Blue Team：利用红队成果提升检测与响应能力
-- Security Engineers：构建红队基础设施和自动化平台
-- BISO/GSBP（业务安全 BP）：评估业务影响和推动整改
-- GRC/Legal/Compliance：审核交战规则和合规要求
-
----
-
 ## Prerequisites（前置知识）
 
 建议读者具备以下知识基础：
@@ -230,23 +195,6 @@
 - Chapter 1: Enterprise Security Architecture Foundation
 - Chapter 2: Governance, Risk & Compliance
 - Chapter 11: Security Operations Center
-
----
-
-## Reading Path（阅读路径建议）
-
-不同角色可根据职责选择阅读重点：
-
-| 角色 | 核心章节 | 补充阅读 |
-|-----|---------|---------|
-| **CSO/CISO** | 12.1 战略与组织 → 12.7 报告与价值 | 12.8 案例（业务价值） |
-| **红队负责人** | 12.1 → 12.2 方法论 → 12.4 演练设计 | 12.3 工具、12.5 紫队、12.7 报告 |
-| **红队成员** | 12.2 方法论 → 12.3 工具技术 → 12.4 演练设计 | 12.5 紫队、12.8 案例 |
-| **SOC/蓝队** | 12.2 方法论 → 12.5 紫队协作 → 12.6 BAS | 12.8 案例（检测改进） |
-| **BISO/业务安全** | 12.1 战略 → 12.4 演练设计 → 12.8 案例 | 12.7 报告（业务语言） |
-| **GRC/法务** | README（法律警示）→ 12.1（治理）→ 12.4（RoE） | 12.7（证据治理） |
-
-首次阅读建议按章节顺序通读，后续可根据实际需求选择性深入。
 
 ---
 
@@ -330,30 +278,30 @@
 
 ### 渗透测试认证（红队基础）
 
-| 认证 | 提供方 | 级别 | 价格参考 | 说明 |
-|------|--------|------|----------|------|
-| **OSCP (PEN-200)** | OffSec | 基础 | ~$1,649 | 渗透测试行业金标准，24 小时实操考试，红队必备基础 |
-| **HTB CPTS** | HackTheBox | 基础 | ~$490 | Certified Penetration Testing Specialist，性价比极高，难度接近 OSCP |
-| **HTB CBBH** | HackTheBox | 基础 | ~$490 | Certified Bug Bounty Hunter，专注 Web 渗透，适合 Web 方向入门 |
-| **GIAC GPEN** | SANS/GIAC | 中级 | ~$8,500+ | Penetration Tester，理论体系完整，适合企业培训预算 |
+| 认证                     | 提供方     | 级别 | 价格参考 | 说明                                                                |
+| ------------------------ | ---------- | ---- | -------- | ------------------------------------------------------------------- |
+| **OSCP (PEN-200)** | OffSec     | 基础 | ~$1,649  | 渗透测试行业金标准，24 小时实操考试，红队必备基础                   |
+| **HTB CPTS**       | HackTheBox | 基础 | ~$490    | Certified Penetration Testing Specialist，性价比极高，难度接近 OSCP |
+| **HTB CBBH**       | HackTheBox | 基础 | ~$490    | Certified Bug Bounty Hunter，专注 Web 渗透，适合 Web 方向入门       |
+| **GIAC GPEN**      | SANS/GIAC  | 中级 | ~$8,500+ | Penetration Tester，理论体系完整，适合企业培训预算                  |
 
 ### 红队核心认证
 
-| 认证 | 提供方 | 级别 | 价格参考 | 说明 |
-|------|--------|------|----------|------|
-| **OSEP (PEN-300)** | OffSec | 高级 | ~$1,649 | Evasion Techniques and Breaching Defenses，规避检测与突破防御，红队核心技能，**强烈推荐** |
-| **CRTO** | Zero-Point Security | 高级 | ~$499 | Certified Red Team Operator，Cobalt Strike 专精，**性价比极高** |
-| **CRTP** | Altered Security | 中级 | ~$249 | Certified Red Team Professional，Active Directory 攻防，**入门红队首选** |
-| **GIAC GXPN** | SANS/GIAC | 高级 | ~$8,500+ | Exploit Researcher and Advanced Penetration Tester |
+| 认证                     | 提供方              | 级别 | 价格参考 | 说明                                                                                            |
+| ------------------------ | ------------------- | ---- | -------- | ----------------------------------------------------------------------------------------------- |
+| **OSEP (PEN-300)** | OffSec              | 高级 | ~$1,649  | Evasion Techniques and Breaching Defenses，规避检测与突破防御，红队核心技能，**强烈推荐** |
+| **CRTO**           | Zero-Point Security | 高级 | ~$499    | Certified Red Team Operator，Cobalt Strike 专精，**性价比极高**                           |
+| **CRTP**           | Altered Security    | 中级 | ~$249    | Certified Red Team Professional，Active Directory 攻防，**入门红队首选**                  |
+| **GIAC GXPN**      | SANS/GIAC           | 高级 | ~$8,500+ | Exploit Researcher and Advanced Penetration Tester                                              |
 
 ### 全栈专家认证
 
-| 认证 | 提供方 | 级别 | 价格参考 | 说明 |
-|------|--------|------|----------|------|
-| **OSCE3** | OffSec | 专家 | ~$5,000+ | 需通过 OSEP + OSWE + OSED 三项认证，**红队专家标志** |
-| ├─ OSEP (PEN-300) | OffSec | 高级 | ~$1,649 | 高级渗透与规避技术 |
-| ├─ OSWE (WEB-300) | OffSec | 高级 | ~$1,649 | 高级 Web 应用安全与白盒代码审计 |
-| └─ OSED (EXP-301) | OffSec | 高级 | ~$1,649 | Windows 用户态漏洞利用开发（逆向与 Exploit 开发） |
+| 认证                | 提供方 | 级别 | 价格参考 | 说明                                                       |
+| ------------------- | ------ | ---- | -------- | ---------------------------------------------------------- |
+| **OSCE3**     | OffSec | 专家 | ~$5,000+ | 需通过 OSEP + OSWE + OSED 三项认证，**红队专家标志** |
+| ├─ OSEP (PEN-300) | OffSec | 高级 | ~$1,649  | 高级渗透与规避技术                                         |
+| ├─ OSWE (WEB-300) | OffSec | 高级 | ~$1,649  | 高级 Web 应用安全与白盒代码审计                            |
+| └─ OSED (EXP-301) | OffSec | 高级 | ~$1,649  | Windows 用户态漏洞利用开发（逆向与 Exploit 开发）          |
 
 ### 认证路径建议
 
@@ -383,13 +331,14 @@
 ```
 
 **预算优先级建议**：
+
 1. **预算有限（<$1,000）**：HTB CPTS → CRTP → CRTO，总计约 $1,200，性价比最高
 2. **标准路径（~$3,000）**：OSCP → CRTO → OSEP，行业认可度最高
 3. **专家目标（~$6,000+）**：OSCP → OSEP → OSWE → OSED (OSCE3)
 
 ---
 
-## Resources（相关资源）
+## 相关资源
 
 ### 框架与标准
 
@@ -410,6 +359,27 @@
 
 - Chapter 11: Security Operations Center（SOC 与红队协同）
 - red_team_practice_guide.md（本章核心参考资料）
+
+---
+
+## 术语表
+
+| 术语 | 英文 | 定义 |
+|------|------|------|
+| 红队 | Red Team | 模拟真实攻击者的团队，通过对抗性测试验证企业安全能力 |
+| 蓝队 | Blue Team | 防御方团队，负责检测、响应与处置安全事件 |
+| 紫队 | Purple Team | 红蓝协作团队，负责将红队 TTP 转化为检测/防御改进 |
+| TTP | Tactics, Techniques & Procedures | 攻击战术、技术与流程，描述攻击者行为模式 |
+| 杀伤链 | Kill Chain | 描述攻击生命周期的模型，从侦察到目标达成的完整阶段 |
+| ATT&CK | - | MITRE 开发的攻击技术知识库，用于 TTP 映射与覆盖度评估 |
+| RoE | Rules of Engagement | 交战规则，界定红队行动边界与授权范围 |
+| 对抗性模拟 | Adversary Simulation | 模拟特定威胁行为者的攻击行为 |
+| BAS | Breach and Attack Simulation | 入侵与攻击模拟，自动化验证安全控制有效性 |
+| DDP | Detection Development Plan | 检测改进计划，紫队协作产出的检测能力提升规划 |
+| RTMF | Red Team Maturity Framework | 红队成熟度框架，评估红队能力发展阶段 |
+| C2 | Command and Control | 指挥与控制基础设施，攻击者远程控制被入侵系统的通道 |
+| OSINT | Open Source Intelligence | 开源情报收集，利用公开信息进行侦察 |
+| Assumed Breach | - | 假定已突破外部防线的演练模式，专注内网横向与权限提升 |
 
 ---
 
