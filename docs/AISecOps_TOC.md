@@ -1131,7 +1131,7 @@ For Security Leaders, Architects, and Practitioners
 - API 安全智能化
 - 数据安全智能化（DLP/分类）
 
-#### [17.8 编码代理：把安全嵌进研发与业务流程](../chapters/第06部分_AI驱动的安全创新/第17章_AI驱动网络安全/17.8_编码代理安全落地.md)
+#### [17.8 编程智能体：把安全嵌进研发与业务流程](../chapters/第06部分_AI驱动的安全创新/第17章_AI驱动网络安全/17.8_编程智能体与研发安全.md)
 
 - PR 自动安全门禁（Claude Code Security Review）
 - SAST 扫描-修复-复验（Snyk MCP）
@@ -1388,7 +1388,7 @@ For Security Leaders, Architects, and Practitioners
 
 - **[返回项目主页](../README.md)** - 查看完整书籍介绍
 - **[章节导航](../chapters/README.md)** - 快速跳转到任意章节
-- **[贡献指南](AISecOps_贡献指南.md)** - 如何参与本书编写
+- **[贡献指南](CONTRIBUTING.md)** - 如何参与本书编写
 
 ---
 
