@@ -505,10 +505,10 @@ SYS (Support Systems): 支持系统
 ```yaml
 版本: V6
 创建日期: 2025-10-30
-设计师: AI-ESA Design Team
+设计师: AISecOps Design Team
 设计理念: 极简主义 + 扁平化2.0
 适用场景: 企业级架构图、技术白皮书、专业出版物
-授权: 可复用于所有AI-ESA项目相关图表
+授权: 可复用于所有 AISecOps 项目相关图表
 ```
 
 ---

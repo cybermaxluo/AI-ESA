@@ -366,7 +366,7 @@
         <mxCell id="footer-ref" value="参考标准: MITRE ATT&amp;CK v14 | Sigma Rules Specification" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=right;" parent="1" vertex="1">
           <mxGeometry x="1440" y="940" width="380" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="copyright" value="© 2025 AI-ESA Project | ATT&amp;CK 数据截至 v14 版本" style="text;fontSize=12;fontColor=#9CA3AF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+        <mxCell id="copyright" value="© 2025 AISecOps Project | ATT&amp;CK 数据截至 v14 版本" style="text;fontSize=12;fontColor=#9CA3AF;fontFamily=Inter;align=center;" parent="1" vertex="1">
           <mxGeometry x="760" y="1000" width="400" height="20" as="geometry" />
         </mxCell>
       </root>

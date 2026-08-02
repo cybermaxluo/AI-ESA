@@ -331,7 +331,7 @@
         </mxCell>
 
         <!-- Footer -->
-        <mxCell id="footer" value="© 2025 AI-ESA Project | 指标为行业领先企业参考值，企业需根据自身 SLA 调整" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+        <mxCell id="footer" value="© 2025 AISecOps Project | 指标为行业领先企业参考值，企业需根据自身 SLA 调整" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=center;" parent="1" vertex="1">
           <mxGeometry x="560" y="1000" width="800" height="24" as="geometry" />
         </mxCell>
 

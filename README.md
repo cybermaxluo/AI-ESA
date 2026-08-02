@@ -2,7 +2,7 @@
 
 # AISecOps：AI 驱动的安全体系
 
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![License: CC BY-NC-SA 4.0](<https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg>)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/cybermaxluo/AISecOps)](https://github.com/cybermaxluo/AISecOps/commits/main)
 
 ---
@@ -17,10 +17,10 @@
 
 ## 快速开始
 
-- **[前言](./docs/前言.md)** - 这本书想解决什么问题、写给谁、怎么读、以及它的局限
+- **[前言](./docs/README.md)** - 这本书想解决什么问题、写给谁、怎么读、以及它的局限
 - [开始阅读](./chapters/) - 完整书籍内容
 - [完整目录](./docs/AISecOps_TOC.md) - 详细章节目录与阅读路径建议
-- **[附录 B：安全框架与标准映射](./docs/附录B_安全框架与标准映射.md)** - 本书章节 ↔ NIST CSF 2.0 / ISO 27001:2022 Annex A / CIS Controls v8.1 三向对照，**含诚实的覆盖缺口清单**
+- **[附录 B：安全框架与标准映射](./docs/附录B_安全框架与标准映射.md)** - 本书章节 ↔ NIST CSF 2.0 / ISO 27001:2022 Annex A / CIS Controls v8.1 框架对照
 - [术语表](./docs/GLOSSARY.md) - 专业术语速查（中英对照）
 - [关于作者](./docs/AUTHORS.md) - 作者团队介绍
 
@@ -55,7 +55,6 @@
 - [第12章](./chapters/第04部分_安全运营与防御能力/第12章_红队实践/)：红队实践——攻防演练、紫队协作
 - [第13章](./chapters/第04部分_安全运营与防御能力/第13章_业务风控与反欺诈/)：业务风控与反欺诈——账号、交易、内容、营销四线对抗
 
-
 ### [第5部分 身份、网络与业务连续性](./chapters/第05部分_身份网络与业务连续性/)
 
 企业安全里预算最大、事故最密集的三个域。
@@ -64,7 +63,7 @@
 - [第15章](./chapters/第05部分_身份网络与业务连续性/第15章_网络基础设施与终端安全/)：网络、基础设施与终端安全——网络分段、DMARC 落地、EDR 策略、出网治理、资产与暴露面
 - [第16章](./chapters/第05部分_身份网络与业务连续性/第16章_业务连续性与灾难恢复/)：业务连续性与灾难恢复——BIA、不可变备份、勒索软件端到端处置、危机指挥、演练与度量
 
-> 本地基础设施为主的读者，建议把这一部提到第2部分之前读——第14章的企业身份体系是 5.2 云 IAM 的本体。[详见第5部分 README](./chapters/第05部分_身份网络与业务连续性/README.md)。
+
 ### [第6部分 AI 驱动的安全创新](./chapters/第06部分_AI驱动的安全创新/)
 
 本部分系统化构建 AISecOps 方法论框架。
@@ -104,14 +103,14 @@
 
 一本讲"企业安全体系"的书如果不声明边界，读者会默认它什么都覆盖，然后在最需要的地方扑空。以下是本书**明确不覆盖**的领域，以及应当转向的权威资源：
 
-| 不覆盖 | 原因 | 建议转向 |
-| --- | --- | --- |
-| OT / ICS / SCADA 工业控制系统安全 | 工艺安全、确定性实时约束、停机代价模型与 IT 安全是两套方法论，混写会两边都不到位 | IEC 62443 系列、NIST SP 800-82 Rev.3、ISA-99 |
-| IoT 与嵌入式设备安全 | 同上，且硬件信任根、固件签名、低功耗约束需要独立篇幅 | ETSI EN 303 645、NIST IR 8259 系列、OWASP IoT Top 10 |
-| 车联网与自动驾驶安全 | 功能安全（ISO 26262）与信息安全的耦合是独立学科 | ISO/SAE 21434、UN R155/R156 |
-| 医疗设备安全 | 受 FDA/NMPA 独立监管框架约束 | FDA 上市前网络安全指南、IEC 81001-5-1 |
-| 密码算法的数学原理与密码分析 | 本书讲密码学的**工程使用**（选型、密钥管理、迁移），不讲算法设计与破解 | 《Serious Cryptography》、NIST SP 800-57 系列 |
-| 具体产品的部署手册 | 产品迭代快于图书生命周期；本书给的是选型判据与架构模式 | 各厂商官方文档 |
+| 不覆盖                            | 原因                                                                             | 建议转向                                             |
+| --------------------------------- | -------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| OT / ICS / SCADA 工业控制系统安全 | 工艺安全、确定性实时约束、停机代价模型与 IT 安全是两套方法论，混写会两边都不到位 | IEC 62443 系列、NIST SP 800-82 Rev.3、ISA-99         |
+| IoT 与嵌入式设备安全              | 同上，且硬件信任根、固件签名、低功耗约束需要独立篇幅                             | ETSI EN 303 645、NIST IR 8259 系列、OWASP IoT Top 10 |
+| 车联网与自动驾驶安全              | 功能安全（ISO 26262）与信息安全的耦合是独立学科                                  | ISO/SAE 21434、UN R155/R156                          |
+| 医疗设备安全                      | 受 FDA/NMPA 独立监管框架约束                                                     | FDA 上市前网络安全指南、IEC 81001-5-1                |
+| 密码算法的数学原理与密码分析      | 本书讲密码学的**工程使用**（选型、密钥管理、迁移），不讲算法设计与破解     | 《Serious Cryptography》、NIST SP 800-57 系列        |
+| 具体产品的部署手册                | 产品迭代快于图书生命周期；本书给的是选型判据与架构模式                           | 各厂商官方文档                                       |
 
 本书覆盖的是**以 IT 为主体、云为重心的企业安全体系**——如果你的组织有大量工业现场、车队或医疗终端，本书的治理、运营、数据与 AI 部分仍然适用，但技术控制部分需要按上表补充专门资料。
 
@@ -123,23 +122,23 @@
 
 **内容截止日：2026 年 7 月。** 本书涉及的法规、标准与产品形态均以该时点的公开信息为准。安全领域演进快，引用前请核对当期版本。截至基准日，全书引用的主要标准版本如下：
 
-| 标准 / 框架 | 本书采用版本 | 备注 |
-| --- | --- | --- |
-| NIST CSF | 2.0 | 现行 |
-| NIST SP 800-53 | Rev.5（含 Release 5.2.0 更新） | 现行 |
-| NIST SP 800-207 / 800-218 (SSDF) | 现行版 | — |
-| ISO/IEC 27001 / 27002 | 2022 | 注意 2013 版的 A.5–A.18 分组编号已废止 |
-| ISO/IEC 27701 | 2025 | 已由 27001 扩展标准改为独立可认证标准 |
-| ISO/IEC 42001 | 2023 | **不是** EU AI Act 协调标准，不产生推定合规效力 |
-| PCI DSS | v4.0.1 | v4.0 已于 2024-12-31 退役；51 项未来日期要求自 2025-03-31 起强制 |
-| OWASP Top 10 | 2025 | A03 为软件供应链失效；SSRF 已不单列 |
-| OWASP Top 10 for LLM Applications | 2025 | 与 2023 版的编号对照见 18.3 |
-| OWASP Top 10 for Agentic Applications | 2026（ASI01–ASI10） | 见 18.3 末节 |
-| OWASP ASVS / MASVS | ASVS 5.0.0 / MASVS 2.1.0 | MASVS 自 v2.0 起已取消 L1/L2 分级 |
-| MITRE ATT&CK | v19 | — |
-| CIS Controls | v8.1 | — |
-| CSA CCM / CAIQ | v4.1 | 207 控制 / 17 域；v4.0.x 于 2028-01-31 退役 |
-| SLSA | v1.1 | v1.0 已被取代 |
+| 标准 / 框架                           | 本书采用版本                   | 备注                                                             |
+| ------------------------------------- | ------------------------------ | ---------------------------------------------------------------- |
+| NIST CSF                              | 2.0                            | 现行                                                             |
+| NIST SP 800-53                        | Rev.5（含 Release 5.2.0 更新） | 现行                                                             |
+| NIST SP 800-207 / 800-218 (SSDF)      | 现行版                         | —                                                               |
+| ISO/IEC 27001 / 27002                 | 2022                           | 注意 2013 版的 A.5–A.18 分组编号已废止                          |
+| ISO/IEC 27701                         | 2025                           | 已由 27001 扩展标准改为独立可认证标准                            |
+| ISO/IEC 42001                         | 2023                           | **不是** EU AI Act 协调标准，不产生推定合规效力            |
+| PCI DSS                               | v4.0.1                         | v4.0 已于 2024-12-31 退役；51 项未来日期要求自 2025-03-31 起强制 |
+| OWASP Top 10                          | 2025                           | A03 为软件供应链失效；SSRF 已不单列                              |
+| OWASP Top 10 for LLM Applications     | 2025                           | 与 2023 版的编号对照见 18.3                                      |
+| OWASP Top 10 for Agentic Applications | 2026（ASI01–ASI10）           | 见 18.3 末节                                                     |
+| OWASP ASVS / MASVS                    | ASVS 5.0.0 / MASVS 2.1.0       | MASVS 自 v2.0 起已取消 L1/L2 分级                                |
+| MITRE ATT&CK                          | v19                            | —                                                               |
+| CIS Controls                          | v8.1                           | —                                                               |
+| CSA CCM / CAIQ                        | v4.1                           | 207 控制 / 17 域；v4.0.x 于 2028-01-31 退役                      |
+| SLSA                                  | v1.1                           | v1.0 已被取代                                                    |
 
 > 时效提示：EU CRA 的漏洞与严重事件报告义务自 2026-09-11 起适用、主要义务自 2027-12-11 起适用。
 >
@@ -169,13 +168,13 @@
 
 ## 作者团队
 
-| 姓名               | 角色            | 研究方向                                                                | 联系方式                                                                                                                                               |
-| ------------------ | --------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 姓名               | 角色            | 研究方向                                                                | 联系方式                                                                                                                                                   |
+| ------------------ | --------------- | ----------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 罗棋琛 Max Luo     | 主编 / 联合作者 | 企业安全体系建设<br />应用安全<br />DevSecOps<br />AI for Cybersecurity | 📧 186616@gmail.com<br />💻[GitHub](https://github.com/cybermaxluo) <br /> 🔗 [LinkedIn](https://linkedin.com/in/max-luo) <br /> 💬 微信公众号：白帽子罗棋琛 |
-| 潘禺涵 Caleb Pan   | 联合作者        | AI for Cybersecurity<br /> 机器学习                                     | 📧 now_here@yeah.net<br /> 💻[GitHub](https://github.com/dreambb)                                                                                         |
-| 孙冲 Mori Sun      | 联合作者        | 应用安全<br />DevSecOps <br />  Web3 security <br /> red team           | 📧 moriii22@outlook.com<br /> 💻[GitHub](https://github.com/WhiteLee03)                                                                                   |
-| 黄奕霖 Shiro Huang | 联合作者        | 红队攻防对抗<br />AI for Cybersecurity                                  | 📧 crystalnuts9@gmail.com<br />  💻[GitHub](https://github.com/AibaAsaki)                                                                                 |
-| 陈进 Sayid Chen    | 联合作者        | 移动应用安全<br />AI 移动应用安全                                       | 📧 1052756668@qq.com<br /> 💻[GitHub](https://github.com/DSFLY100)<br /> 💬 微信公众号：从黑客到保安                                                       |
+| 潘禺涵 Caleb Pan   | 联合作者        | AI for Cybersecurity<br /> 机器学习                                     | 📧 now_here@yeah.net<br /> 💻[GitHub](https://github.com/dreambb)                                                                                           |
+| 孙冲 Mori Sun      | 联合作者        | 应用安全<br />DevSecOps <br />  Web3 security <br /> red team           | 📧 moriii22@outlook.com<br /> 💻[GitHub](https://github.com/WhiteLee03)                                                                                     |
+| 黄奕霖 Shiro Huang | 联合作者        | 红队攻防对抗<br />AI for Cybersecurity                                  | 📧 crystalnuts9@gmail.com<br />  💻[GitHub](https://github.com/AibaAsaki)                                                                                   |
+| 陈进 Sayid Chen    | 联合作者        | 移动应用安全<br />AI 移动应用安全                                       | 📧 1052756668@qq.com<br /> 💻[GitHub](https://github.com/DSFLY100)<br /> 💬 微信公众号：从黑客到保安                                                        |
 
 详细介绍：[docs/AUTHORS.md](./docs/AUTHORS.md)
 
@@ -219,23 +218,6 @@
 
 <div align="center">
 
-<table>
-<tr>
-<td align="center" width="50%">
-<img src="./assets/qr-wechat-group.jpg" alt="微信交流群二维码" width="200"/><br/>
-<b>加入微信交流群</b><br/>
-<i>扫码加入，与安全从业者交流</i>
-</td>
-<td align="center" width="50%">
-<img src="./assets/qr-wechat-donate.jpg" alt="微信收款码" width="200"/><br/>
-<b>请作者喝一杯咖啡 ☕</b><br/>
-<i>您的支持是持续创作的动力</i>
-</td>
-</tr>
-</table>
-
-</div>
-
 ---
 
 ## ⭐ Star History
@@ -245,9 +227,3 @@
 ---
 
 <div align="center">
-
-**Made with ❤️ by Security Community | 由全球安全社区共同创作**
-
-**© 2025-2026 AISecOps Project. Licensed under CC BY-NC-SA 4.0**
-
-</div>
