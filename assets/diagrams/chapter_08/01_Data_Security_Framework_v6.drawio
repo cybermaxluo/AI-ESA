@@ -34,16 +34,16 @@
           <mxGeometry x="370" y="184" width="200" height="28" as="geometry" />
         </mxCell>
 
-        <mxCell id="stage1-col1" value="结构化数据:\n• 数据库扫描 (RDBMS)\n• Data Lake / Warehouse" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="stage1-col1" value="结构化数据:&#10;• 数据库扫描 (RDBMS)&#10;• Data Lake / Warehouse" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="120" y="242" width="380" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="stage1-col2" value="非结构化数据:\n• 文件服务器\n• SharePoint / Confluence" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="stage1-col2" value="非结构化数据:&#10;• 文件服务器&#10;• SharePoint / Confluence" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="540" y="242" width="380" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="stage1-col3" value="云数据:\n• S3 / Blob Storage\n• SaaS 应用 (Salesforce)" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="stage1-col3" value="云数据:&#10;• S3 / Blob Storage&#10;• SaaS 应用 (Salesforce)" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="960" y="242" width="380" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="stage1-col4" value="工具:\n• BigID / OneTrust\n• Microsoft Purview" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="stage1-col4" value="工具:&#10;• BigID / OneTrust&#10;• Microsoft Purview" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1380" y="242" width="380" height="58" as="geometry" />
         </mxCell>
 
@@ -67,16 +67,16 @@
           <mxGeometry x="370" y="348" width="240" height="28" as="geometry" />
         </mxCell>
 
-        <mxCell id="stage2-col1" value="敏感度级别:\n• Public (公开)\n• Internal (内部)\n• Confidential (机密)\n• Restricted (绝密)" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="stage2-col1" value="敏感度级别:&#10;• Public (公开)&#10;• Internal (内部)&#10;• Confidential (机密)&#10;• Restricted (绝密)" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="120" y="406" width="380" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="stage2-col2" value="数据类型:\n• PII (个人身份信息)\n• PHI (健康信息)\n• PCI (支付卡信息)\n• IP (知识产权)" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="stage2-col2" value="数据类型:&#10;• PII (个人身份信息)&#10;• PHI (健康信息)&#10;• PCI (支付卡信息)&#10;• IP (知识产权)" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="540" y="406" width="380" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="stage2-col3" value="分类方法:\n• 自动化 (ML/NLP)\n• 规则引擎 (正则)\n• 人工标注" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="stage2-col3" value="分类方法:&#10;• 自动化 (ML/NLP)&#10;• 规则引擎 (正则)&#10;• 人工标注" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="960" y="406" width="380" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="stage2-col4" value="标签体系:\n• 元数据标签\n• 水印/标记\n• 加密标识" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="stage2-col4" value="标签体系:&#10;• 元数据标签&#10;• 水印/标记&#10;• 加密标识" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1380" y="406" width="380" height="78" as="geometry" />
         </mxCell>
 
@@ -100,16 +100,16 @@
           <mxGeometry x="370" y="532" width="200" height="28" as="geometry" />
         </mxCell>
 
-        <mxCell id="stage3-col1" value="加密保护:\n• 传输加密 (TLS 1.3)\n• 存储加密 (AES-256)\n• 端到端加密" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="stage3-col1" value="加密保护:&#10;• 传输加密 (TLS 1.3)&#10;• 存储加密 (AES-256)&#10;• 端到端加密" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="120" y="590" width="380" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="stage3-col2" value="访问控制:\n• RBAC / ABAC\n• 最小权限原则\n• JIT (即时访问)" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="stage3-col2" value="访问控制:&#10;• RBAC / ABAC&#10;• 最小权限原则&#10;• JIT (即时访问)" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="540" y="590" width="380" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="stage3-col3" value="DLP 防护:\n• 网络 DLP\n• 终端 DLP\n• 云 DLP (CASB)" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="stage3-col3" value="DLP 防护:&#10;• 网络 DLP&#10;• 终端 DLP&#10;• 云 DLP (CASB)" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="960" y="590" width="380" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="stage3-col4" value="脱敏技术:\n• 数据屏蔽\n• 令牌化\n• 匿名化/假名化" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="stage3-col4" value="脱敏技术:&#10;• 数据屏蔽&#10;• 令牌化&#10;• 匿名化/假名化" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1380" y="590" width="380" height="58" as="geometry" />
         </mxCell>
 
@@ -133,16 +133,16 @@
           <mxGeometry x="370" y="696" width="220" height="28" as="geometry" />
         </mxCell>
 
-        <mxCell id="stage4-col1" value="访问审计:\n• 数据访问日志\n• 异常访问检测\n• 用户行为分析 (UBA)" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="stage4-col1" value="访问审计:&#10;• 数据访问日志&#10;• 异常访问检测&#10;• 用户行为分析 (UBA)" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="120" y="754" width="380" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="stage4-col2" value="泄露检测:\n• 数据外泄监控\n• 暗网监测\n• 邮件/IM 监控" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="stage4-col2" value="泄露检测:&#10;• 数据外泄监控&#10;• 暗网监测&#10;• 邮件/IM 监控" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="540" y="754" width="380" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="stage4-col3" value="合规审计:\n• GDPR / CCPA 报告\n• 数据留存策略\n• 数据删除确认" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="stage4-col3" value="合规审计:&#10;• GDPR / CCPA 报告&#10;• 数据留存策略&#10;• 数据删除确认" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="960" y="754" width="380" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="stage4-col4" value="响应机制:\n• 泄露事件响应\n• 数据恢复\n• 取证调查" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="stage4-col4" value="响应机制:&#10;• 泄露事件响应&#10;• 数据恢复&#10;• 取证调查" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1380" y="754" width="380" height="58" as="geometry" />
         </mxCell>
 

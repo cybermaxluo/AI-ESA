@@ -41,7 +41,7 @@
         </mxCell>
 
         
-        <mxCell id="phase1-desc" value="功能需求&amp;#xa;性能要求&amp;#xa;安全合规&amp;#xa;预算约束" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+        <mxCell id="phase1-desc" value="功能需求&#xa;性能要求&#xa;安全合规&#xa;预算约束" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
           <mxGeometry x="80" y="368" width="420" height="90" as="geometry" />
         </mxCell>
 
@@ -72,7 +72,7 @@
         </mxCell>
 
         
-        <mxCell id="phase2-desc" value="市场调研&amp;#xa;技术评估&amp;#xa;POC验证&amp;#xa;厂商对比" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+        <mxCell id="phase2-desc" value="市场调研&#xa;技术评估&#xa;POC验证&#xa;厂商对比" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
           <mxGeometry x="560" y="368" width="420" height="90" as="geometry" />
         </mxCell>
 
@@ -103,7 +103,7 @@
         </mxCell>
 
         
-        <mxCell id="phase3-desc" value="多维度打分&amp;#xa;权重分配&amp;#xa;量化评估&amp;#xa;风险分析" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+        <mxCell id="phase3-desc" value="多维度打分&#xa;权重分配&#xa;量化评估&#xa;风险分析" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
           <mxGeometry x="1040" y="368" width="420" height="90" as="geometry" />
         </mxCell>
 
@@ -134,7 +134,7 @@
         </mxCell>
 
         
-        <mxCell id="phase4-desc" value="最终选型&amp;#xa;决策依据&amp;#xa;实施路线&amp;#xa;变更管理" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+        <mxCell id="phase4-desc" value="最终选型&#xa;决策依据&#xa;实施路线&#xa;变更管理" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
           <mxGeometry x="1520" y="368" width="420" height="90" as="geometry" />
         </mxCell>
 
@@ -217,8 +217,8 @@
           <mxGeometry x="1040" y="832" width="900" height="80" as="geometry" />
         </mxCell>
 
-        <mxCell id="factors-items" value="技术先进性与成熟度&amp;#xa;团队技能匹配度&amp;#xa;集成复杂度&amp;#xa;长期维护成本&amp;#xa;迁移风险评估&amp;#xa;厂商锁定风险" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" vertex="1" parent="1">
-          <mxGeometry x="1104" y="864" width="1100" height="173" as="geometry" />
+        <mxCell id="factors-items" value="技术先进性与成熟度&#xa;团队技能匹配度&#xa;集成复杂度&#xa;长期维护成本&#xa;迁移风险评估&#xa;厂商锁定风险" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" vertex="1" parent="1">
+          <mxGeometry x="1104" y="864" width="772" height="173" as="geometry" />
         </mxCell>
 
       </root>

@@ -34,10 +34,10 @@
           <mxGeometry x="350" y="184" width="240" height="28" as="geometry" />
         </mxCell>
 
-        <mxCell id="state1-col1" value="数据库加密:\n• TDE (Transparent Data Encryption)\n• Column-level Encryption\n• Application-level Encryption\n\n文件系统:\n• Full Disk Encryption (BitLocker/LUKS)\n• File-level Encryption (eCryptfs)" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="state1-col1" value="数据库加密:&#10;• TDE (Transparent Data Encryption)&#10;• Column-level Encryption&#10;• Application-level Encryption&#10;&#10;文件系统:&#10;• Full Disk Encryption (BitLocker/LUKS)&#10;• File-level Encryption (eCryptfs)" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="100" y="242" width="240" height="198" as="geometry" />
         </mxCell>
-        <mxCell id="state1-col2" value="云存储:\n• S3 SSE (Server-Side Encryption)\n• Customer-managed Keys (BYOK)\n\n算法:\n• AES-256-GCM" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="state1-col2" value="云存储:&#10;• S3 SSE (Server-Side Encryption)&#10;• Customer-managed Keys (BYOK)&#10;&#10;算法:&#10;• AES-256-GCM" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="360" y="242" width="260" height="198" as="geometry" />
         </mxCell>
 
@@ -61,10 +61,10 @@
           <mxGeometry x="950" y="184" width="240" height="28" as="geometry" />
         </mxCell>
 
-        <mxCell id="state2-col1" value="网络层:\n• TLS 1.3 (HTTPS)\n• mTLS (Mutual TLS)\n• IPsec VPN\n\n应用层:\n• gRPC with TLS\n• Message Encryption (PGP)" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="state2-col1" value="网络层:&#10;• TLS 1.3 (HTTPS)&#10;• mTLS (Mutual TLS)&#10;• IPsec VPN&#10;&#10;应用层:&#10;• gRPC with TLS&#10;• Message Encryption (PGP)" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="700" y="242" width="240" height="198" as="geometry" />
         </mxCell>
-        <mxCell id="state2-col2" value="微服务:\n• Service Mesh (Istio mTLS)\n• East-West Traffic Encryption\n\n证书管理:\n• Let's Encrypt / Cert-Manager" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="state2-col2" value="微服务:&#10;• Service Mesh (Istio mTLS)&#10;• East-West Traffic Encryption&#10;&#10;证书管理:&#10;• Let's Encrypt / Cert-Manager" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="960" y="242" width="260" height="198" as="geometry" />
         </mxCell>
 
@@ -88,10 +88,10 @@
           <mxGeometry x="1570" y="184" width="220" height="28" as="geometry" />
         </mxCell>
 
-        <mxCell id="state3-col1" value="机密计算:\n• Intel SGX\n• AMD SEV\n• ARM TrustZone\n\n同态加密:\n• Fully Homomorphic\n• Partially Homomorphic" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="state3-col1" value="机密计算:&#10;• Intel SGX&#10;• AMD SEV&#10;• ARM TrustZone&#10;&#10;同态加密:&#10;• Fully Homomorphic&#10;• Partially Homomorphic" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1300" y="242" width="240" height="198" as="geometry" />
         </mxCell>
-        <mxCell id="state3-col2" value="安全多方计算:\n• MPC Protocols\n\n应用:\n• 敏感数据处理" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="state3-col2" value="安全多方计算:&#10;• MPC Protocols&#10;&#10;应用:&#10;• 敏感数据处理" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1560" y="242" width="260" height="198" as="geometry" />
         </mxCell>
 
@@ -109,28 +109,28 @@
         <mxCell id="kms-col1-title" value="密钥生成" style="text;fontSize=18;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="120" y="550" width="380" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="kms-col1-items" value="• CSPRNG (Cryptographically Secure)\n• HSM 硬件生成\n• Key Derivation (KDF)" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="kms-col1-items" value="• CSPRNG (Cryptographically Secure)&#10;• HSM 硬件生成&#10;• Key Derivation (KDF)" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="120" y="582" width="380" height="58" as="geometry" />
         </mxCell>
 
         <mxCell id="kms-col2-title" value="密钥存储" style="text;fontSize=18;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="540" y="550" width="380" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="kms-col2-items" value="• HSM (Hardware Security Module)\n• Cloud KMS (AWS/Azure/GCP)\n• HashiCorp Vault" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="kms-col2-items" value="• HSM (Hardware Security Module)&#10;• Cloud KMS (AWS/Azure/GCP)&#10;• HashiCorp Vault" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="540" y="582" width="380" height="58" as="geometry" />
         </mxCell>
 
         <mxCell id="kms-col3-title" value="密钥轮换" style="text;fontSize=18;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="960" y="550" width="380" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="kms-col3-items" value="• 自动轮换 (90天)\n• 版本管理\n• 密钥回退机制" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="kms-col3-items" value="• 自动轮换 (90天)&#10;• 版本管理&#10;• 密钥回退机制" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="960" y="582" width="380" height="58" as="geometry" />
         </mxCell>
 
         <mxCell id="kms-col4-title" value="访问控制" style="text;fontSize=18;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1380" y="550" width="380" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="kms-col4-items" value="• IAM Policy\n• Envelope Encryption\n• Key Usage Logging" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="kms-col4-items" value="• IAM Policy&#10;• Envelope Encryption&#10;• Key Usage Logging" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1380" y="582" width="380" height="58" as="geometry" />
         </mxCell>
 
@@ -151,7 +151,7 @@
         <mxCell id="bp-title" value="加密最佳实践" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="120" y="754" width="780" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="bp-items" value="• 默认加密 (Encryption by Default)\n• 密钥分离 (Key Separation)\n• 定期审计密钥使用\n• 灾难恢复计划 (Key Backup)\n• 避免自研加密算法\n• 使用经过验证的加密库 (OpenSSL)" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="bp-items" value="• 默认加密 (Encryption by Default)&#10;• 密钥分离 (Key Separation)&#10;• 定期审计密钥使用&#10;• 灾难恢复计划 (Key Backup)&#10;• 避免自研加密算法&#10;• 使用经过验证的加密库 (OpenSSL)" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="120" y="790" width="780" height="106" as="geometry" />
         </mxCell>
 
@@ -164,7 +164,7 @@
         <mxCell id="comp-title" value="合规要求" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1020" y="754" width="780" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="comp-items" value="• PCI DSS: 传输和存储的持卡人数据必须加密\n• HIPAA: PHI 静态和传输加密要求\n• GDPR: 适当的技术措施 (Art. 32)\n• FIPS 140-2/3: 密码模块验证\n• 等保 2.0: 密码应用合规\n• 密码法: 商用密码产品认证" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="comp-items" value="• PCI DSS: 传输和存储的持卡人数据必须加密&#10;• HIPAA: PHI 静态和传输加密要求&#10;• GDPR: 适当的技术措施 (Art. 32)&#10;• FIPS 140-2/3: 密码模块验证&#10;• 等保 2.0: 密码应用合规&#10;• 密码法: 商用密码产品认证" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1020" y="790" width="780" height="106" as="geometry" />
         </mxCell>
 
