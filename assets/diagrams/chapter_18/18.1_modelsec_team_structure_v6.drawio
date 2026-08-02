@@ -1,0 +1,244 @@
+<mxfile host="app.diagrams.net" version="22.0.0">
+  <diagram name="ModelSec团队组织架构" id="modelsec-team-structure">
+    <mxGraphModel dx="1920" dy="1080" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- 背景 -->
+        <mxCell id="bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAFBFC;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry width="1920" height="1080" as="geometry" />
+        </mxCell>
+
+        <!-- 标题 -->
+        <mxCell id="title" value="ModelSec 团队组织架构与协作机制" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="460" y="40" width="1000" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="ModelSec Team Structure and Collaboration Mechanism" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#6B7280;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="460" y="90" width="1000" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- AI 治理委员会 - 顶层 -->
+        <mxCell id="gov-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="664" y="154" width="600" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gov-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=#0066FF;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="660" y="150" width="600" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gov-icon" value="GOV" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=48;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="690" y="165" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gov-title" value="AI 治理委员会" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="690" y="220" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gov-members" value="CISO (主席) | CTO | CPO | GRC Lead | Legal Counsel" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="900" y="175" width="340" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- 箭头从委员会到 ModelSec -->
+        <mxCell id="arrow-gov-ms" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=4;endSize=10;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="270" as="sourcePoint" />
+            <mxPoint x="960" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ModelSec 核心团队 -->
+        <mxCell id="ms-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="664" y="334" width="600" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ms-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="660" y="330" width="600" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ms-icon" value="MS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="690" y="350" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ms-title" value="ModelSec 核心团队" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="690" y="410" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ms-subtitle" value="Model Security Team" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#6B7280;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="690" y="440" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ms-lead" value="ModelSec Lead" style="rounded=1;fillColor=#EEF2FF;strokeColor=#E0E7FF;strokeWidth=1;arcSize=20;fontSize=14;fontColor=#0066FF;fontFamily=Inter;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="690" y="470" width="130" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- 四个协作角色 -->
+        <!-- ML Security Engineer -->
+        <mxCell id="mle-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="84" y="584" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="mle-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="580" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="mle-icon" value="MLE" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="110" y="600" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mle-title" value="ML Security Engineer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="110" y="650" width="250" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="mle-skill" value="核心技能: ML工程能力 + 安全意识" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#6B7280;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="110" y="680" width="300" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="mle-source" value="招聘来源: 资深ML工程师 + 安全培训" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="110" y="710" width="300" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="mle-resp" value="数据投毒检测 / 推理监控" style="rounded=1;fillColor=#EEF2FF;strokeColor=none;arcSize=20;fontSize=12;fontColor=#0066FF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="110" y="745" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Red Team Researcher -->
+        <mxCell id="rt-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="524" y="584" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="rt-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="520" y="580" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="rt-icon" value="RT" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;fontStyle=1;fontColor=#EF4444;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="550" y="600" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rt-title" value="红队研究员 (兼职)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="550" y="650" width="250" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="rt-skill" value="核心技能: 渗透测试 + AI学习意愿" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#6B7280;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="550" y="680" width="300" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="rt-source" value="招聘来源: 现有红队 + AI能力培养" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="550" y="710" width="300" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="rt-resp" value="对抗测试 / 事件响应" style="rounded=1;fillColor=#FEE2E2;strokeColor=none;arcSize=20;fontSize=12;fontColor=#EF4444;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="550" y="745" width="160" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- AI Architect -->
+        <mxCell id="aa-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="964" y="584" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="aa-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="960" y="580" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="aa-icon" value="AA" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;fontStyle=1;fontColor=#10B981;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="990" y="600" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aa-title" value="AI Architect" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="990" y="650" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="aa-skill" value="核心技能: 系统架构 + AI平台经验" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#6B7280;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="990" y="680" width="300" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="aa-source" value="招聘来源: 平台架构师/MLOps工程师" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="990" y="710" width="300" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="aa-resp" value="供应链验证 / 模型部署审批" style="rounded=1;fillColor=#D1FAE5;strokeColor=none;arcSize=20;fontSize=12;fontColor=#10B981;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="990" y="745" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- GRC Analyst -->
+        <mxCell id="grc-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1404" y="584" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="grc-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="580" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="grc-icon" value="GRC" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;fontStyle=1;fontColor=#8B5CF6;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="600" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="grc-title" value="GRC Analyst (共享)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="650" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="grc-skill" value="核心技能: 合规与风险管理" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#6B7280;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="680" width="300" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="grc-source" value="招聘来源: 复用现有GRC团队" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="710" width="300" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="grc-resp" value="合规审计 / 偏见评估" style="rounded=1;fillColor=#EDE9FE;strokeColor=none;arcSize=20;fontSize=12;fontColor=#8B5CF6;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="745" width="160" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- 连接线 ModelSec -> 四个角色 -->
+        <mxCell id="arrow-ms-mle" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=3;endSize=8;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="510" as="sourcePoint" />
+            <mxPoint x="270" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-ms-rt" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=3;endSize=8;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="510" as="sourcePoint" />
+            <mxPoint x="710" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-ms-aa" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=3;endSize=8;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="510" as="sourcePoint" />
+            <mxPoint x="1150" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1150" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-ms-grc" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=3;endSize=8;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1160" y="510" as="sourcePoint" />
+            <mxPoint x="1590" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1590" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 底部原则横条 -->
+        <mxCell id="principle-bar" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=none;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="840" width="1760" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="principle-text" value="核心原则: ① T型人才组合,团队整体覆盖关键能力  ② ModelSec Lead需跨团队协调权限  ③ 初期可从兼职或虚拟团队起步" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#0066FF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="160" y="855" width="1600" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- 会议节奏标注 -->
+        <mxCell id="meeting-box" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=1;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="940" width="500" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="meeting-title" value="会议节奏" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="100" y="950" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="meeting-monthly" value="月度例会 (1h): 事件回顾 / 模型审批 / 指标趋势" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#6B7280;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="100" y="980" width="450" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="meeting-quarterly" value="季度战略会 (2h): 成熟度进展 / 预算调整 / 新法规应对" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#6B7280;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1005" width="450" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- 决策流程标注 -->
+        <mxCell id="decision-box" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=1;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="620" y="940" width="700" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="decision-title" value="决策流程" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="640" y="950" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="decision-flow" value="ModelSec Lead提交审批 → 委员会投票 → 多数通过即可上线 → CISO否决需升级决策" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#6B7280;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="640" y="980" width="650" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- RACI 标注 -->
+        <mxCell id="raci-box" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=1;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="940" width="480" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="raci-title" value="RACI 说明" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="950" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="raci-content" value="A=Accountable (问责) | R=Responsible (执行)&#xa;C=Consulted (咨询) | I=Informed (通知)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#6B7280;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="980" width="440" height="50" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

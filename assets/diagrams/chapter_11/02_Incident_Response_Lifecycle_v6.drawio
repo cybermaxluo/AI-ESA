@@ -1,0 +1,341 @@
+<mxfile host="app.diagrams.net" version="22.0.0">
+  <diagram name="Incident Response Lifecycle V6" id="ir-lifecycle-v6">
+    <mxGraphModel dx="1920" dy="1080" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Background -->
+        <mxCell id="background" value="" style="fillColor=#FAFBFC;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="1080" as="geometry" />
+        </mxCell>
+
+        <!-- Header -->
+        <mxCell id="header-bg" value="" style="fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="事件响应生命周期" style="text;fontSize=48;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="40" width="600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Incident Response Lifecycle - NIST SP 800-61 Rev.2" style="text;fontSize=18;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="100" width="600" height="28" as="geometry" />
+        </mxCell>
+
+        <!-- Phase 1: Preparation -->
+        <mxCell id="p1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="84" y="184" width="380" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="180" width="380" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-icon-bg" value="" style="ellipse;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="110" y="210" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-icon" value="1" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="110" y="210" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-title" value="准备" style="text;fontSize=32;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="200" y="225" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-subtitle" value="Preparation" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="200" y="265" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-divider" value="" style="strokeColor=#E0E7FF;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="310" as="sourcePoint" />
+            <mxPoint x="430" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1-desc1" value="• 响应团队组建与培训" style="text;fontSize=16;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="110" y="325" width="320" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-desc2" value="• Playbook 开发与演练" style="text;fontSize=16;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="110" y="355" width="320" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-desc3" value="• 工具与环境就绪" style="text;fontSize=16;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="110" y="385" width="320" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow 1-2 -->
+        <mxCell id="arrow-1-2" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=4;endSize=12;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="300" as="sourcePoint" />
+            <mxPoint x="540" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="step-1" value="" style="ellipse;fillColor=#0066FF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="484" y="284" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="step-1-num" value="①" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="484" y="284" width="32" height="32" as="geometry" />
+        </mxCell>
+
+        <!-- Phase 2: Detection & Analysis -->
+        <mxCell id="p2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="544" y="184" width="380" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="540" y="180" width="380" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-icon-bg" value="" style="ellipse;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="570" y="210" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-icon" value="2" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="570" y="210" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-title" value="检测与分析" style="text;fontSize=32;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="660" y="225" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-subtitle" value="Detection &amp; Analysis" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="660" y="265" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-divider" value="" style="strokeColor=#E0E7FF;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="310" as="sourcePoint" />
+            <mxPoint x="890" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p2-desc1" value="• 告警分流与验证" style="text;fontSize=16;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="570" y="325" width="320" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-desc2" value="• 威胁情报关联分析" style="text;fontSize=16;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="570" y="355" width="320" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-desc3" value="• 影响范围与严重性评估" style="text;fontSize=16;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="570" y="385" width="320" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow 2-3 -->
+        <mxCell id="arrow-2-3" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=4;endSize=12;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="300" as="sourcePoint" />
+            <mxPoint x="1000" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="step-2" value="" style="ellipse;fillColor=#0066FF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="944" y="284" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="step-2-num" value="②" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="944" y="284" width="32" height="32" as="geometry" />
+        </mxCell>
+
+        <!-- Phase 3: Containment, Eradication, Recovery (Highlighted) -->
+        <mxCell id="p3-shadow" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=12;opacity=30;" parent="1" vertex="1">
+          <mxGeometry x="1004" y="184" width="420" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=#0066FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="180" width="420" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-badge" value="核心" style="rounded=1;fillColor=#FFFFFF;strokeColor=none;arcSize=30;fontSize=12;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="195" width="60" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-icon" value="3" style="text;fontSize=64;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="210" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-title" value="遏制 · 根除 · 恢复" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="225" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-subtitle" value="Containment · Eradication · Recovery" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=left;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="265" width="280" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-divider" value="" style="strokeColor=#FFFFFF;strokeWidth=2;opacity=50;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1030" y="310" as="sourcePoint" />
+            <mxPoint x="1390" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p3-desc1" value="• 短期遏制: 隔离受影响系统" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=left;opacity=95;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="325" width="340" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-desc2" value="• 根除威胁: 清除恶意代码与后门" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=left;opacity=95;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="355" width="340" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-desc3" value="• 业务恢复: 系统重建与验证" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=left;opacity=95;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="385" width="340" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow 3-4 -->
+        <mxCell id="arrow-3-4" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=4;endSize=12;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1420" y="300" as="sourcePoint" />
+            <mxPoint x="1500" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="step-3" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="1444" y="284" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="step-3-num" value="③" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1444" y="284" width="32" height="32" as="geometry" />
+        </mxCell>
+
+        <!-- Phase 4: Post-Incident Activity -->
+        <mxCell id="p4-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1504" y="184" width="380" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="180" width="380" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-icon-bg" value="" style="ellipse;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="210" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-icon" value="4" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="210" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-title" value="事后活动" style="text;fontSize=32;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1620" y="225" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-subtitle" value="Post-Incident Activity" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1620" y="265" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-divider" value="" style="strokeColor=#E0E7FF;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1530" y="310" as="sourcePoint" />
+            <mxPoint x="1850" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p4-desc1" value="• 根因分析 (RCA)" style="text;fontSize=16;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="325" width="320" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-desc2" value="• 经验教训与知识沉淀" style="text;fontSize=16;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="355" width="320" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-desc3" value="• 检测规则与流程改进" style="text;fontSize=16;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="385" width="320" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- Feedback Loop Arrow -->
+        <mxCell id="feedback-arrow" value="" style="endArrow=blockThin;strokeColor=#EF4444;strokeWidth=3;endSize=10;endFill=1;curved=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1690" y="420" as="sourcePoint" />
+            <mxPoint x="270" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1690" y="480" />
+              <mxPoint x="980" y="480" />
+              <mxPoint x="270" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="feedback-label" value="持续改进循环 Continuous Improvement" style="text;fontSize=14;fontColor=#EF4444;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="800" y="490" width="320" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- KPI Section -->
+        <mxCell id="kpi-title" value="关键指标 Key Performance Indicators" style="text;fontSize=28;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="560" width="500" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- KPI Cards Row -->
+        <mxCell id="kpi1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="84" y="624" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="kpi1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="620" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="kpi1-value" value="&lt;24h" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="645" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kpi1-label" value="MTTD" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="705" width="280" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="kpi1-desc" value="Mean Time To Detect" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="740" width="280" height="24" as="geometry" />
+        </mxCell>
+
+        <mxCell id="kpi2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="404" y="624" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="kpi2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="400" y="620" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="kpi2-value" value="&lt;15min" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="400" y="645" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kpi2-label" value="MTTA" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="400" y="705" width="280" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="kpi2-desc" value="Mean Time To Acknowledge" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="400" y="740" width="280" height="24" as="geometry" />
+        </mxCell>
+
+        <mxCell id="kpi3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="724" y="624" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="kpi3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="720" y="620" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="kpi3-value" value="&lt;4h" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="720" y="645" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kpi3-label" value="MTTR" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="720" y="705" width="280" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="kpi3-desc" value="Mean Time To Respond" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="720" y="740" width="280" height="24" as="geometry" />
+        </mxCell>
+
+        <mxCell id="kpi4-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1044" y="624" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="kpi4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="620" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="kpi4-value" value="&lt;5%" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="645" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kpi4-label" value="误报率" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="705" width="280" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="kpi4-desc" value="False Positive Rate" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="740" width="280" height="24" as="geometry" />
+        </mxCell>
+
+        <mxCell id="kpi5-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1364" y="624" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="kpi5-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="620" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="kpi5-value" value="&gt;70%" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="645" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kpi5-label" value="自动化率" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="705" width="280" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="kpi5-desc" value="Automation Rate" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="740" width="280" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- Severity Classification -->
+        <mxCell id="severity-title" value="事件严重性分级 Severity Classification" style="text;fontSize=28;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="820" width="500" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sev-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="880" width="1800" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p1-sev" value="P1 Critical: 15min" style="text;fontSize=18;fontStyle=1;fontColor=#EF4444;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="120" y="905" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-sev" value="P2 High: 1h" style="text;fontSize=18;fontStyle=1;fontColor=#F59E0B;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="420" y="905" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-sev" value="P3 Medium: 4h" style="text;fontSize=18;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="720" y="905" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-sev" value="P4 Low: 24h" style="text;fontSize=18;fontStyle=1;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="905" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ref-sev" value="参考标准: NIST SP 800-61 | ISO 27035" style="text;fontSize=16;fontColor=#9CA3AF;fontFamily=Inter;align=right;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="905" width="350" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Footer -->
+        <mxCell id="footer" value="© 2025 AI-ESA Project | 指标为行业领先企业参考值，企业需根据自身 SLA 调整" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="560" y="1000" width="800" height="24" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

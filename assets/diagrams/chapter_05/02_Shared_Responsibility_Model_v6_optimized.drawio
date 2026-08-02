@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" version="22.0.0">
+  <diagram name="Shared Responsibility Model" id="shared-responsibility-v6">
+    <mxGraphModel dx="1920" dy="1080" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- 标题 -->
+        <mxCell id="title-main" value="云安全共享责任模型" style="text;fontSize=48;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="560" y="32" width="800" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="title-sub" value="Shared Responsibility Model - IaaS, PaaS, SaaS" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="560" y="112" width="800" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- 左侧标签 -->
+        <mxCell id="left-label" value="客户责任&#10;Customer" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="80" y="192" width="200" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- 右侧标签 -->
+        <mxCell id="right-label" value="云厂商责任&#10;Provider" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="192" width="200" height="80" as="geometry" />
+        </mxCell>
+
+        <!-- IaaS列 (移除shadow,改为V6标准2px边框) -->
+        <mxCell id="iaas-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="320" y="176" width="460" height="740" as="geometry" />
+        </mxCell>
+
+        <!-- IaaS标题 (移除蓝色header背景) -->
+        <mxCell id="iaas-title" value="IaaS&#10;Infrastructure as a Service" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="320" y="192" width="460" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- IaaS客户责任区 (用淡蓝色替代深蓝色) -->
+        <mxCell id="iaas-customer-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#E0E7FF;strokeWidth=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="336" y="280" width="428" height="360" as="geometry" />
+        </mxCell>
+
+        <mxCell id="iaas-layer1" value="数据 Data" style="text;fontSize=16;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="304" width="380" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="iaas-layer2" value="应用 Application" style="text;fontSize=16;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="360" width="380" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="iaas-layer3" value="运行时 Runtime" style="text;fontSize=16;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="416" width="380" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="iaas-layer4" value="中间件 Middleware" style="text;fontSize=16;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="472" width="380" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="iaas-layer5" value="操作系统 OS" style="text;fontSize=16;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="528" width="380" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="iaas-layer6" value="虚拟化 Virtualization" style="text;fontSize=16;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="584" width="380" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- IaaS云厂商责任区 -->
+        <mxCell id="iaas-provider-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="336" y="656" width="428" height="240" as="geometry" />
+        </mxCell>
+
+        <mxCell id="iaas-layer7" value="服务器 Servers" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="360" y="672" width="380" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="iaas-layer8" value="存储 Storage" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="360" y="728" width="380" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="iaas-layer9" value="网络 Network" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="360" y="784" width="380" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="iaas-layer10" value="数据中心 Datacenter" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="360" y="840" width="380" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- PaaS列 -->
+        <mxCell id="paas-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="816" y="176" width="460" height="740" as="geometry" />
+        </mxCell>
+
+        <mxCell id="paas-title" value="PaaS&#10;Platform as a Service" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="816" y="192" width="460" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- PaaS客户责任区 -->
+        <mxCell id="paas-customer-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#E0E7FF;strokeWidth=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="840" y="280" width="412" height="180" as="geometry" />
+        </mxCell>
+
+        <mxCell id="paas-layer1" value="数据 Data" style="text;fontSize=16;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="864" y="304" width="364" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="paas-layer2" value="应用 Application" style="text;fontSize=16;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="864" y="360" width="364" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="paas-layer3" value="配置管理 Configuration" style="text;fontSize=16;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="864" y="416" width="364" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- PaaS云厂商责任区 -->
+        <mxCell id="paas-provider-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="840" y="480" width="412" height="416" as="geometry" />
+        </mxCell>
+
+        <mxCell id="paas-layer4" value="运行时 Runtime" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="864" y="496" width="364" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="paas-layer5" value="中间件 Middleware" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="864" y="552" width="364" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="paas-layer6" value="操作系统 OS" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="864" y="608" width="364" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="paas-layer7" value="虚拟化 Virtualization" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="864" y="664" width="364" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="paas-layer8" value="服务器 Servers" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="864" y="720" width="364" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="paas-layer9" value="存储 Storage" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="864" y="776" width="364" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="paas-layer10" value="网络 Network" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="864" y="832" width="364" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- SaaS列 -->
+        <mxCell id="saas-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1312" y="176" width="460" height="740" as="geometry" />
+        </mxCell>
+
+        <mxCell id="saas-title" value="SaaS&#10;Software as a Service" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1312" y="192" width="460" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- SaaS客户责任区 -->
+        <mxCell id="saas-customer-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#E0E7FF;strokeWidth=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1336" y="280" width="412" height="120" as="geometry" />
+        </mxCell>
+
+        <mxCell id="saas-layer1" value="数据 Data" style="text;fontSize=16;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="304" width="364" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="saas-layer2" value="访问控制 Access Control" style="text;fontSize=16;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="360" width="364" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- SaaS云厂商责任区 -->
+        <mxCell id="saas-provider-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1336" y="416" width="412" height="480" as="geometry" />
+        </mxCell>
+
+        <mxCell id="saas-layer3" value="应用 Application" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="432" width="364" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="saas-layer4" value="运行时 Runtime" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="488" width="364" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="saas-layer5" value="中间件 Middleware" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="544" width="364" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="saas-layer6" value="操作系统 OS" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="600" width="364" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="saas-layer7" value="虚拟化 Virtualization" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="656" width="364" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="saas-layer8" value="服务器 Servers" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="712" width="364" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="saas-layer9" value="存储 Storage" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="768" width="364" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="saas-layer10" value="网络 Network" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="824" width="364" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- 底部说明 (V6标准: #EEF2FF背景,移除shadow) -->
+        <mxCell id="note-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=NONE;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="320" y="960" width="1456" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="note-text" value="核心原则: 客户始终对数据和访问控制负责  |  云服务模式越高(SaaS),客户责任越少,但数据安全仍是客户责任" style="text;fontSize=18;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="972" width="1456" height="36" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

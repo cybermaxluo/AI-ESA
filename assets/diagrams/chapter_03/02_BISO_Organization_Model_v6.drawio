@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" version="22.0.0">
+  <diagram name="BISO Organization Model" id="biso-org-v6">
+    <mxGraphModel dx="1920" dy="1080" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="title-main" value="BISO 组织模型" style="text;fontSize=48;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="760" y="40" width="400" height="72" as="geometry" />
+        </mxCell>
+
+        <mxCell id="title-sub" value="Three Organization Models - Centralized | Embedded | Hybrid" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="512" y="104" width="896" height="32" as="geometry" />
+        </mxCell>
+
+        <mxCell id="model1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="88" y="176" width="544" height="296" as="geometry" />
+        </mxCell>
+
+        <mxCell id="model1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="168" width="544" height="296" as="geometry" />
+        </mxCell>
+
+        <mxCell id="model1-header" value="模型1: 集中式" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="112" y="192" width="480" height="32" as="geometry" />
+        </mxCell>
+
+        <mxCell id="model1-header-en" value="Centralized" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" vertex="1" parent="1">
+          <mxGeometry x="112" y="224" width="480" height="24" as="geometry" />
+        </mxCell>
+
+        <mxCell id="model1-feature" value="[特点]" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="112" y="264" width="480" height="24" as="geometry" />
+        </mxCell>
+
+        <mxCell id="model1-content" value="• BISO团队集中汇报给CISO&#xa;• 按业务线虚拟分配服务对象&#xa;• 统一标准、流程、工具" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="112" y="288" width="480" height="72" as="geometry" />
+        </mxCell>
+
+        <mxCell id="model1-scenario" value="[适用] 创业公司(100-500人)" style="text;fontSize=14;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="112" y="372" width="480" height="24" as="geometry" />
+        </mxCell>
+
+        <mxCell id="model1-pros-cons" value="[✓] 易管理、成本低  [✗] 响应慢" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="112" y="404" width="480" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="model2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="696" y="176" width="544" height="296" as="geometry" />
+        </mxCell>
+
+        <mxCell id="model2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="688" y="168" width="544" height="296" as="geometry" />
+        </mxCell>
+
+        <mxCell id="model2-header" value="模型2: 嵌入式" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="720" y="192" width="480" height="32" as="geometry" />
+        </mxCell>
+
+        <mxCell id="model2-header-en" value="Embedded" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" vertex="1" parent="1">
+          <mxGeometry x="720" y="224" width="480" height="24" as="geometry" />
+        </mxCell>
+
+        <mxCell id="model2-feature" value="[特点]" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="720" y="264" width="480" height="24" as="geometry" />
+        </mxCell>
+
+        <mxCell id="model2-content" value="• BISO直接汇报给业务线VP&#xa;• 深度嵌入业务团队&#xa;• 虚线汇报给CISO(专业指导)" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="720" y="288" width="480" height="72" as="geometry" />
+        </mxCell>
+
+        <mxCell id="model2-scenario" value="[适用] 大型企业(2000+人)" style="text;fontSize=14;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="720" y="372" width="480" height="24" as="geometry" />
+        </mxCell>
+
+        <mxCell id="model2-pros-cons" value="[✓] 响应快  [✗] 标准不统一" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="720" y="404" width="480" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="model3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1304" y="176" width="544" height="296" as="geometry" />
+        </mxCell>
+
+        <mxCell id="model3-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=#0066FF;strokeWidth=3;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1296" y="168" width="544" height="296" as="geometry" />
+        </mxCell>
+
+        <mxCell id="model3-header" value="模型3: 混合式 [推荐]" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1328" y="192" width="480" height="32" as="geometry" />
+        </mxCell>
+
+        <mxCell id="model3-header-en" value="Hybrid (Recommended)" style="text;fontSize=16;fontColor=#FFFFFF;opacity=80;fontFamily=Inter;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1328" y="224" width="480" height="24" as="geometry" />
+        </mxCell>
+
+        <mxCell id="model3-feature" value="[特点]" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1328" y="264" width="480" height="24" as="geometry" />
+        </mxCell>
+
+        <mxCell id="model3-content" value="• 双重汇报: 实线CISO + 虚线VP&#xa;• 物理位置嵌入业务团队&#xa;• 保持专业独立性" style="text;fontSize=15;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1328" y="288" width="480" height="72" as="geometry" />
+        </mxCell>
+
+        <mxCell id="model3-scenario" value="[适用] 成熟企业(500-2000人)" style="text;fontSize=14;fontColor=#FFFFFF;opacity=90;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1328" y="372" width="480" height="24" as="geometry" />
+        </mxCell>
+
+        <mxCell id="model3-pros-cons" value="[✓] 平衡响应与标准  [✗] 需强协调" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1328" y="404" width="480" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="structure-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="512" width="1760" height="488" as="geometry" />
+        </mxCell>
+
+        <mxCell id="structure-title" value="BISO 团队分层结构" style="text;fontSize=36;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="560" y="544" width="800" height="56" as="geometry" />
+        </mxCell>
+
+        <mxCell id="structure-title-en" value="BISO Team Hierarchy" style="text;fontSize=18;fontColor=#6B7280;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="560" y="600" width="800" height="32" as="geometry" />
+        </mxCell>
+
+        <mxCell id="level4-card" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="760" y="656" width="400" height="88" as="geometry" />
+        </mxCell>
+
+        <mxCell id="level4-text" value="Lead BISO (L4)" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="760" y="672" width="400" height="28" as="geometry" />
+        </mxCell>
+
+        <mxCell id="level4-text-cn" value="全球BISO负责人 | 战略规划" style="text;fontSize=16;fontColor=#FFFFFF;opacity=90;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="760" y="704" width="400" height="28" as="geometry" />
+        </mxCell>
+
+        <mxCell id="level3-card1" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=2;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="320" y="784" width="320" height="88" as="geometry" />
+        </mxCell>
+
+        <mxCell id="level3-text1" value="BISO (L3)" style="text;fontSize=18;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="320" y="800" width="320" height="28" as="geometry" />
+        </mxCell>
+
+        <mxCell id="level3-text1-cn" value="业务单元负责人" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="320" y="832" width="320" height="28" as="geometry" />
+        </mxCell>
+
+        <mxCell id="level3-card2" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=2;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="800" y="784" width="320" height="88" as="geometry" />
+        </mxCell>
+
+        <mxCell id="level3-text2" value="BISO (L3)" style="text;fontSize=18;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="800" y="800" width="320" height="28" as="geometry" />
+        </mxCell>
+
+        <mxCell id="level3-text2-cn" value="业务单元负责人" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="800" y="832" width="320" height="28" as="geometry" />
+        </mxCell>
+
+        <mxCell id="level3-card3" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=2;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="784" width="320" height="88" as="geometry" />
+        </mxCell>
+
+        <mxCell id="level3-text3" value="BISO (L3)" style="text;fontSize=18;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="800" width="320" height="28" as="geometry" />
+        </mxCell>
+
+        <mxCell id="level3-text3-cn" value="业务单元负责人" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="832" width="320" height="28" as="geometry" />
+        </mxCell>
+
+        <mxCell id="level2-text" value="Senior GSBP (L2): 高级业务安全伙伴 - 独立负责中型项目" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#EEF2FF;rounded=1;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="520" y="896" width="880" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="level1-text" value="Junior GSBP (L1): 初级业务安全伙伴 - 协助执行Playbook" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#EEF2FF;rounded=1;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="520" y="944" width="880" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="760" as="sourcePoint" />
+            <mxPoint x="480" y="784" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="760" as="sourcePoint" />
+            <mxPoint x="960" y="784" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow3" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="760" as="sourcePoint" />
+            <mxPoint x="1440" y="784" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

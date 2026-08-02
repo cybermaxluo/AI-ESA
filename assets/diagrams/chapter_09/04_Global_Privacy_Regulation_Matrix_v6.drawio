@@ -1,0 +1,439 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="全球隐私法规对比矩阵" id="global-privacy-matrix-v6">
+    <mxGraphModel dx="2633" dy="1627" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bg" value="" style="fillColor=#FAFBFC;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="全球隐私法规对比矩阵" style="text;fontSize=48;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="560" y="40" width="800" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Global Privacy Regulation Comparison Matrix" style="text;fontSize=20;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="560" y="105" width="800" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="150" width="1760" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-strict-box" value="" style="rounded=1;fillColor=#EF4444;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="200" y="165" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-strict" value="严格要求" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="230" y="163" width="80" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-medium-box" value="" style="rounded=1;fillColor=#F59E0B;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="400" y="165" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-medium" value="中等要求" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="430" y="163" width="80" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-flexible-box" value="" style="rounded=1;fillColor=#10B981;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="600" y="165" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-flexible" value="相对灵活" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="630" y="163" width="80" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-na-box" value="" style="rounded=1;fillColor=#9CA3AF;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="800" y="165" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-na" value="不适用/无强制" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="830" y="163" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="header-dim" value="" style="rounded=1;fillColor=#0066FF;strokeColor=#0066FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="220" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="header-dim-text" value="对比维度" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="233" width="280" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="header-gdpr" value="" style="rounded=1;fillColor=#0066FF;strokeColor=#0066FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="380" y="220" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="header-gdpr-text" value="GDPR (欧盟)" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="380" y="233" width="280" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="header-pipl" value="" style="rounded=1;fillColor=#0066FF;strokeColor=#0066FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="680" y="220" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="header-pipl-text" value="PIPL (中国)" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="680" y="233" width="280" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="header-ccpa" value="" style="rounded=1;fillColor=#0066FF;strokeColor=#0066FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="980" y="220" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="header-ccpa-text" value="CCPA/CPRA (加州)" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="980" y="233" width="280" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="header-lgpd" value="" style="rounded=1;fillColor=#0066FF;strokeColor=#0066FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="220" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="header-lgpd-text" value="LGPD (巴西)" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="233" width="280" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="header-appi" value="" style="rounded=1;fillColor=#0066FF;strokeColor=#0066FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="220" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="header-appi-text" value="APPI (日本)" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="233" width="260" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="row1-dim-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="84" y="304" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row1-dim" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="300" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row1-dim-text" value="同意模式" style="text;fontSize=20;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="310" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="row1-dim-sub" value="Consent Model" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="340" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="row1-gdpr" value="" style="rounded=1;fillColor=#EF4444;strokeColor=#EF4444;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="380" y="300" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row1-gdpr-text" value="Opt-in" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="380" y="310" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="row1-gdpr-sub" value="事先明确同意" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="380" y="340" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="row1-pipl" value="" style="rounded=1;fillColor=#EF4444;strokeColor=#EF4444;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="680" y="300" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row1-pipl-text" value="Opt-in + 单独同意" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="680" y="310" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="row1-pipl-sub" value="敏感信息需单独同意" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="680" y="340" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="row1-ccpa" value="" style="rounded=1;fillColor=#10B981;strokeColor=#10B981;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="980" y="300" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row1-ccpa-text" value="Opt-out" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="980" y="310" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="row1-ccpa-sub" value="默认允许,可退出" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="980" y="340" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="row1-lgpd" value="" style="rounded=1;fillColor=#EF4444;strokeColor=#EF4444;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="300" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row1-lgpd-text" value="Opt-in" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="310" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="row1-lgpd-sub" value="类似GDPR" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="340" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="row1-appi" value="" style="rounded=1;fillColor=#F59E0B;strokeColor=#F59E0B;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="300" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row1-appi-text" value="Opt-in (2022+)" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="310" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="row1-appi-sub" value="Cookie需同意" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="340" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="row2-dim-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="84" y="394" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row2-dim" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="390" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row2-dim-text" value="数据本地化" style="text;fontSize=20;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="400" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="row2-dim-sub" value="Data Localization" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="430" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="row2-gdpr" value="" style="rounded=1;fillColor=#10B981;strokeColor=#10B981;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="380" y="390" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row2-gdpr-text" value="无强制" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="380" y="400" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="row2-gdpr-sub" value="充分性地区自由传输" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="380" y="430" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="row2-pipl" value="" style="rounded=1;fillColor=#EF4444;strokeColor=#EF4444;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="680" y="390" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row2-pipl-text" value="强制 (CIIO/大规模)" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="680" y="400" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="row2-pipl-sub" value="需安全评估/标准合同" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="680" y="430" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="row2-ccpa" value="" style="rounded=1;fillColor=#9CA3AF;strokeColor=#9CA3AF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="980" y="390" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row2-ccpa-text" value="无要求" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="980" y="400" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="row2-ccpa-sub" value="不涉及本地化" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="980" y="430" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="row2-lgpd" value="" style="rounded=1;fillColor=#10B981;strokeColor=#10B981;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="390" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row2-lgpd-text" value="无强制" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="400" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="row2-lgpd-sub" value="跨境需合同保障" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="430" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="row2-appi" value="" style="rounded=1;fillColor=#10B981;strokeColor=#10B981;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="390" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row2-appi-text" value="无强制" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="400" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="row2-appi-sub" value="与欧盟互认充分性" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="430" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="row3-dim-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="84" y="484" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row3-dim" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="480" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row3-dim-text" value="罚款上限" style="text;fontSize=20;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="490" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="row3-dim-sub" value="Maximum Penalty" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="520" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="row3-gdpr" value="" style="rounded=1;fillColor=#EF4444;strokeColor=#EF4444;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="380" y="480" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row3-gdpr-text" value="4% 全球营业额" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="380" y="490" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="row3-gdpr-sub" value="或 2000万欧元" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="380" y="520" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="row3-pipl" value="" style="rounded=1;fillColor=#EF4444;strokeColor=#EF4444;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="680" y="480" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row3-pipl-text" value="5% 上年度营业额" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="680" y="490" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="row3-pipl-sub" value="或 5000万人民币" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="680" y="520" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="row3-ccpa" value="" style="rounded=1;fillColor=#F59E0B;strokeColor=#F59E0B;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="980" y="480" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row3-ccpa-text" value="$7,500/违规" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="980" y="490" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="row3-ccpa-sub" value="+ 私人诉讼权" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="980" y="520" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="row3-lgpd" value="" style="rounded=1;fillColor=#F59E0B;strokeColor=#F59E0B;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="480" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row3-lgpd-text" value="2% 营业额" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="490" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="row3-lgpd-sub" value="或 5000万雷亚尔" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="520" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="row3-appi" value="" style="rounded=1;fillColor=#10B981;strokeColor=#10B981;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="480" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row3-appi-text" value="行政指导优先" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="490" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="row3-appi-sub" value="罚款为最后手段" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="520" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="row4-dim-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="84" y="574" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row4-dim" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="570" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row4-dim-text" value="DPO 要求" style="text;fontSize=20;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="580" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="row4-dim-sub" value="Data Protection Officer" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="610" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="row4-gdpr" value="" style="rounded=1;fillColor=#F59E0B;strokeColor=#F59E0B;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="380" y="570" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row4-gdpr-text" value="条件性强制" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="380" y="580" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="row4-gdpr-sub" value="公共机构/大规模处理" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="380" y="610" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="row4-pipl" value="" style="rounded=1;fillColor=#10B981;strokeColor=#10B981;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="680" y="570" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row4-pipl-text" value="推荐任命" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="680" y="580" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="row4-pipl-sub" value="非强制但建议" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="680" y="610" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="row4-ccpa" value="" style="rounded=1;fillColor=#9CA3AF;strokeColor=#9CA3AF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="980" y="570" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row4-ccpa-text" value="无要求" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="980" y="580" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="row4-ccpa-sub" value="不涉及DPO" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="980" y="610" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="row4-lgpd" value="" style="rounded=1;fillColor=#EF4444;strokeColor=#EF4444;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="570" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row4-lgpd-text" value="强制任命" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="580" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="row4-lgpd-sub" value="所有控制者需任命" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="610" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="row4-appi" value="" style="rounded=1;fillColor=#9CA3AF;strokeColor=#9CA3AF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="570" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row4-appi-text" value="无明确要求" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="580" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="row4-appi-sub" value="内部管理责任制" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="610" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="row5-dim-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="84" y="664" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row5-dim" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="660" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row5-dim-text" value="泄露通知时限" style="text;fontSize=20;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="670" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="row5-dim-sub" value="Breach Notification" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="700" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="row5-gdpr" value="" style="rounded=1;fillColor=#EF4444;strokeColor=#EF4444;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="380" y="660" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row5-gdpr-text" value="72 小时" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="380" y="670" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="row5-gdpr-sub" value="通知监管机构" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="380" y="700" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="row5-pipl" value="" style="rounded=1;fillColor=#F59E0B;strokeColor=#F59E0B;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="680" y="660" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row5-pipl-text" value="立即通知" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="680" y="670" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="row5-pipl-sub" value="无具体时限但需及时" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="680" y="700" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="row5-ccpa" value="" style="rounded=1;fillColor=#F59E0B;strokeColor=#F59E0B;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="980" y="660" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row5-ccpa-text" value="不得无故延迟" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="980" y="670" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="row5-ccpa-sub" value="通常30-90天" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="980" y="700" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="row5-lgpd" value="" style="rounded=1;fillColor=#F59E0B;strokeColor=#F59E0B;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="660" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row5-lgpd-text" value="合理时间内" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="670" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="row5-lgpd-sub" value="无具体小时限制" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="700" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="row5-appi" value="" style="rounded=1;fillColor=#EF4444;strokeColor=#EF4444;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="660" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row5-appi-text" value="3-5 天" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="670" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="row5-appi-sub" value="2022修订后更严格" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="700" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="row6-dim-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="84" y="754" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row6-dim" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="750" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row6-dim-text" value="合法利益基础" style="text;fontSize=20;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="760" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="row6-dim-sub" value="Legitimate Interest" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="790" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="row6-gdpr" value="" style="rounded=1;fillColor=#10B981;strokeColor=#10B981;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="380" y="750" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row6-gdpr-text" value="支持" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="380" y="760" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="row6-gdpr-sub" value="需完成LIA评估" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="380" y="790" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="row6-pipl" value="" style="rounded=1;fillColor=#EF4444;strokeColor=#EF4444;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="680" y="750" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row6-pipl-text" value="不支持" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="680" y="760" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="row6-pipl-sub" value="需依赖其他合法基础" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="680" y="790" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="row6-ccpa" value="" style="rounded=1;fillColor=#9CA3AF;strokeColor=#9CA3AF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="980" y="750" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row6-ccpa-text" value="不适用" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="980" y="760" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="row6-ccpa-sub" value="无合法基础概念" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="980" y="790" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="row6-lgpd" value="" style="rounded=1;fillColor=#10B981;strokeColor=#10B981;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="750" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row6-lgpd-text" value="支持" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="760" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="row6-lgpd-sub" value="10种合法基础之一" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="790" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="row6-appi" value="" style="rounded=1;fillColor=#F59E0B;strokeColor=#F59E0B;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="750" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="row6-appi-text" value="有限支持" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="760" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="row6-appi-sub" value="通过其他机制实现" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="790" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="insight-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="860" width="1760" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="insight-title" value="关键洞察 | Key Insight" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="880" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="insight-text1" value="GDPR 与 PIPL 严格程度相当,CCPA 相对宽松但私人诉讼权增加风险敞口" style="text;fontSize=18;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="915" width="900" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="insight-text2" value="跨国企业建议采用 Highest Common Denominator 策略: 全球统一按最严标准执行" style="text;fontSize=18;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="940" width="900" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="source" value="数据来源: GDPR (2018), PIPL (2021), CCPA/CPRA (2023), LGPD (2020), APPI (2022)" style="text;fontSize=12;fontColor=#9CA3AF;fontFamily=Inter;align=right;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="1030" width="760" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" version="22.0.0">
+  <diagram name="Multi-Cloud IAM Architecture" id="multi-cloud-iam-v6">
+    <mxGraphModel dx="1920" dy="1080" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        
+        <mxCell id="title-main" value="多云IAM统一架构" style="text;fontSize=48;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="560" y="32" width="800" height="120" as="geometry" />
+        </mxCell>
+
+        <mxCell id="title-sub" value="Multi-Cloud IAM Architecture - SSO, SAML, OIDC, Zero Trust" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="408" y="88" width="1100" height="60" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="idp-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="640" y="184" width="640" height="240" as="geometry" />
+        </mxCell>
+
+        <mxCell id="idp-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=#0066FF;strokeWidth=3;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="640" y="176" width="640" height="240" as="geometry" />
+        </mxCell>
+
+        <mxCell id="idp-title" value="统一身份提供商 (IdP)" style="text;fontSize=36;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="656" y="208" width="600" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="idp-subtitle" value="Central Identity Provider - SSO Gateway" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="656" y="256" width="600" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="idp-features" value="• SAML 2.0 / OIDC / OAuth 2.0&#10;• MFA (Multi-Factor Authentication)&#10;• Conditional Access / Risk-Based Auth&#10;• User Provisioning (SCIM)&#10;• Session Management" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" vertex="1" parent="1">
+          <mxGeometry x="680" y="288" width="1810" height="170" as="geometry" />
+        </mxCell>
+
+        
+        
+        <mxCell id="aws-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="528" width="380" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="aws-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="520" width="380" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="aws-header" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="96" y="544" width="340" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="aws-title" value="AWS IAM" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="120" y="552" width="300" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="aws-content" value="• IAM Roles&#10;• SAML Federation&#10;• AWS SSO (Identity Center)&#10;• SCP (Service Control Policies)" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=left;" vertex="1" parent="1">
+          <mxGeometry x="120" y="608" width="1080" height="140" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="azure-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="504" y="528" width="380" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="azure-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="496" y="520" width="380" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="azure-header" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="520" y="544" width="340" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="azure-title" value="Azure AD (Entra ID)" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="544" y="552" width="300" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="azure-content" value="• Azure AD Groups&#10;• Enterprise Applications&#10;• Conditional Access&#10;• Privileged Identity Management" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=left;" vertex="1" parent="1">
+          <mxGeometry x="544" y="608" width="1170" height="140" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="gcp-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="928" y="528" width="380" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="gcp-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="920" y="520" width="380" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="gcp-header" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="944" y="544" width="340" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="gcp-title" value="GCP IAM" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="960" y="552" width="300" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="gcp-content" value="• IAM Roles &amp; Bindings&#10;• Workforce Identity Federation&#10;• Cloud Identity&#10;• Organization Policies" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=left;" vertex="1" parent="1">
+          <mxGeometry x="960" y="608" width="1150" height="140" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="alicloud-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1344" y="528" width="380" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="alicloud-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1344" y="520" width="380" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="alicloud-header" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="544" width="340" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="alicloud-title" value="阿里云 RAM" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1376" y="552" width="300" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="alicloud-content" value="• RAM 角色&#10;• SAML SSO&#10;• 企业身份联邦&#10;• 资源组权限管理" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1376" y="608" width="590" height="140" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="arrow-aws" value="SAML" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;fontSize=16;fontColor=#0066FF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="440" as="sourcePoint" />
+            <mxPoint x="270" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow-azure" value="OIDC" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;fontSize=16;fontColor=#0066FF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="440" as="sourcePoint" />
+            <mxPoint x="690" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow-gcp" value="SAML" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;fontSize=16;fontColor=#0066FF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="440" as="sourcePoint" />
+            <mxPoint x="1110" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow-alicloud" value="SAML" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;fontSize=16;fontColor=#0066FF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1160" y="440" as="sourcePoint" />
+            <mxPoint x="1530" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        
+        <mxCell id="pam-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="800" width="820" height="160" as="geometry" />
+        </mxCell>
+
+        <mxCell id="pam-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="800" width="820" height="160" as="geometry" />
+        </mxCell>
+
+        <mxCell id="pam-title" value="特权访问管理 (PAM) &amp; 权限管理 (CIEM)" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="96" y="816" width="780" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="pam-content" value="• JIT (Just-in-Time) Access - 临时权限授予&#10;• 权限最小化 (Least Privilege)&#10;• 会话录制与审计 (Session Recording)&#10;• 权限分析与异常检测 (Permission Analytics)" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="120" y="856" width="1740" height="140" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ciem-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="944" y="800" width="776" height="160" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ciem-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="944" y="800" width="776" height="160" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ciem-title" value="Zero Trust 原则" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="960" y="816" width="736" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ciem-content" value="• 永不信任,持续验证 (Never Trust, Always Verify)&#10;• 基于上下文的访问控制 (Context-Aware Access)&#10;• 设备健康检查 (Device Posture)&#10;• 行为分析与异常检测 (Behavioral Analytics)" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="976" y="856" width="1910" height="140" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="note-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1008" width="1636" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="note-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=NONE;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1000" width="1636" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="note-text" value="推荐IdP: Okta | Azure AD (Entra ID) | Google Workspace | Ping Identity | OneLogin | Auth0" style="text;fontSize=16;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="96" y="1016" width="1596" height="60" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

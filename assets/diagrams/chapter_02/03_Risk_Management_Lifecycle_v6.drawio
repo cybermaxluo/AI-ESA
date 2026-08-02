@@ -1,0 +1,121 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Risk Management Lifecycle" id="risk-lifecycle-v6">
+    <mxGraphModel dx="2377" dy="1432" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title-main" value="风险管理生命周期" style="text;fontSize=48;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="660" y="40" width="600" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="title-sub" value="Risk Management Lifecycle - Identify → Assess → Treat → Monitor" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="584" y="104" width="752" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="center-circle" value="" style="ellipse;fillColor=#0066FF;strokeColor=#0066FF;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="760" y="400" width="400" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="center-text" value="风险管理&#xa;持续循环" style="text;fontSize=36;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="810" y="544" width="300" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="center-text-en" value="Continuous Cycle" style="text;fontSize=18;fontColor=#FFFFFF;opacity=80;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="810" y="632" width="300" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="776" y="168" width="376" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="768" y="160" width="376" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1-number" value="1" style="ellipse;fillColor=#0066FF;strokeColor=NONE;fontColor=#FFFFFF;fontSize=36;fontStyle=1;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="800" y="192" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1-title" value="风险识别" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="888" y="192" width="224" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1-title-en" value="Identify" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="888" y="224" width="224" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1-content" value="• 威胁建模与场景分析&#xa;• 资产盘点与依赖关系&#xa;• 历史事件与行业情报" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="888" y="256" width="224" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="348" as="sourcePoint" />
+            <mxPoint x="960" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phase2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1288" y="448" width="416" height="184" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="440" width="416" height="184" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2-number" value="2" style="ellipse;fillColor=#0066FF;strokeColor=NONE;fontColor=#FFFFFF;fontSize=36;fontStyle=1;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1312" y="472" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2-title" value="风险评估" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="472" width="256" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2-title-en" value="Assess" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="504" width="256" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2-content" value="• 定性评估(可能性×影响)&#xa;• 定量分析(FAIR/ALE模型)&#xa;• 风险优先级排序" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="536" width="256" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1264" y="540" as="sourcePoint" />
+            <mxPoint x="1160" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phase3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="776" y="872" width="376" height="184" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="768" y="864" width="376" height="184" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3-number" value="3" style="ellipse;fillColor=#0066FF;strokeColor=NONE;fontColor=#FFFFFF;fontSize=36;fontStyle=1;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="800" y="896" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3-title" value="风险处置" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="888" y="896" width="224" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3-title-en" value="Treat" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="888" y="928" width="224" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3-content" value="• 接受/规避/转移/缓解&#xa;• 控制措施实施&#xa;• 残余风险评估" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="888" y="960" width="224" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow3" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="852" as="sourcePoint" />
+            <mxPoint x="960" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phase4-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="240" y="456" width="376" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="232" y="448" width="376" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4-number" value="4" style="ellipse;fillColor=#0066FF;strokeColor=NONE;fontColor=#FFFFFF;fontSize=36;fontStyle=1;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="264" y="480" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4-title" value="风险监控" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="352" y="480" width="224" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4-title-en" value="Monitor" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="352" y="512" width="224" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4-content" value="• KRI关键风险指标追踪&#xa;• 定期风险审查会议&#xa;• 新兴威胁监测" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="352" y="544" width="224" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow4" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="624" y="540" as="sourcePoint" />
+            <mxPoint x="760" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

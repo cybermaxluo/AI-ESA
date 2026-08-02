@@ -1,0 +1,121 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
+  <diagram name="Business Value Five Dimensions" id="business-value-v6">
+    <mxGraphModel dx="1901" dy="1216" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title-main" value="安全业务价值五维度" style="text;fontSize=48;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="608" y="32" width="700" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="title-sub" value="Security Business Value - Five Dimensions" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="560" y="88" width="800" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="center-shadow" value="" style="ellipse;fillColor=#E5E7EB;strokeColor=NONE;" parent="1" vertex="1">
+          <mxGeometry x="800" y="448" width="320" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="center-core" value="" style="ellipse;fillColor=#0066FF;strokeColor=#0066FF;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="800" y="440" width="320" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="center-text" value="安全&#xa;价值" style="text;fontSize=64;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="800" y="544" width="320" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="dim1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="160" width="440" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="dim1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="160" width="424" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="dim1-icon" value="资本" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="100" y="188" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dim1-title" value="Capital Value" style="text;fontSize=24;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="100" y="248" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="dim1-desc" value="• 降低安全事件损失&#xa;• 提升投资者信心&#xa;• 优化保险成本" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="280" y="209" width="216" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;exitX=1;exitY=0.5;entryX=0;entryY=0.3;" parent="1" source="dim1-bg" target="center-core" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dim2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1416" y="152" width="440" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="dim2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1408" y="152" width="432" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="dim2-icon" value="市场" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1432" y="197" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dim2-title" value="Market Value" style="text;fontSize=24;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1432" y="254" width="156" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="dim2-desc" value="• 增强品牌信任度&#xa;• 提升市场竞争力&#xa;• 扩大客户基础" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1624" y="206" width="176" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;exitX=0;exitY=0.5;entryX=1;entryY=0.3;" parent="1" source="dim2-bg" target="center-core" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dim3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="784" width="440" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="dim3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="784" width="424" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="dim3-icon" value="用户" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="104" y="812" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dim3-title" value="User Value" style="text;fontSize=24;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="104" y="872" width="128" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="dim3-desc" value="• 保护用户隐私数据&#xa;• 提升用户体验安全&#xa;• 增强用户信任" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="256" y="824" width="212" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow3" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;exitX=1;exitY=0.5;entryX=0;entryY=0.7;" parent="1" source="dim3-bg" target="center-core" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dim4-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1408" y="784" width="440" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="dim4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="784" width="432" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="dim4-icon" value="技术" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1424" y="832" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dim4-title" value="Technology Value" style="text;fontSize=24;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1424" y="896" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dim4-desc" value="• 提升系统稳定性&#xa;• 加速产品创新&#xa;• 降低技术债务" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1608" y="834" width="216" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow4" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;exitX=0;exitY=0.5;entryX=1;entryY=0.7;" parent="1" source="dim4-bg" target="center-core" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dim5-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="712" y="185" width="520" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dim5-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="712" y="185" width="504" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="dim5-icon" value="合规" style="text;fontSize=36;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="736" y="189" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dim5-title" value="Compliance Value" style="text;fontSize=24;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="736" y="236" width="240" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="dim5-desc" value="满足监管要求、避免罚款、保持运营许可" style="text;fontSize=14;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="936" y="206" width="264" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow5" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="center-core" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="962.3841935483869" y="285" as="sourcePoint" />
+            <mxPoint x="965.61" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="note-text" value="价值量化方法：ROI/ROSI 模型、ALE (年度预期损失)、安全债务量化、品牌价值评估" style="text;fontSize=16;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="96" y="1000" width="1720" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

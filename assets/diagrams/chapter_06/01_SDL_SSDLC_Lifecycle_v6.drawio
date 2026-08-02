@@ -1,0 +1,206 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="SDL SSDLC Lifecycle" id="sdl-ssdlc-v6">
+    <mxGraphModel dx="1793" dy="931" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title-main" value="安全开发生命周期 (SDL/SSDLC)" style="text;fontSize=48;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="104" width="1000" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="title-sub" value="Secure Development Lifecycle - Security by Design" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1576" y="168" width="800" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="600" y="264" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="600" y="256" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="600" y="256" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1-number" value="1" style="ellipse;fillColor=#FFFFFF;strokeColor=NONE;fontColor=#0066FF;fontSize=36;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="616" y="261" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1-title" value="需求分析 Requirements" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="688" y="270" width="190" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1-activities" value="• 安全需求收集&#xa;• 威胁情报分析&#xa;• 合规要求识别" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="632" y="336" width="272" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1-output" value="[产出] 安全需求文档" style="text;fontSize=14;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="632" y="424" width="168" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="360" as="sourcePoint" />
+            <mxPoint x="1040" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phase2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1064" y="264" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1064" y="256" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1064" y="256" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2-number" value="2" style="ellipse;fillColor=#FFFFFF;strokeColor=NONE;fontColor=#0066FF;fontSize=36;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="261" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2-title" value="安全设计 Design" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1152" y="273" width="144" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2-activities" value="• 威胁建模 (STRIDE)&#xa;• 安全架构评审&#xa;• 加密设计" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1088" y="336" width="272" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2-output" value="[产出] 安全设计文档" style="text;fontSize=14;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1088" y="424" width="192" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1460" y="360" as="sourcePoint" />
+            <mxPoint x="1500" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phase3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1528" y="264" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1520" y="256" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1520" y="256" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3-number" value="3" style="ellipse;fillColor=#FFFFFF;strokeColor=NONE;fontColor=#0066FF;fontSize=36;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1538" y="262.5" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3-title" value="安全编码 Implementation" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1608" y="269" width="198" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3-activities" value="• 安全编码规范&#xa;• 静态代码扫描 (SAST)&#xa;• 代码审查" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1552" y="336" width="296" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3-output" value="[产出] 安全代码" style="text;fontSize=14;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1552" y="424" width="136" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1992" y="256" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1984" y="256" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1984" y="256" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4-number" value="4" style="ellipse;fillColor=#FFFFFF;strokeColor=NONE;fontColor=#0066FF;fontSize=36;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="2002" y="261" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4-title" value="安全测试 Testing" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="2072" y="270" width="136" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4-activities" value="• 动态扫描 (DAST)&#xa;• 渗透测试 (PenTest)&#xa;• 安全回归测试" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="2016" y="336" width="320" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4-output" value="[产出] 安全测试报告" style="text;fontSize=14;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="2016" y="416" width="168" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="phase5-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="2920" y="259" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="phase5-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="2920" y="259" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="phase5-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="2920" y="259" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="phase5-number" value="5" style="ellipse;fillColor=#FFFFFF;strokeColor=NONE;fontColor=#0066FF;fontSize=36;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="2936" y="264" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="phase5-title" value="部署发布 Deployment" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="3008" y="273" width="176" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="phase5-activities" value="• 配置安全基线&#xa;• 镜像扫描&#xa;• 安全门禁" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="2944" y="339" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="phase5-output" value="[产出] 生产环境部署" style="text;fontSize=14;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="2944" y="419" width="136" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="phase6-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="2456" y="259" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="phase6-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="2456" y="259" width="380" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="phase6-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="2456" y="259" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="phase6-number" value="6" style="ellipse;fillColor=#FFFFFF;strokeColor=NONE;fontColor=#0066FF;fontSize=36;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="2472" y="264" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="phase6-title" value="运营维护 Operations" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="2544" y="273" width="168" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="phase6-activities" value="• 漏洞管理&#xa;• 安全监控 (RASP/WAF)&#xa;• 应急响应" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="2488" y="339" width="256" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="phase6-output" value="[产出] 安全运营报告" style="text;fontSize=14;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="2488" y="419" width="136" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-continuous" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;持续迭代 Continuous&lt;/font&gt;" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#0066FF;dashed=1;fontSize=16;fontColor=#0066FF;;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;edgeStyle=elbowEdgeStyle;startArrow=classic;startFill=1;elbow=vertical;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="phase5-activities" edge="1">
+          <mxGeometry x="0.0052" relative="1" as="geometry">
+            <mxPoint x="3152" y="760" as="sourcePoint" />
+            <mxPoint x="760" y="464" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1928" y="544" />
+            </Array>
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="automation-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1384" y="628" width="380" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="automation-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1376" y="620" width="380" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="automation-title" value="安全自动化工具链" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="644" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="automation-tools" value="• SAST: SonarQube, Checkmarx&#xa;• DAST: OWASP ZAP, Burp Suite&#xa;• SCA: Snyk, Dependabot&#xa;• Secret Scan: GitGuardian&#xa;• IAST: Contrast, Seeker&#xa;• RASP: Imperva, CloudFlare&#xa;• WAF: ModSecurity, AWS WAF" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="1408" y="692" width="264" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dB74ZeKJrA10Dk1Ca__4-1" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1928" y="360.5" as="sourcePoint" />
+            <mxPoint x="1968" y="360.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dB74ZeKJrA10Dk1Ca__4-3" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2392" y="363.5" as="sourcePoint" />
+            <mxPoint x="2432" y="363.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dB74ZeKJrA10Dk1Ca__4-4" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2856" y="363.57" as="sourcePoint" />
+            <mxPoint x="2896" y="363.57" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dB74ZeKJrA10Dk1Ca__4-6" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="2076" y="628" width="380" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="dB74ZeKJrA10Dk1Ca__4-7" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="2068" y="620" width="380" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="dB74ZeKJrA10Dk1Ca__4-8" value="SDL/SSDLC 成熟度模型参考" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="2092" y="644" width="336" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="dB74ZeKJrA10Dk1Ca__4-9" value="• Microsoft SDL&#xa;• OWASP SAMM&#xa;• BSIMM&#xa;• NIST SSDF&#xa;• ISO/IEC 27034" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="2100" y="692" width="312" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

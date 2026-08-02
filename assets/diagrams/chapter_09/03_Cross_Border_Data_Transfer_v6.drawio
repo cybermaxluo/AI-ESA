@@ -1,0 +1,109 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Cross-Border Data Transfer V6" id="cross-border-transfer-v6">
+    <mxGraphModel dx="1693" dy="1019" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="跨境数据传输合规" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="80" y="40" width="1760" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Cross-Border Data Transfer Compliance - Mechanisms, Assessment, Localization" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="80" y="100" width="1760" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mech-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="84" y="154" width="1766" height="236" as="geometry" />
+        </mxCell>
+        <mxCell id="mech-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="150" width="1756" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="mech-title" value="GDPR 数据传输机制 Transfer Mechanisms" style="text;fontSize=32;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="120" y="166" width="1680" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mech1-title" value="1. 充分性认定 Adequacy" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="120" y="220" width="380" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="mech1-items" value="• EU委员会认定目标国保护水平充分&#xa;• 无需额外保障措施&#xa;• 已认定:EEA/UK/瑞士/日本/韩国/加拿大&#xa;• 美国:Data Privacy Framework(2023)" style="text;fontSize=13;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="120" y="250" width="380" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mech2-title" value="2. 标准合同条款 SCC" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="540" y="220" width="380" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="mech2-items" value="• EU委员会标准条款(2021版)&#xa;• 数据出口方与进口方签署&#xa;• 需补充TIA评估&#xa;• 最常用机制&#xa;• 模块化设计(C2C/C2P/P2P/P2C)" style="text;fontSize=13;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="540" y="250" width="380" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mech3-title" value="3. 约束性公司规则 BCR" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="960" y="220" width="380" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="mech3-items" value="• 跨国企业集团内部规则&#xa;• 需DPA批准(复杂流程)&#xa;• 一次性批准,长期有效&#xa;• 适用:微软/IBM/Apple等&#xa;• 成本高,但灵活性强" style="text;fontSize=13;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="960" y="250" width="380" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mech4-title" value="4. 特定豁免 Derogations" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1380" y="220" width="380" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="mech4-items" value="• 明确同意&#xa;• 合同履行必要&#xa;• 重要公共利益&#xa;• 法律诉讼/生命利益保护&#xa;• 仅限特殊情况,非常规" style="text;fontSize=13;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1380" y="250" width="380" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="china-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="84" y="408" width="1766" height="202" as="geometry" />
+        </mxCell>
+        <mxCell id="china-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="404" width="1756" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="china-title" value="中国数据出境要求 China Data Export Requirements" style="text;fontSize=28;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="120" y="420" width="1680" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="china-col1-title" value="适用场景" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="120" y="470" width="520" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="china-col1-items" value="1. 关键信息基础设施运营者(CIIO)&#xa;2. 处理个人信息&gt;100万人&#xa;3. 累计出境个人信息&gt;10万人&#xa;4. 累计出境敏感信息&gt;1万人" style="text;fontSize=13;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="120" y="500" width="520" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="china-col2-title" value="三种出境机制" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="680" y="470" width="500" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="china-col2-items" value="1. 安全评估(CAC网信办审查,CIIO必选)&#xa;2. 标准合同备案(官方标准合同+省级备案)&#xa;3. 专业机构认证(个人信息保护认证,待实施)" style="text;fontSize=13;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="680" y="500" width="500" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="china-col3-title" value="评估要点" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="470" width="540" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="china-col3-items" value="• 出境目的/范围/方式的合法性必要性&#xa;• 境外接收方处理能力与承诺&#xa;• 数据泄露风险及救济渠道&#xa;• 境外接收方所在国法律环境影响&#xa;• 个人信息主体权利保障措施" style="text;fontSize=13;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="500" width="540" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="tia-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="84" y="632" width="860" height="248" as="geometry" />
+        </mxCell>
+        <mxCell id="tia-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="628" width="860" height="248" as="geometry" />
+        </mxCell>
+        <mxCell id="tia-title" value="传输影响评估 TIA" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="120" y="644" width="780" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tia-subtitle" value="Transfer Impact Assessment (Schrems II)" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="120" y="676" width="780" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tia-items" value="评估步骤:&#xa;&#xa;1. 法律框架分析&#xa;• 目标国数据保护法律&#xa;• 政府访问数据权力(FISA 702/CLOUD Act)&#xa;• 司法救济途径&#xa;&#xa;2. 实践评估&#xa;• 历史上是否有政府访问案例&#xa;• 接收方是否会被强制提供数据" style="text;fontSize=13;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="120" y="704" width="290" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="local-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="984" y="632" width="856" height="248" as="geometry" />
+        </mxCell>
+        <mxCell id="local-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="980" y="628" width="856" height="248" as="geometry" />
+        </mxCell>
+        <mxCell id="local-title" value="数据本地化趋势" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="644" width="780" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="local-items" value="全球数据本地化要求:&#xa;&#xa;中国:CIIO数据境内存储,出境需评估&#xa;俄罗斯:公民数据境内存储,可境外备份&#xa;印度:支付数据本地化(RBI),敏感数据副本保留&#xa;欧盟:无绝对本地化,但严格出境限制&#xa;" style="text;fontSize=13;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="680" width="290" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="941czttFzAstYJAWIlml-1" value="3. 补充措施(如需)&#xa;• 技术:端到端加密/假名化&#xa;• 组织:审计权/透明度报告&#xa;• 合同:数据最小化条款&#xa;&#xa;4. 文档记录&#xa;• 完整评估报告/定期重新评估" style="text;fontSize=13;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="440" y="740" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="941czttFzAstYJAWIlml-2" value="架构影响:&#xa;• Multi-Region部署(AWS/Azure/GCP)&#xa;• Data Residency选项&#xa;• 边缘计算+本地处理&#xa;• 全球数据主权平台(Sovereign Cloud)&#xa;&#xa;实施策略:&#xa;• 数据分类(敏感vs非敏感)&#xa;• 区域化数据存储架构&#xa;• 跨境传输最小化&#xa;• 本地处理优先原则" style="text;fontSize=13;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="680" width="260" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,166 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="CI/CD Pipeline Security V6" id="cicd-pipeline-security-v6">
+    <mxGraphModel dx="2543" dy="1455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="background" value="" style="fillColor=#FAFBFC;strokeColor=NONE;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="CI/CD 管道安全" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="48" width="800" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="CI/CD Pipeline Security - Secure Build, Artifact Signing, Policy Enforcement" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="128" width="1200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="stage1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="208" width="280" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="stage1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="200" width="280" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="stage1-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="200" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="stage1-title" value="Source" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="208" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="stage1-item1" value="[Security Controls]" style="text;fontSize=20;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="96" y="272" width="244" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="stage1-items" value="• Git 签名提交&#xa;• Branch Protection&#xa;• Code Review (2人+)&#xa;• Pre-commit Hooks&#xa;• Secret Scanning&#xa;  - GitLeaks&#xa;  - TruffleHog&#xa;• Commit Signing (GPG)&#xa;&#xa;[Threats]&#xa;• 恶意代码注入&#xa;• 凭证泄露&#xa;• 未授权提交" style="text;fontSize=18;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="96" y="323" width="234" height="314" as="geometry" />
+        </mxCell>
+        <mxCell id="stage2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="400" y="208" width="280" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="stage2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="400" y="200" width="280" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="stage2-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="400" y="200" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="stage2-title" value="Build" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="400" y="208" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="stage2-item1" value="[Security Controls]" style="text;fontSize=20;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="416" y="272" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="stage2-items" value="• 隔离构建环境&#xa;• Ephemeral Runners&#xa;• 最小权限 Token&#xa;• SAST 扫描&#xa;  - SonarQube&#xa;  - Semgrep&#xa;• SCA 扫描&#xa;  - Snyk&#xa;  - Dependabot&#xa;• Build Provenance&#xa;• Reproducible Builds&#xa;&#xa;[Threats]&#xa;• Build 脚本注入&#xa;• Runner 污染&#xa;• 依赖投毒" style="text;fontSize=18;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="430" y="323" width="204" height="304" as="geometry" />
+        </mxCell>
+        <mxCell id="stage3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="720" y="208" width="280" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="stage3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="720" y="200" width="280" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="stage3-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="720" y="200" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="stage3-title" value="Test" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="720" y="208" width="280" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="stage3-item1" value="[Security Controls]" style="text;fontSize=20;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="736" y="272" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="stage3-items" value="• DAST 扫描&#xa;  - OWASP ZAP&#xa;  - Burp Suite&#xa;• Container 扫描&#xa;  - Trivy&#xa;  - Grype&#xa;• IaC 扫描&#xa;  - Checkov&#xa;  - Terrascan&#xa;• License 检查&#xa;• 安全测试自动化&#xa;&#xa;[Threats]&#xa;• 运行时漏洞&#xa;• 配置错误&#xa;• License 违规" style="text;fontSize=18;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="750" y="322" width="194" height="294" as="geometry" />
+        </mxCell>
+        <mxCell id="stage4-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="208" width="280" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="stage4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="200" width="280" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="stage4-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="200" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="stage4-title" value="Package" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="208" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="stage4-item1" value="[Security Controls]" style="text;fontSize=20;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1056" y="272" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="stage4-items" value="• Artifact 签名&#xa;  - Cosign&#xa;  - Sigstore&#xa;• SBOM 生成&#xa;  - Syft&#xa;  - CycloneDX&#xa;• Attestation&#xa;• Metadata 附加&#xa;• Private Registry&#xa;• 访问控制 (RBAC)&#xa;&#xa;[Threats]&#xa;• 镜像替换&#xa;• 中间人攻击&#xa;• 供应链劫持" style="text;fontSize=18;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="323" width="164" height="274" as="geometry" />
+        </mxCell>
+        <mxCell id="stage5-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="208" width="280" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="stage5-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="200" width="280" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="stage5-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="200" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="stage5-title" value="Deploy" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="208" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="stage5-item1" value="[Security Controls]" style="text;fontSize=20;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1376" y="272" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="stage5-items" value="• Admission Control&#xa;  - OPA/Gatekeeper&#xa;  - Kyverno&#xa;• 签名验证&#xa;• Policy 检查&#xa;  - SLSA Level&#xa;  - SBOM 存在&#xa;  - 漏洞阈值&#xa;• Deployment 审计&#xa;• Rollback 能力&#xa;&#xa;[Threats]&#xa;• 未授权部署&#xa;• Policy 绕过&#xa;• 配置漂移" style="text;fontSize=18;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="1390" y="322" width="194" height="284" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="480" as="sourcePoint" />
+            <mxPoint x="400" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="480" as="sourcePoint" />
+            <mxPoint x="720" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow3" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="480" as="sourcePoint" />
+            <mxPoint x="1040" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow4" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1320" y="480" as="sourcePoint" />
+            <mxPoint x="1360" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="stage6-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1680" y="208" width="160" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="stage6-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1680" y="200" width="160" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="stage6-title" value="Monitor" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;rotation=0;" parent="1" vertex="1">
+          <mxGeometry x="1710" y="205.5" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="stage6-items" value="• 审计日志&#xa;• 异常检测&#xa;• 告警通知&#xa;• 合规报告" style="text;fontSize=18;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;rotation=0;" parent="1" vertex="1">
+          <mxGeometry x="1696" y="420" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="note-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="800" width="1756" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="note-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="800" width="1760" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="note-title" value="[Best Practices]" style="text;fontSize=20;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="824" width="140" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="note-col1" value="最小权限:&#xa;• 使用临时 Token (OIDC)&#xa;• Runner 权限隔离&#xa;• Secrets 最小化暴露" style="text;fontSize=18;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="860" width="180" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="note-col2" value="签名验证:&#xa;• Commit + Artifact 全签名&#xa;• Sigstore 生态集成&#xa;• Policy 强制执行" style="text;fontSize=18;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="560" y="855" width="230" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="note-col3" value="可审计性:&#xa;• 完整构建日志&#xa;• Provenance 记录&#xa;• 追溯能力 (SBOM)" style="text;fontSize=18;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="855" width="200" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="note-col4" value="深度防御:&#xa;• 多层扫描&#xa;• 分段门禁&#xa;• 持续验证" style="text;fontSize=18;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="855" width="240" height="96" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,112 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="SLSA成熟度等级" id="slsa-maturity">
+    <mxGraphModel dx="2379" dy="1351" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bg" value="" style="fillColor=#FAFBFC;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="1752" height="944" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="SLSA供应链安全成熟度等级" style="text;fontSize=36;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="560" y="40" width="800" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Supply-chain Levels for Software Artifacts (SLSA) v1.0" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="610" y="95" width="700" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="level1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="80" y="180" width="368" height="372" as="geometry" />
+        </mxCell>
+        <mxCell id="level1-header" value="" style="rounded=1;fillColor=#94A3B8;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="80" y="180" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="level1-title" value="SLSA Level 1" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="80" y="180" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="level1-subtitle" value="Build - 基础构建溯源" style="text;fontSize=14;fontColor=#64748B;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="250" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="level1-content" value="要求:&#xa;• 构建过程自动化&#xa;• 生成构建溯源信息&#xa;• 溯源记录不可伪造&#xa;&#xa;溯源包含:&#xa;• 构建命令&#xa;• 时间戳&#xa;• Git Commit SHA&#xa;• 构建产物Hash&#xa;&#xa;示例工具:&#xa;• GitHub Actions&#xa;• GitLab CI/CD&#xa;• Jenkins Pipeline" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="102" y="280" width="298" height="248" as="geometry" />
+        </mxCell>
+        <mxCell id="level2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="480" y="180" width="368" height="372" as="geometry" />
+        </mxCell>
+        <mxCell id="level2-header" value="" style="rounded=1;fillColor=#3B82F6;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="480" y="180" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="level2-title" value="SLSA Level 2" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="480" y="180" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="level2-subtitle" value="Source - 受控源代码" style="text;fontSize=14;fontColor=#1E40AF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="480" y="250" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="level2-content" value="L1要求 +&#xa;• 版本控制系统&#xa;• 经过身份验证的历史&#xa;• 保留构建日志&#xa;&#xa;增强:&#xa;• Git签名提交&#xa;• Branch保护规则&#xa;• Code Review记录&#xa;• 构建环境不可变&#xa;&#xa;示例工具:&#xa;• GitHub (Protected Branches)&#xa;• GitLab (Merge Controls)&#xa;• in-toto Attestation" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="504" y="280" width="300" height="258" as="geometry" />
+        </mxCell>
+        <mxCell id="level3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="880" y="180" width="368" height="364" as="geometry" />
+        </mxCell>
+        <mxCell id="level3-header" value="" style="rounded=1;fillColor=#F59E0B;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="880" y="180" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="level3-title" value="SLSA Level 3" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="880" y="180" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="level3-subtitle" value="Build - 强化构建平台" style="text;fontSize=14;fontColor=#92400E;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="880" y="250" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="level3-content" value="L2要求 +&#xa;• 构建服务托管&#xa;• 构建环境隔离&#xa;• 溯源由服务生成&#xa;&#xa;增强:&#xa;• 临时构建环境&#xa;• 无管理员权限&#xa;• 密钥由平台管理&#xa;• 双人审批机制&#xa;&#xa;示例工具:&#xa;• GitHub Hosted Runners&#xa;• Google Cloud Build&#xa;• Sigstore Fulcio/Rekor" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="900" y="280" width="324" height="256" as="geometry" />
+        </mxCell>
+        <mxCell id="level4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="180" width="368" height="364" as="geometry" />
+        </mxCell>
+        <mxCell id="level4-header" value="" style="rounded=1;fillColor=#EF4444;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="180" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="level4-title" value="SLSA Level 4" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="180" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="level4-subtitle" value="Common - 双人审查" style="text;fontSize=14;fontColor=#991B1B;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="250" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="level4-content" value="L3要求 +&#xa;• 所有变更双人审查&#xa;• 审查记录不可伪造&#xa;• 不允许单人推送&#xa;&#xa;增强:&#xa;• 强制Code Review&#xa;• 审查者≥2人&#xa;• 审查日志公开可查&#xa;• 自动化合规检查&#xa;&#xa;示例实践:&#xa;• CODEOWNERS强制审查&#xa;• Sigstore透明日志&#xa;• Reproducible Builds" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="280" width="316" height="256" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow1" value="" style="endArrow=blockThin;strokeColor=#6B7280;strokeWidth=4;endSize=12;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="350" as="sourcePoint" />
+            <mxPoint x="480" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow2" value="" style="endArrow=blockThin;strokeColor=#6B7280;strokeWidth=4;endSize=12;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="350" as="sourcePoint" />
+            <mxPoint x="880" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow3" value="" style="endArrow=blockThin;strokeColor=#6B7280;strokeWidth=4;endSize=12;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="350" as="sourcePoint" />
+            <mxPoint x="1280" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tracks-box" value="" style="rounded=1;fillColor=#F0F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=6;" parent="1" vertex="1">
+          <mxGeometry x="80" y="570" width="1576" height="254" as="geometry" />
+        </mxCell>
+        <mxCell id="tracks-title" value="SLSA评估维度 (Tracks)" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="585" width="1560" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tracks-content" value="Build Track (构建轨迹): 评估构建过程的完整性和可重现性&#xa;• L1: 脚本化构建 | L2: 构建服务 | L3: 硬化构建平台 | L4: 隔离构建环境&#xa;&#xa;Source Track (源代码轨迹): 评估源代码的可信性和可追溯性&#xa;• L1: 版本控制 | L2: 历史保留 | L3: 保留溯源 | L4: 双人审查 + 不可伪造历史" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="102" y="630" width="464" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-text" value="官方资源: slsa.dev | 工具集成: Sigstore (Cosign/Fulcio/Rekor) | in-toto (Attestation) | GUAC (图谱分析)" style="text;fontSize=16;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="80" y="832" width="1560" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JAHWqRIAif0dud5sV-QG-1" value="Provenance Track (溯源轨迹): 评估溯源信息的完整性和可验证性&#xa;• L1: 可用溯源 | L2: 托管溯源 | L3: 不可伪造 | L4: 依赖完整性&#xa;&#xa;Common Requirements (通用要求): 所有等级共同遵守的安全基线&#xa;• 安全发布流程 | 事件响应计划 | 漏洞披露政策 | SBOM生成" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="748" y="634" width="424" height="106" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

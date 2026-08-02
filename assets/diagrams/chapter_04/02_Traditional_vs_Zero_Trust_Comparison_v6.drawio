@@ -1,0 +1,199 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="传统架构vs零信任对比-V6" id="traditional-vs-zerotrust-v6">
+    <mxGraphModel dx="3260" dy="1693" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title-bg" value="" style="rounded=1;fillColor=#F8F9FA;strokeColor=NONE;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="68" width="1760" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="传统边界架构 vs 零信任架构对比" style="text;fontSize=48;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="68" y="16" width="1760" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="title-en" value="Traditional Perimeter vs Zero Trust Architecture" style="text;fontSize=20;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="68" y="72" width="1760" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="vs-outer-shadow" value="" style="ellipse;fillColor=#E5E7EB;strokeColor=NONE;" parent="1" vertex="1">
+          <mxGeometry x="860" y="496" width="176" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="vs-outer" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=4;" parent="1" vertex="1">
+          <mxGeometry x="852" y="488" width="176" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="vs-inner" value="" style="ellipse;fillColor=#0066FF;strokeColor=NONE;" parent="1" vertex="1">
+          <mxGeometry x="884" y="520" width="112" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="vs-text" value="VS" style="text;fontSize=56;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="884" y="540" width="112" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="left-container-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="76" y="168" width="720" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="left-container" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E74C3C;strokeWidth=4;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="68" y="160" width="720" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="left-header-bg" value="" style="rounded=1;fillColor=#E74C3C;strokeColor=NONE;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="64" y="152" width="728" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="left-title" value="传统边界模型" style="text;fontSize=40;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="172" y="176" width="400" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="left-subtitle" value="Castle-and-Moat Security" style="text;fontSize=18;fontColor=#FFFFFF;fontFamily=Inter;align=left;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="172" y="216" width="400" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="left-firewall-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="236" y="296" width="384" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="left-firewall-bg" value="" style="rounded=1;fillColor=#E74C3C;strokeColor=#C0392B;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="228" y="288" width="384" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="left-firewall-text" value="防火墙边界" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="228" y="296" width="384" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="left-firewall-en" value="Firewall Perimeter" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=center;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="228" y="328" width="384" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="left-zone-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="116" y="416" width="640" height="464" as="geometry" />
+        </mxCell>
+        <mxCell id="left-zone-bg" value="" style="rounded=1;fillColor=#FCE4EC;strokeColor=#E74C3C;strokeWidth=3;arcSize=12;dashed=1;dashPattern=12 12;" parent="1" vertex="1">
+          <mxGeometry x="108" y="408" width="640" height="464" as="geometry" />
+        </mxCell>
+        <mxCell id="left-zone-label" value="可信内网 Trusted Internal Network" style="text;fontSize=24;fontStyle=1;fontColor=#E74C3C;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="108" y="424" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="left-feature1-icon" value="" style="text;fontSize=28;align=center;" parent="1" vertex="1">
+          <mxGeometry x="140" y="496" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="left-feature1" value="内部流量默认信任" style="text;fontSize=20;fontColor=#C0392B;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="196" y="500" width="520" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="left-feature2-icon" value="" style="text;fontSize=28;align=center;" parent="1" vertex="1">
+          <mxGeometry x="140" y="560" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="left-feature2" value="访问控制粗粒度" style="text;fontSize=20;fontColor=#C0392B;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="196" y="564" width="520" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="left-feature3-icon" value="" style="text;fontSize=28;align=center;" parent="1" vertex="1">
+          <mxGeometry x="140" y="624" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="left-feature3" value="横向移动风险高" style="text;fontSize=20;fontColor=#C0392B;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="196" y="628" width="520" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="left-feature4-icon" value="" style="text;fontSize=28;align=center;" parent="1" vertex="1">
+          <mxGeometry x="140" y="688" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="left-feature4" value="缺乏持续验证机制" style="text;fontSize=20;fontColor=#C0392B;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="196" y="692" width="520" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="left-feature5-icon" value="" style="text;fontSize=28;align=center;" parent="1" vertex="1">
+          <mxGeometry x="140" y="752" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="left-feature5" value="难以应对内部威胁" style="text;fontSize=20;fontColor=#C0392B;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="196" y="756" width="520" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="left-feature6-icon" value="" style="text;fontSize=28;align=center;" parent="1" vertex="1">
+          <mxGeometry x="140" y="816" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="left-feature6" value="VPN成为单点失败" style="text;fontSize=20;fontColor=#C0392B;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="196" y="820" width="520" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="right-container-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1116" y="168" width="720" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="right-container" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#34A853;strokeWidth=4;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1108" y="160" width="720" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="right-header-bg" value="" style="rounded=1;fillColor=#34A853;strokeColor=NONE;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1102" y="152" width="728" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="right-title" value="零信任模型" style="text;fontSize=40;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1212" y="176" width="400" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="right-subtitle" value="Zero Trust Security Model" style="text;fontSize=18;fontColor=#FFFFFF;fontFamily=Inter;align=left;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="1212" y="216" width="400" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="right-pep-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1276" y="296" width="384" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="right-pep-bg" value="" style="rounded=1;fillColor=#34A853;strokeColor=#27AE60;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1268" y="288" width="384" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="right-pep-text" value="策略执行点" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1268" y="296" width="384" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="right-pep-en" value="Policy Enforcement Point" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=center;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="1268" y="328" width="384" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="right-zone-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1156" y="416" width="640" height="464" as="geometry" />
+        </mxCell>
+        <mxCell id="right-zone-bg" value="" style="rounded=1;fillColor=#E8F5E9;strokeColor=#34A853;strokeWidth=3;arcSize=12;dashed=1;dashPattern=12 12;" parent="1" vertex="1">
+          <mxGeometry x="1148" y="408" width="640" height="464" as="geometry" />
+        </mxCell>
+        <mxCell id="right-zone-label" value="零信任网络 Zero Trust Network" style="text;fontSize=24;fontStyle=1;fontColor=#34A853;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1148" y="424" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="right-feature1-icon" value="" style="text;fontSize=28;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="496" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="right-feature1" value="显式验证每个请求" style="text;fontSize=20;fontColor=#27AE60;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1236" y="500" width="520" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="right-feature2-icon" value="" style="text;fontSize=28;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="560" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="right-feature2" value="最小权限动态授权" style="text;fontSize=20;fontColor=#27AE60;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1236" y="564" width="520" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="right-feature3-icon" value="" style="text;fontSize=28;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="624" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="right-feature3" value="微隔离防横向移动" style="text;fontSize=20;fontColor=#27AE60;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1236" y="628" width="520" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="right-feature4-icon" value="" style="text;fontSize=28;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="688" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="right-feature4" value="持续信任评估" style="text;fontSize=20;fontColor=#27AE60;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1236" y="692" width="520" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="right-feature5-icon" value="" style="text;fontSize=28;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="752" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="right-feature5" value="假设已被突破防御" style="text;fontSize=20;fontColor=#27AE60;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1236" y="756" width="520" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="right-feature6-icon" value="" style="text;fontSize=28;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="816" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="right-feature6" value="设备信任 + 多因素认证" style="text;fontSize=20;fontColor=#27AE60;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1236" y="820" width="520" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="76" y="1080" width="1760" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-bg" value="" style="rounded=1;fillColor=#F8F9FA;strokeColor=#E0E0E0;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="76" y="1072" width="1760" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-left-bg" value="" style="rounded=1;fillColor=#FCE4EC;strokeColor=NONE;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="84" y="968" width="792" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-left-title" value="传统原则" style="text;fontSize=20;fontStyle=1;fontColor=#E74C3C;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="84" y="976" width="792" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-left-text" value="&quot;信任但验证&quot; Trust but Verify → 内网默认可信" style="text;fontSize=18;fontColor=#C0392B;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="84" y="1008" width="792" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-right-bg" value="" style="rounded=1;fillColor=#E8F5E9;strokeColor=NONE;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="968" width="792" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-right-title" value="零信任原则" style="text;fontSize=20;fontStyle=1;fontColor=#34A853;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="976" width="792" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-right-text" value="&quot;永不信任,始终验证&quot; Never Trust, Always Verify" style="text;fontSize=18;fontColor=#27AE60;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="1008" width="792" height="24" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

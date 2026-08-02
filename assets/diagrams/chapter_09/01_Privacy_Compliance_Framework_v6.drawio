@@ -1,0 +1,136 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Privacy Compliance Framework V6" id="privacy-compliance-v6">
+    <mxGraphModel dx="2241" dy="1206" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="隐私合规框架" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="80" y="40" width="1760" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Privacy Compliance Framework - GDPR, CCPA, PIPL and Global Standards" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="80" y="100" width="1760" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reg1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="84" y="174" width="560" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="reg1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="170" width="560" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="reg1-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="170" width="560" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="reg1-number" value="1" style="ellipse;fillColor=#FFFFFF;strokeColor=none;fontColor=#0066FF;fontSize=32;fontStyle=1;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="96" y="176" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="reg1-title" value="GDPR" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="156" y="176" width="180" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="reg1-subtitle" value="EU General Data Protection" style="text;fontSize=16;fontColor=#E0E7FF;fontFamily=Inter;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="350" y="184" width="270" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="reg1-items" value="适用: EU公民/全球域外效力&#xa;&#xa;核心原则:&#xa;• 合法/公平/透明&#xa;• 目的限制/数据最小化&#xa;&#xa;关键权利:&#xa;• 访问权/删除权&#xa;• 携带权/反对权&#xa;&#xa;罚则: 营收4%或€20M" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="100" y="226" width="520" height="198" as="geometry" />
+        </mxCell>
+        <mxCell id="reg2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="684" y="174" width="560" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="reg2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="680" y="170" width="560" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="reg2-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="680" y="170" width="560" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="reg2-number" value="2" style="ellipse;fillColor=#FFFFFF;strokeColor=none;fontColor=#0066FF;fontSize=32;fontStyle=1;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="696" y="176" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="reg2-title" value="CCPA/CPRA" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="756" y="176" width="240" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="reg2-subtitle" value="California Consumer Privacy" style="text;fontSize=16;fontColor=#E0E7FF;fontFamily=Inter;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="184" width="210" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="reg2-items" value="适用: CA居民/营收&gt;$25M&#xa;&#xa;消费者权利:&#xa;• 知情权/删除权&#xa;• 退出销售权/不歧视权&#xa;&#xa;CPRA增强(2023):&#xa;• 敏感信息(SPI)限制&#xa;• 数据最小化/CPPA&#xa;&#xa;罚则: $7,500/次(故意)" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="704" y="230" width="520" height="198" as="geometry" />
+        </mxCell>
+        <mxCell id="reg3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1284" y="174" width="560" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="reg3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="170" width="560" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="reg3-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="170" width="560" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="reg3-number" value="3" style="ellipse;fillColor=#FFFFFF;strokeColor=none;fontColor=#0066FF;fontSize=32;fontStyle=1;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1296" y="176" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="reg3-title" value="PIPL 个保法" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1356" y="176" width="240" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="reg3-subtitle" value="2021.11.1生效" style="text;fontSize=16;fontColor=#E0E7FF;fontFamily=Inter;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1610" y="184" width="210" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="reg3-items" value="适用: 境内中国居民&#xa;&#xa;关键要求:&#xa;• 明示同意/单独同意&#xa;• 出境安全评估&#xa;• 影响评估(PIA)&#xa;&#xa;个人权利:&#xa;• 知情权/决定权&#xa;• 查询/复制/更正/删除&#xa;&#xa;罚则: ¥50M或营收5%" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="230" width="520" height="198" as="geometry" />
+        </mxCell>
+        <mxCell id="comp-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="84" y="478" width="1756" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="comp-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="474" width="1756" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="comp-title" value="隐私计划核心组件 Privacy Program Components" style="text;fontSize=32;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="120" y="490" width="1680" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="comp-col1-title" value="1. 隐私政策与通知" style="text;fontSize=18;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="120" y="550" width="380" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="comp-col1-items" value="• 透明隐私声明&#xa;• Cookie横幅通知&#xa;• 分层隐私通知&#xa;• 多语言支持" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="120" y="582" width="380" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="comp-col2-title" value="2. 同意管理 CMP" style="text;fontSize=18;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="540" y="550" width="380" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="comp-col2-items" value="• 细粒度同意选择&#xa;• Opt-in/Opt-out&#xa;• 同意记录可审计&#xa;• OneTrust/Cookiebot" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="540" y="582" width="380" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="comp-col3-title" value="3. 数据主体权利 DSR" style="text;fontSize=18;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="960" y="550" width="380" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="comp-col3-items" value="• 30天响应流程&#xa;• 身份验证机制&#xa;• 数据导出工具&#xa;• 自动化删除" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="960" y="582" width="380" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="comp-col4-title" value="4. 影响评估 PIA/DPIA" style="text;fontSize=18;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1380" y="550" width="380" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="comp-col4-items" value="• 高风险处理评估&#xa;• 自动化决策评估&#xa;• 第三方处理评估&#xa;• 持续监控更新" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1380" y="582" width="380" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="tech-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="84" y="722" width="866" height="228" as="geometry" />
+        </mxCell>
+        <mxCell id="tech-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="718" width="860" height="222" as="geometry" />
+        </mxCell>
+        <mxCell id="tech-title" value="技术控制措施" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="120" y="734" width="780" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tech-items" value="1. 隐私增强技术(PETs)&#xa;   • 差分隐私/同态加密/MPC&#xa;&#xa;2. 匿名化与假名化&#xa;   • K-anonymity/L-diversity&#xa;   • 数据脱敏/去标识化&#xa;&#xa;3. 隐私设计(Privacy by Design)&#xa;   • 默认隐私/端到端保护" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="120" y="770" width="780" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="org-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="984" y="722" width="866" height="228" as="geometry" />
+        </mxCell>
+        <mxCell id="org-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="980" y="718" width="860" height="222" as="geometry" />
+        </mxCell>
+        <mxCell id="org-title" value="组织与责任" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="734" width="780" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="org-items" value="DPO(数据保护官):&#xa;• 独立性与专业性/向高层报告&#xa;• 监督合规/与监管机构联络&#xa;&#xa;Privacy Office(隐私办公室):&#xa;• 跨职能协调(法务/IT/业务)&#xa;• 隐私培训/供应商评估/事件响应&#xa;&#xa;问责机制: 治理委员会/定期审计/绩效考核" style="text;fontSize=14;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="770" width="780" height="106" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

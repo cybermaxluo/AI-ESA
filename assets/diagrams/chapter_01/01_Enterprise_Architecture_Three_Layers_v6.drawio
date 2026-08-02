@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" modified="2025-01-01T00:00:00.000Z" agent="Claude Code" version="24.0.0">
+  <diagram name="企业架构三层体系" id="enterprise-arch-3layers">
+    <mxGraphModel dx="1920" dy="1080" grid="1" gridSize="80" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        
+        <mxCell id="bg" value="" style="fillColor=#FAFBFC;strokeColor=NONE;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="title" value="企业架构三层体系 Enterprise Architecture Three Layers" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="160" y="72" width="1600" height="120" as="geometry" />
+        </mxCell>
+
+        <mxCell id="subtitle" value="战略层定义WHY(为什么) → 规划层设计WHAT(做什么) → 落地层执行HOW(怎么做)" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="160" y="160" width="1600" height="60" as="geometry" />
+        </mxCell>
+
+        
+        
+        <mxCell id="strategy-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="160" y="288" width="1600" height="200" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="strategy-card" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="160" y="280" width="1600" height="200" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="strategy-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="160" y="280" width="1600" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="strategy-title" value="战略层 Strategy Layer" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="200" y="288" width="500" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="strategy-why" value="WHY - 为什么做?" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=right;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="296" width="200" height="60" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="strategy-item1" value="明确业务目标与方向" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="240" y="368" width="280" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="strategy-item2" value="制定企业战略" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="600" y="368" width="280" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="strategy-item3" value="业务愿景" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="960" y="368" width="280" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="strategy-item4" value="核心目标" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="368" width="280" height="25" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="strategy-sub1" value="Business Direction" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="240" y="408" width="280" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="strategy-sub2" value="Enterprise Strategy" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="600" y="408" width="280" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="strategy-sub3" value="Business Vision" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="960" y="408" width="280" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="strategy-sub4" value="Core Objectives" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="408" width="280" height="50" as="geometry" />
+        </mxCell>
+
+        
+        
+        <mxCell id="planning-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="160" y="528" width="1600" height="200" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="planning-card" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="160" y="520" width="1600" height="200" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="planning-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="160" y="520" width="1600" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="planning-title" value="规划层 Planning Layer" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="200" y="528" width="500" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="planning-what" value="WHAT - 做什么?" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=right;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="536" width="200" height="60" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="planning-item1" value="将战略转化为架构方案" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="240" y="608" width="280" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="planning-item2" value="业务架构设计" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="600" y="608" width="280" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="planning-item3" value="IT架构设计" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="960" y="608" width="280" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="planning-item4" value="安全架构设计" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="608" width="280" height="60" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="planning-sub1" value="Architecture Blueprint" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="240" y="648" width="280" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="planning-sub2" value="Business Architecture" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="600" y="648" width="280" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="planning-sub3" value="IT Architecture" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="960" y="648" width="280" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="planning-sub4" value="Security Architecture" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=center;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="648" width="280" height="50" as="geometry" />
+        </mxCell>
+
+        
+        
+        <mxCell id="impl-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="160" y="768" width="1600" height="200" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="impl-card" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="160" y="760" width="1600" height="200" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="impl-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="160" y="760" width="1600" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="impl-title" value="落地层 Implementation Layer" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="200" y="768" width="600" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="impl-how" value="HOW - 怎么做?" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=right;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="776" width="200" height="60" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="impl-item1" value="推动架构方案落地执行" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="240" y="848" width="280" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="impl-item2" value="IT系统开发" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="600" y="848" width="280" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="impl-item3" value="产品交付" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="960" y="848" width="280" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="impl-item4" value="运维运营" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="848" width="280" height="25" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="impl-sub1" value="Implementation" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="240" y="888" width="280" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="impl-sub2" value="IT Development" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="600" y="888" width="280" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="impl-sub3" value="Product Delivery" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="960" y="888" width="280" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="impl-sub4" value="Operations" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="888" width="280" height="50" as="geometry" />
+        </mxCell>
+
+        
+        
+        <mxCell id="arrow1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0066FF;strokeWidth=3;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="480" as="sourcePoint" />
+            <mxPoint x="380" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0066FF;strokeWidth=3;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="480" as="sourcePoint" />
+            <mxPoint x="740" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0066FF;strokeWidth=3;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="480" as="sourcePoint" />
+            <mxPoint x="1100" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0066FF;strokeWidth=3;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1460" y="480" as="sourcePoint" />
+            <mxPoint x="1460" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        
+        <mxCell id="arrow5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0066FF;strokeWidth=3;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="720" as="sourcePoint" />
+            <mxPoint x="380" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0066FF;strokeWidth=3;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="720" as="sourcePoint" />
+            <mxPoint x="740" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0066FF;strokeWidth=3;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="720" as="sourcePoint" />
+            <mxPoint x="1100" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0066FF;strokeWidth=3;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1460" y="720" as="sourcePoint" />
+            <mxPoint x="1460" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        
+        <mxCell id="label-strategy" value="战略指导" style="text;fontSize=16;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="488" width="80" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="label-execution" value="方案落地" style="text;fontSize=16;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="728" width="80" height="25" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="footer-note" value="[Note] 安全架构横跨三层：战略层定义安全目标和风险偏好 → 规划层设计安全控制和架构蓝图 → 落地层通过SDL和DevSecOps实施" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1000" width="1600" height="60" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

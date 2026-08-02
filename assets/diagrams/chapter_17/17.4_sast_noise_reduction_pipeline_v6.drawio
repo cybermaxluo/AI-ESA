@@ -1,0 +1,250 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="SAST Noise Reduction Pipeline V6" id="sast-noise-reduction-pipeline-v6">
+    <mxGraphModel dx="2370" dy="1464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="background" value="" style="fillColor=#FAFBFC;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="SAST 多层告警降噪管道" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="30" width="700" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Multi-Layer SAST Alert Noise Reduction Pipeline - 80% False Positive Filtering" style="text;fontSize=20;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="90" width="900" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="input-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="84" y="144" width="1752" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="input-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="140" width="1752" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="input-title" value="SAST 扫描工具输入" style="text;fontSize=20;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="110" y="160" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="input-tools" value="Fortify | Checkmarx | SonarQube | Semgrep | CodeQL | Xcheck" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="330" y="165" width="600" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="input-count" value="原始告警量: 1,000+ 条/日" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=right;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="165" width="400" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;strokeColor=#0066FF;strokeWidth=4;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="960" y="230" as="sourcePoint" />
+            <mxPoint x="960" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="layer1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="84" y="264" width="1752" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="260" width="1752" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-num" value="" style="ellipse;fillColor=#0066FF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="110" y="280" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-num-text" value="1" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="110" y="290" width="50" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-title" value="规则引擎过滤 Rule Filter" style="text;fontSize=22;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="180" y="285" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-latency" value="延迟 &lt; 1ms" style="text;fontSize=14;fontColor=#059669;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="180" y="318" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-item1" value="测试代码排除 (test/, spec/, mock/)" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="110" y="355" width="400" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-item2" value="已知误报白名单" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="520" y="355" width="300" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-item3" value="安全框架识别 (Spring Security)" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="830" y="355" width="350" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-item4" value="重复告警去重" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="355" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-result" value="" style="rounded=1;fillColor=#ECFDF5;strokeColor=#059669;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="280" width="300" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-result-title" value="过滤效果: 30-40%" style="text;fontSize=18;fontStyle=1;fontColor=#059669;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="305" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-result-count" value="剩余 ~650 条" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="340" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;strokeColor=#0066FF;strokeWidth=4;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="960" y="410" as="sourcePoint" />
+            <mxPoint x="960" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="layer2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="84" y="444" width="1752" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="440" width="1752" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-num" value="" style="ellipse;fillColor=#0066FF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="110" y="460" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-num-text" value="2" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="110" y="470" width="50" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-title" value="ML 分类器 ML Classification" style="text;fontSize=22;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="180" y="465" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-latency" value="延迟 &lt; 10ms" style="text;fontSize=14;fontColor=#059669;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="180" y="498" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-item1" value="代码特征提取 (复杂度/深度/类型)" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="110" y="535" width="450" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-item2" value="模型: XGBoost/LightGBM 分类" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="570" y="535" width="280" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-item3" value="误报概率评分 (0-1)" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="860" y="535" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-item4" value="历史标注学习" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="535" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-result" value="" style="rounded=1;fillColor=#ECFDF5;strokeColor=#059669;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="460" width="300" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-result-title" value="过滤效果: 20-30%" style="text;fontSize=18;fontStyle=1;fontColor=#059669;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="485" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-result-count" value="剩余 ~450 条" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="520" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow3" value="" style="endArrow=classic;html=1;strokeColor=#0066FF;strokeWidth=4;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="960" y="590" as="sourcePoint" />
+            <mxPoint x="960" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="layer3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="84" y="624" width="1752" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="620" width="1752" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-num" value="" style="ellipse;fillColor=#0066FF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="110" y="640" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-num-text" value="3" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="110" y="650" width="50" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-title" value="代码上下文分析 Code Context" style="text;fontSize=22;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="180" y="645" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-latency" value="延迟 &lt; 100ms" style="text;fontSize=14;fontColor=#059669;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="180" y="678" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-item1" value="抽象语法树 AST 解析" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="110" y="715" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-item2" value="数据流分析 (Taint Analysis)" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="370" y="715" width="300" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-item3" value="安全防护检测 (Sanitizer)" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="680" y="715" width="280" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-item4" value="控制流图分析 (CFG)" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="970" y="715" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-result" value="" style="rounded=1;fillColor=#ECFDF5;strokeColor=#059669;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="640" width="300" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-result-title" value="过滤效果: 10-20%" style="text;fontSize=18;fontStyle=1;fontColor=#059669;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="665" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-result-count" value="剩余 ~350 条" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="700" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow4" value="" style="endArrow=classic;html=1;strokeColor=#0066FF;strokeWidth=4;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="960" y="770" as="sourcePoint" />
+            <mxPoint x="960" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="layer4-shadow" value="" style="rounded=1;fillColor=#0052CC;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="84" y="804" width="1752" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=#0052CC;strokeWidth=3;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="800" width="1752" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-num" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="110" y="820" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-num-text" value="4" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="110" y="830" width="50" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-title" value="LLM 深度语义分析 LLM Deep Analysis" style="text;fontSize=22;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="180" y="825" width="450" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-latency" value="延迟 1-5s" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=left;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="180" y="858" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-item1" value="代码语义理解" style="text;fontSize=15;fontColor=#FFFFFF;fontFamily=Inter;align=left;opacity=95;" parent="1" vertex="1">
+          <mxGeometry x="110" y="895" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-item2" value="业务逻辑判断" style="text;fontSize=15;fontColor=#FFFFFF;fontFamily=Inter;align=left;opacity=95;" parent="1" vertex="1">
+          <mxGeometry x="370" y="895" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-item3" value="自动修复建议" style="text;fontSize=15;fontColor=#FFFFFF;fontFamily=Inter;align=left;opacity=95;" parent="1" vertex="1">
+          <mxGeometry x="600" y="895" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-item4" value="边缘案例处理 (10-20%)" style="text;fontSize=15;fontColor=#FFFFFF;fontFamily=Inter;align=left;opacity=95;" parent="1" vertex="1">
+          <mxGeometry x="830" y="895" width="300" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-result" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="815" width="300" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-result-title" value="过滤效果: 10-20%" style="text;fontSize=18;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="840" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-result-count" value="最终 ~200 条待处理" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="875" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="output-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="970" width="1752" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="output-title" value="输出分布:" style="text;fontSize=18;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="110" y="995" width="120" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="output1-bg" value="" style="rounded=1;fillColor=#DC2626;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="250" y="985" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="output1-text" value="真实漏洞 15%" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="250" y="985" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="output1-desc" value="P0/P1 优先修复" style="text;fontSize=13;fontColor=#FFFFFF;fontFamily=Inter;align=center;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="250" y="1010" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="output2-bg" value="" style="rounded=1;fillColor=#F59E0B;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="490" y="985" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="output2-text" value="待确认 5%" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="490" y="985" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="output2-desc" value="人工复核" style="text;fontSize=13;fontColor=#FFFFFF;fontFamily=Inter;align=center;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="490" y="1010" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="output3-bg" value="" style="rounded=1;fillColor=#059669;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="730" y="985" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="output3-text" value="误报过滤 80%" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="730" y="985" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="output3-desc" value="自动关闭" style="text;fontSize=13;fontColor=#FFFFFF;fontFamily=Inter;align=center;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="730" y="1010" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="output-value" value="效果: 漏洞发现率 +40% | 修复效率 +60% | 人工工作量 -70%" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=right;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="997" width="700" height="24" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

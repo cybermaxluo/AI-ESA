@@ -1,0 +1,349 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Security Leadership Framework V6 Redesign" id="security-leadership-v6-redesign">
+    <mxGraphModel dx="3027" dy="1658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="background" value="" style="fillColor=#FAFBFC;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="2400" height="1340" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="安全领导力框架" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="50" width="800" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Security Leadership Framework - Vision, Strategy, Culture, Metrics" style="text;fontSize=20;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="120" width="1400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="84" y="204" width="540" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="80" y="200" width="540" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar1-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="80" y="200" width="540" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-num-bg" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="110" y="215" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-num" value="1" style="text;fontSize=32;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="110" y="215" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar1-title" value="愿景与战略" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="180" y="208" width="250" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar1-subtitle" value="Vision &amp; Strategy" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=left;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="180" y="240" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar1-content" value="安全愿景:&#xa;• 业务赋能,而非阻碍&#xa;• 风险驱动,而非合规驱动&#xa;• 主动防御,而非被动响应&#xa;&#xa;战略目标 (3年):&#xa;• Zero Trust 架构实施&#xa;• 云安全成熟度 Level 4&#xa;• 安全自动化率 &gt; 70%&#xa;• MTTR &lt; 4小时&#xa;" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="110" y="290" width="210" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="644" y="204" width="540" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="640" y="200" width="540" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar2-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="640" y="200" width="540" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-num-bg" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="670" y="215" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-num" value="2" style="text;fontSize=32;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="670" y="215" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar2-title" value="团队建设" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="740" y="208" width="250" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar2-subtitle" value="Team Building" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=left;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="740" y="240" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar2-content" value="人才招聘:&#xa;• T型人才 (深度+广度)&#xa;• 多元化背景 (Dev/Net/Cloud)&#xa;• 文化契合度评估&#xa;&#xa;技能发展:&#xa;• 培训预算 (薪资10-15%)&#xa;• 认证路径 (CISSP, OSCP, AWS SA)&#xa;• 内部 Capture The Flag (CTF)&#xa;• 会议/社区参与&#xa;" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="670" y="290" width="220" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1204" y="204" width="540" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="200" width="540" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar3-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="200" width="540" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-num-bg" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="215" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-num" value="3" style="text;fontSize=32;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="215" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar3-title" value="文化塑造" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="208" width="250" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar3-subtitle" value="Culture Building" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=left;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="240" width="250" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar3-content" value="安全意识:&#xa;• 全员培训 (每季度)&#xa;• 模拟钓鱼演练&#xa;• 安全大使计划 (Champions)&#xa;&#xa;协作文化:&#xa;• 安全左移 (DevSecOps)&#xa;• 嵌入式安全工程师&#xa;• 无责文化 (Blameless Postmortem)&#xa;&#xa;" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="290" width="240" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar4-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1764" y="204" width="552" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1760" y="200" width="552" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar4-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1760" y="200" width="552" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-num-bg" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1790" y="215" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-num" value="4" style="text;fontSize=32;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1790" y="215" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar4-title" value="度量与沟通" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1860" y="208" width="280" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar4-subtitle" value="Metrics &amp; Communication" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=left;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="1860" y="240" width="280" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar4-content" value="关键指标:&#xa;• MTTD / MTTR&#xa;• 漏洞修复率&#xa;• 培训完成率&#xa;• 安全投资 ROI&#xa;&#xa;董事会汇报:&#xa;• 业务语言 (非技术)&#xa;• 风险量化 (财务影响)&#xa;• 对标行业基准" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1790" y="290" width="170" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="comp-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="84" y="604" width="2232" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="comp-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="80" y="600" width="2232" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="comp-title" value="核心领导能力 Core Leadership Competencies" style="text;fontSize=28;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="100" y="620" width="2100" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="comp1-num-bg" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="100" y="686" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="comp1-num" value="1" style="text;fontSize=18;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="100" y="686" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="comp1-title" value="战略思维 Strategic Thinking:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="145" y="690" width="485" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="comp1-content" value="• 风险与业务价值平衡&#xa;• 3-5年安全路线图规划&#xa;• 新兴威胁预判 (AI/量子计算)" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="130" y="716" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="comp2-num-bg" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="650" y="686" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="comp2-num" value="2" style="text;fontSize=18;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="650" y="686" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="comp2-title" value="沟通影响力 Communication:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="695" y="690" width="485" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="comp2-content" value="• 向上管理 (董事会/CEO)&#xa;• 平行协作 (CTO/CFO/CISO)&#xa;• 向下激励 (团队愿景传达)" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="680" y="716" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="comp3-num-bg" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="686" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="comp3-num" value="3" style="text;fontSize=18;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="686" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="comp3-title" value="危机管理 Crisis Management:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1245" y="690" width="485" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="comp3-content" value="• 重大事件指挥决策&#xa;• 对外沟通 (媒体/监管)&#xa;• 快速恢复与复盘" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="716" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="comp4-num-bg" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1750" y="686" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="comp4-num" value="4" style="text;fontSize=18;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1750" y="686" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="comp4-title" value="持续学习 Continuous Learning:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1795" y="690" width="497" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="comp4-content" value="• 技术前沿跟踪 (AI安全/零信任)&#xa;• 行业社区参与 (RSA/Black Hat)&#xa;• 导师制度 (Mentorship)" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1780" y="716" width="512" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="comp5-num-bg" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="100" y="796" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="comp5-num" value="5" style="text;fontSize=18;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="100" y="796" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="comp5-title" value="技术深度 Technical Depth:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="145" y="800" width="485" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="comp5-content" value="• 架构设计评审能力&#xa;• 威胁建模 (STRIDE/PASTA)&#xa;• 应急响应现场指导" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="130" y="826" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="comp6-num-bg" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="650" y="796" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="comp6-num" value="6" style="text;fontSize=18;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="650" y="796" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="comp6-title" value="商业洞察 Business Acumen:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="695" y="800" width="485" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="comp6-content" value="• 理解业务模式与增长驱动力&#xa;• ROI 分析与预算证明&#xa;• 安全作为竞争优势" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="680" y="826" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="comp7-num-bg" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="796" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="comp7-num" value="7" style="text;fontSize=18;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="796" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="comp7-title" value="人才发展 Talent Development:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1245" y="800" width="485" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="comp7-content" value="• 识别高潜人才 (High Potential)&#xa;• 个性化成长计划&#xa;• 建立人才梯队" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="826" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="comp8-num-bg" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1750" y="796" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="comp8-num" value="8" style="text;fontSize=18;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1750" y="796" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="comp8-title" value="变革管理 Change Management:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1795" y="800" width="497" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="comp8-content" value="• 推动组织文化转型&#xa;• 克服变革阻力&#xa;• 建立变革联盟" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1780" y="826" width="512" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="challenge-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="84" y="964" width="1116" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="challenge-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="80" y="960" width="1116" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="challenge-title" value="关键挑战 Key Challenges" style="text;fontSize=28;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="100" y="980" width="1000" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="ch1-num-bg" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="100" y="1036" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ch1-num" value="1" style="text;fontSize=18;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="100" y="1036" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ch1-title" value="资源约束:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="145" y="1040" width="320" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="ch1-content" value="• 预算有限 vs 无限威胁&#xa;• 人才短缺 (全球性问题)&#xa;• 工具碎片化" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="145" y="1066" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ch2-num-bg" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="100" y="1136" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ch2-num" value="2" style="text;fontSize=18;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="100" y="1136" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ch2-title" value="组织阻力:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="145" y="1140" width="320" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="ch2-content" value="• 安全被视为(成本中心)&#xa;• 业务速度 vs 安全控制冲突&#xa;• 影子IT / 安全绕过" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="145" y="1166" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="success-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1216" y="964" width="1096" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="success-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1212" y="960" width="1100" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="success-title" value="成功标志 Success Indicators" style="text;fontSize=28;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="980" width="1000" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="su1-num-bg" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1232" y="1036" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="su1-num" value="1" style="text;fontSize=18;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1232" y="1036" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="su1-title" value="业务成果:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1277" y="1040" width="238" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="su1-content" value="• 零重大安全事件 (P0/P1)&#xa;• 业务中断时间 &lt; 1小时/年&#xa;• 客户信任度提升 (NPS)" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1277" y="1066" width="238" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="su2-num-bg" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1232" y="1136" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="su2-num" value="2" style="text;fontSize=18;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1232" y="1136" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="su2-title" value="团队健康:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1277" y="1140" width="238" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="su2-content" value="• 员工留存率 &gt; 90%&#xa;• 团队满意度 &gt; 4.5/5&#xa;• 内部晋升率 &gt; 60%" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1277" y="1166" width="238" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" value="参考: CIS Critical Security Controls | NIST Cybersecurity Framework | Gartner CISO Leadership Framework 2024" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="1280" width="2200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8Zvqa6o8Ak2jmX3WFNl9-1" value="年度规划:&#xa;• Roadmap 对齐业务优先级&#xa;• 投资组合管理 (Portfolio)&#xa;• OKR 设定与追踪" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="330" y="290" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8Zvqa6o8Ak2jmX3WFNl9-2" value="保留与激励:&#xa;• 清晰的职业发展路径&#xa;• 技术专家 vs 管理双通道&#xa;• 竞争性薪酬 (市场75分位+)&#xa;• 工作生活平衡 (避免Burnout)" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="960" y="290" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="8Zvqa6o8Ak2jmX3WFNl9-3" value="持续改进:&#xa;• 红蓝对抗演练&#xa;• Bug Bounty 内部项目&#xa;• 经验分享会 (每月)&#xa;&#xa;透明度:&#xa;• 安全指标公开 (内部)&#xa;• 事件透明沟通" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1520" y="290" width="180" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="8Zvqa6o8Ak2jmX3WFNl9-4" value="利益相关方管理:&#xa;• 定期同步 (CTO/CIO)&#xa;• 业务安全评审&#xa;• 预算争取与证明" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="2092" y="290" width="188" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ch3-num-bg" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="560" y="1036" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ch3-num" value="3" style="text;fontSize=18;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="560" y="1036" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ch3-title" value="技术复杂性:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="605" y="1040" width="330" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="ch3-content" value="• 云/多云/混合环境&#xa;• 供应链风险扩大&#xa;• AI/ML 新攻击面" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="605" y="1066" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ch4-num-bg" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="560" y="1136" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ch4-num" value="4" style="text;fontSize=18;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="560" y="1136" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ch4-title" value="合规压力:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="605" y="1140" width="330" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="ch4-content" value="• 全球法规碎片化 (GDPR/CCPA/数据安全法)&#xa;• 审计疲劳&#xa;• 罚款风险" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="605" y="1166" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="su3-num-bg" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1660" y="1036" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="su3-num" value="3" style="text;fontSize=18;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1660" y="1036" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="su3-title" value="行业认可:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1705" y="1040" width="400" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="su3-content" value="• 行业奖项 (CSO50, SC Awards)&#xa;• 会议演讲邀请&#xa;• 最佳实践案例研究" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1705" y="1066" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="su4-num-bg" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1660" y="1136" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="su4-num" value="4" style="text;fontSize=18;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1660" y="1136" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="su4-title" value="组织影响:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1705" y="1140" width="400" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="su4-content" value="• 成为董事会信任顾问&#xa;• 安全作为产品卖点&#xa;• 推动行业标准制定" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1705" y="1166" width="400" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

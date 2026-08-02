@@ -1,0 +1,217 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Defense in Depth v6 Improved" id="defense-v6-improved">
+    <mxGraphModel dx="1580" dy="905" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title-bg" value="" style="rounded=1;fillColor=#F8F9FA;strokeColor=NONE;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="40" y="20" width="1840" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="title-main" value="纵深防御七层架构" style="text;fontSize=44;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="40" y="36" width="1840" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="title-sub" value="Defense in Depth - Seven Layer Security Architecture" style="text;fontSize=18;fontColor=#6B7280;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="36" y="100" width="1840" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="88" y="152" width="1752" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#FEE2E2;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="80" y="144" width="1752" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-header" value="" style="rounded=1;fillColor=#FEF2F2;strokeColor=NONE;arcSize=10;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="144" width="240" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-number" value="" style="ellipse;fillColor=#DC2626;strokeColor=NONE;" parent="1" vertex="1">
+          <mxGeometry x="104" y="168" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-num-text" value="1" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="104" y="168" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-title" value="物理安全" style="text;fontSize=24;fontStyle=1;fontColor=#991B1B;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="168" y="172" width="136" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-en" value="Physical" style="text;fontSize=14;fontColor=#B91C1C;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="168" y="208" width="136" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-desc" value="门禁系统  •  视频监控  •  机房管理  •  设备保险柜  •  物理访问控制" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="344" y="172" width="1464" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="168" y="280" width="1592" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#FED7AA;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="160" y="272" width="1592" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-header" value="" style="rounded=1;fillColor=#FFEDD5;strokeColor=NONE;arcSize=10;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="160" y="272" width="240" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-number" value="" style="ellipse;fillColor=#EA580C;strokeColor=NONE;" parent="1" vertex="1">
+          <mxGeometry x="184" y="296" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-num-text" value="2" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="184" y="296" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-title" value="边界安全" style="text;fontSize=24;fontStyle=1;fontColor=#9A3412;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="248" y="300" width="136" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-en" value="Perimeter" style="text;fontSize=14;fontColor=#C2410C;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="248" y="336" width="136" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-desc" value="防火墙  •  IPS/IDS入侵检测  •  DDoS防护  •  边界路由器  •  DMZ区域隔离" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="424" y="300" width="1304" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="248" y="408" width="1432" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#FDE68A;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="240" y="400" width="1432" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-header" value="" style="rounded=1;fillColor=#FEF3C7;strokeColor=NONE;arcSize=10;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="240" y="400" width="240" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-number" value="" style="ellipse;fillColor=#CA8A04;strokeColor=NONE;" parent="1" vertex="1">
+          <mxGeometry x="264" y="424" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-num-text" value="3" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="264" y="424" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-title" value="网络安全" style="text;fontSize=24;fontStyle=1;fontColor=#713F12;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="328" y="428" width="136" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-en" value="Network" style="text;fontSize=14;fontColor=#A16207;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="328" y="464" width="136" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-desc" value="VLAN分段  •  微隔离  •  VPN加密  •  网络访问控制NAC  •  Zero Trust Network" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="504" y="428" width="1144" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="328" y="536" width="1272" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#BBF7D0;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="320" y="528" width="1272" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-header" value="" style="rounded=1;fillColor=#DCFCE7;strokeColor=NONE;arcSize=10;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="320" y="528" width="240" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-number" value="" style="ellipse;fillColor=#16A34A;strokeColor=NONE;" parent="1" vertex="1">
+          <mxGeometry x="344" y="552" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-num-text" value="4" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="344" y="552" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-title" value="主机安全" style="text;fontSize=24;fontStyle=1;fontColor=#14532D;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="408" y="556" width="136" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-en" value="Host" style="text;fontSize=14;fontColor=#166534;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="408" y="592" width="136" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-desc" value="操作系统加固  •  EDR/HIDS  •  补丁管理  •  主机防火墙  •  特权账号管理" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="584" y="556" width="984" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="layer5-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="408" y="664" width="1112" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="layer5-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#BFDBFE;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="400" y="656" width="1112" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="layer5-header" value="" style="rounded=1;fillColor=#DBEAFE;strokeColor=NONE;arcSize=10;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="400" y="656" width="240" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="layer5-number" value="" style="ellipse;fillColor=#2563EB;strokeColor=NONE;" parent="1" vertex="1">
+          <mxGeometry x="424" y="680" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="layer5-num-text" value="5" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="424" y="680" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="layer5-title" value="应用安全" style="text;fontSize=24;fontStyle=1;fontColor=#1E3A8A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="488" y="684" width="136" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="layer5-en" value="Application" style="text;fontSize=14;fontColor=#1E40AF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="488" y="720" width="136" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="layer5-desc" value="WAF  •  安全编码  •  SAST/DAST  •  身份认证  •  API安全网关  •  RASP" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="664" y="684" width="824" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="layer6-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="488" y="792" width="952" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="layer6-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#C7D2FE;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="480" y="784" width="952" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="layer6-header" value="" style="rounded=1;fillColor=#E0E7FF;strokeColor=NONE;arcSize=10;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="480" y="784" width="240" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="layer6-number" value="" style="ellipse;fillColor=#6366F1;strokeColor=NONE;" parent="1" vertex="1">
+          <mxGeometry x="504" y="808" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="layer6-num-text" value="6" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="504" y="808" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="layer6-title" value="数据安全" style="text;fontSize=24;fontStyle=1;fontColor=#312E81;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="568" y="812" width="136" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="layer6-en" value="Data" style="text;fontSize=14;fontColor=#4338CA;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="568" y="848" width="136" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="layer6-desc" value="数据加密  •  DLP防泄漏  •  数据脱敏  •  数据库审计  •  访问控制" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="744" y="812" width="664" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="layer7-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="648" y="928" width="632" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="layer7-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=#0066FF;strokeWidth=4;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="640" y="920" width="632" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="layer7-icon" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=NONE;" parent="1" vertex="1">
+          <mxGeometry x="680" y="952" width="56" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="layer7-icon-text" value="7" style="text;fontSize=32;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="680" y="952" width="56" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="layer7-title" value="核心资产保护" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="760" y="960" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="layer7-subtitle" value="Critical Assets Protection" style="text;fontSize=16;fontColor=#E0E7FF;fontFamily=Inter;align=right;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="984" y="968" width="264" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow1" value="" style="endArrow=block;endFill=1;strokeColor=#DC2626;strokeWidth=4;endSize=12;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="248" as="sourcePoint" />
+            <mxPoint x="960" y="272" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow2" value="" style="endArrow=block;endFill=1;strokeColor=#EA580C;strokeWidth=4;endSize=12;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="376" as="sourcePoint" />
+            <mxPoint x="960" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow3" value="" style="endArrow=block;endFill=1;strokeColor=#CA8A04;strokeWidth=4;endSize=12;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="504" as="sourcePoint" />
+            <mxPoint x="960" y="528" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow4" value="" style="endArrow=block;endFill=1;strokeColor=#16A34A;strokeWidth=4;endSize=12;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="632" as="sourcePoint" />
+            <mxPoint x="960" y="656" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow5" value="" style="endArrow=block;endFill=1;strokeColor=#2563EB;strokeWidth=4;endSize=12;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="760" as="sourcePoint" />
+            <mxPoint x="960" y="784" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow6" value="" style="endArrow=block;endFill=1;strokeColor=#6366F1;strokeWidth=4;endSize=12;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="888" as="sourcePoint" />
+            <mxPoint x="960" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

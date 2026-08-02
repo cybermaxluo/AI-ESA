@@ -1,0 +1,154 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="SLSA Framework V6" id="slsa-framework-v6">
+    <mxGraphModel dx="2241" dy="1206" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="background" value="" style="fillColor=#FAFBFC;strokeColor=NONE;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="SLSA 框架 - 供应链完整性等级" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="48" width="1200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Supply-chain Levels for Software Artifacts (SLSA) - Maturity Levels 1-4" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="128" width="1200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="208" width="420" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="l1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="200" width="420" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="l1-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="200" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l1-title" value="SLSA Level 1" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="200" width="420" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="l1-subtitle" value="Build Process Exists" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="232" width="420" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l1-items" value="要求:&#xa;• 构建过程完全脚本化/自动化&#xa;• 生成来源信息 (Provenance)&#xa;&#xa;防护: 人为错误" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="96" y="264" width="394" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="l2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="560" y="208" width="420" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="l2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="560" y="200" width="420" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="l2-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="560" y="200" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l2-title" value="SLSA Level 2" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="560" y="200" width="420" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="l2-subtitle" value="Tamper Resistance" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="560" y="232" width="420" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l2-items" value="要求:&#xa;• 托管构建服务 (CI/CD)&#xa;• 可验证的来源签名&#xa;• 防篡改构建环境&#xa;&#xa;防护: 源码篡改后构建" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="576" y="264" width="384" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="l3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="208" width="420" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="l3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="200" width="420" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="l3-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="200" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l3-title" value="SLSA Level 3" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="200" width="420" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="l3-subtitle" value="Extra Hardened" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="232" width="420" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l3-items" value="要求:&#xa;• 审计日志 (所有构建步骤)&#xa;• 源码 + 构建平台审计&#xa;• 不可变基础设施&#xa;&#xa;防护: 特权用户攻击" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="1053" y="260" width="394" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1520" y="208" width="320" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1520" y="200" width="320" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1520" y="200" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-title" value="SLSA Level 4" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1520" y="200" width="320" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-subtitle" value="Reproducible" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1520" y="232" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-items" value="要求:&#xa;• 可重现构建&#xa;• 2-party 审核&#xa;&#xa;防护:&#xa;构建平台妥协" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="1528" y="264" width="292" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="guide-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="424" width="1756" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="guide-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="416" width="1756" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="guide-title" value="SLSA 实施指南" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="440" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="col1-title" value="1. 构建环境 (Build)" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="496" width="160" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="col1-items" value="• 使用托管 CI/CD (GitHub Actions, GitLab CI)&#xa;• 隔离构建环境 (容器/VM)&#xa;• 最小权限原则&#xa;• 审计日志完整记录" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="528" width="320" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="col2-title" value="2. 来源证明 (Provenance)" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="560" y="496" width="230" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="col2-items" value="• 生成 SLSA Provenance (JSON)&#xa;• 记录源码 commit SHA&#xa;• 记录构建参数和依赖&#xa;• Cosign/Sigstore 签名" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="560" y="528" width="250" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="col3-title" value="3. 依赖管理 (Dependencies)" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="496" width="230" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="col3-items" value="• 锁定文件 (package-lock.json)&#xa;• 私有仓库镜像&#xa;• 依赖扫描 (SCA)&#xa;• SBOM 生成" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="528" width="290" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="col4-title" value="4. 验证消费 (Verification)" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="496" width="240" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="col4-items" value="• 部署前验证签名&#xa;• Policy as Code (OPA)&#xa;• Admission Controller&#xa;• SLSA Verifier" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="528" width="280" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-title" value="工具生态系统" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="632" width="130" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-items" value="• Provenance 生成: SLSA GitHub Generator, in-toto&#xa;• 签名工具: Sigstore Cosign, Notary v2&#xa;• 验证工具: slsa-verifier, cosign verify&#xa;• 策略引擎: OPA/Rego, Kyverno, Ratify" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="648" width="350" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="adoption-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="784" width="860" height="186" as="geometry" />
+        </mxCell>
+        <mxCell id="adoption-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="72" y="785" width="860" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="adoption-title" value="行业采纳情况" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="800" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="adoption-items" value="• Google: 内部达到 SLSA 4&#xa;• GitHub: Actions 原生支持 Provenance&#xa;• CNCF: Kubernetes 项目推进 SLSA 3&#xa;• npm: Registry 支持 Provenance&#xa;• PyPI: 试点 Sigstore 集成&#xa;• Maven Central: 签名验证增强" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="120" y="832" width="450" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="benefits-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="984" y="784" width="856" height="186" as="geometry" />
+        </mxCell>
+        <mxCell id="benefits-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="976" y="784" width="856" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="benefits-title" value="核心价值" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1024" y="808" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="benefits-items" value="✓ 供应链攻击防护: SolarWinds/Codecov 类攻击预防&#xa;✓ 审计合规: 满足监管透明度要求&#xa;✓ 事件响应: 快速定位影响范围&#xa;✓ 信任传递: 从构建到部署的信任链&#xa;✓ 零信任架构: 构建零信任供应链&#xa;✓ 渐进式采纳: 逐级提升,平衡成本与安全" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="1024" y="832" width="496" height="118" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

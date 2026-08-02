@@ -1,0 +1,133 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="供应商安全评估决策树" id="vendor-assessment-tree">
+    <mxGraphModel dx="2379" dy="1351" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bg" value="" style="fillColor=#FAFBFC;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="供应商安全评估决策树" style="text;fontSize=36;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="610" y="30" width="700" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Vendor Security Assessment Decision Tree" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="610" y="85" width="700" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="root-node" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="760" y="150" width="400" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="root-text" value="供应商安全评估启动" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="760" y="150" width="400" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-node" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="760" y="270" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-text" value="Q1: 是否处理敏感数据?" style="text;fontSize=18;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="760" y="270" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-root-q1" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=3;endSize=10;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="220" as="sourcePoint" />
+            <mxPoint x="960" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yes1-node" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#EF4444;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="360" y="390" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yes1-text" value="Q2: 数据量级/敏感度?" style="text;fontSize=16;fontStyle=1;fontColor=#EF4444;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="360" y="390" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-q1-yes" value="是" style="endArrow=blockThin;strokeColor=#EF4444;strokeWidth=3;endSize=10;endFill=1;fontColor=#EF4444;fontSize=14;fontStyle=1;fontFamily=Inter;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="330" as="sourcePoint" />
+            <mxPoint x="500" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="no1-node" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#10B981;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="390" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="no1-text" value="Q3: 网络访问/API集成?" style="text;fontSize=16;fontStyle=1;fontColor=#10B981;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="390" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-q1-no" value="否" style="endArrow=blockThin;strokeColor=#10B981;strokeWidth=3;endSize=10;endFill=1;fontColor=#10B981;fontSize=14;fontStyle=1;fontFamily=Inter;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="330" as="sourcePoint" />
+            <mxPoint x="1420" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="critical-node" value="" style="rounded=1;fillColor=#FEE2E2;strokeColor=#EF4444;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="510" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="critical-title" value="Critical级别" style="text;fontSize=18;fontStyle=1;fontColor=#EF4444;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="520" width="240" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="critical-content" value="• 现场审计&#xa;• SOC2 Type II&#xa;• 渗透测试报告&#xa;• 数据处理协议&#xa;• 持续监控" style="text;fontSize=13;fontColor=#991B1B;fontFamily=Inter;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="100" y="555" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-yes1-critical" value="高敏感" style="endArrow=blockThin;strokeColor=#EF4444;strokeWidth=3;endSize=10;endFill=1;fontColor=#EF4444;fontSize=12;fontStyle=1;fontFamily=Inter;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="450" as="sourcePoint" />
+            <mxPoint x="200" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="high-node" value="" style="rounded=1;fillColor=#FEF3C7;strokeColor=#F59E0B;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="380" y="510" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="high-title" value="High级别" style="text;fontSize=18;fontStyle=1;fontColor=#F59E0B;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="380" y="520" width="240" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="high-content" value="• 问卷调查&#xa;• ISO 27001证书&#xa;• 安全白皮书&#xa;• SLA承诺&#xa;• 年度复审" style="text;fontSize=13;fontColor=#92400E;fontFamily=Inter;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="400" y="555" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-yes1-high" value="中敏感" style="endArrow=blockThin;strokeColor=#F59E0B;strokeWidth=3;endSize=10;endFill=1;fontColor=#F59E0B;fontSize=12;fontStyle=1;fontFamily=Inter;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="450" as="sourcePoint" />
+            <mxPoint x="500" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medium-node" value="" style="rounded=1;fillColor=#DBEAFE;strokeColor=#3B82F6;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="510" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="medium-title" value="Medium级别" style="text;fontSize=18;fontStyle=1;fontColor=#3B82F6;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="520" width="240" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="medium-content" value="• 标准问卷&#xa;• 基础合规证明&#xa;• 网络安全保险&#xa;• 年度抽查" style="text;fontSize=13;fontColor=#1E40AF;fontFamily=Inter;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="555" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-no1-medium" value="是" style="endArrow=blockThin;strokeColor=#3B82F6;strokeWidth=3;endSize=10;endFill=1;fontColor=#3B82F6;fontSize=12;fontStyle=1;fontFamily=Inter;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1420" y="450" as="sourcePoint" />
+            <mxPoint x="1420" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="low-node" value="" style="rounded=1;fillColor=#D1FAE5;strokeColor=#10B981;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1600" y="510" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="low-title" value="Low级别" style="text;fontSize=18;fontStyle=1;fontColor=#10B981;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1600" y="520" width="240" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="low-content" value="• 简化问卷&#xa;• 自我申明&#xa;• 合同条款&#xa;• 按需抽查" style="text;fontSize=13;fontColor=#065F46;fontFamily=Inter;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1620" y="555" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-no1-low" value="否" style="endArrow=blockThin;strokeColor=#10B981;strokeWidth=3;endSize=10;endFill=1;fontColor=#10B981;fontSize=12;fontStyle=1;fontFamily=Inter;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1520" y="450" as="sourcePoint" />
+            <mxPoint x="1720" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend-box" value="" style="rounded=1;fillColor=#F9FAFB;strokeColor=#E5E7EB;strokeWidth=1;arcSize=6;" parent="1" vertex="1">
+          <mxGeometry x="80" y="720" width="1768" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-title" value="评估要素参考" style="text;fontSize=22;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="735" width="1760" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-content" value="数据敏感度分类: PII/金融数据/健康数据=高敏感 | 业务数据/日志=中敏感 | 公开数据=低敏感&#xa;&#xa;网络访问级别: 内网直连/VPN接入=高风险 | API集成/OAuth=中风险 | 仅公网HTTPS=低风险&#xa;&#xa;持续监控: Critical级别=月度审查 | High级别=季度审查 | Medium/Low级别=年度审查&#xa;&#xa;供应商变更触发重评估: 所有权变更、重大安全事件、服务范围扩大、法律监管要求" style="text;fontSize=14;fontColor=#374151;fontFamily=Inter;align=left;verticalAlign=top;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="120" y="780" width="1680" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-text" value="参考标准: NIST SP 800-161 供应链风险管理 | ISO 27036 供应商关系安全" style="text;fontSize=15;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="80" y="936" width="1760" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,151 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Data Masking &amp; Tokenization V6" id="data-masking-tokenization-v6">
+    <mxGraphModel dx="2241" dy="1206" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="数据脱敏与令牌化" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="48" width="700" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Data Masking &amp; Tokenization - Static, Dynamic, Format-Preserving Techniques" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="120" width="900" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="type1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="84" y="184" width="580" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="type1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="180" width="580" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="type1-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="180" width="580" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="type1-number" value="1" style="ellipse;fillColor=#FFFFFF;strokeColor=NONE;fontColor=#0066FF;fontSize=32;fontStyle=1;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="96" y="188" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="type1-title" value="静态脱敏" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="160" y="188" width="480" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="type1-subtitle" value="Static Data Masking (SDM)" style="text;fontSize=14;fontColor=#E0E7FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="160" y="216" width="480" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="type1-content" value="场景&#xa;• 生产数据克隆到测试环境&#xa;• 数据备份归档&#xa;• 第三方数据共享&#xa;&#xa;特点&#xa;• 不可逆脱敏 • 批量处理&#xa;• 一次性操作&#xa;&#xa;技术: 替换/乱序/加密/NULL填充" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=20;spacingTop=4;" parent="1" vertex="1">
+          <mxGeometry x="92" y="240" width="548" height="172" as="geometry" />
+        </mxCell>
+        <mxCell id="type2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="684" y="184" width="580" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="type2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="680" y="180" width="580" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="type2-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="680" y="180" width="580" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="type2-number" value="2" style="ellipse;fillColor=#FFFFFF;strokeColor=NONE;fontColor=#0066FF;fontSize=32;fontStyle=1;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="696" y="188" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="type2-title" value="动态脱敏" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="760" y="188" width="480" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="type2-subtitle" value="Dynamic Data Masking (DDM)" style="text;fontSize=14;fontColor=#E0E7FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="760" y="216" width="480" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="type2-content" value="场景&#xa;• 生产环境实时查询&#xa;• Web应用界面展示&#xa;• API响应过滤&#xa;&#xa;特点&#xa;• 按需脱敏 • 基于角色(RBAC)&#xa;• 不修改原始数据&#xa;&#xa;技术: 数据库代理/应用层拦截" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=20;spacingTop=4;" parent="1" vertex="1">
+          <mxGeometry x="696" y="240" width="548" height="172" as="geometry" />
+        </mxCell>
+        <mxCell id="type3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1284" y="184" width="556" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="type3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="180" width="556" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="type3-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="180" width="556" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="type3-number" value="3" style="ellipse;fillColor=#FFFFFF;strokeColor=NONE;fontColor=#0066FF;fontSize=32;fontStyle=1;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1296" y="188" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="type3-title" value="格式保留脱敏" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="188" width="456" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="type3-subtitle" value="Format-Preserving (FPE)" style="text;fontSize=14;fontColor=#E0E7FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="216" width="456" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="type3-content" value="场景&#xa;• 保留数据格式(16位卡号)&#xa;• 数据库约束保持&#xa;• 业务逻辑不变&#xa;&#xa;特点&#xa;• 可逆(有密钥) • 格式一致&#xa;• 唯一性保持&#xa;&#xa;算法: FF1/FF3-1, FPE-AES" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=20;spacingTop=4;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="240" width="524" height="172" as="geometry" />
+        </mxCell>
+        <mxCell id="token-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="84" y="468" width="1756" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="token-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="464" width="1756" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="token-title" value="令牌化" style="text;fontSize=28;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="112" y="476" width="200" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="token-subtitle" value="Tokenization" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="112" y="514" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="token-col1-title" value="原理" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="112" y="548" width="400" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="token-col1-items" value="• 敏感数据 → Token (随机值)&#xa;• 原始数据存储在 Token Vault&#xa;• 映射关系: 1:1&#xa;• 可逆 (查询Vault)&#xa;• PCI DSS 3.2 合规" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=4;" parent="1" vertex="1">
+          <mxGeometry x="112" y="576" width="400" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="token-col2-title" value="类型" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="544" y="548" width="400" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="token-col2-items" value="• Random Token (完全随机)&#xa;• Format-Preserving Token (保留格式)&#xa;• Deterministic Token (确定性)&#xa;• Vaultless Token (算法生成)&#xa;• Stateless Token (JWT类)" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=4;" parent="1" vertex="1">
+          <mxGeometry x="544" y="576" width="400" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="token-col3-title" value="应用场景" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="976" y="548" width="380" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="token-col3-items" value="• 支付卡号 (PAN)&#xa;• API密钥管理&#xa;• 个人身份信息 (PII)&#xa;• 医疗记录 (PHI)&#xa;• 云服务凭证" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=4;" parent="1" vertex="1">
+          <mxGeometry x="976" y="576" width="380" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="token-col4-title" value="工具" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1388" y="548" width="380" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="token-col4-items" value="• Protegrity&#xa;• Voltage SecureData&#xa;• TokenEx&#xa;• Basis Theory&#xa;• AWS Payment Crypto" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=Inter;align=left;spacingLeft=4;" parent="1" vertex="1">
+          <mxGeometry x="1388" y="576" width="380" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="tech-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="84" y="712" width="876" height="298" as="geometry" />
+        </mxCell>
+        <mxCell id="tech-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="708" width="870" height="292" as="geometry" />
+        </mxCell>
+        <mxCell id="tech-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="708" width="876" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="tech-number" value="4" style="ellipse;fillColor=#FFFFFF;strokeColor=NONE;fontColor=#0066FF;fontSize=32;fontStyle=1;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="96" y="714" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="tech-title" value="常用脱敏技术" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="160" y="718" width="776" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="tech-content" value="1. 字符替换&#xa;   • 张三 → 张** | 138****5678&#xa;&#xa;2. 数据乱序 (Shuffling)&#xa;   • 保留统计特性,打乱个体映射&#xa;&#xa;3. 范围替换 (Bucketing)&#xa;   • 年龄35 → 30-40岁区间&#xa;&#xa;4. 哈希/加密&#xa;   • SHA-256 (不可逆)&#xa;   • AES-256 (可逆)" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=20;spacingTop=12;" parent="1" vertex="1">
+          <mxGeometry x="96" y="754" width="844" height="226" as="geometry" />
+        </mxCell>
+        <mxCell id="bp-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="984" y="712" width="856" height="308" as="geometry" />
+        </mxCell>
+        <mxCell id="bp-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="980" y="708" width="850" height="302" as="geometry" />
+        </mxCell>
+        <mxCell id="bp-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="980" y="708" width="852" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="bp-number" value="5" style="ellipse;fillColor=#FFFFFF;strokeColor=NONE;fontColor=#0066FF;fontSize=32;fontStyle=1;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="996" y="714" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bp-title" value="最佳实践" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="718" width="752" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="bp-content" value="1. 数据分类驱动&#xa;   • 根据敏感级别选择脱敏强度&#xa;&#xa;2. 保留数据可用性&#xa;   • 保持关联性 (订单-用户关系)&#xa;   • 保留格式 (数据库约束)&#xa;&#xa;3. 审计与合规&#xa;   • 记录脱敏操作日志&#xa;   • 满足 GDPR/CCPA 要求&#xa;&#xa;4. 性能优化&#xa;   • 批量处理 (静态) | 缓存Token (动态)" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=20;spacingTop=12;" parent="1" vertex="1">
+          <mxGeometry x="998" y="750" width="812" height="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

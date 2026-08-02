@@ -1,0 +1,154 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="数据治理框架" id="data-governance-v6">
+    <mxGraphModel dx="1185" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="main-title" value="数据治理框架" style="text;html=1;fontSize=48;fontStyle=1;fontColor=#1F2937;align=center;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="660" y="40" width="600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="comp1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="84" y="144" width="436" height="246" as="geometry" />
+        </mxCell>
+        <mxCell id="comp1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="140" width="440" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="comp1-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="140" width="436" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="comp1-number" value="1" style="ellipse;fillColor=#FFFFFF;strokeColor=none;fontColor=#0066FF;fontSize=32;fontStyle=1;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="96" y="147" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="comp1-title" value="数据目录 Data Catalog" style="text;html=1;fontSize=24;fontStyle=1;fontColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="156" y="154" width="340" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="comp1-content" value="目标&#xa;• 数据资产可发现性&#xa;• 元数据统一管理&#xa;• 业务术语标准化&#xa;&#xa;内容&#xa;• 技术/业务/操作元数据&#xa;&#xa;工具: Collibra, Alation" style="text;html=1;fontSize=14;fontColor=#6B7280;align=left;verticalAlign=top;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="112" y="212" width="388" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="comp2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="564" y="144" width="436" height="246" as="geometry" />
+        </mxCell>
+        <mxCell id="comp2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="560" y="140" width="440" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="comp2-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="560" y="140" width="436" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="comp2-number" value="2" style="ellipse;fillColor=#FFFFFF;strokeColor=none;fontColor=#0066FF;fontSize=32;fontStyle=1;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="576" y="147" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="comp2-title" value="数据血缘 Data Lineage" style="text;html=1;fontSize=24;fontStyle=1;fontColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="636" y="154" width="340" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="comp2-content" value="目标&#xa;• 数据流向追踪&#xa;• 影响分析 (Impact)&#xa;• 问题根因定位&#xa;&#xa;维度&#xa;• 表级/字段级/端到端&#xa;&#xa;技术: Apache Atlas" style="text;html=1;fontSize=14;fontColor=#6B7280;align=left;verticalAlign=top;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="592" y="212" width="384" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="comp3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1044" y="144" width="396" height="246" as="geometry" />
+        </mxCell>
+        <mxCell id="comp3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="140" width="410" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="comp3-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="140" width="396" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="comp3-number" value="3" style="ellipse;fillColor=#FFFFFF;strokeColor=none;fontColor=#0066FF;fontSize=32;fontStyle=1;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1056" y="147" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="comp3-title" value="数据质量 Data Quality" style="text;html=1;fontSize=24;fontStyle=1;fontColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="1116" y="154" width="300" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="comp3-content" value="维度&#xa;• 准确性/完整性&#xa;• 一致性/及时性&#xa;&#xa;实施&#xa;• 质量规则定义&#xa;• 自动化检测告警&#xa;&#xa;工具: Great Expectations" style="text;html=1;fontSize=14;fontColor=#6B7280;align=left;verticalAlign=top;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1072" y="212" width="338" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="comp4-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1484" y="144" width="356" height="246" as="geometry" />
+        </mxCell>
+        <mxCell id="comp4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="140" width="360" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="comp4-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="140" width="356" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="comp4-number" value="4" style="ellipse;fillColor=#FFFFFF;strokeColor=none;fontColor=#0066FF;fontSize=32;fontStyle=1;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1496" y="147" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="comp4-title" value="生命周期 Lifecycle" style="text;html=1;fontSize=24;fontStyle=1;fontColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="1556" y="154" width="260" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="comp4-content" value="阶段&#xa;• Create/Store/Use&#xa;• Archive/Destroy&#xa;&#xa;策略&#xa;• 保留期限规则&#xa;• 自动归档/合规销毁&#xa;&#xa;标准: ISO 27001" style="text;html=1;fontSize=14;fontColor=#6B7280;align=left;verticalAlign=top;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1512" y="212" width="304" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="org-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="84" y="412" width="1756" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="org-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="408" width="1756" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="org-title" value="组织与角色 Organization &amp; Roles" style="text;html=1;fontSize=28;fontStyle=1;fontColor=#0066FF;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="112" y="424" width="1700" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="org-col1-title" value="CDO (Chief Data Officer)" style="text;html=1;fontSize=16;fontStyle=1;fontColor=#0066FF;align=left;verticalAlign=middle;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="112" y="476" width="400" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="org-col1-items" value="职责:&#xa;• 数据战略制定&#xa;• 治理框架设计&#xa;• 跨部门协调" style="text;html=1;fontSize=14;fontColor=#6B7280;align=left;verticalAlign=top;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="112" y="504" width="400" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="org-col2-title" value="Data Owner (数据所有者)" style="text;html=1;fontSize=16;fontStyle=1;fontColor=#0066FF;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="544" y="476" width="400" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="org-col2-items" value="职责:&#xa;• 数据分类定级&#xa;• 访问权限审批&#xa;• 合规性负责" style="text;html=1;fontSize=14;fontColor=#6B7280;align=left;verticalAlign=top;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="544" y="504" width="400" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="org-col3-title" value="Data Steward (数据管家)" style="text;html=1;fontSize=16;fontStyle=1;fontColor=#0066FF;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="976" y="476" width="400" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="org-col3-items" value="职责:&#xa;• 日常质量管理&#xa;• 元数据维护&#xa;• 用户支持" style="text;html=1;fontSize=14;fontColor=#6B7280;align=left;verticalAlign=top;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="976" y="504" width="400" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="org-col4-title" value="Data User (数据使用者)" style="text;html=1;fontSize=16;fontStyle=1;fontColor=#0066FF;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="1408" y="476" width="400" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="org-col4-items" value="职责:&#xa;• 合规使用数据&#xa;• 异常报告&#xa;• 隐私保护" style="text;html=1;fontSize=14;fontColor=#6B7280;align=left;verticalAlign=top;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1408" y="504" width="400" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="policy-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="84" y="643" width="836" height="448" as="geometry" />
+        </mxCell>
+        <mxCell id="policy-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="639" width="836" height="448" as="geometry" />
+        </mxCell>
+        <mxCell id="policy-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="640" width="836" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="policy-number" value="5" style="ellipse;fillColor=#FFFFFF;strokeColor=none;fontColor=#0066FF;fontSize=32;fontStyle=1;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="96" y="647" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="policy-title" value="关键政策 Key Policies" style="text;html=1;fontSize=24;fontStyle=1;fontColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="156" y="654" width="700" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="policy-items" value="1. 数据分类政策&#xa;   • 分类标准 (Public/Internal/Confidential/Restricted)&#xa;&#xa;2. 数据访问政策&#xa;   • 最小权限原则&#xa;   • 定期访问审查 (每季度)&#xa;&#xa;3. 数据保留政策&#xa;   • 保留期限定义 (财务数据7年, 日志90天)&#xa;   • 自动清理规则&#xa;&#xa;4. 数据共享政策&#xa;   • 内部共享审批流程&#xa;   • 外部共享法务审核, DPA&#xa;&#xa;5. 数据事件响应政策&#xa;   • 泄露通知时限 (GDPR 72小时)&#xa;   • 事件分级标准" style="text;html=1;fontSize=14;fontColor=#6B7280;align=left;verticalAlign=top;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="112" y="719" width="784" height="348" as="geometry" />
+        </mxCell>
+        <mxCell id="metrics-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="964" y="643" width="876" height="448" as="geometry" />
+        </mxCell>
+        <mxCell id="metrics-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="960" y="639" width="876" height="448" as="geometry" />
+        </mxCell>
+        <mxCell id="metrics-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="960" y="640" width="876" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="metrics-number" value="6" style="ellipse;fillColor=#FFFFFF;strokeColor=none;fontColor=#0066FF;fontSize=32;fontStyle=1;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="976" y="647" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="metrics-title" value="治理指标 Governance Metrics" style="text;html=1;fontSize=24;fontStyle=1;fontColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="1036" y="654" width="780" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="metrics-items" value="元数据覆盖率:&#xa;• 已编目资产 / 总资产 ≥ 90%&#xa;• 业务术语定义完整率 ≥ 80%&#xa;&#xa;数据质量指标:&#xa;• 质量规则通过率 ≥ 95%&#xa;• 高危质量问题 &lt; 10个/月&#xa;&#xa;合规指标:&#xa;• 敏感数据分类率 = 100%&#xa;• 访问权限审查完成率 ≥ 95%&#xa;• 数据泄露事件 = 0&#xa;&#xa;业务价值:&#xa;• 数据发现时间 ↓ 50%&#xa;• 数据准备时间 ↓ 40%&#xa;• 重复数据采集成本 ↓ 30%&#xa;&#xa;工具: PowerBI / Tableau (治理仪表板)" style="text;html=1;fontSize=14;fontColor=#6B7280;align=left;verticalAlign=top;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="992" y="719" width="824" height="348" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

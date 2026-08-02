@@ -1,0 +1,154 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="依赖混淆攻击防御" id="dependency-confusion">
+    <mxGraphModel dx="1975" dy="1188" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bg" value="" style="fillColor=#FAFBFC;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="944" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="依赖混淆攻击与防御" style="text;fontSize=36;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="660" y="40" width="600" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Dependency Confusion Attack &amp; Defense Strategy" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="610" y="95" width="700" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="attack-title" value="攻击场景" style="text;fontSize=30;fontStyle=1;fontColor=#EF4444;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="220" y="160" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="attack1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#EF4444;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="120" y="240" width="600" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="attack1-num" value="" style="ellipse;fillColor=#EF4444;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="145" y="260" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="attack1-num-text" value="1" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="145" y="260" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="attack1-title" value="攻击者上传同名恶意包" style="text;fontSize=22;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="200" y="265" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="attack1-desc" value="目标: 内部包名 @company/api-client&#xa;恶意包: 公共仓库发布同名包,版本号更高 (v2.0.0 &gt; v1.0.0)" style="text;fontSize=15;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="145" y="305" width="550" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="attack2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#EF4444;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="120" y="420" width="600" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="attack2-num" value="" style="ellipse;fillColor=#EF4444;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="145" y="440" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="attack2-num-text" value="2" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="145" y="440" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="attack2-title" value="npm/PyPI公共仓库托管" style="text;fontSize=22;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="200" y="445" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="attack2-desc" value="公共仓库: npmjs.com / pypi.org&#xa;恶意包通过审核,对外可下载" style="text;fontSize=15;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="145" y="485" width="550" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="attack3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#EF4444;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="120" y="600" width="600" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="attack3-num" value="" style="ellipse;fillColor=#EF4444;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="145" y="620" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="attack3-num-text" value="3" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="145" y="620" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="attack3-title" value="构建系统拉取错误包" style="text;fontSize=22;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="200" y="625" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="attack3-desc" value="npm install优先公共仓库,拉取v2.0.0恶意包&#xa;✗ 供应链投毒成功" style="text;fontSize=15;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="145" y="665" width="550" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="attack-arrow1" value="" style="endArrow=blockThin;strokeColor=#EF4444;strokeWidth=5;endSize=12;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="380" as="sourcePoint" />
+            <mxPoint x="420" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="attack-arrow2" value="" style="endArrow=blockThin;strokeColor=#EF4444;strokeWidth=5;endSize=12;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="560" as="sourcePoint" />
+            <mxPoint x="420" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="divider" value="" style="strokeColor=#E0E7FF;strokeWidth=3;dashed=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="160" as="sourcePoint" />
+            <mxPoint x="960" y="792" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vs-text" value="VS" style="text;fontSize=40;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="910" y="500" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="defense-title" value="防御措施" style="text;fontSize=30;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="160" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="defense1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="240" width="600" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="defense1-num" value="" style="ellipse;fillColor=#0066FF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1125" y="260" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="defense1-num-text" value="1" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1125" y="260" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="defense1-title" value="私有仓库优先配置" style="text;fontSize=22;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="265" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="defense1-desc" value=".npmrc: registry=https://private.npm.com&#xa;优先从私有仓库拉取,阻断公共仓库访问" style="text;fontSize=15;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1125" y="305" width="550" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="defense2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="420" width="600" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="defense2-num" value="" style="ellipse;fillColor=#0066FF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1125" y="440" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="defense2-num-text" value="2" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1125" y="440" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="defense2-title" value="Namespace隔离" style="text;fontSize=22;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="445" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="defense2-desc" value="包名格式: @公司名/包名 (如 @company/api-client)&#xa;公共仓库无法仿冒公司Namespace" style="text;fontSize=15;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1125" y="485" width="550" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="defense3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="600" width="600" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="defense3-num" value="" style="ellipse;fillColor=#0066FF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1125" y="620" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="defense3-num-text" value="3" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1125" y="620" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="defense3-title" value="SBOM完整性验证" style="text;fontSize=22;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="625" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="defense3-desc" value="CI/CD检查package-lock.json Checksum&#xa;✓ 防御成功,阻断恶意包" style="text;fontSize=15;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1125" y="665" width="550" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="defense-arrow1" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=5;endSize=12;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1400" y="380" as="sourcePoint" />
+            <mxPoint x="1400" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="defense-arrow2" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=5;endSize=12;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1400" y="560" as="sourcePoint" />
+            <mxPoint x="1400" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="footer" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=none;arcSize=6;" parent="1" vertex="1">
+          <mxGeometry x="120" y="800" width="1580" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-text" value="核心防御: 私有仓库优先 + Namespace隔离 + SBOM验证 + 网络隔离(禁止构建环境访问公网)" style="text;fontSize=18;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="120" y="800" width="1580" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

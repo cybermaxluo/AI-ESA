@@ -1,0 +1,225 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="UEBA异常检测流程" id="ueba-flow-v6">
+    <mxGraphModel dx="2852" dy="1892" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bg" value="" style="fillColor=#FAFBFC;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="UEBA 异常检测流程" style="text;fontSize=48;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="60" width="600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="User and Entity Behavior Analytics Detection Flow" style="text;fontSize=20;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="130" width="800" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="step1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="84" y="244" width="380" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="step1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="240" width="380" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="step1-num-bg" value="" style="ellipse;fillColor=#0066FF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="110" y="270" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="step1-num" value="1" style="text;fontSize=22;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="120" y="270" width="20" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="step1-title" value="数据收集" style="text;fontSize=36;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="110" y="330" width="180" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="step1-subtitle" value="Data Collection" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="110" y="380" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="step1-desc" value="• 登录日志&#xa;• 文件访问记录&#xa;• 网络活动&#xa;• 应用使用数据" style="text;fontSize=18;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="280" y="318" width="144" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="step2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="84" y="544" width="380" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="step2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="540" width="380" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="step2-num-bg" value="" style="ellipse;fillColor=#0066FF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="110" y="570" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="step2-num" value="2" style="text;fontSize=22;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="120" y="570" width="20" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="step2-title" value="基线建立" style="text;fontSize=36;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="110" y="630" width="180" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="step2-subtitle" value="Baseline Modeling" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="110" y="680" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="step2-desc" value="• 正常行为模式&#xa;• 时间/地点规律&#xa;• 访问频率&#xa;• 同行对比" style="text;fontSize=18;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="280" y="616" width="136" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="step3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="564" y="244" width="380" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="step3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="560" y="240" width="380" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="step3-num-bg" value="" style="ellipse;fillColor=#0066FF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="590" y="270" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="step3-num" value="3" style="text;fontSize=22;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="600" y="270" width="20" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="step3-title" value="异常检测" style="text;fontSize=36;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="590" y="330" width="180" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="step3-subtitle" value="Anomaly Detection" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="590" y="380" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="step3-desc" value="• ML算法检测&#xa;• 统计偏差分析&#xa;• 规则引擎&#xa;• 实时监控" style="text;fontSize=18;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="770" y="318" width="128" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="step4-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="564" y="544" width="380" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="step4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="560" y="540" width="380" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="step4-num-bg" value="" style="ellipse;fillColor=#0066FF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="590" y="570" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="step4-num" value="4" style="text;fontSize=22;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="600" y="570" width="20" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="step4-title" value="风险评分" style="text;fontSize=36;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="590" y="630" width="180" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="step4-subtitle" value="Risk Scoring" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="590" y="680" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="step4-desc" value="• 0-100分制&#xa;• 多维度权重&#xa;• 历史趋势&#xa;• 上下文分析" style="text;fontSize=18;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="778" y="626" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="step5-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1044" y="244" width="380" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="step5-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="240" width="380" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="step5-num-bg" value="" style="ellipse;fillColor=#0066FF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="270" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="step5-num" value="5" style="text;fontSize=22;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="270" width="20" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="step5-title" value="告警响应" style="text;fontSize=36;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="330" width="180" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="step5-subtitle" value="Alert &amp; Response" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="380" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="step5-desc" value="• SIEM集成&#xa;• 自动工单&#xa;• 安全团队通知&#xa;• 执行响应动作" style="text;fontSize=18;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1266" y="318" width="144" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="threats-title" value="检测威胁类型:" style="text;fontSize=20;fontStyle=1;fontColor=#999999;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="917" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="threats-content" value="① 账户盗用 (异常登录) &#xa;② 数据窃取 (大量下载) &#xa;③ 特权滥用 (越权访问)&#xa;④ 内部威胁 (离职前行为) &#xa;⑤ 被入侵账户 (横向移动)" style="text;fontSize=16;fontColor=#999999;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="270" y="880" width="234" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=6;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="240" width="356" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-icon" value="T" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1640" y="330" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-title" value="UEBA平台" style="text;fontSize=28;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1520" y="410" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-subtitle" value="Leading Solutions" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1520" y="460" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tool1" value="Exabeam" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1520" y="520" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tool1-desc" value="Smart Timeline" style="text;fontSize=12;fontColor=#9CA3AF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1520" y="550" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tool2" value="Securonix" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1520" y="600" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tool2-desc" value="Threat Chains" style="text;fontSize=12;fontColor=#9CA3AF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1520" y="630" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tool3" value="Splunk UBA" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1520" y="680" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tool3-desc" value="Integrated SIEM" style="text;fontSize=12;fontColor=#9CA3AF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1520" y="710" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tool4" value="Microsoft Sentinel" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1520" y="760" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tool4-desc" value="Cloud Native" style="text;fontSize=12;fontColor=#9CA3AF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1520" y="790" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tool5" value="Varonis DatAlert" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1520" y="840" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tool5-desc" value="Data-Centric" style="text;fontSize=12;fontColor=#9CA3AF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1520" y="870" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-1-2" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=4;endSize=10;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="480" as="sourcePoint" />
+            <mxPoint x="270" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-3-4" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=4;endSize=10;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="480" as="sourcePoint" />
+            <mxPoint x="750" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-5-6" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=4;endSize=10;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1230" y="480" as="sourcePoint" />
+            <mxPoint x="1230" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-feedback" value="" style="endArrow=blockThin;strokeColor=#EF4444;strokeWidth=2;endSize=10;endFill=1;dashed=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1230" y="780" as="sourcePoint" />
+            <mxPoint x="270" y="780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1230" y="820" />
+              <mxPoint x="750" y="820" />
+              <mxPoint x="270" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="feedback-label" value="反馈优化" style="text;fontSize=14;fontStyle=1;fontColor=#EF4444;fontFamily=Inter;align=center;backgroundColor=#FAFBFC;" parent="1" vertex="1">
+          <mxGeometry x="708" y="832" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pf2elr1JPjjYURD90JSX-1" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="540" width="380" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Pf2elr1JPjjYURD90JSX-2" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1036" y="536" width="380" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Pf2elr1JPjjYURD90JSX-3" value="" style="ellipse;fillColor=#0066FF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1066" y="566" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pf2elr1JPjjYURD90JSX-4" value="6" style="text;fontSize=22;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1076" y="566" width="20" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="Pf2elr1JPjjYURD90JSX-5" value="持续学习" style="text;fontSize=36;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1066" y="626" width="180" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Pf2elr1JPjjYURD90JSX-6" value="Continuous Learning" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1066" y="676" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Pf2elr1JPjjYURD90JSX-7" value="• 模型更新&#xa;• 反馈优化&#xa;• 基线调整" style="text;fontSize=18;fontColor=#9CA3AF;fontFamily=Inter;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1276" y="626" width="148" height="78" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

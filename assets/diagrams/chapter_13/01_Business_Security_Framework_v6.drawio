@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" modified="2025-01-01T00:00:00.000Z" agent="Claude Code" version="24.0.0">
+  <diagram name="业务安全框架" id="business-security-framework">
+    <mxGraphModel dx="1920" dy="1080" grid="1" gridSize="80" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        
+        <mxCell id="bg" value="" style="fillColor=#FAFBFC;strokeColor=NONE;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="title" value="业务安全体系框架 Business Security Framework" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="160" y="48" width="1600" height="120" as="geometry" />
+        </mxCell>
+
+        <mxCell id="subtitle" value="四大安全域 × 核心防护能力 = 全方位业务安全保障" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="160" y="144" width="1600" height="60" as="geometry" />
+        </mxCell>
+
+        
+        
+        <mxCell id="core-shadow" value="" style="ellipse;fillColor=#E5E7EB;strokeColor=NONE;" vertex="1" parent="1">
+          <mxGeometry x="800" y="320" width="320" height="320" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="core-circle" value="" style="ellipse;fillColor=#0066FF;strokeColor=#0066FF;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="800" y="320" width="320" height="320" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="core-title-en" value="Business" style="text;fontSize=36;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="800" y="432" width="320" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="core-title-cn" value="业务安全体系" style="text;fontSize=36;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="800" y="488" width="320" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="core-subtitle" value="Security Framework" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=center;opacity=80;" vertex="1" parent="1">
+          <mxGeometry x="800" y="536" width="320" height="60" as="geometry" />
+        </mxCell>
+
+        
+        
+        <mxCell id="account-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="208" width="480" height="280" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="account-card" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="200" width="480" height="280" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="account-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="200" width="480" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="account-title" value="账号安全 Account Security" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="208" width="480" height="70" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="account-item1" value="• 注册防护 Registration Protection" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="288" width="400" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="account-item2" value="• 登录安全 Login Security" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="328" width="400" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="account-item3" value="• 账号异常检测 Anomaly Detection" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="368" width="400" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="account-item4" value="• ATO防护 Account Takeover Protection" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="408" width="400" height="60" as="geometry" />
+        </mxCell>
+
+        
+        
+        <mxCell id="transaction-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="160" y="208" width="480" height="280" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="transaction-card" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="160" y="200" width="480" height="280" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="transaction-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="160" y="200" width="480" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="transaction-title" value="交易安全 Transaction Security" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="160" y="208" width="480" height="70" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="transaction-item1" value="• 交易风控 Transaction Risk Control" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="200" y="288" width="400" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="transaction-item2" value="• 反欺诈 Anti-Fraud" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="200" y="328" width="400" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="transaction-item3" value="• 反洗钱 Anti-Money Laundering" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="200" y="368" width="400" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="transaction-item4" value="• 资金安全 Fund Security" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="200" y="408" width="400" height="60" as="geometry" />
+        </mxCell>
+
+        
+        
+        <mxCell id="content-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="160" y="640" width="480" height="280" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="content-card" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="160" y="640" width="480" height="280" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="content-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="160" y="640" width="480" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="content-title" value="内容安全 Content Security" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="160" y="648" width="480" height="70" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="content-item1" value="• 内容审核 Content Moderation" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="200" y="728" width="400" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="content-item2" value="• 反垃圾 Anti-Spam" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="200" y="768" width="400" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="content-item3" value="• 反作弊 Anti-Cheating" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="200" y="808" width="400" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="content-item4" value="• 机器人检测 Bot Detection" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="200" y="848" width="400" height="60" as="geometry" />
+        </mxCell>
+
+        
+        
+        <mxCell id="campaign-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="640" width="480" height="280" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="campaign-card" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="640" width="480" height="280" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="campaign-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="640" width="480" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="campaign-title" value="活动安全 Campaign Security" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="648" width="480" height="70" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="campaign-item1" value="• 营销活动安全 Marketing Security" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="728" width="400" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="campaign-item2" value="• 优惠券风控 Coupon Risk Control" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="768" width="400" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="campaign-item3" value="• 反羊毛 Anti-Wool" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="808" width="400" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="campaign-item4" value="• 权益保护 Privilege Protection" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="848" width="400" height="60" as="geometry" />
+        </mxCell>
+
+        
+        
+        <mxCell id="arrow-to-account" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0066FF;strokeWidth=4;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="400" as="sourcePoint" />
+            <mxPoint x="1280" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        
+        <mxCell id="arrow-to-transaction" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0066FF;strokeWidth=4;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="400" as="sourcePoint" />
+            <mxPoint x="640" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        
+        <mxCell id="arrow-to-content" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0066FF;strokeWidth=4;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="560" as="sourcePoint" />
+            <mxPoint x="640" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        
+        <mxCell id="arrow-to-campaign" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0066FF;strokeWidth=4;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="560" as="sourcePoint" />
+            <mxPoint x="1280" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        
+        <mxCell id="footer-note" value="[Core Concept] 业务安全体系通过四大安全域协同,保护业务全链路: 账号是入口、交易是核心、内容是生态、活动是增长引擎" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="160" y="976" width="1600" height="60" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

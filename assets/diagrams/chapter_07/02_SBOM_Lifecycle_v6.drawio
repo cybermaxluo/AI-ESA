@@ -1,0 +1,154 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="SBOM Lifecycle V6" id="sbom-lifecycle-v6">
+    <mxGraphModel dx="2561" dy="1379" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="background" value="" style="fillColor=#FAFBFC;strokeColor=NONE;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="SBOM 生命周期管理" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="48" width="800" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="SBOM Lifecycle Management - Generation, Distribution, Consumption, Maintenance" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="128" width="1200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="stage1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="224" width="420" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="stage1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="224" width="420" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="stage1-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="224" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="stage1-number" value="1" style="ellipse;fillColor=#FFFFFF;strokeColor=NONE;fontColor=#0066FF;fontSize=36;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="96" y="232" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="stage1-title" value="SBOM 生成" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="160" y="232" width="170" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="stage1-tools" value="[Generation]&#xa;工具:&#xa;• Syft (Anchore)&#xa;• SPDX Tools&#xa;• CycloneDX Generator&#xa;• Tern (Container SBOM)" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="103" y="290" width="374" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="stage2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="560" y="224" width="420" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="stage2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="560" y="224" width="420" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="stage2-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="560" y="224" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="stage2-number" value="2" style="ellipse;fillColor=#FFFFFF;strokeColor=NONE;fontColor=#0066FF;fontSize=36;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="576" y="232" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="stage2-title" value="SBOM 分发" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="640" y="232" width="180" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="stage2-tools" value="[Distribution]&#xa;方式:&#xa;• OCI Registry (附加 Artifact)&#xa;• S3/Blob Storage&#xa;• SBOM Repository&#xa;• 签名验证 (Cosign)" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="576" y="288" width="394" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="stage3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="224" width="420" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="stage3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="224" width="420" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="stage3-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="224" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="stage3-number" value="3" style="ellipse;fillColor=#FFFFFF;strokeColor=NONE;fontColor=#0066FF;fontSize=36;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1056" y="232" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="stage3-title" value="SBOM 消费" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="232" width="160" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="stage3-tools" value="[Consumption]&#xa;用途:&#xa;• 漏洞扫描 (Grype, Trivy)&#xa;• 许可证合规检查&#xa;• 风险评估&#xa;• 供应链可视化" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="1056" y="288" width="394" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="stage4-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1520" y="224" width="320" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="stage4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1520" y="224" width="320" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="stage4-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1520" y="224" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="stage4-number" value="4" style="ellipse;fillColor=#FFFFFF;strokeColor=NONE;fontColor=#0066FF;fontSize=36;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1536" y="232" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="stage4-title" value="持续维护" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1600" y="232" width="110" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="stage4-tools" value="[Maintenance]&#xa;&#xa;• 版本更新&#xa;• 漏洞跟踪&#xa;• 补丁管理&#xa;• 归档清理" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="1536" y="288" width="284" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="320" as="sourcePoint" />
+            <mxPoint x="560" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="320" as="sourcePoint" />
+            <mxPoint x="1040" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow3" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1460" y="320" as="sourcePoint" />
+            <mxPoint x="1520" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="formats-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="480" width="1756" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="formats-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="480" width="1770" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="formats-title" value="SBOM 标准格式对比" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="496" width="600" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fmt1-title" value="SPDX (Software Package Data Exchange)" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="552" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fmt1-text" value="• Linux Foundation 主导 | • ISO/IEC 5962:2021 国际标准 | • 支持多种序列化格式 (JSON, XML, YAML, RDF)" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="584" width="1700" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fmt2-title" value="CycloneDX" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="990" y="552" width="120" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="fmt2-text" value="• OWASP 项目 | • 专注于应用安全场景 | • 支持服务 BOM (SBOM, HBOM, SaaSBOM) | • 轻量级 JSON/XML" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="984" y="580" width="690" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="usecases-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="720" width="870" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="usecases-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="720" width="860" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="usecases-title" value="SBOM 应用场景" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="736" width="250" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="usecases-items" value="1. 漏洞管理&#xa;   • CVE 映射 | • 风险评分 | • 补丁优先级&#xa;&#xa;2. 许可证合规&#xa;   • 开源协议检查 | • GPL/LGPL 传染性分析&#xa;&#xa;3. 供应商透明度&#xa;   • 第三方组件追溯 | • 供应商安全评估&#xa;&#xa;4. 事件响应&#xa;   • Log4Shell 式快速定位 | • 影响范围评估" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="120" y="790" width="800" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="compliance-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="984" y="720" width="856" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="compliance-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="976" y="720" width="854" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="compliance-title" value="合规要求" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1024" y="730" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="compliance-items" value="1. US Executive Order 14028 (2021)&#xa;   • 联邦政府软件采购必须提供 SBOM&#xa;&#xa;2. EU Cyber Resilience Act (CRA)&#xa;   • CE 认证要求软件透明度&#xa;&#xa;3. NIST SSDF (Secure Software Development Framework)&#xa;   • PO.1: SBOM 作为软件供应链透明度基础&#xa;&#xa;4. 行业标准&#xa;   • 金融: PCI DSS 4.0 供应链要求&#xa;   • 医疗: FDA 医疗设备 SBOM 指南" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="772" width="780" height="248" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

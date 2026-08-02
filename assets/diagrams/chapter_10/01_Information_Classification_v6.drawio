@@ -1,0 +1,160 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Information Classification V6" id="info-classification-v6">
+    <mxGraphModel dx="2155" dy="1296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="background" value="" style="fillColor=#FAFBFC;strokeColor=NONE;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="信息分类分级体系" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="48" width="800" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Information Classification System - Levels, Criteria, Handling Requirements" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="128" width="1300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="level1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="208" width="420" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="level1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="200" width="420" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="level1-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="200" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="level1-title" value="公开信息" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="200" width="420" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="level1-subtitle" value="Public" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="231" width="420" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="level1-items" value="定义:&#xa;• 可公开披露的信息&#xa;• 泄露无损害&#xa;&#xa;示例:&#xa;• 公司官网内容&#xa;• 已发布的产品手册&#xa;• 公开新闻稿&#xa;• 营销材料" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="96" y="270" width="174" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="level2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="544" y="208" width="420" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="level2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="544" y="200" width="420" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="level2-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="544" y="200" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="level2-title" value="内部信息" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="544" y="200" width="420" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="level2-subtitle" value="Internal" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="541" y="231" width="426" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="level2-items" value="定义:&#xa;• 仅供内部员工使用&#xa;• 泄露造成轻微影响&#xa;&#xa;示例:&#xa;• 内部流程文档&#xa;• 组织架构图&#xa;• 员工通讯录&#xa;• 内部培训材料" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="560" y="270" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="level3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1008" y="208" width="420" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="level3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="200" width="420" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="level3-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="200" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="level3-title" value="机密信息" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="196" width="420" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="level3-subtitle" value="Confidential" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="231" width="420" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="level3-items" value="定义:&#xa;• 敏感业务信息&#xa;• 泄露造成重大损失&#xa;&#xa;示例:&#xa;• 财务报表 (未公开)&#xa;• 客户合同&#xa;• 产品路线图&#xa;• 审计报告&#xa;• 薪酬数据&#xa;" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="1016" y="270" width="204" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="level4-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1464" y="208" width="380" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="level4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1456" y="200" width="380" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="level4-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1456" y="200" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="level4-title" value="高度机密" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1456" y="200" width="380" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="level4-subtitle" value="Restricted" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1456" y="231" width="374" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="level4-items" value="定义:&#xa;• 最高敏感信息&#xa;• 泄露造成严重后果&#xa;&#xa;示例:&#xa;• 密钥/凭证&#xa;• M&amp;A 计划&#xa;• 源代码 (核心)&#xa;• 国家秘密&#xa;• 个人敏感数据" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="1472" y="270" width="158" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="criteria-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="528" width="1756" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="criteria-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="520" width="1756" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="criteria-title" value="分类标准 Classification Criteria" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="544" width="1696" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="criteria-col1-title" value="影响评估维度" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="592" width="520" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="criteria-col1-items" value="1. 财务影响 (Financial Impact)&#xa;2. 声誉影响 (Reputational Impact)&#xa;3. 法律合规影响 (Legal/Compliance)&#xa;4. 运营影响 (Operational Impact)&#xa;5. 竞争优势影响 (Competitive Advantage)" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="120" y="622" width="320" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="criteria-col2-title" value="特殊数据类型" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="680" y="592" width="520" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="criteria-col2-items" value="• PII (Personally Identifiable Information)&#xa;• PCI DSS (Payment Card Data)&#xa;• PHI (Protected Health Information)&#xa;• Trade Secrets (商业秘密)&#xa;• IP (Intellectual Property)" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="680" y="624" width="280" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="criteria-col3-title" value="决策流程" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="592" width="580" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="criteria-col3-items" value="1. Data Owner 初步分类&#xa;2. 安全团队审核&#xa;3. 法务/合规审批 (高级别)&#xa;4. 标签自动化打标 (Metadata + DLP)&#xa;5. 定期重新评估 (每年或重大变更时)" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="622" width="310" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="matrix-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="768" width="860" height="272" as="geometry" />
+        </mxCell>
+        <mxCell id="matrix-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="760" width="850" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="matrix-title" value="处理要求矩阵" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="776" width="400" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="matrix-items" value="存储要求:&#xa;• Public: 任意位置&#xa;• Internal: 内部系统 (防外部访问)&#xa;• Confidential: 加密存储 + 访问控制&#xa;• Restricted: 加密 + 审批 + HSM&#xa;&#xa;传输要求:&#xa;• Public: HTTP/明文&#xa;• Internal: HTTPS (内网可选)&#xa;• Confidential: TLS 1.2+ 强制&#xa;• Restricted: TLS 1.3 + VPN/专线" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="120" y="810" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="984" y="768" width="856" height="272" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="976" y="760" width="854" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-title" value="自动化分类工具" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1024" y="776" width="400" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-items" value="标签打标:&#xa;• Microsoft Azure Information Protection (AIP)&#xa;• Varonis Data Classification Engine&#xa;• Symantec DLP&#xa;• Forcepoint DLP&#xa;&#xa;内容识别:&#xa;• 正则表达式 (SSN, Credit Card)&#xa;• 机器学习分类器 (文档类型识别)&#xa;• EDM (Exact Data Matching) 指纹&#xa;• 上下文分析 (文件名 + 元数据)" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="1016" y="820" width="324" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="FmNhHckKiMUV-DNvsVef-1" value="处理要求:&#xa;• 无特殊保护要求&#xa;• 允许公开发布&#xa;• 无访问限制&#xa;&#xa;存储: 任意位置&#xa;传输: 无加密要求&#xa;标签: [Public]" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" vertex="1" parent="1">
+          <mxGeometry x="290" y="270" width="174" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="FmNhHckKiMUV-DNvsVef-2" value="处理要求:&#xa;• 限内部员工访问&#xa;• 需 NDO (Non-Disclosure)&#xa;• 离职即回收访问权&#xa;&#xa;存储: 内部系统&#xa;传输: 内网 / VPN&#xa;标签: [Internal Use Only]" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" vertex="1" parent="1">
+          <mxGeometry x="760" y="270" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="FmNhHckKiMUV-DNvsVef-3" value="处理要求:&#xa;• 按需访问 (Need-to-Know)&#xa;• 强制加密 (AES-256)&#xa;• 访问审计日志&#xa;• 水印标记&#xa;&#xa;存储: 加密存储&#xa;传输: TLS 1.3 + DLP&#xa;标签: [Confidential]" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="270" width="190" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="FmNhHckKiMUV-DNvsVef-4" value="处理要求:&#xa;• 严格授权 (高管+)&#xa;• 双因素认证 (MFA)&#xa;• 会话录像&#xa;• 禁止截屏/打印&#xa;• 专用设备访问&#xa;&#xa;存储: HSM / 加密 DB&#xa;传输: mTLS + VPN&#xa;标签: [Restricted]" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="280" width="130" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="FmNhHckKiMUV-DNvsVef-5" value="访问控制:&#xa;• Public: 无限制&#xa;• Internal: 员工账户&#xa;• Confidential: 最小权限 + MFA&#xa;• Restricted: 审批 + Just-in-Time Access" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" vertex="1" parent="1">
+          <mxGeometry x="530" y="810" width="310" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="FmNhHckKiMUV-DNvsVef-6" value="集成方式:&#xa;• 文件系统扫描 (NTFS, SharePoint)&#xa;• 云存储集成 (OneDrive, Box, GDrive)&#xa;• Email 网关 (Exchange, Gmail)&#xa;• 端点代理 (Windows, macOS)&#xa;&#xa;持续监控:&#xa;• 新文件自动分类&#xa;• 分类标签漂移检测&#xa;• 异常访问告警 (高级别数据)" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="820" width="290" height="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,247 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Fraud Detection System V6 Redesign" id="fraud-detection-v6-redesign">
+    <mxGraphModel dx="2391" dy="1287" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="background" value="" style="fillColor=#FAFBFC;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="2400" height="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="反欺诈检测系统" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="40" width="600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Fraud Detection System - Multi-Layer Defense Strategy" style="text;fontSize=20;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="110" width="1200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="method1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="84" y="184" width="540" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="method1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="80" y="180" width="540" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="method1-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="80" y="180" width="540" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="method1-title" value="规则引擎" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="180" width="540" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="method1-subtitle" value="Rule Engine" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=center;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="80" y="216" width="540" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="method1-section1" value="特点:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="110" y="270" width="500" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="method1-content1" value="• 确定性规则 (If-Then) | 低延迟 (&lt;10ms)&#xa;• 可解释性强" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="110" y="296" width="500" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="method1-section2" value="规则示例:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="110" y="350" width="500" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="method1-content2" value="• 单日交易 &gt; $10K → 拦截&#xa;• 30分钟内登录3国 → 告警&#xa;• IP黑名单匹配 → 阻断" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="110" y="376" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="method1-section3" value="局限:" style="text;fontSize=16;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="420" y="274" width="170" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="method1-content3" value="需人工维护 &#xa;易被绕过&#xa;高误报率" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="420" y="300" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="method2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="644" y="184" width="540" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="method2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="640" y="180" width="540" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="method2-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="640" y="180" width="540" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="method2-title" value="机器学习" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="640" y="180" width="540" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="method2-subtitle" value="Machine Learning" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=center;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="644" y="220" width="540" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="method2-section1" value="算法:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="670" y="270" width="500" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="method2-content1" value="• Random Forest | XGBoost / LightGBM&#xa;• 神经网络 | 异常检测 (Isolation Forest)" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="670" y="296" width="500" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="method2-section2" value="特征工程:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="670" y="350" width="500" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="method2-content2" value="• 交易金额/频率 | 设备指纹变化&#xa;• 历史行为偏差 | 社交网络关系" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="670" y="376" width="500" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="method2-section3" value="优势:" style="text;fontSize=16;fontStyle=1;fontColor=#059669;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="970" y="276" width="190" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="method2-content3" value="自动模式识别 &#xa;适应新欺诈手法&#xa;低误报率 (优化后)" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="970" y="302" width="200" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="method3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1204" y="184" width="540" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="method3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="180" width="540" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="method3-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="180" width="540" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="method3-title" value="设备指纹" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="180" width="540" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="method3-subtitle" value="Device Fingerprinting" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=center;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="216" width="540" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="method3-section1" value="采集维度:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="270" width="500" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="method3-content1" value="• 浏览器指纹 (User-Agent, Plugins)&#xa;• Canvas/WebGL指纹 | 硬件信息&#xa;• 网络信息 (IP, 时区) | 行为特征" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="296" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="method3-section2" value="应用场景:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="366" width="500" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="method3-content2" value="• 检测设备伪造 | 识别多账户关联&#xa;• 反机器人 (Bot Detection)" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="392" width="250" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="method3-section3" value="工具:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1510" y="274" width="90" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="method3-content3" value="FingerprintJS &#xa;Iovation &#xa;TransUnion" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1510" y="320" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="method4-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1764" y="184" width="552" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="method4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1760" y="180" width="552" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="method4-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1760" y="180" width="552" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="method4-title" value="行为分析 (UEBA)" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1760" y="180" width="552" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="method4-subtitle" value="User &amp; Entity Behavioral Analytics" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=center;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="1760" y="216" width="552" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="method4-section1" value="分析维度:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1790" y="270" width="512" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="method4-content1" value="• 交易模式 (金额/频率)&#xa;• 地理位置一致性 | 访问时段偏好&#xa;• 社交图谱异常" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1790" y="296" width="512" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="method4-section2" value="异常类型:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1790" y="366" width="512" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="method4-content2" value="• 账户接管 (ATO) | 薅羊毛&#xa;• 洗钱 (Money Laundering)" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1790" y="392" width="512" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="method4-section3" value="技术:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="2070" y="274" width="160" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="method4-content3" value="Peer Group Analysis&#xa;Sequence Analysis&#xa;Graph Analytics" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="2070" y="308.5" width="200" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="types-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="84" y="544" width="2232" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="types-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="80" y="540" width="2232" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="types-title" value="常见欺诈类型 Common Fraud Types" style="text;fontSize=28;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="570" width="2100" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="type1-title" value="账户接管 (ATO)" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="620" width="500" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="type1-content" value="• 凭证填充 (Credential Stuffing)&#xa;• 钓鱼攻击获取密码&#xa;检测: 设备变化 + 地理异常 + MFA" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="130" y="646" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="type2-title" value="支付欺诈" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="670" y="620" width="500" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="type2-content" value="• 盗刷信用卡 | 友好欺诈 (恶意退款)&#xa;检测: CVV验证 + 3DS + 交易历史" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="670" y="646" width="500" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="type3-title" value="促销滥用 (薅羊毛)" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="620" width="500" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="type3-content" value="• 批量注册虚假账户 | Bonus Abuse&#xa;检测: 设备聚类 + 图关联 + 行为异常" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="646" width="500" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="type4-title" value="身份盗用" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1750" y="620" width="520" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="type4-content" value="• 伪造身份文件 (Synthetic ID)&#xa;• 使用泄露数据开户&#xa;检测: KYC验证 + 文档OCR + 活体" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1750" y="646" width="520" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="84" y="804" width="1116" height="296" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="80" y="800" width="1120" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-title" value="系统架构" style="text;fontSize=28;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="830" width="300" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-subtitle" value="System Architecture" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="866" width="300" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-section1" value="实时决策引擎:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="910" width="1000" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-content1" value="• API Gateway: 接收业务事件 (登录/交易/注册)&#xa;• 特征提取: 实时计算 100+ 特征&#xa;• 多模型融合: 规则 + ML + 行为分析&#xa;• 风险评分: 0-1000分, 阈值分层处理&#xa;• 响应策略: Allow | Challenge (MFA) | Block | Review" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="130" y="936" width="1000" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-section2" value="离线分析:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="620" y="912" width="140" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-content2" value="批量训练模型 (每日更新) | 欺诈模式挖掘 (图分析) | 黑名单维护" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="620" y="938" width="420" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-section3" value="性能要求:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="620" y="970" width="400" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="arch-content3" value="• 延迟 &lt; 100ms (P99) | 吞吐 &gt; 10K TPS&#xa;• 可用性 99.95%" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="620" y="996" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1216" y="804" width="1084" height="296" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1212" y="800" width="1078" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-title" value="反欺诈平台" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1262" y="830" width="300" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-subtitle" value="Fraud Prevention Platforms" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=left;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="1262" y="866" width="400" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-section1" value="商业平台:" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1262" y="910" width="1000" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-content1" value="• Stripe Radar (支付欺诈) | Signifyd (电商保障)&#xa;• Sift (多场景反欺诈) | Forter (实时决策)&#xa;• Riskified (订单审核)" style="text;fontSize=15;fontColor=#FFFFFF;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;opacity=95;" parent="1" vertex="1">
+          <mxGeometry x="1262" y="936" width="1000" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-section2" value="开源/自建:" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1262" y="1006" width="1000" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-content2" value="• Apache Flink (实时计算) | TensorFlow / PyTorch (模型训练)&#xa;• Neo4j (图分析) | Redis (特征缓存) | Kafka (事件流)" style="text;fontSize=15;fontColor=#FFFFFF;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;opacity=95;" parent="1" vertex="1">
+          <mxGeometry x="1262" y="1032" width="1000" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-section3" value="度量指标:" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1816" y="910" width="358" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-content3" value="• False Positive Rate (误报率) &lt; 5%&#xa;• Fraud Detection Rate (检出率) &gt; 85%&#xa;• Precision / Recall / F1-Score&#xa;• 业务影响: 损失金额 / 总交易额&#xa;• 用户体验: Challenge Rate &lt; 2%" style="text;fontSize=15;fontColor=#FFFFFF;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;opacity=95;" parent="1" vertex="1">
+          <mxGeometry x="1816" y="936" width="388" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-note" value="参考: PCI DSS Requirements | ACFE (Association of Certified Fraud Examiners) | Gartner Fraud Detection &amp; Prevention Report 2024" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="1250" width="2000" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

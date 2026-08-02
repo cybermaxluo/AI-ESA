@@ -1,0 +1,154 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Cloud Security Governance" id="cloud-security-governance-v6">
+    <mxGraphModel dx="2241" dy="1164" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title-main" value="云安全治理框架" style="text;fontSize=48;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="560" y="32" width="800" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="title-sub" value="Cloud Security Governance Framework - CSA CCM, NIST, ISO 27017" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="688" y="96" width="544" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="160" width="1760" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="160" width="1760" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="160" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-title" value="战略层&#xa;Strategic" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="96" y="192" width="248" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-item1" value="&#xa;云安全战略&#xa;Cloud Security Strategy" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="192" width="312" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-item2" value="&#xa;治理架构&#xa;Governance Architecture" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="760" y="192" width="312" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-item3" value="&#xa;合规框架&#xa;Compliance Framework" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="192" width="312" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-item4" value="&#xa;风险管理&#xa;Risk Management" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="192" width="296" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="340" as="sourcePoint" />
+            <mxPoint x="960" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="layer2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="384" width="1760" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="384" width="1760" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="384" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-title" value="政策层&#xa;Policy" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="96" y="432" width="240" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-item1" value="&#xa;IAM策略&#xa;IAM Policy" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="375" y="408" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-item2" value="网络策略&#xa;Network Policy" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="667" y="408" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-item3" value="数据保护策略&#xa;Data Protection" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="963" y="408" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-item4" value="安全基线&#xa;Security Baseline" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1259" y="408" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-item5" value="IaC模板&#xa;IaC Templates" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1555" y="408" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="560" as="sourcePoint" />
+            <mxPoint x="960" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="layer3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="608" width="1760" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="600" width="1760" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="600" width="280" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-title" value="实施层&#xa;Implementation" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="96" y="648" width="240" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-item1" value="Landing Zone&#xa;基础架构蓝图" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="392" y="640" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-item2" value="账户/项目结构&#xa;Account Structure" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="660" y="642" width="280" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-item3" value="网络架构&#xa;Network Architecture" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="960" y="642" width="256" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-item4" value="安全服务&#xa;Security Services" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="642" width="272" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-item5" value="IaC自动化&#xa;IaC Automation" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1536" y="644" width="272" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-note" value="[配置] Terraform/CloudFormation/ARM" style="text;fontSize=14;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="388" y="744" width="264" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow3" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="800" as="sourcePoint" />
+            <mxPoint x="960" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="layer4-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="848" width="1760" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="840" width="1760" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="840" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-title" value="运营层&#xa;Operations" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="96" y="856" width="232" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-item1" value="CSPM&#xa;态势管理" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="400" y="854" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-item2" value="CWPP&#xa;工作负载保护" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="640" y="854" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-item3" value="CIEM&#xa;权限管理" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="880" y="854" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-item4" value="云日志审计&#xa;Audit Logging" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1112" y="855" width="224" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-item5" value="SIEM集成&#xa;Security Monitoring" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1368" y="856" width="192" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-item6" value="事件响应&#xa;Incident Response" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1576" y="856" width="224" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="note-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="1008" width="1760" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="note-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="1000" width="1760" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="note-text" value="框架参考: CSA Cloud Controls Matrix (CCM) | NIST SP 800-53 | ISO/IEC 27017/27018 | CIS Cloud Security Benchmarks" style="text;fontSize=16;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="96" y="1016" width="1720" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

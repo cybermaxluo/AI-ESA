@@ -1,0 +1,256 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="DevSecOps Toolchain V6" id="devsecops-toolchain-v6-opt">
+    <mxGraphModel dx="2825" dy="1755" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title-main" value="DevSecOps 工具链" style="text;fontSize=36;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Inter,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="40" width="600" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="title-sub" value="Security Automation in CI/CD Pipeline" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="96" width="800" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="stage1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="84" y="164" width="340" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="stage1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="80" y="160" width="340" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="stage1-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="80" y="160" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="stage1-number-bg" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="96" y="172" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="stage1-number" value="1" style="text;fontSize=28;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="96" y="172" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="stage1-title" value="代码阶段" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Inter,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="152" y="180" width="180" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="stage1-subtitle" value="Code" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=left;opacity=80;" parent="1" vertex="1">
+          <mxGeometry x="240" y="184" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="stage1-content" value="Git Hooks&#xa;Pre-commit 检查&#xa;IDE 安全插件&#xa;&#xa;代码规范检查&#xa;• ESLint / Pylint&#xa;• Prettier" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Inter,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="96" y="230" width="308" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="stage2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="484" y="164" width="340" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="stage2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="480" y="160" width="340" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="stage2-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="480" y="160" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="stage2-number-bg" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="496" y="172" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="stage2-number" value="2" style="text;fontSize=28;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="496" y="172" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="stage2-title" value="构建阶段" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Inter,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="552" y="180" width="180" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="stage2-subtitle" value="Build" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=left;opacity=80;" parent="1" vertex="1">
+          <mxGeometry x="640" y="184" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="stage2-content" value="SAST 静态扫描&#xa;• SonarQube&#xa;• Checkmarx&#xa;&#xa;SCA 依赖扫描&#xa;• Snyk, Dep-Check" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Inter,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="496" y="230" width="136" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="stage3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="884" y="164" width="340" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="stage3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="880" y="160" width="340" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="stage3-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="880" y="160" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="stage3-number-bg" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="896" y="172" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="stage3-number" value="3" style="text;fontSize=28;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="896" y="172" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="stage3-title" value="测试阶段" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Inter,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="952" y="180" width="180" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="stage3-subtitle" value="Test" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=left;opacity=80;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="184" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="stage3-content" value="DAST 动态扫描&#xa;• OWASP ZAP&#xa;• Burp Suite&#xa;&#xa;IAST 交互扫描&#xa;• Contrast" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Inter,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="896" y="230" width="112" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="stage4-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1284" y="164" width="340" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="stage4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="160" width="340" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="stage4-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="160" width="340" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="stage4-number-bg" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1296" y="172" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="stage4-number" value="4" style="text;fontSize=28;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1296" y="172" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="stage4-title" value="发布阶段" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Inter,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1352" y="180" width="180" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="stage4-subtitle" value="Release" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=left;opacity=80;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="184" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="stage4-content" value="镜像扫描&#xa;• Trivy / Clair&#xa;• Grype&#xa;&#xa;镜像签名&#xa;• Cosign / Notary" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Inter,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1296" y="230" width="120" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="stage5-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1684" y="164" width="276" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="stage5-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1680" y="160" width="276" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="stage5-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1680" y="160" width="276" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="stage5-number-bg" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1696" y="172" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="stage5-number" value="5" style="text;fontSize=28;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1696" y="172" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="stage5-title" value="部署阶段" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Inter,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1752" y="180" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="stage5-subtitle" value="Deploy" style="text;fontSize=12;fontColor=#FFFFFF;fontFamily=Inter;align=left;opacity=80;" parent="1" vertex="1">
+          <mxGeometry x="1840" y="186" width="80" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="stage5-content" value="Admission&#xa;Control&#xa;• OPA&#xa;• Kyverno" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Inter,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1696" y="230" width="128" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow1" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=4;endSize=12;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="280" as="sourcePoint" />
+            <mxPoint x="470" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow2" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=4;endSize=12;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="280" as="sourcePoint" />
+            <mxPoint x="870" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow3" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=4;endSize=12;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1230" y="280" as="sourcePoint" />
+            <mxPoint x="1270" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow4" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=4;endSize=12;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1630" y="280" as="sourcePoint" />
+            <mxPoint x="1670" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="stage6-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="2028" y="164" width="540" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="stage6-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="2024" y="160" width="540" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="stage6-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="2024" y="160" width="540" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="stage6-number-bg" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2040" y="172" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="stage6-number" value="6" style="text;fontSize=28;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="2040" y="172" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="stage6-title" value="运行监控" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Inter,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="2096" y="180" width="180" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="stage6-subtitle" value="Runtime Monitoring" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=left;opacity=80;" parent="1" vertex="1">
+          <mxGeometry x="2224" y="184" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="stage6-content" value="RASP 运行时保护&#xa;• Contrast / Sqreen&#xa;&#xa;异常行为检测&#xa;• Falco / Sysdig&#xa;&#xa;SIEM 事件管理&#xa;• Splunk / ELK&#xa;" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Inter,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="2040" y="220" width="136" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="stage7-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="100" y="460" width="540" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="stage7-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="96" y="456" width="540" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="stage7-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=16;glass=1;" parent="1" vertex="1">
+          <mxGeometry x="96" y="448" width="544" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="stage7-title" value="持续反馈 Continuous Feedback" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Inter,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="126" y="461" width="508" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="stage7-content" value="安全指标仪表板&#xa;• 漏洞修复时间 MTTF&#xa;• 安全债务 Security Debt&#xa;• 发布阻断率&#xa;&#xa;自动化通知&#xa;• Slack / Teams / 飞书 集成&#xa;• Jira 工单自动创建&#xa;" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Inter,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="112" y="526" width="200" height="154" as="geometry" />
+        </mxCell>
+        <mxCell id="stage8-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="720" y="461" width="540" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="stage8-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=none;strokeWidth=3;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="716" y="457" width="540" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="stage8-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=16;glass=1;" parent="1" vertex="1">
+          <mxGeometry x="712" y="449" width="548" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="stage8-title" value="安全门禁 Security Gates" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Inter,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="736" y="461" width="508" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="stage8-content" value="质量门禁策略&#xa;&#xa;阻断级 Critical&#xa;• 高危漏洞 CVSS &gt; 7.0&#xa;• 硬编码密钥/敏感信息&#xa;• 未签名镜像" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Inter,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="732" y="527" width="184" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="108" y="740" width="2460" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="104" y="736" width="2456" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-title" value="最佳实践 Best Practices" style="text;fontSize=18;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Inter,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="124" y="756" width="428" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-content" value="Shift Left 安全左移,尽早发现问题  |  Policy as Code 策略代码化  |  自动化优先,减少人工干预  |  可观测性 + 可追溯性&#xa;安全门禁可配置,平衡安全与效率  |  持续学习与改进,定期评估工具链效能  |  DevSecOps 文化建设与落地" style="text;fontSize=14;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Inter,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="124" y="788" width="860" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="center-icon" value="DevSecOps" style="text;fontSize=80;fontStyle=1;fontColor=#E0E7FF;fontFamily=Inter;align=center;opacity=15;" parent="1" vertex="1">
+          <mxGeometry x="1136" y="742" width="560" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="V5YMvEUdrJ4Frxl9ee1h-3" value="APM 性能监控&#xa;• Datadog&#xa;" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Inter,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="2216" y="220" width="136" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="V5YMvEUdrJ4Frxl9ee1h-4" value="持续改进&#xa;• 安全培训反馈" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Inter,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="352" y="526" width="144" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="V5YMvEUdrJ4Frxl9ee1h-5" value="警告级 Warning&#xa;• 中危漏洞 CVSS 4.0-7.0&#xa;• 代码质量问题&#xa;• 依赖版本过旧" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Inter,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1012" y="527" width="192" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="V5YMvEUdrJ4Frxl9ee1h-6" value="Secret Detection&#xa;• GitLeaks" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Inter,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="648" y="230" width="128" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="V5YMvEUdrJ4Frxl9ee1h-8" value="API 安全测试&#xa;• Postman" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Inter,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1056" y="230" width="112" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="V5YMvEUdrJ4Frxl9ee1h-9" value="IaC 扫描&#xa;• Checkov" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Inter,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="230" width="120" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="V5YMvEUdrJ4Frxl9ee1h-10" value="Policy as Code&#xa;蓝绿/金丝雀&#xa;Rollback" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Inter,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1840" y="230" width="128" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="sRxqU-jv_yUFaAfDsx0W-1" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=4;endSize=12;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1976" y="279.58" as="sourcePoint" />
+            <mxPoint x="2016" y="279.58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

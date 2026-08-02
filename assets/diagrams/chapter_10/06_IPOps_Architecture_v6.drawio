@@ -1,0 +1,136 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="IPOps Architecture V6" id="ipops-architecture-v6">
+    <mxGraphModel dx="1959" dy="1113" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="background" value="" style="fillColor=#FAFBFC;strokeColor=NONE;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="信息保护运营中心架构" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="48" width="900" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="IPOps Center Architecture - Monitoring, Alerting, Response, KPI Dashboard, SIEM Integration" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="112" width="1400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="monitor-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="88" y="188" width="1756" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="monitor-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="180" width="1756" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="monitor-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="180" width="1756" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="monitor-title" value="L1 监控中心 | Tier 1 Monitoring Center" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="193" width="1756" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dlp-monitor" value="DLP 监控&#xa;告警分类&#xa;&lt;15min响应" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=16;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="120" y="250" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="irm-monitor" value="IRM 监控&#xa;访问日志&#xa;权限告警" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=16;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="470" y="250" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="casb-monitor" value="CASB 监控&#xa;云应用活动&#xa;Shadow IT" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=16;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="840" y="250" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ueba-monitor" value="UEBA 监控&#xa;异常行为&#xa;风险评分" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=16;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="250" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dashboard" value="实时仪表盘&#xa;待处理队列&#xa;SLA倒计时" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=16;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="1610" y="250" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="alert-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="88" y="378" width="1756" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="alert-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="370" width="1756" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="alert-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="370" width="1756" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="alert-title" value="L2 告警与调查 | Tier 2 Alert &amp; Investigation" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="383" width="1756" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="classification" value="事件分类&#xa;误报/真实事件&#xa;优先级评估" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=16;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="120" y="440" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="investigation" value="深度调查&#xa;用户访谈&#xa;日志关联" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=16;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="470" y="440" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="policy-tuning" value="策略调优&#xa;降低误报&#xa;白名单管理" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=16;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="840" y="440" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="user-training" value="用户培训&#xa;一对一指导&#xa;最佳实践" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=16;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="440" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="response-sla" value="响应执行&#xa;&lt;4小时处理&#xa;事件关闭" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=16;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="1610" y="440" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="analysis-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="88" y="568" width="1756" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="analysis-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="560" width="1756" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="analysis-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="560" width="1756" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="analysis-title" value="L3 高级分析与架构 | Tier 3 Advanced Analysis &amp; Architecture" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="573" width="1756" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="insider-threat" value="内部威胁调查&#xa;复杂案例&#xa;跨工具关联" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=16;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="120" y="630" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="correlation" value="关联分析&#xa;DLP+UEBA+SIEM&#xa;威胁建模" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=16;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="470" y="630" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="architecture-opt" value="架构优化&#xa;技术选型&#xa;性能调优" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=16;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="840" y="630" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="automation" value="自动化集成&#xa;SOAR Playbook&#xa;API编排" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=16;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="630" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="soc-collaboration" value="SOC协作&#xa;联合调查&#xa;&lt;24小时处理" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=16;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="1610" y="630" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kpi-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="88" y="758" width="872" height="342" as="geometry" />
+        </mxCell>
+        <mxCell id="kpi-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;arcSize=12;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="80" y="750" width="870" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="kpi-title" value="KPI 仪表盘" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="770" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kpi-subtitle" value="Key Performance Indicators Dashboard" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="800" width="400" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kpi-content" value="覆盖率指标:&#xa;• 分类覆盖率 &gt;90%&#xa;• DLP策略覆盖 &gt;95%&#xa;• IRM保护比例 &gt;80%&#xa;&#xa;有效性指标:&#xa;• DLP阻止率 &gt;80%&#xa;• 误报率 &lt;10%&#xa;• 真实事件价值 $50K-500K&#xa;&#xa;效率指标:&#xa;• MTTR &lt;15分钟(Critical)&#xa;• MTTC &lt;4小时(平均)&#xa;• 自动化率 &gt;40%" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="170" y="827.5" width="200" height="255" as="geometry" />
+        </mxCell>
+        <mxCell id="kpi-metrics" value="用户影响:&#xa;• 用户满意度 &gt;4.0&#xa;• 分类准确率 &gt;85%&#xa;• Help Desk工单 ↓&#xa;&#xa;合规指标:&#xa;• 审计发现 0 Critical&#xa;• 策略豁免率 &lt;5%&#xa;&#xa;趋势分析:&#xa;• 月度事件趋势&#xa;• 同行基准对比&#xa;• 投资回报ROI" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="600" y="827.5" width="170" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="siem-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="984" y="758" width="876" height="342" as="geometry" />
+        </mxCell>
+        <mxCell id="siem-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="976" y="750" width="874" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="siem-title" value="SIEM 集成" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1016" y="770" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="siem-subtitle" value="Security Information &amp; Event Management Integration" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1016" y="800" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="siem-data-sources" value="数据源整合:&#xa;• DLP事件日志 (高危下载/上传)&#xa;• IRM访问审计 (文档打开/撤销)&#xa;• CASB云应用活动 (Shadow IT)&#xa;• UEBA用户风险评分&#xa;• 端点DLP (离线数据)&#xa;&#xa;关联规则:&#xa;• DLP大量下载 + UEBA高风险 = Critical&#xa;• 离职员工 + 异常访问 = 内部威胁&#xa;• 外部分享 + 异常位置 = 数据泄漏" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="1016" y="830" width="324" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="siem-response" value="自动化响应:&#xa;• SOAR Playbook 执行&#xa;• 自动暂停账户&#xa;• 工单自动创建&#xa;• 告警升级通知&#xa;&#xa;输出集成:&#xa;• Splunk/Sentinel&#xa;• ServiceNow/Jira&#xa;• HR系统同步&#xa;• 邮件/Teams通知" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="1426" y="830" width="204" height="210" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

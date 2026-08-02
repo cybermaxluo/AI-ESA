@@ -1,0 +1,226 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Data Subject Rights Management V6" id="dsr-management-v6">
+    <mxGraphModel dx="2155" dy="1296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="数据主体权利管理" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="80" y="40" width="1760" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Data Subject Rights Management - Request Handling, Verification, Fulfillment" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="80" y="100" width="1760" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="right1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="84" y="174" width="280" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="right1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="170" width="280" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="right1-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="170" width="280" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="right1-number" value="1" style="ellipse;fillColor=#FFFFFF;strokeColor=none;fontColor=#0066FF;fontSize=32;fontStyle=1;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="96" y="176" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="right1-title" value="访问权" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="156" y="170" width="180" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="right1-subtitle" value="Access Right" style="text;fontSize=14;fontColor=#E0E7FF;fontFamily=Inter;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="156" y="204" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="right1-items" value="• 个人数据副本&#xa;• 处理目的/来源&#xa;• 共享对象&#xa;&#xa;响应格式:&#xa;• JSON/CSV/PDF&#xa;&#xa;时限: 30天&#xa;费用: 免费(首次)" style="text;fontSize=13;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="96" y="234" width="248" height="166" as="geometry" />
+        </mxCell>
+        <mxCell id="right2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="384" y="174" width="280" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="right2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="380" y="170" width="280" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="right2-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="380" y="170" width="280" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="right2-number" value="2" style="ellipse;fillColor=#FFFFFF;strokeColor=none;fontColor=#0066FF;fontSize=32;fontStyle=1;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="396" y="176" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="right2-title" value="更正权" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="456" y="170" width="180" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="right2-subtitle" value="Rectification" style="text;fontSize=14;fontColor=#E0E7FF;fontFamily=Inter;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="456" y="204" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="right2-items" value="• 不准确数据更正&#xa;• 不完整数据补充&#xa;&#xa;验证:&#xa;• 提供正确信息证明&#xa;• 身份再验证&#xa;" style="text;fontSize=13;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="396" y="234" width="104" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="right3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="684" y="174" width="280" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="right3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="680" y="170" width="280" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="right3-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="680" y="170" width="280" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="right3-number" value="3" style="ellipse;fillColor=#FFFFFF;strokeColor=none;fontColor=#0066FF;fontSize=32;fontStyle=1;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="696" y="176" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="right3-title" value="删除权" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="756" y="170" width="180" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="right3-subtitle" value="Erasure Right" style="text;fontSize=14;fontColor=#E0E7FF;fontFamily=Inter;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="756" y="204" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="right3-items" value="触发条件:&#xa;• 撤回同意&#xa;• 目的已达成&#xa;• 反对处理&#xa;• 非法处理&#xa;&#xa;&#xa;" style="text;fontSize=13;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="696" y="234" width="74" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="right4-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="984" y="174" width="280" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="right4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="980" y="170" width="280" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="right4-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="980" y="170" width="280" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="right4-number" value="4" style="ellipse;fillColor=#FFFFFF;strokeColor=none;fontColor=#0066FF;fontSize=32;fontStyle=1;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="996" y="176" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="right4-title" value="限制权" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1056" y="170" width="180" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="right4-subtitle" value="Restriction" style="text;fontSize=14;fontColor=#E0E7FF;fontFamily=Inter;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1056" y="204" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="right4-items" value="触发条件:&#xa;• 数据准确性争议&#xa;• 非法处理&#xa;• 主体反对处理&#xa;&#xa;限制行为:&#xa;• 仅存储不处理&#xa;• 特殊标记&#xa;" style="text;fontSize=13;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="996" y="234" width="114" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="right5-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1284" y="174" width="280" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="right5-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="170" width="280" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="right5-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="170" width="280" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="right5-number" value="5" style="ellipse;fillColor=#FFFFFF;strokeColor=none;fontColor=#0066FF;fontSize=32;fontStyle=1;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1296" y="176" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="right5-title" value="携带权" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1356" y="170" width="180" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="right5-subtitle" value="Portability" style="text;fontSize=14;fontColor=#E0E7FF;fontFamily=Inter;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1356" y="204" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="right5-items" value="适用范围:&#xa;• 基于同意处理&#xa;• 自动化处理&#xa;&#xa;格式要求:&#xa;• 结构化&#xa;• 常用格式&#xa;• 可机读&#xa;" style="text;fontSize=13;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1296" y="234" width="104" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="right6-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1584" y="174" width="280" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="right6-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="170" width="280" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="right6-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="170" width="280" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="right6-number" value="6" style="ellipse;fillColor=#FFFFFF;strokeColor=none;fontColor=#0066FF;fontSize=32;fontStyle=1;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1596" y="176" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="right6-title" value="反对权" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1656" y="170" width="180" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="right6-subtitle" value="Objection" style="text;fontSize=14;fontColor=#E0E7FF;fontFamily=Inter;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1656" y="204" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="right6-items" value="适用场景:&#xa;• 营销推广&#xa;• 画像分析&#xa;• 公共利益处理&#xa;&#xa;效力:&#xa;• 停止处理&#xa;• 无需理由" style="text;fontSize=13;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1596" y="234" width="104" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="84" y="438" width="1756" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="434" width="1756" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-title" value="请求处理流程 Request Handling Process" style="text;fontSize=28;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="120" y="450" width="1680" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="step1-title" value="1. 接收 Intake" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="120" y="500" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="step1-items" value="• 多渠道受理&#xa;• 自动工单生成&#xa;• 请求分类标记&#xa;• SLA时钟启动&#xa;• 确认邮件发送" style="text;fontSize=13;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="120" y="530" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="step2-title" value="2. 验证 Verification" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="460" y="500" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="step2-items" value="• 身份验证(KBA/OTP)&#xa;• 防欺诈检测&#xa;• 代理授权验证&#xa;• 合法性审查&#xa;• 验证失败→拒绝" style="text;fontSize=13;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="460" y="530" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="step3-title" value="3. 定位 Locate" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="800" y="500" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="step3-items" value="• 数据发现扫描&#xa;• 数据地图查询&#xa;• 数据血缘追踪&#xa;• 第三方数据识别&#xa;• 数据范围确认" style="text;fontSize=13;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="800" y="530" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="step4-title" value="4. 执行 Execute" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="500" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="step4-items" value="• 自动化脚本执行&#xa;• 人工审核(敏感)&#xa;• 多系统同步操作&#xa;• 备份特殊处理&#xa;• 操作日志记录" style="text;fontSize=13;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="530" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="step5-title" value="5. 响应 Respond" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="500" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="step5-items" value="• 结果通知&#xa;• 数据导出(加密)&#xa;• 完成确认&#xa;• 记录归档&#xa;• 质量审查" style="text;fontSize=13;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="530" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="84" y="702" width="860" height="198" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="698" width="860" height="198" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-title" value="工具与自动化" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="120" y="714" width="780" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-items" value="DSR平台:&#xa;• OneTrust Privacy Rights Automation&#xa;• BigID Subject Rights Fulfillment&#xa;• WireWheel DSAR Automation&#xa;• Securiti PrivacyOps&#xa;" style="text;fontSize=13;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="120" y="750" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="challenge-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="970" y="705" width="866" height="198" as="geometry" />
+        </mxCell>
+        <mxCell id="challenge-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="971" y="697" width="856" height="198" as="geometry" />
+        </mxCell>
+        <mxCell id="challenge-title" value="挑战与解决方案" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1011" y="717" width="780" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="challenge-items" value="挑战1: 数据分散在多个系统&#xa;• 解决: 统一数据目录+数据地图&#xa;• 工具: Collibra, Alation&#xa;&#xa;挑战2: 身份匹配困难(不同系统不同ID)&#xa;• 解决: 统一身份管理(MDM)&#xa;• 工具: Informatica MDM, Reltio&#xa;" style="text;fontSize=13;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1011" y="763" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1hRm3hILYGgGnuMMlQwO-1" value="核心能力:&#xa;• 多渠道请求聚合&#xa;• 身份验证集成(SSO/MFA)&#xa;• 跨系统数据发现&#xa;• 工作流自动化/SLA监控&#xa;• 合规报告生成&#xa;&#xa;集成方式: API/Webhook/RPA" style="text;fontSize=13;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="510" y="740" width="290" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1hRm3hILYGgGnuMMlQwO-2" value="挑战3: 备份数据删除复杂&#xa;• 解决: 逻辑删除(标记)+自动过期&#xa;• 策略: 备份加密+密钥销毁&#xa;&#xa;挑战4: 欺诈请求识别&#xa;• 解决: 多因素身份验证+行为分析&#xa;• 限制: 过度验证vs用户体验平衡" style="text;fontSize=13;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1431" y="763" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1hRm3hILYGgGnuMMlQwO-3" value="例外:&#xa;• 法律义务&#xa;• 合法利益&#xa;&#xa;时限: 立即" style="text;fontSize=13;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1726" y="234" width="84" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="1hRm3hILYGgGnuMMlQwO-4" value="直接传输:&#xa;• 可传至新控制者&#xa;• 技术可行前提&#xa;&#xa;时限: 30天" style="text;fontSize=13;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="234" width="90" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="1hRm3hILYGgGnuMMlQwO-5" value="解除:&#xa;• 争议解决&#xa;• 主体同意&#xa;&#xa;时限: 立即" style="text;fontSize=13;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="234" width="120" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="1hRm3hILYGgGnuMMlQwO-6" value="例外:&#xa;• 法律义务&#xa;• 公共利益&#xa;• 诉讼抗辩&#xa;&#xa;时限: 30天" style="text;fontSize=13;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="840" y="238" width="90" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="1hRm3hILYGgGnuMMlQwO-7" value="实施:&#xa;• 主系统更新&#xa;• 备份更新&#xa;• 第三方通知&#xa;&#xa;时限: 30天" style="text;fontSize=13;fontColor=#1F2937;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="540" y="238" width="110" height="142" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

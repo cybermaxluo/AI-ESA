@@ -1,0 +1,430 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="AI Security Implementation Patterns" id="ai-security-patterns">
+    <mxGraphModel dx="1693" dy="1046" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAFBFC;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="AI 安全落地共性规律与决策框架" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=36;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="460" y="20" width="1000" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="AI Security Implementation Common Patterns &amp; Decision Framework (Based on 4 Case Studies)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontColor=#666666;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="510" y="65" width="900" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="case-section" value="" style="rounded=16;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="105" width="1840" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="case-title" value="四大实战案例总览" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="60" y="115" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="case1" value="" style="rounded=12;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#3B82F6;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="60" y="155" width="430" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="case1-num" value="案例 1" style="rounded=20;whiteSpace=wrap;html=1;fillColor=#3B82F6;strokeColor=none;fontSize=11;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="75" y="165" width="55" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="case1-title" value="LLM 智能客服 Prompt Injection 防护" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#1E40AF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="140" y="163" width="330" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="case1-desc" value="问题：客户敏感信息泄露 | 约束：两周修复、预算有限&#xa;失败：system prompt 加固无效、正则 DLP 误报过高&#xa;方案：分层防护（黑名单→PII→输出过滤→速率限制→人工）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;spacing=3;" parent="1" vertex="1">
+          <mxGeometry x="75" y="190" width="400" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="case2" value="" style="rounded=12;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="510" y="155" width="430" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="case2-num" value="案例 2" style="rounded=20;whiteSpace=wrap;html=1;fillColor=#16A34A;strokeColor=none;fontSize=11;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="525" y="165" width="55" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="case2-title" value="开源模型供应链安全体系建设" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#166534;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="590" y="163" width="330" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="case2-desc" value="问题：Pickle 恶意代码、高危 CVE | 约束：预算有限&#xa;方案：SBOM 生成 + Pickle 扫描 + CVE 检查 + GPG 签名&#xa;放弃：Neural Cleanse（成本高、NLP 效果差、耗时长）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;spacing=3;" parent="1" vertex="1">
+          <mxGeometry x="525" y="190" width="400" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="case3" value="" style="rounded=12;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#F59E0B;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="960" y="155" width="430" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="case3-num" value="案例 3" style="rounded=20;whiteSpace=wrap;html=1;fillColor=#F59E0B;strokeColor=none;fontSize=11;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="975" y="165" width="55" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="case3-title" value="GDPR 合规审计的迭代实践" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#B45309;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="163" width="330" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="case3-desc" value="问题：低估合规复杂度，多轮审计才通过&#xa;失败：技术完美主义、低估 AIIA 工作量&#xa;策略：等效措施替代完美技术（季度重训代替实时遗忘）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;spacing=3;" parent="1" vertex="1">
+          <mxGeometry x="975" y="190" width="400" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="case4" value="" style="rounded=12;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#DC2626;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1410" y="155" width="450" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="case4-num" value="案例 4" style="rounded=20;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=none;fontSize=11;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1425" y="165" width="55" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="case4-title" value="对抗攻击红队演练与防护实践" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1490" y="163" width="350" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="case4-desc" value="问题：人脸识别 FGSM 攻击成功率高、物理对抗有效&#xa;失败：对抗训练导致正常准确率下降、输入变换误报高&#xa;方案：分层防护（频域检测→多模型集成→轻量对抗训练→人工）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;spacing=3;" parent="1" vertex="1">
+          <mxGeometry x="1425" y="190" width="420" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tradeoff-section" value="" style="rounded=16;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="300" width="900" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="tradeoff-title" value="⚖️ 技术决策的核心权衡" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="60" y="310" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="to-header" value="" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#0066FF;strokeColor=#0052CC;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="350" width="860" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="toh1" value="权衡维度" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="60" y="360" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="toh2" value="一端" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="220" y="360" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="toh3" value="另一端" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="370" y="360" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="toh4" value="决策建议" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="520" y="360" width="400" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="to-r1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEF2F2;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="390" width="860" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="tor1c1" value="安全性 vs 可用性" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="60" y="405" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tor1c2" value="高强度防护" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#DC2626;strokeWidth=1;fontSize=11;fontColor=#DC2626;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="235" y="402" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tor1c3" value="用户体验" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;strokeWidth=1;fontSize=11;fontColor=#166534;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="385" y="402" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tor1c4" value="以业务可接受的误报率为约束，安全性不应牺牲可用性" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="530" y="402" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="to-r2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="445" width="860" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="tor2c1" value="理想方案 vs 可落地方案" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#F59E0B;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="60" y="460" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tor2c2" value="技术完美" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#F59E0B;strokeWidth=1;fontSize=11;fontColor=#B45309;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="235" y="457" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tor2c3" value="时间与预算" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#3B82F6;strokeWidth=1;fontSize=11;fontColor=#1E40AF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="385" y="457" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tor2c4" value="MVP 优先，迭代演进；避免完美主义陷阱" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="530" y="457" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="to-r3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEF2F2;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="500" width="860" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="tor3c1" value="自动化 vs 人工兜底" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#16A34A;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="60" y="515" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tor3c2" value="全自动" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#6366F1;strokeWidth=1;fontSize=11;fontColor=#4338CA;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="235" y="512" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tor3c3" value="人工复核" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#F59E0B;strokeWidth=1;fontSize=11;fontColor=#B45309;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="385" y="512" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tor3c4" value="关键决策保留人工环节；人工复核是最后防线但有运营成本" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="530" y="512" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="to-r4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="555" width="860" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="tor4c1" value="事前防护 vs 事后检测" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#3B82F6;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="60" y="570" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tor4c2" value="严格准入" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;strokeWidth=1;fontSize=11;fontColor=#166534;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="235" y="567" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tor4c3" value="持续监控" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#3B82F6;strokeWidth=1;fontSize=11;fontColor=#1E40AF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="385" y="567" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tor4c4" value="两者结合，分层设计；快速检测在前，精确检测在后" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="530" y="567" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="principle-box" value="" style="rounded=10;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="60" y="620" width="860" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="principle-text" value=" 核心原则：业务可用性优先于安全有效性，安全有效性优先于技术先进性" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#166534;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="70" y="630" width="840" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="failure-section" value="" style="rounded=16;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="960" y="300" width="920" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="failure-title" value="️ 常见误区	" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="980" y="310" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fp1" value="" style="rounded=12;whiteSpace=wrap;html=1;fillColor=#FEF2F2;strokeColor=#FECACA;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="980" y="350" width="270" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="fp1-icon" value="" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=28;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="990" y="355" width="45" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="fp1-title" value="安全幻觉" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1035" y="360" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="fp1-desc" value="误以为某种措施能提供安全保障" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#666666;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="990" y="390" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fp1-example" value="典型案例：" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="990" y="410" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fp1-ex1" value="• System prompt 加固无法防止注入" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#666666;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="990" y="430" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fp1-ex2" value="• 高下载量 ≠ 安全（模型供应链）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#666666;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="990" y="450" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fp2" value="" style="rounded=12;whiteSpace=wrap;html=1;fillColor=#FEF2F2;strokeColor=#FECACA;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1265" y="350" width="270" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="fp2-icon" value="" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=28;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1275" y="355" width="45" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="fp2-title" value="完美主义陷阱" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="360" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="fp2-desc" value="追求理想方案而忽视落地约束" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#666666;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1275" y="390" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fp2-example" value="典型案例：" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1275" y="410" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fp2-ex1" value="• 差分隐私严格参数导致业务不接受" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#666666;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1275" y="430" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fp2-ex2" value="• 实时机器遗忘 vs 季度重训练" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#666666;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1275" y="450" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fp3" value="" style="rounded=12;whiteSpace=wrap;html=1;fillColor=#FEF2F2;strokeColor=#FECACA;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1550" y="350" width="310" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="fp3-icon" value="" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=28;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1560" y="355" width="45" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="fp3-title" value="误报失控" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1605" y="360" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="fp3-desc" value="安全控制本身成为可用性风险" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#666666;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1560" y="390" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fp3-example" value="典型案例：" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1560" y="410" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fp3-ex1" value="• 正则 DLP 将订单号误判为电话号码" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#666666;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1560" y="430" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fp3-ex2" value="• 输入变换破坏正常图像特征" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#666666;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1560" y="450" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fp4" value="" style="rounded=12;whiteSpace=wrap;html=1;fillColor=#FEF2F2;strokeColor=#FECACA;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="980" y="500" width="270" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="fp4-icon" value="" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=28;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="990" y="505" width="45" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="fp4-title" value="预算低估" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1035" y="510" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="fp4-desc" value="未预留迭代与应急成本" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#666666;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="990" y="540" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fp4-example" value="典型案例：" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="990" y="560" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fp4-ex1" value="• ISO 42001 认证周期超出 2 倍预估" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#666666;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="990" y="580" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fp4-ex2" value="• AIIA 跨部门协作耗时常被低估" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#666666;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="990" y="600" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fp5" value="" style="rounded=12;whiteSpace=wrap;html=1;fillColor=#FEF2F2;strokeColor=#FECACA;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1265" y="500" width="270" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="fp5-icon" value="" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=28;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1275" y="505" width="45" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="fp5-title" value="单点依赖" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="510" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="fp5-desc" value="关键组件缺乏高可用设计" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#666666;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1275" y="540" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fp5-example" value="典型案例：" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontStyle=1;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1275" y="560" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fp5-ex1" value="• Redis 速率限制单点故障导致服务中断" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#666666;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1275" y="580" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fp5-ex2" value="• MVP 方案也需考虑关键组件 HA" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#666666;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1275" y="600" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-rel" value="" style="rounded=10;whiteSpace=wrap;html=1;fillColor=#FFFBEB;strokeColor=#F59E0B;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1550" y="500" width="310" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-rel-icon" value="" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=28;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1560" y="505" width="45" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-rel-title" value="常见误区	相互关联" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#B45309;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1605" y="510" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="fp-rel-desc" value="完美主义 → 预算超支 → 方案简化&#xa;→ 误报或可用性问题&#xa;&#xa; 建议：预算 × 1.5-2 倍&#xa;　 时间 × 2 倍" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;spacing=3;" parent="1" vertex="1">
+          <mxGeometry x="1560" y="545" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rec-section" value="" style="rounded=16;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="690" width="1840" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="rec-title" value=" 务实落地建议" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="60" y="700" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rec1" value="" style="rounded=12;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#3B82F6;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="60" y="740" width="340" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rec1-num" value="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0066FF;strokeColor=none;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="75" y="755" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="rec1-title" value="预算规划" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#1E40AF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="115" y="755" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rec1-content" value="初版预算 × 1.5-2 倍系数&#xa;预留迭代与意外成本&#xa;&#xa;示例：ISO 认证预留 30%-50% 缓冲&#xa;审计成本预留 2.5 倍" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontColor=#333333;fontFamily=Inter;spacing=3;" parent="1" vertex="1">
+          <mxGeometry x="75" y="795" width="310" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="rec2" value="" style="rounded=12;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="420" y="740" width="340" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rec2-num" value="2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#16A34A;strokeColor=none;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="435" y="755" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="rec2-title" value="时间规划" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#166534;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="475" y="755" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rec2-content" value="初版计划 × 2 倍系数&#xa;合规项目预留多轮审计时间&#xa;&#xa;示例：GDPR 通常需 2-3 轮审计&#xa;完成差距分析后再对外承诺" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontColor=#333333;fontFamily=Inter;spacing=3;" parent="1" vertex="1">
+          <mxGeometry x="435" y="795" width="310" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="rec3" value="" style="rounded=12;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#F59E0B;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="780" y="740" width="340" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rec3-num" value="3" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F59E0B;strokeColor=none;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="795" y="755" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="rec3-title" value="优先级排序" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#B45309;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="835" y="755" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rec3-content" value="" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontColor=#333333;fontFamily=Inter;spacing=3;" parent="1" vertex="1">
+          <mxGeometry x="795" y="795" width="310" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="rec3-p1" value="业务可用性" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;strokeWidth=1;fontSize=11;fontStyle=1;fontColor=#166534;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="800" y="800" width="85" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="rec3-arrow1" value="&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="885" y="800" width="25" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="rec3-p2" value="安全有效性" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#3B82F6;strokeWidth=1;fontSize=11;fontStyle=1;fontColor=#1E40AF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="910" y="800" width="85" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="rec3-arrow2" value="&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="995" y="800" width="25" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="rec3-p3" value="技术先进性" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#F3F4F6;strokeColor=#9CA3AF;strokeWidth=1;fontSize=11;fontStyle=1;fontColor=#6B7280;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="800" width="85" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="rec3-note" value="安全不应以牺牲业务为代价&#xa;技术不应追求完美而忽视落地" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#666666;fontFamily=Inter;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="800" y="840" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rec4" value="" style="rounded=12;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#DC2626;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="740" width="340" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rec4-num" value="4" style="ellipse;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=none;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1155" y="755" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="rec4-title" value="分层防护" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1195" y="755" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rec4-layers" value="" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontColor=#333333;fontFamily=Inter;spacing=3;" parent="1" vertex="1">
+          <mxGeometry x="1155" y="795" width="310" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="rec4-l1" value="L1 快速检测" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#3B82F6;strokeColor=none;fontSize=10;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1160" y="800" width="85" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="rec4-a1" value="→" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1245" y="800" width="20" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="rec4-l2" value="L2 精确检测" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#16A34A;strokeColor=none;fontSize=10;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1265" y="800" width="85" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="rec4-a2" value="→" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1350" y="800" width="20" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="rec4-l3" value="L3 人工兜底" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#F59E0B;strokeColor=none;fontSize=10;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1370" y="800" width="85" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="rec4-note" value="黑名单→语义检测→输出过滤→人工复核&#xa;成本低在前，准确高在后" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#666666;fontFamily=Inter;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1160" y="840" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rec5" value="" style="rounded=12;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#6366F1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="740" width="360" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rec5-num" value="5" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6366F1;strokeColor=none;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1515" y="755" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="rec5-title" value="持续验证" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#4338CA;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1555" y="755" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rec5-content" value="红队测试常态化，不要一次性&#xa;运行指标持续监控&#xa;&#xa;建议频率：&#xa;• 红队测试：季度 | • 指标复盘：月度" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontColor=#333333;fontFamily=Inter;spacing=3;" parent="1" vertex="1">
+          <mxGeometry x="1515" y="795" width="330" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="metrics-title" value=" 关键运行指标" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="60" y="910" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="m1" value="误报率" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#3B82F6;strokeWidth=1;fontSize=12;fontStyle=1;fontColor=#1E40AF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="60" y="940" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="m1-desc" value="安全控制对正常请求的误拦截率" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#666666;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="60" y="975" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m2" value="人工复核率" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;strokeWidth=1;fontSize=12;fontStyle=1;fontColor=#166534;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="280" y="940" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="m2-desc" value="进入人工复核的样本占比" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#666666;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="280" y="975" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m3" value="响应延迟 P99" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#F59E0B;strokeWidth=1;fontSize=12;fontStyle=1;fontColor=#B45309;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="500" y="940" width="110" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="m3-desc" value="安全检测增加的延迟开销" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#666666;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="500" y="975" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m4" value="攻击拦截率" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#DC2626;strokeWidth=1;fontSize=12;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="730" y="940" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="m4-desc" value="成功拦截的攻击占比" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#666666;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="730" y="975" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m5" value="正常准确率" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#6366F1;strokeWidth=1;fontSize=12;fontStyle=1;fontColor=#4338CA;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="950" y="940" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="m5-desc" value="防护后干净样本的识别准确率" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#666666;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="950" y="975" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m6" value="合规覆盖率" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#F3E8FF;strokeColor=#9333EA;strokeWidth=1;fontSize=12;fontStyle=1;fontColor=#7C3AED;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="940" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="m6-desc" value="已完成合规的 AI 系统占比" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#666666;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="975" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="summary-box" value="" style="rounded=10;whiteSpace=wrap;html=1;fillColor=#0066FF;strokeColor=#0052CC;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="60" y="1010" width="1800" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="summary-text" value="核心认知：完美防御不存在 | 业务约束优先于技术理想 | 红队测试的价值在于内部发现问题 | 合规不是一次性工程而是动态投资过程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="70" y="1020" width="1780" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

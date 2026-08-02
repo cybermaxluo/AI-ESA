@@ -1,0 +1,142 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="VPC Security Architecture" id="vpc-security-v6">
+    <mxGraphModel dx="3260" dy="1693" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title-main" value="VPC 安全架构" style="text;fontSize=48;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="656" y="32" width="600" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="title-sub" value="VPC Security Architecture - Multi-Tier Network Design" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="510" y="100" width="900" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="igw-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="768" y="160" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="igw-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="760" y="160" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="igw-text" value="Internet Gateway / NAT Gateway" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="784" y="184" width="470" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#0066FF;verticalAlign=middle;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="260" as="sourcePoint" />
+            <mxPoint x="960" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dmz-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="320" width="1760" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="dmz-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="320" width="1760" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="dmz-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="320" width="280" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="dmz-title" value="公网子网&#xa;Public Subnet" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="104" y="376" width="216" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dmz-waf" value="WAF&#xa;Web Firewall" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="400" y="360" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dmz-alb" value="Load Balancer&#xa;ALB/NLB" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="640" y="360" width="200" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="dmz-bastion" value="Bastion Host&#xa;Jump Server" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="880" y="359" width="232" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="dmz-cdn" value="CDN&#xa;Edge Cache" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1152" y="358" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dmz-api" value="API Gateway" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1392" y="359" width="216" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="dmz-sg" value="[Security Group] 0.0.0.0/0 :443, :80" style="text;fontSize=14;fontColor=#0066FF;fontFamily=Inter;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="400" y="456" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="520" as="sourcePoint" />
+            <mxPoint x="960" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="app-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="584" width="1760" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="app-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="576" width="1760" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="app-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="576" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="app-title" value="应用子网&#xa;App Subnet" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="96" y="624" width="216" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="app-web" value="Web Server&#xa;EC2/ECS" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="400" y="608" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="app-api" value="API Server&#xa;Microservices" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="632" y="612" width="240" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="app-k8s" value="Kubernetes&#xa;Worker Nodes" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="904" y="614" width="264" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="app-serverless" value="Lambda/Functions&#xa;Serverless" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="614" width="254" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="app-cache" value="Cache Layer&#xa;Redis/Memcached" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1488" y="616" width="272" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="app-sg" value="[Security Group] ALB :8080, :3000" style="text;fontSize=14;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="400" y="704" width="232" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow3" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="760" as="sourcePoint" />
+            <mxPoint x="960" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="data-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="824" width="1760" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="data-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="816" width="1760" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="data-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="816" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="data-title" value="数据子网&#xa;Data Subnet" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="96" y="864" width="224" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="data-rds" value="RDS/Aurora&#xa;Database" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="400" y="848" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="data-nosql" value="DynamoDB/Cosmos&#xa;NoSQL" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="644" y="849" width="216" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="data-object" value="S3/Blob Storage&#xa;Object Store" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="908" y="848" width="224" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="data-warehouse" value="Data Warehouse&#xa;Redshift/Synapse" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1184" y="850" width="224" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="data-backup" value="Backup/Snapshot&#xa;Recovery Services" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1472" y="849" width="248" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="data-sg" value="[Security Group] App Subnet :3306, :5432 (No Internet Access)" style="text;fontSize=14;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="400" y="944" width="424" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="note-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="1024" width="1760" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="note-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="1024" width="1760" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="note-text" value="关键原则: 最小化暴露面 | 纵深防御 | 微隔离 | 加密传输 (TLS) | 日志审计" style="text;fontSize=16;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="96" y="1024" width="1720" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

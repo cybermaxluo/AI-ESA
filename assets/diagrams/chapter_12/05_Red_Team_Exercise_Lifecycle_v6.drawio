@@ -1,0 +1,381 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Red Team Exercise Lifecycle V6" id="rt-lifecycle-v6">
+    <mxGraphModel dx="2370" dy="1464" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="background" value="" style="fillColor=#FAFBFC;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="header-bg" value="" style="fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="红队演练生命周期" style="text;fontSize=42;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="11" width="500" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Red Team Exercise Lifecycle - 端到端的演练闭环流程" style="text;fontSize=18;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="65" width="600" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="84" y="134" width="420" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="130" width="420" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="130" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-num" value="1" style="ellipse;fillColor=#FFFFFF;strokeColor=none;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="100" y="145" width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-title" value="规划阶段 Planning" style="text;fontSize=22;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="150" y="152" width="320" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-step1" value="范围界定" style="rounded=1;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="110" y="210" width="160" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-step1-desc" value="• 目标系统/业务范围&#xa;• 不可触及边界 (OOB)&#xa;• 测试窗口与时间" style="text;fontSize=12;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="290" y="205" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-step2" value="RoE 审批" style="rounded=1;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="110" y="270" width="160" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-step2-desc" value="• 交战规则制定&#xa;• 法务/合规审批&#xa;• 紧急中止机制" style="text;fontSize=12;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="290" y="265" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-step3" value="基础设施搭建" style="rounded=1;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="110" y="330" width="160" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-step3-desc" value="• C2 服务器部署&#xa;• 域名/IP 准备&#xa;• 工具链就绪" style="text;fontSize=12;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="290" y="325" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-step4" value="攻击链设计" style="rounded=1;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="110" y="390" width="160" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-step4-desc" value="• 威胁情报驱动&#xa;• MITRE ATT&amp;CK 映射&#xa;• TTP 选择与编排" style="text;fontSize=12;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="290" y="385" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-output" value="输出: 演练计划书 + 授权书" style="text;fontSize=13;fontStyle=2;fontColor=#0066FF;fontFamily=Inter;align=center;fillColor=#EEF2FF;rounded=1;arcSize=20;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="480" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-1-2" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=4;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="330" as="sourcePoint" />
+            <mxPoint x="540" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="544" y="134" width="420" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="540" y="130" width="420" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-header" value="" style="rounded=1;fillColor=#EF4444;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="540" y="130" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-num" value="2" style="ellipse;fillColor=#FFFFFF;strokeColor=none;fontSize=24;fontStyle=1;fontColor=#EF4444;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="560" y="145" width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-title" value="执行阶段 Execution" style="text;fontSize=22;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="610" y="152" width="320" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-kc-title" value="Cyber Kill Chain 7 阶段" style="text;fontSize=14;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="570" y="205" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-kc1" value="侦察" style="rounded=1;fillColor=#FEE2E2;strokeColor=#EF4444;fontSize=12;fontColor=#991B1B;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="570" y="235" width="50" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-kc2" value="武器化" style="rounded=1;fillColor=#FEE2E2;strokeColor=#EF4444;fontSize=12;fontColor=#991B1B;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="630" y="235" width="60" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-kc3" value="投递" style="rounded=1;fillColor=#FEE2E2;strokeColor=#EF4444;fontSize=12;fontColor=#991B1B;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="700" y="235" width="50" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-kc4" value="利用" style="rounded=1;fillColor=#FEE2E2;strokeColor=#EF4444;fontSize=12;fontColor=#991B1B;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="760" y="235" width="50" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-kc5" value="安装" style="rounded=1;fillColor=#FEE2E2;strokeColor=#EF4444;fontSize=12;fontColor=#991B1B;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="820" y="235" width="50" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-kc6" value="C2" style="rounded=1;fillColor=#FEE2E2;strokeColor=#EF4444;fontSize=12;fontColor=#991B1B;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="880" y="235" width="36" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-kc7" value="行动" style="rounded=1;fillColor=#FEE2E2;strokeColor=#EF4444;fontSize=12;fontColor=#991B1B;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="926" y="235" width="50" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-activities" value="关键活动:&#xa;• 社工/钓鱼初始入侵&#xa;• 横向移动与提权&#xa;• 持久化机制植入&#xa;• 目标数据渗出模拟&#xa;• 规避检测技术验证&#xa;&#xa;实时记录:&#xa;• 时间戳 + 截图证据&#xa;• 蓝队检测/响应记录&#xa;• 裁判组监控日志" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="570" y="280" width="370" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-output" value="输出: 攻击日志 + 证据链 + ATT&amp;CK 映射" style="text;fontSize=13;fontStyle=2;fontColor=#EF4444;fontFamily=Inter;align=center;fillColor=#FEE2E2;rounded=1;arcSize=20;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="560" y="480" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-2-3" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=4;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="330" as="sourcePoint" />
+            <mxPoint x="1000" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1004" y="134" width="420" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="130" width="420" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-header" value="" style="rounded=1;fillColor=#F59E0B;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="130" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-num" value="3" style="ellipse;fillColor=#FFFFFF;strokeColor=none;fontSize=24;fontStyle=1;fontColor=#F59E0B;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="145" width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-title" value="报告阶段 Reporting" style="text;fontSize=22;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="152" width="320" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-doc1" value="技术报告" style="rounded=1;fillColor=#FEF3C7;strokeColor=#F59E0B;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#92400E;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="210" width="160" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-doc1-desc" value="• 详细攻击路径重现&#xa;• 漏洞 PoC 与利用细节&#xa;• 技术建议与修复方案" style="text;fontSize=12;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="205" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-doc2" value="管理层报告" style="rounded=1;fillColor=#FEF3C7;strokeColor=#F59E0B;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#92400E;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="270" width="160" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-doc2-desc" value="• 业务风险摘要&#xa;• 关键发现与优先级&#xa;• 投资建议与 ROI" style="text;fontSize=12;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="265" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-doc3" value="ATT&amp;CK 热力图" style="rounded=1;fillColor=#FEF3C7;strokeColor=#F59E0B;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#92400E;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="330" width="160" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-doc3-desc" value="• TTP 覆盖可视化&#xa;• 检测成功/失败标注&#xa;• 差距分析" style="text;fontSize=12;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="325" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-doc4" value="改进计划 (DDP)" style="rounded=1;fillColor=#FEF3C7;strokeColor=#F59E0B;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#92400E;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="390" width="160" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-doc4-desc" value="• 检测改进计划&#xa;• 时间表与责任人&#xa;• 验证标准" style="text;fontSize=12;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="385" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-output" value="输出: 4份报告 + 改进清单" style="text;fontSize=13;fontStyle=2;fontColor=#92400E;fontFamily=Inter;align=center;fillColor=#FEF3C7;rounded=1;arcSize=20;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="480" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-3-4" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=4;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1420" y="330" as="sourcePoint" />
+            <mxPoint x="1460" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p4-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1464" y="134" width="420" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="130" width="420" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-header" value="" style="rounded=1;fillColor=#10B981;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="130" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-num" value="4" style="ellipse;fillColor=#FFFFFF;strokeColor=none;fontSize=24;fontStyle=1;fontColor=#10B981;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="145" width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-title" value="改进阶段 Improvement" style="text;fontSize=22;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="152" width="320" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-act1" value="紫队复盘" style="rounded=1;fillColor=#D1FAE5;strokeColor=#10B981;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#065F46;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1490" y="210" width="160" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-act1-desc" value="• 红蓝联合复盘&#xa;• TTP 逐一回放&#xa;• 检测失败根因分析" style="text;fontSize=12;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1670" y="205" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-act2" value="检测规则优化" style="rounded=1;fillColor=#D1FAE5;strokeColor=#10B981;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#065F46;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1490" y="270" width="160" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-act2-desc" value="• SIEM/EDR 规则更新&#xa;• 告警阈值调优&#xa;• 新检测用例开发" style="text;fontSize=12;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1670" y="265" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-act3" value="流程改进" style="rounded=1;fillColor=#D1FAE5;strokeColor=#10B981;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#065F46;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1490" y="330" width="160" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-act3-desc" value="• IR Playbook 更新&#xa;• 响应 SOP 优化&#xa;• 团队培训" style="text;fontSize=12;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1670" y="325" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-act4" value="验证闭环" style="rounded=1;fillColor=#D1FAE5;strokeColor=#10B981;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#065F46;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1490" y="390" width="160" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-act4-desc" value="• 重放攻击验证修复&#xa;• 指标追踪&#xa;• 下一轮演练规划" style="text;fontSize=12;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1670" y="385" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-output" value="输出: 检测能力提升 + 知识沉淀" style="text;fontSize=13;fontStyle=2;fontColor=#065F46;fontFamily=Inter;align=center;fillColor=#D1FAE5;rounded=1;arcSize=20;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="480" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="loop-arrow" value="" style="curved=1;endArrow=blockThin;strokeColor=#0066FF;strokeWidth=3;endFill=1;exitX=0.5;exitY=0;entryX=0.5;entryY=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1670" y="130" as="sourcePoint" />
+            <mxPoint x="290" y="130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1670" y="110" />
+              <mxPoint x="980" y="110" />
+              <mxPoint x="290" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="loop-label" value="持续改进循环" style="text;fontSize=14;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=2;arcSize=20;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="880" y="96" width="120" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="timeline-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=6;" parent="1" vertex="1">
+          <mxGeometry x="84" y="564" width="1796" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="timeline-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=6;" parent="1" vertex="1">
+          <mxGeometry x="80" y="560" width="1796" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="timeline-title" value="典型时间线 (示例口径)" style="text;fontSize=18;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="578" width="280" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="timeline-p1" value="规划: 2-4 周" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=center;fillColor=#EEF2FF;rounded=1;arcSize=20;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="120" y="615" width="340" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="timeline-p2" value="执行: 1-3 周" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=center;fillColor=#FEE2E2;rounded=1;arcSize=20;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="520" y="615" width="380" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="timeline-p3" value="报告: 1-2 周" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=center;fillColor=#FEF3C7;rounded=1;arcSize=20;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="960" y="615" width="380" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="timeline-p4" value="改进: 持续" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=center;fillColor=#D1FAE5;rounded=1;arcSize=20;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="615" width="420" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="decision-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=6;" parent="1" vertex="1">
+          <mxGeometry x="84" y="694" width="880" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="decision-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=6;" parent="1" vertex="1">
+          <mxGeometry x="80" y="690" width="880" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="decision-title" value="关键决策点与审批节点" style="text;fontSize=18;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="710" width="300" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-row-hdr" value="" style="rounded=0;fillColor=#F8F9FF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="750" width="840" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-h1" value="节点" style="text;fontSize=13;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="756" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-h2" value="决策内容" style="text;fontSize=13;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="280" y="756" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-h3" value="审批人" style="text;fontSize=13;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="580" y="756" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-h4" value="风险等级" style="text;fontSize=13;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="750" y="756" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-r1-1" value="演练启动审批" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="795" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-r1-2" value="RoE 确认 + 范围确认 + 法务审批" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="280" y="795" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-r1-3" value="CSO/CISO + 法务" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="580" y="795" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-r1-4" value="高" style="text;fontSize=13;fontStyle=1;fontColor=#EF4444;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="750" y="795" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-r2-1" value="高风险操作审批" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="830" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-r2-2" value="域控攻击/生产数据访问/持久化植入" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="280" y="830" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-r2-3" value="裁判组 + 红队负责人" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="580" y="830" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-r2-4" value="极高" style="text;fontSize=13;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="750" y="830" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-r3-1" value="紧急中止触发" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="865" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-r3-2" value="真实安全事件/业务中断/超出边界" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="280" y="865" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-r3-3" value="任何参与方均可触发" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="580" y="865" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-r3-4" value="极高" style="text;fontSize=13;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="750" y="865" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-r4-1" value="报告发布审批" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="900" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-r4-2" value="技术报告 + 管理层报告内容确认" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="280" y="900" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-r4-3" value="红队负责人 + 蓝队负责人" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="580" y="900" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-r4-4" value="中" style="text;fontSize=13;fontStyle=1;fontColor=#F59E0B;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="750" y="900" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-r5-1" value="改进计划审批" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="935" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-r5-2" value="检测改进计划 (DDP) 资源与时间表" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="280" y="935" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-r5-3" value="CSO/CISO + 各团队负责人" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="580" y="935" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dec-r5-4" value="中" style="text;fontSize=13;fontStyle=1;fontColor=#F59E0B;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="750" y="935" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="type-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=6;" parent="1" vertex="1">
+          <mxGeometry x="1004" y="694" width="876" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="type-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=6;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="690" width="876" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="type-title" value="演练类型与适用场景" style="text;fontSize=18;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="710" width="280" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="type1-box" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="755" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="type1-name" value="目标导向型" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="770" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="type1-desc" value="• 验证特定目标可达性&#xa;• 如: 能否获取域管权限&#xa;• 适合: 高价值资产验证" style="text;fontSize=12;fontColor=#1A1A1A;fontFamily=Inter;align=center;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="800" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="type2-box" value="" style="rounded=1;fillColor=#FEE2E2;strokeColor=#EF4444;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="755" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="type2-name" value="威胁模拟型" style="text;fontSize=16;fontStyle=1;fontColor=#EF4444;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="770" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="type2-desc" value="• 模拟特定威胁组织&#xa;• 如: APT29 完整 TTP&#xa;• 适合: 情报驱动防御" style="text;fontSize=12;fontColor=#1A1A1A;fontFamily=Inter;align=center;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1250" y="800" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="type3-box" value="" style="rounded=1;fillColor=#D1FAE5;strokeColor=#10B981;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="755" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="type3-name" value="检测验证型" style="text;fontSize=16;fontStyle=1;fontColor=#10B981;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="770" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="type3-desc" value="• 验证检测覆盖率&#xa;• 紫队协作模式&#xa;• 适合: 检测能力评估" style="text;fontSize=12;fontColor=#1A1A1A;fontFamily=Inter;align=center;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1470" y="800" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="type4-box" value="" style="rounded=1;fillColor=#FEF3C7;strokeColor=#F59E0B;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1680" y="755" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="type4-name" value="业务场景型" style="text;fontSize=16;fontStyle=1;fontColor=#92400E;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1680" y="770" width="180" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="type4-desc" value="• 模拟业务攻击场景&#xa;• 如: 大促薅羊毛&#xa;• 适合: 业务风控验证" style="text;fontSize=12;fontColor=#1A1A1A;fontFamily=Inter;align=center;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1690" y="800" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="type-note" value="建议: 成熟期企业组合使用多种演练类型，根据业务周期和威胁情报动态调整重点" style="text;fontSize=14;fontColor=#0066FF;fontFamily=Inter;align=center;fillColor=#EEF2FF;rounded=1;arcSize=20;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="920" width="836" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" value="基于 MITRE ATT&amp;CK | TIBER-EU | CBEST 框架" style="text;fontSize=12;fontColor=#9CA3AF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="760" y="1071" width="400" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

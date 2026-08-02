@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mxfile host="Electron" agent="Mozilla/5.0" version="29.0.3">
+  <diagram name="Ransomware Response V6 Redesign" id="ransomware-response-v6-redesign">
+    <mxGraphModel dx="2400" dy="1600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- 背景 -->
+        <mxCell id="background" value="" style="fillColor=#FAFBFC;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="2400" height="1600" as="geometry" />
+        </mxCell>
+
+        <!-- 标题区域 -->
+        <mxCell id="title" value="勒索软件应急响应剧本" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="40" width="800" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Ransomware Response Playbook - Critical Actions &amp; Decision Framework" style="text;fontSize=20;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="110" width="1200" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- 前15分钟关键行动 - 大蓝色卡片 -->
+        <mxCell id="first15-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="84" y="184" width="2232" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="first15-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="80" y="180" width="2232" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="first15-title" value="前15分钟关键行动 Critical First 15 Minutes" style="text;fontSize=32;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="200" width="900" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- 4列内容 -->
+        <mxCell id="col1-title" value="0-5分钟: 立即隔离" style="text;fontSize=18;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="260" width="500" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="col1-content" value="• 断开受感染主机网络&#xa;• 禁用 VPN/远程访问&#xa;• 隔离备份系统&#xa;• 禁用域管理员账户" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;opacity=95;" parent="1" vertex="1">
+          <mxGeometry x="130" y="290" width="500" height="110" as="geometry" />
+        </mxCell>
+
+        <mxCell id="col2-title" value="5-10分钟: 启动战时流程" style="text;fontSize=18;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="670" y="260" width="500" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="col2-content" value="• 激活 CSIRT 团队&#xa;• 通知高管/法律/PR&#xa;• 启动事件记录&#xa;• 联系安全厂商" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;opacity=95;" parent="1" vertex="1">
+          <mxGeometry x="670" y="290" width="500" height="110" as="geometry" />
+        </mxCell>
+
+        <mxCell id="col3-title" value="10-15分钟: 证据保全" style="text;fontSize=18;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="260" width="500" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="col3-content" value="• 内存 dump (感染主机)&#xa;• 赎金信截图&#xa;• 加密文件样本&#xa;• 网络流量抓包" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;opacity=95;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="290" width="500" height="110" as="geometry" />
+        </mxCell>
+
+        <mxCell id="col4-title" value="禁止行为 DO NOT" style="text;fontSize=18;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1750" y="260" width="500" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="col4-content" value="• 不立即关机 (丢失内存证据)&#xa;• 不支付赎金 (未评估前)&#xa;• 不删除勒索信 (证据)&#xa;• 不恢复备份 (感染扩散)" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;opacity=95;" parent="1" vertex="1">
+          <mxGeometry x="1750" y="290" width="500" height="110" as="geometry" />
+        </mxCell>
+
+        <!-- 第二行：评估与分析 + 恢复决策树 -->
+        <!-- 评估与分析卡片 -->
+        <mxCell id="assess-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="84" y="464" width="1100" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="assess-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="80" y="460" width="1100" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="assess-title" value="评估与分析 (1-4小时)" style="text;fontSize=28;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="490" width="500" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="assess-subtitle" value="Assessment &amp; Analysis" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="526" width="300" height="22" as="geometry" />
+        </mxCell>
+
+        <mxCell id="assess-section1" value="勒索软件家族识别:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="570" width="1000" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="assess-content1" value="• ID Ransomware / No More Ransom 上传样本&#xa;• 确定变种 (LockBit, BlackCat, ALPHV, Akira)&#xa;• 是否有免费解密工具" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="130" y="596" width="1000" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="assess-section2" value="影响范围评估:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="666" width="1000" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="assess-content2" value="• 加密文件数量/类型&#xa;• 受影响系统列表 (服务器/工作站)&#xa;• 数据外泄检测 (双重勒索?)&#xa;• 备份完整性检查" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="130" y="692" width="1000" height="76" as="geometry" />
+        </mxCell>
+
+        <mxCell id="assess-section3" value="入侵路径分析:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="778" width="1000" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="assess-content3" value="• 初始访问向量 (钓鱼/RDP/VPN漏洞) | 横向移动痕迹&#xa;• 持久化机制 | C2通信记录 | 业务影响评估" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="130" y="804" width="1000" height="56" as="geometry" />
+        </mxCell>
+
+        <!-- 恢复决策树卡片 -->
+        <mxCell id="decision-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1216" y="464" width="1100" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="decision-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1212" y="460" width="1100" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="decision-title" value="恢复决策树" style="text;fontSize=28;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1262" y="490" width="300" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="decision-subtitle" value="Recovery Decision Framework" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1262" y="526" width="400" height="22" as="geometry" />
+        </mxCell>
+
+        <mxCell id="option1-title" value="选项1: 从备份恢复 (推荐)" style="text;fontSize=16;fontStyle=1;fontColor=#059669;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1262" y="570" width="1000" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="option1-content" value="条件: 备份可用 + 未被加密 + 完整性验证通过&#xa;时间: 8-72小时 | 成本: 业务中断损失 + 人力成本" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1262" y="596" width="1000" height="44" as="geometry" />
+        </mxCell>
+
+        <mxCell id="option2-title" value="选项2: 使用解密工具" style="text;fontSize=16;fontStyle=1;fontColor=#0891B2;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1262" y="650" width="1000" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="option2-content" value="条件: 免费解密工具可用 (No More Ransom)&#xa;时间: 数小时到数天 | 成本: 低 | 风险: 部分文件可能无法恢复" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1262" y="676" width="1000" height="44" as="geometry" />
+        </mxCell>
+
+        <mxCell id="option3-title" value="选项3: 支付赎金 (最后手段)" style="text;fontSize=16;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1262" y="730" width="1000" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="option3-content" value="考量: 无备份 + 关键业务数据 + 解密工具不可用 + 业务中断成本 &gt; 赎金&#xa;风险: 无保证解密 (30%失败率) + 资助犯罪 + 二次勒索 + 声誉损害&#xa;流程: 法律审批 → 加密货币购买 → 谈判 → 测试解密&#xa;统计: 仅4%支付赎金后完整恢复数据 (2023)" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1262" y="756" width="1000" height="104" as="geometry" />
+        </mxCell>
+
+        <!-- 第三行：预防措施 + 威胁趋势 -->
+        <!-- 预防措施卡片 -->
+        <mxCell id="prevent-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="84" y="924" width="1100" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="prevent-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="80" y="920" width="1100" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="prevent-title" value="预防措施" style="text;fontSize=28;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="950" width="300" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="prevent-subtitle" value="Prevention Best Practices" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="986" width="400" height="22" as="geometry" />
+        </mxCell>
+
+        <mxCell id="prevent-section1" value="3-2-1 备份策略:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="1030" width="1000" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="prevent-content1" value="• 3份副本 | 2种介质 (磁盘+云) | 1份离线/异地&#xa;• 不可变备份 (Immutable Backup) | 定期恢复演练 (RPO/RTO验证)" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="130" y="1056" width="1000" height="44" as="geometry" />
+        </mxCell>
+
+        <mxCell id="prevent-section2" value="防护措施:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="1110" width="1000" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="prevent-content2" value="• 邮件过滤 (反钓鱼) | 端点防护 (EDR + Anti-Ransomware)&#xa;• 网络隔离 (Zero Trust微隔离) | 禁用宏/脚本 (Group Policy)&#xa;• 补丁管理 (优先级: Critical) | 最小权限原则 (Least Privilege)&#xa;• MFA多因素认证 (所有远程访问) | 安全意识培训 (季度演练)" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="130" y="1136" width="1000" height="124" as="geometry" />
+        </mxCell>
+
+        <!-- 威胁趋势卡片 -->
+        <mxCell id="trends-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1216" y="924" width="1100" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="trends-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1212" y="920" width="1100" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="trends-title" value="威胁趋势 (2024)" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1262" y="950" width="400" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="trends-subtitle" value="Threat Intelligence &amp; Statistics" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=left;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="1262" y="986" width="400" height="22" as="geometry" />
+        </mxCell>
+
+        <mxCell id="trends-content" value="勒索软件即服务 (RaaS): LockBit 3.0, BlackCat/ALPHV, Hive - 降低攻击门槛&#xa;&#xa;双重勒索 (Double Extortion): 加密 + 数据窃取威胁公开&#xa;&#xa;供应链攻击: 通过MSP (托管服务商) 横向攻击多客户&#xa;&#xa;针对性攻击 (Big Game Hunting): 针对高价值目标 (医疗/金融/能源)&#xa;平均赎金 $1M+ (2024)&#xa;&#xa;快速加密: 间歇性加密 (Intermittent Encryption) - 仅加密部分数据&#xa;加密速度提升10倍, 检测窗口缩短&#xa;&#xa;统计数据:&#xa;• 66% 企业遭受勒索攻击 (2023 Sophos)&#xa;• 平均停机时间: 21天 | 平均恢复成本: $1.85M&#xa;• 仅4%支付赎金后完整恢复数据" style="text;fontSize=15;fontColor=#FFFFFF;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;opacity=95;" parent="1" vertex="1">
+          <mxGeometry x="1262" y="1030" width="1000" height="230" as="geometry" />
+        </mxCell>
+
+        <!-- 底部标注 -->
+        <mxCell id="footer-note" value="参考资源: No More Ransom (nomoreransom.org) | ID Ransomware (id-ransomware.malwarehunterteam.com) | CISA Ransomware Guide" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="1320" width="2000" height="20" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

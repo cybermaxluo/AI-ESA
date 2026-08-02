@@ -1,0 +1,208 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="SecOps AI Capability Landscape V6" id="secops-ai-capability-landscape-v6">
+    <mxGraphModel dx="1975" dy="1220" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="background" value="" style="fillColor=#FAFBFC;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="SecOps AI 能力全景图" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="30" width="800" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="AI-Powered Security Operations Capability Landscape" style="text;fontSize=20;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="90" width="800" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="engine1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="84" y="144" width="560" height="860" as="geometry" />
+        </mxCell>
+        <mxCell id="engine1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="140" width="560" height="860" as="geometry" />
+        </mxCell>
+        <mxCell id="engine1-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="140" width="560" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="engine1-title" value="威胁检测引擎" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="155" width="560" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="engine1-subtitle" value="Threat Detection Engine" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=center;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="80" y="188" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="e1c1-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="110" y="240" width="500" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e1c1-title" value="智能告警分诊 Alert Triage" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="255" width="460" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="e1c1-content" value="多级过滤漏斗 (规则+ML+LLM)&#xa;自动优先级排序和分类&#xa;告警降噪效果 &gt; 70%" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="130" y="285" width="460" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="e1c2-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="110" y="365" width="500" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e1c2-title" value="用户行为分析 UEBA" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="380" width="460" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="e1c2-content" value="用户/实体行为基线建模&#xa;Peer Group 异常检测&#xa;内部威胁检测准确率 &gt; 85%" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="130" y="410" width="460" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="e1c3-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="110" y="490" width="500" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e1c3-title" value="威胁情报增强 TI Enrichment" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="505" width="460" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="e1c3-content" value="自动化 NLP 提取 IoC&#xa;MITRE ATT&amp;CK 战术映射&#xa;多源情报关联分析" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="130" y="535" width="460" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="e1c4-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="110" y="615" width="500" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e1c4-title" value="攻击链分析 Kill Chain" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="630" width="460" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="e1c4-content" value="图神经网络攻击路径识别&#xa;多阶段攻击自动关联&#xa;APT 活动追踪与溯源" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="130" y="660" width="460" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="e1c5-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="110" y="740" width="500" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e1c5-title" value="恶意软件分析 Malware Analysis" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="755" width="460" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="e1c5-content" value="静态特征提取与分类&#xa;动态行为沙箱分析&#xa;家族识别准确率 &gt; 95%" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="130" y="785" width="460" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="e1-tech" value="Isolation Forest | LSTM | GNN | XGBoost | LLM" style="text;fontSize=13;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="110" y="870" width="500" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="engine2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="684" y="144" width="560" height="860" as="geometry" />
+        </mxCell>
+        <mxCell id="engine2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="680" y="140" width="560" height="860" as="geometry" />
+        </mxCell>
+        <mxCell id="engine2-header" value="" style="rounded=1;fillColor=#4F46E5;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="680" y="140" width="560" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="engine2-title" value="响应编排引擎" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="680" y="155" width="560" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="engine2-subtitle" value="Response Orchestration Engine" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=center;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="680" y="188" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="e2c1-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#4F46E5;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="710" y="240" width="500" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e2c1-title" value="Playbook 智能生成" style="text;fontSize=16;fontStyle=1;fontColor=#4F46E5;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="730" y="255" width="460" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="e2c1-content" value="自动化生成响应 Playbook&#xa;动态适配威胁场景&#xa;编写效率提升 60%" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="730" y="285" width="460" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="e2c2-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#4F46E5;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="710" y="365" width="500" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e2c2-title" value="自动化响应 Auto Response" style="text;fontSize=16;fontStyle=1;fontColor=#4F46E5;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="730" y="380" width="460" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="e2c2-content" value="低风险事件 L1 自动处置 &gt; 80%&#xa;智能遏制与隔离决策&#xa;自动化封禁与解封" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="730" y="410" width="460" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="e2c3-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#4F46E5;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="710" y="490" width="500" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e2c3-title" value="智能升级 Escalation" style="text;fontSize=16;fontStyle=1;fontColor=#4F46E5;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="730" y="505" width="460" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="e2c3-content" value="基于风险的升级路由&#xa;自动通知与工单创建&#xa;SLA 超时预警" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="730" y="535" width="460" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="e2c4-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#4F46E5;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="710" y="615" width="500" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e2c4-title" value="根因分析 RCA" style="text;fontSize=16;fontStyle=1;fontColor=#4F46E5;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="730" y="630" width="460" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="e2c4-content" value="自动化事件关联分析&#xa;因果链路智能推理&#xa;调查时间缩短 50%" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="730" y="660" width="460" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="e2c5-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#4F46E5;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="710" y="740" width="500" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e2c5-title" value="SOC Copilot 安全助手" style="text;fontSize=16;fontStyle=1;fontColor=#4F46E5;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="730" y="755" width="460" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="e2c5-content" value="自然语言 LLM 交互查询&#xa;调查建议与指导&#xa;分析报告自动生成" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="730" y="785" width="460" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="e2-tech" value="SOAR | LLM Agent | RAG | Workflow Engine" style="text;fontSize=13;fontColor=#4F46E5;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="710" y="870" width="500" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="engine3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1284" y="144" width="560" height="860" as="geometry" />
+        </mxCell>
+        <mxCell id="engine3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="140" width="560" height="860" as="geometry" />
+        </mxCell>
+        <mxCell id="engine3-header" value="" style="rounded=1;fillColor=#059669;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="140" width="560" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="engine3-title" value="漏洞管理引擎" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="155" width="560" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="engine3-subtitle" value="Vulnerability Management Engine" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=center;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="188" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="e3c1-bg" value="" style="rounded=1;fillColor=#ECFDF5;strokeColor=#059669;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1310" y="240" width="500" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e3c1-title" value="风险优先级评估 VPT" style="text;fontSize=16;fontStyle=1;fontColor=#059669;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="255" width="460" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="e3c1-content" value="资产重要性加权评分&#xa;威胁情报关联分析&#xa;修复优先级准确率提升 40%" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="285" width="460" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="e3c2-bg" value="" style="rounded=1;fillColor=#ECFDF5;strokeColor=#059669;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1310" y="365" width="500" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e3c2-title" value="攻击面管理" style="text;fontSize=16;fontStyle=1;fontColor=#059669;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="380" width="460" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="e3c2-content" value="外部暴露资产发现&#xa;攻击路径自动分析&#xa;暴露面持续监控" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="410" width="460" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="e3c3-bg" value="" style="rounded=1;fillColor=#ECFDF5;strokeColor=#059669;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1310" y="490" width="500" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e3c3-title" value="利用预测 EPSS" style="text;fontSize=16;fontStyle=1;fontColor=#059669;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="505" width="460" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="e3c3-content" value="漏洞利用概率预测&#xa;野外利用情报跟踪&#xa;预测窗口期 30 天" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="535" width="460" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="e3c4-bg" value="" style="rounded=1;fillColor=#ECFDF5;strokeColor=#059669;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1310" y="615" width="500" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e3c4-title" value="修复建议生成" style="text;fontSize=16;fontStyle=1;fontColor=#059669;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="630" width="460" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="e3c4-content" value="智能补丁建议推荐&#xa;配置加固方案生成&#xa;兼容性风险评估" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="660" width="460" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="e3c5-bg" value="" style="rounded=1;fillColor=#ECFDF5;strokeColor=#059669;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1310" y="740" width="500" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="e3c5-title" value="修复验证自动化" style="text;fontSize=16;fontStyle=1;fontColor=#059669;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="755" width="460" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="e3c5-content" value="修复状态自动验证&#xa;回归测试自动执行&#xa;修复闭环跟踪" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="785" width="460" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="e3-tech" value="CVSS + EPSS | Knowledge Graph | ML Ranking" style="text;fontSize=13;fontColor=#059669;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1310" y="870" width="500" height="22" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

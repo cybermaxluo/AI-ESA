@@ -1,0 +1,268 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Microservices Security Architecture V6" id="microservices-security-v6">
+    <mxGraphModel dx="2241" dy="1164" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="background" value="" style="fillColor=#FAFBFC;strokeColor=NONE;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="微服务安全架构" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="64" width="800" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Microservices Security Architecture - Service Mesh + API Gateway + Zero Trust" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="128" width="1200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="external-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="208" width="1756" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="external-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="200" width="1756" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="external-title" value="外部访问层 External Access" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="224" width="600" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cdn-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="136" y="272" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cdn-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="128" y="272" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cdn-text" value="CDN + DDoS" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="128" y="280" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="waf-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="352" y="272" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="waf-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="352" y="272" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="waf-text" value="WAF" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="352" y="280" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="apigw-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="576" y="272" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="apigw-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="568" y="272" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="apigw-text" value="API Gateway" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="568" y="280" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sec-functions" value="• OAuth 2.0 / JWT&#xa;• Rate Limiting&#xa;• API Schema Validation" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="848" y="272" width="950" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mesh-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="384" width="1756" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="mesh-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="384" width="1756" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="mesh-title" value="服务网格层 Service Mesh (Istio)" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="400" width="700" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="control-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="136" y="464" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="control-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="128" y="464" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="control-title" value="控制平面" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="128" y="472" width="300" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="control-text" value="Control Plane Istiod" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="128" y="496" width="302" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="dataplane-title" value="数据平面 &#xa;Data Plane" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="128" y="552" width="180" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="svc-a-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="136" y="618" width="260" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="svc-a-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="128" y="618" width="260" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="svc-a-title" value="Service A" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="128" y="626" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="svc-a-proxy-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="152" y="682" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="svc-a-proxy-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="152" y="674" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="svc-a-proxy-text" value="Envoy Sidecar" style="text;fontSize=14;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="152" y="682" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="svc-a-container" value="User Service&#xa;Container" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=1;arcSize=8;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="152" y="743" width="208" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="svc-b-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="508" y="618" width="260" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="svc-b-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="500" y="618" width="260" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="svc-b-title" value="Service B" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="500" y="626" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="svc-b-proxy-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="524" y="682" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="svc-b-proxy-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="524" y="674" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="svc-b-proxy-text" value="Envoy Sidecar" style="text;fontSize=14;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="524" y="682" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="svc-b-container" value="Order Service&#xa;Container" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=1;arcSize=8;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="524" y="743" width="208" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="svc-c-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="886" y="626" width="260" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="svc-c-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="878" y="626" width="260" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="svc-c-title" value="Service C" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="878" y="634" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="svc-c-proxy-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="902" y="690" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="svc-c-proxy-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="902" y="682" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="svc-c-proxy-text" value="Envoy Sidecar" style="text;fontSize=14;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="902" y="690" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="svc-c-container" value="Payment Service&#xa;Container" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=1;arcSize=8;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="902" y="751" width="218" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="features-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1344" y="472" width="444" height="366" as="geometry" />
+        </mxCell>
+        <mxCell id="features-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1336" y="472" width="442" height="366" as="geometry" />
+        </mxCell>
+        <mxCell id="features-title" value="Service Mesh 安全能力" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1368" y="488" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="feature-1-header" value="1. 零信任网络 Zero Trust" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1368" y="536" width="190" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="feature-1-text" value="• mTLS 双向认证&#xa;• SPIFFE/SPIRE 服务身份" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1384" y="560" width="264" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="feature-2-header" value="2. 精细化访问控制" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1368" y="616" width="340" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="feature-2-text" value="• AuthorizationPolicy 策略&#xa;• L7 层流量控制" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1384" y="632" width="264" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="feature-3-header" value="3. 流量安全" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1368" y="688" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="feature-3-text" value="• End-to-End 加密&#xa;• 流量镜像 + 分析" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1384" y="712" width="274" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="feature-4-header" value="4. 可观测性" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1368" y="760" width="100" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="feature-4-text" value="• 分布式追踪 (Jaeger)&#xa;• 安全事件日志" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1384" y="784" width="194" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-ab" value="mTLS" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;fontSize=14;fontColor=#0066FF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1" target="svc-b-bg" source="svc-a-shadow">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="396" y="714" as="sourcePoint" />
+            <mxPoint x="490" y="714" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-bc" value="mTLS" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;fontSize=14;fontColor=#0066FF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.453;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="svc-c-bg">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="768" y="718" as="sourcePoint" />
+            <mxPoint x="860" y="718" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-control" value="配置下发" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;dashed=1;fontSize=14;fontColor=#0066FF;;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="540" as="sourcePoint" />
+            <mxPoint x="280" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="infra-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="904" width="1756" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="infra-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="896" width="1756" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="infra-title" value="基础设施层 Infrastructure" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="920" width="600" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="k8s-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="136" y="976" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k8s-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="128" y="968" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k8s-text" value="Kubernetes" style="text;fontSize=14;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="132" y="968" width="192" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="netpol-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="376" y="976" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="netpol-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="368" y="968" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="netpol-text" value="Network Policies" style="text;fontSize=14;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="374" y="971" width="212" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="podsec-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="632" y="976" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="podsec-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="632" y="968" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="podsec-text" value="Pod Security Standards" style="text;fontSize=14;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="640" y="971" width="238" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="rbac-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="912" y="976" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rbac-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="912" y="968" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rbac-text" value="K8s RBAC" style="text;fontSize=14;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="912" y="971" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="secrets-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1096" y="976" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="secrets-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1088" y="968" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="secrets-text" value="Secrets Management" style="text;fontSize=14;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="971" width="232" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="runtime-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1376" y="976" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="runtime-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1368" y="968" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="runtime-text" value="Runtime Security" style="text;fontSize=14;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1372" y="969" width="192" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="falco-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1616" y="976" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="falco-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1608" y="968" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="falco-text" value="Falco + eBPF" style="text;fontSize=14;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1607" y="969" width="182" height="24" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

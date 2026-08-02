@@ -1,0 +1,227 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Technology Selection Framework" id="selection-v6">
+    <mxGraphModel dx="1920" dy="1080" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        
+        <mxCell id="title-main" value="技术选型框架" style="text;fontSize=48;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="712" y="48" width="500" height="120" as="geometry" />
+        </mxCell>
+
+        <mxCell id="title-sub" value="Technology Selection Framework" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="656" y="112" width="600" height="60" as="geometry" />
+        </mxCell>
+
+        
+        
+        <mxCell id="phase1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="208" width="420" height="240" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="phase1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;strokeWidth=1;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="420" height="240" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="phase1-icon" value="R" style="text;fontSize=64;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="200" y="224" width="180" height="80" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="phase1-title" value="需求分析" style="text;fontSize=36;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="80" y="312" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="phase1-subtitle" value="Requirements Analysis" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="80" y="352" width="420" height="60" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="phase1-desc" value="功能需求&amp;#xa;性能要求&amp;#xa;安全合规&amp;#xa;预算约束" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="80" y="368" width="420" height="90" as="geometry" />
+        </mxCell>
+
+        
+        
+        <mxCell id="phase2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="560" y="208" width="420" height="240" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="phase2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;strokeWidth=1;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="560" y="200" width="420" height="240" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="phase2-icon" value="S" style="text;fontSize=64;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="680" y="224" width="180" height="80" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="phase2-title" value="方案调研" style="text;fontSize=36;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="560" y="312" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="phase2-subtitle" value="Solution Research" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="560" y="352" width="420" height="60" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="phase2-desc" value="市场调研&amp;#xa;技术评估&amp;#xa;POC验证&amp;#xa;厂商对比" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="560" y="368" width="420" height="90" as="geometry" />
+        </mxCell>
+
+        
+        
+        <mxCell id="phase3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="208" width="420" height="240" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="phase3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;strokeWidth=1;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="200" width="420" height="240" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="phase3-icon" value="E" style="text;fontSize=64;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="224" width="180" height="80" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="phase3-title" value="评分矩阵" style="text;fontSize=36;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="312" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="phase3-subtitle" value="Scoring Matrix" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="352" width="420" height="60" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="phase3-desc" value="多维度打分&amp;#xa;权重分配&amp;#xa;量化评估&amp;#xa;风险分析" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="368" width="420" height="90" as="geometry" />
+        </mxCell>
+
+        
+        
+        <mxCell id="phase4-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="208" width="420" height="240" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="phase4-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=#0066FF;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="200" width="420" height="240" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="phase4-icon" value="D" style="text;fontSize=64;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="224" width="180" height="80" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="phase4-title" value="决策输出" style="text;fontSize=36;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="312" width="420" height="40" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="phase4-subtitle" value="Decision Output" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="352" width="420" height="60" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="phase4-desc" value="最终选型&amp;#xa;决策依据&amp;#xa;实施路线&amp;#xa;变更管理" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="368" width="420" height="90" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="arrow-1-2" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=4;endSize=10;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="320" as="sourcePoint" />
+            <mxPoint x="560" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow-2-3" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=4;endSize=10;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="320" as="sourcePoint" />
+            <mxPoint x="1040" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow-3-4" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=4;endSize=10;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1460" y="320" as="sourcePoint" />
+            <mxPoint x="1520" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        
+        <mxCell id="criteria-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=NONE;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="520" width="1860" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="criteria-title" value="评估维度 (Evaluation Dimensions)" style="text;fontSize=36;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="80" y="544" width="1860" height="90" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="criteria-row1" value="技术能力 (40%)  |  成本效益 (20%)  |  安全合规 (15%)" style="text;fontSize=24;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="80" y="616" width="1860" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="criteria-row2" value="厂商信誉 (10%)  |  社区生态 (10%)  |  未来扩展 (5%)" style="text;fontSize=24;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="80" y="656" width="1860" height="70" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="matrix-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E5E7EB;strokeWidth=1;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="800" width="920" height="240" as="geometry" />
+        </mxCell>
+
+        <mxCell id="matrix-title" value="评分矩阵示例" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="80" y="832" width="920" height="80" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="matrix-header" value="维度          方案A    方案B    方案C" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="120" y="888" width="840" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="matrix-row1" value="技术能力        35       38       32" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="120" y="928" width="840" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="matrix-row2" value="成本效益        18       15       19" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="120" y="952" width="840" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="matrix-row3" value="安全合规        14       13       15" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="120" y="984" width="840" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="matrix-total" value="总分            92       88       95" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1008" width="840" height="60" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="factors-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E5E7EB;strokeWidth=1;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="800" width="900" height="240" as="geometry" />
+        </mxCell>
+
+        <mxCell id="factors-title" value="决策考量因素" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="832" width="900" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="factors-items" value="技术先进性与成熟度&amp;#xa;团队技能匹配度&amp;#xa;集成复杂度&amp;#xa;长期维护成本&amp;#xa;迁移风险评估&amp;#xa;厂商锁定风险" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" vertex="1" parent="1">
+          <mxGeometry x="1104" y="864" width="1100" height="173" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

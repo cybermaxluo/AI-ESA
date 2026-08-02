@@ -1,0 +1,124 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="威胁建模工作流" id="threat-modeling-workflow">
+    <mxGraphModel dx="1850" dy="1051" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bg" value="" style="fillColor=#FAFBFC;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="832" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="威胁建模工作流程" style="text;fontSize=36;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="660" y="40" width="600" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Threat Modeling Workflow (STRIDE-based)" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="610" y="95" width="700" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="step1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="80" y="180" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="step1-num" value="" style="ellipse;fillColor=#0066FF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="200" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="step1-num-text" value="1" style="text;fontSize=22;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="100" y="200" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="step1-title" value="系统分解" style="text;fontSize=20;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="155" y="205" width="265" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="step1-content" value="Decompose System&#xa;• 绘制架构图&#xa;• 识别信任边界&#xa;• 定义数据流向" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="100" y="250" width="320" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="step2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="500" y="180" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="step2-num" value="" style="ellipse;fillColor=#0066FF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="520" y="200" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="step2-num-text" value="2" style="text;fontSize=22;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="520" y="200" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="step2-title" value="识别威胁" style="text;fontSize=20;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="575" y="205" width="265" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="step2-content" value="Identify Threats (STRIDE)&#xa;• S - 身份欺骗&#xa;• T - 数据篡改&#xa;• R - 抵赖行为" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="520" y="250" width="320" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="step3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="920" y="180" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="step3-num" value="" style="ellipse;fillColor=#0066FF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="940" y="200" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="step3-num-text" value="3" style="text;fontSize=22;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="940" y="200" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="step3-title" value="风险评级" style="text;fontSize=20;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="995" y="205" width="265" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="step3-content" value="Rate Threats&#xa;• DREAD评分&#xa;• 影响×可能性&#xa;• Critical/High/Med/Low" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="940" y="250" width="320" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="step4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="180" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="step4-num" value="" style="ellipse;fillColor=#0066FF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="200" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="step4-num-text" value="4" style="text;fontSize=22;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="200" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="step4-title" value="缓解措施" style="text;fontSize=20;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1415" y="205" width="265" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="step4-content" value="Mitigate Threats&#xa;• 设计安全控制&#xa;• 选择对策方案&#xa;• Accept/Transfer/Avoid" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="250" width="320" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow1" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=4;endSize=10;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="260" as="sourcePoint" />
+            <mxPoint x="500" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow2" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=4;endSize=10;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="260" as="sourcePoint" />
+            <mxPoint x="920" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow3" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=4;endSize=10;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="260" as="sourcePoint" />
+            <mxPoint x="1340" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="stride-box" value="" style="rounded=1;fillColor=#F0F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="400" width="820" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="stride-title" value="STRIDE威胁分类" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="420" width="820" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="stride-content" value="S - Spoofing (身份欺骗): 攻击者冒充他人身份&#xa;   示例: 窃取JWT令牌、会话劫持、钓鱼攻击&#xa;&#xa;T - Tampering (数据篡改): 未授权修改数据&#xa;   示例: SQL注入、中间人攻击、代码注入&#xa;&#xa;R - Repudiation (抵赖行为): 否认执行操作&#xa;   示例: 无日志记录、匿名操作、缺少审计&#xa;" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="100" y="488" width="288" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-box" value="" style="rounded=1;fillColor=#F0FDF4;strokeColor=#10B981;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="980" y="400" width="720" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-title" value="威胁建模工具" style="text;fontSize=24;fontStyle=1;fontColor=#10B981;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="980" y="420" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-content" value="Microsoft Threat Modeling Tool&#xa;• 免费工具,支持DFD绘制&#xa;• 内置STRIDE威胁库&#xa;• 生成HTML/PDF报告&#xa;&#xa;OWASP Threat Dragon&#xa;• 开源跨平台工具&#xa;• 支持云端协作&#xa;• 集成CI/CD流水线&#xa;" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="465" width="292" height="159" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-text" value="最佳实践: 设计阶段进行威胁建模 → 每个Sprint评审更新 → 重大架构变更必做 → 输出物纳入Git版本管理" style="text;fontSize=16;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="88" y="712" width="1620" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AYjljeDfN9AqXbCjz9eI-1" value="I - Information Disclosure (信息泄露): 未授权访问敏感数据&#xa;   示例: 路径遍历、敏感数据暴露、错误信息泄露&#xa;&#xa;D - Denial of Service (拒绝服务): 使系统不可用&#xa;   示例: DDoS、资源耗尽、逻辑炸弹&#xa;&#xa;E - Elevation of Privilege (权限提升): 获得更高权限&#xa;   示例: 垂直越权、水平越权、命令注入" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="464" y="488" width="376" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="AYjljeDfN9AqXbCjz9eI-2" value="IriusRisk / ThreatModeler&#xa;• 商业化平台&#xa;• 智能威胁建议&#xa;• 集成漏洞管理&#xa;&#xa;手工方法&#xa;• 白板+便签纸&#xa;• Draw.io/Miro协作&#xa;• Excel威胁清单" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="1352" y="465" width="320" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

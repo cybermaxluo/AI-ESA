@@ -1,0 +1,280 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="SSE-SASE-V6-Professional" id="sse-sase-v6-professional">
+    <mxGraphModel dx="2391" dy="1241" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title-bg" value="" style="rounded=1;fillColor=#F8F9FA;strokeColor=NONE;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="20" y="20" width="1880" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="title-main" value="SASE架构与SSE安全服务" style="text;fontSize=48;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="20" y="36" width="1880" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="title-sub" value="Secure Access Service Edge &amp; Security Service Edge Architecture" style="text;fontSize=18;fontColor=#6B7280;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="20" y="100" width="1880" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="comp1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;strokeWidth=1;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="72" y="264" width="344" height="296" as="geometry" />
+        </mxCell>
+        <mxCell id="comp1-icon" value="CB" style="text;fontSize=64;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="102" y="288" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="comp1-title" value="CASB" style="text;fontSize=32;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="102" y="380" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="comp1-subtitle" value="云访问安全代理" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="102" y="424" width="280" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="comp1-en" value="Cloud Access Security Broker" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="102" y="452" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="comp1-feature1" value="• SaaS/IaaS/PaaS可见性" style="text;fontSize=13;fontColor=#374151;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="102" y="480" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="comp1-feature2" value="• 数据丢失防护DLP" style="text;fontSize=13;fontColor=#374151;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="102" y="502" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="comp1-feature3" value="• 合规性与审计" style="text;fontSize=13;fontColor=#374151;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="102" y="524" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="comp2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;strokeWidth=1;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="452" y="264" width="340" height="296" as="geometry" />
+        </mxCell>
+        <mxCell id="comp2-icon" value="SW" style="text;fontSize=64;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="482" y="288" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="comp2-title" value="SWG" style="text;fontSize=32;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="482" y="380" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="comp2-subtitle" value="安全Web网关" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="482" y="424" width="280" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="comp2-en" value="Secure Web Gateway" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="482" y="452" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="comp2-feature1" value="• URL过滤与威胁检测" style="text;fontSize=13;fontColor=#374151;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="482" y="480" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="comp2-feature2" value="• 恶意软件防护沙箱" style="text;fontSize=13;fontColor=#374151;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="482" y="502" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="comp2-feature3" value="• SSL/TLS检查解密" style="text;fontSize=13;fontColor=#374151;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="482" y="524" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="comp3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;strokeWidth=1;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="832" y="264" width="344" height="296" as="geometry" />
+        </mxCell>
+        <mxCell id="comp3-icon" value="ZT" style="text;fontSize=64;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="862" y="288" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="comp3-title" value="ZTNA" style="text;fontSize=32;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="862" y="380" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="comp3-subtitle" value="零信任网络访问" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="862" y="424" width="280" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="comp3-en" value="Zero Trust Network Access" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="862" y="452" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="comp3-feature1" value="• 应用级微隔离访问" style="text;fontSize=13;fontColor=#374151;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="862" y="480" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="comp3-feature2" value="• 持续身份验证授权" style="text;fontSize=13;fontColor=#374151;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="862" y="502" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="comp3-feature3" value="• 设备态势评估信任" style="text;fontSize=13;fontColor=#374151;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="862" y="524" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="comp4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;strokeWidth=1;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1212" y="264" width="348" height="296" as="geometry" />
+        </mxCell>
+        <mxCell id="comp4-icon" value="FW" style="text;fontSize=64;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1242" y="288" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="comp4-title" value="FWaaS" style="text;fontSize=32;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1242" y="380" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="comp4-subtitle" value="云防火墙服务" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1242" y="424" width="280" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="comp4-en" value="Firewall as a Service" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1242" y="452" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="comp4-feature1" value="• 下一代防火墙NGFW" style="text;fontSize=13;fontColor=#374151;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1242" y="480" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="comp4-feature2" value="• IPS/IDS入侵防御" style="text;fontSize=13;fontColor=#374151;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1242" y="502" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="comp4-feature3" value="• 应用层协议识别" style="text;fontSize=13;fontColor=#374151;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1242" y="524" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="comp5-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;strokeWidth=1;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1592" y="264" width="352" height="296" as="geometry" />
+        </mxCell>
+        <mxCell id="comp5-icon" value="SD" style="text;fontSize=64;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1622" y="288" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="comp5-title" value="SD-WAN" style="text;fontSize=32;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1622" y="380" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="comp5-subtitle" value="软件定义广域网" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1622" y="424" width="280" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="comp5-en" value="Software-Defined WAN" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1622" y="452" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="comp5-feature1" value="• 智能路径选择优化" style="text;fontSize=13;fontColor=#374151;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1622" y="480" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="comp5-feature2" value="• WAN链路负载均衡" style="text;fontSize=13;fontColor=#374151;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1622" y="502" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="comp5-feature3" value="• 分支机构互联加速" style="text;fontSize=13;fontColor=#374151;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1622" y="524" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sse-label-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="344" y="160" width="328" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="sse-label" value="SSE (安全服务边缘)" style="text;fontSize=22;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="348" y="164" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sase-label-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1376" y="156" width="360" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="sase-label" value="SASE = SSE + SD-WAN" style="text;fontSize=22;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1376" y="160" width="360" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow1" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=4;endSize=10;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="624" as="sourcePoint" />
+            <mxPoint x="280" y="672" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow2" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=4;endSize=10;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="624" y="626" as="sourcePoint" />
+            <mxPoint x="624" y="674" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow3" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=4;endSize=10;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="998.57" y="626" as="sourcePoint" />
+            <mxPoint x="998.57" y="674" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow4" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=4;endSize=10;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1344" y="630" as="sourcePoint" />
+            <mxPoint x="1344" y="678" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow5" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=4;endSize=10;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1752" y="630" as="sourcePoint" />
+            <mxPoint x="1752" y="678" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="platform-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="72" y="688" width="1860" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-icon" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=NONE;" parent="1" vertex="1">
+          <mxGeometry x="712" y="740" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-icon-text" value="P" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="712" y="740" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-title" value="云原生安全融合平台" style="text;fontSize=36;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="820" y="740" width="400" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-subtitle" value="Cloud-Native Security Convergence Platform" style="text;fontSize=18;fontColor=#E0E7FF;fontFamily=Inter;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="820" y="788" width="520" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-features-title" value="平台核心能力:" style="text;fontSize=18;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="120" y="844" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-feature1" value="① 统一策略编排" style="text;fontSize=16;fontColor=#E0E7FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="300" y="844" width="180" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-feature2" value="② 全球PoP分布" style="text;fontSize=16;fontColor=#E0E7FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="500" y="844" width="180" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-feature3" value="③ API驱动集成" style="text;fontSize=16;fontColor=#E0E7FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="700" y="844" width="180" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-feature4" value="④ 实时威胁情报" style="text;fontSize=16;fontColor=#E0E7FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="900" y="844" width="180" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-feature5" value="⑤ 多租户隔离" style="text;fontSize=16;fontColor=#E0E7FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="844" width="180" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-feature6" value="⑥ 弹性扩展能力" style="text;fontSize=16;fontColor=#E0E7FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="844" width="180" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-feature7" value="⑦ 单点管理控制" style="text;fontSize=16;fontColor=#E0E7FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="844" width="180" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="platform-feature8" value="⑧ 零信任架构" style="text;fontSize=16;fontColor=#E0E7FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1700" y="844" width="180" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="benefits-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="72" y="960" width="1856" height="232" as="geometry" />
+        </mxCell>
+        <mxCell id="benefits-icon-bg" value="" style="ellipse;fillColor=#0066FF;strokeColor=NONE;" parent="1" vertex="1">
+          <mxGeometry x="120" y="1016" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="benefits-icon-text" value="V" style="text;fontSize=40;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="120" y="1016" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="benefits-title" value="SASE核心价值与优势" style="text;fontSize=28;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="204" y="1024" width="400" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="benefits-subtitle" value="Gartner定义的下一代网络安全架构模式" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="204" y="1072" width="480" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit1-label" value="① 安全网络融合" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="120" y="1112" width="280" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit1-desc" value="网络与安全服务统一交付" style="text;fontSize=14;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="120" y="1136" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit2-label" value="② 边缘到边缘保护" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="420" y="1112" width="280" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit2-desc" value="全流量安全检查与防护" style="text;fontSize=14;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="420" y="1136" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit3-label" value="③ 用户体验提升" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="720" y="1112" width="280" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit3-desc" value="低延迟就近接入服务" style="text;fontSize=14;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="720" y="1136" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit4-label" value="④ TCO成本优化" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="1112" width="280" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit4-desc" value="减少硬件设备管理复杂度" style="text;fontSize=14;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="1136" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit5-label" value="⑤ 敏捷部署扩展" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="1112" width="280" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit5-desc" value="快速响应业务变化需求" style="text;fontSize=14;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="1136" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit6-label" value="⑥ 统一可见性" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1620" y="1112" width="280" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="benefit6-desc" value="端到端流量安全态势感知" style="text;fontSize=14;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1620" y="1136" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bKiGOPwcu2_uNDJWD7Zf-1" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=none;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
+          <mxGeometry x="48" y="240" width="1152" height="352" as="geometry" />
+        </mxCell>
+        <mxCell id="bKiGOPwcu2_uNDJWD7Zf-4" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=none;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
+          <mxGeometry x="32" y="224" width="1952" height="384" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

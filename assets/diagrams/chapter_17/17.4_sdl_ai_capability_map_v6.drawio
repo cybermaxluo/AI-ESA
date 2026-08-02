@@ -1,0 +1,250 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="SDL AI Capability Map V6" id="sdl-ai-capability-map-v6">
+    <mxGraphModel dx="2370" dy="1464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="background" value="" style="fillColor=#FAFBFC;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="SDL AI 能力地图" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="25" width="700" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="AI-Powered Secure Development Lifecycle - 15 Scenarios Across 5 Phases" style="text;fontSize=18;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="80" width="900" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="phase-bar-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=6;" parent="1" vertex="1">
+          <mxGeometry x="80" y="120" width="1760" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1-label" value="需求 Require" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="135" width="352" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2-label" value="设计 Design" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="432" y="135" width="352" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3-label" value="开发 Dev" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="784" y="135" width="352" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4-label" value="测试 Test" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1136" y="135" width="352" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phase5-label" value="运维 Ops" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1488" y="135" width="352" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;strokeColor=#FFFFFF;strokeWidth=3;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="150" as="sourcePoint" />
+            <mxPoint x="444" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;strokeColor=#FFFFFF;strokeWidth=3;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="772" y="150" as="sourcePoint" />
+            <mxPoint x="796" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow3" value="" style="endArrow=classic;html=1;strokeColor=#FFFFFF;strokeWidth=3;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1124" y="150" as="sourcePoint" />
+            <mxPoint x="1148" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow4" value="" style="endArrow=classic;html=1;strokeColor=#FFFFFF;strokeWidth=3;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1476" y="150" as="sourcePoint" />
+            <mxPoint x="1500" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="req-col-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="200" width="340" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="req1-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="100" y="220" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="req1-id" value="SDL-02" style="text;fontSize=12;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="115" y="230" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="req1-title" value="PIA 智能评估" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="115" y="252" width="270" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="req1-content" value="基于 NER 提取个人信息类型&#xa;自动生成隐私影响评估报告&#xa;PIA 覆盖率提升 +60%" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="115" y="280" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="req2-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="100" y="365" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="req2-id" value="SDL-04" style="text;fontSize=12;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="115" y="375" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="req2-title" value="安全需求自动生成" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="115" y="397" width="270" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="req2-content" value="基于 LLM 分析业务需求文档&#xa;自动生成安全用户故事&#xa;映射安全需求知识库" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="115" y="425" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="design-col-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="432" y="200" width="340" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="design1-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="452" y="220" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="design1-id" value="SDL-03" style="text;fontSize=12;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="467" y="230" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="design1-title" value="威胁建模自动化" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="467" y="252" width="270" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="design1-content" value="架构图解析 → STRIDE 威胁识别&#xa;自动生成攻击树与缓解措施&#xa;威胁建模效率提升 70%" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="467" y="280" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="design2-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="452" y="365" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="design2-id" value="SDL-01" style="text;fontSize=12;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="467" y="375" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="design2-title" value="BP 安全架构 Copilot" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="467" y="397" width="270" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="design2-content" value="基于 RAG 安全知识库问答&#xa;安全设计模式智能推荐&#xa;架构审查效率提升 +50%" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="467" y="425" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dev-col-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="784" y="200" width="340" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="dev1-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="804" y="220" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="dev1-id" value="SDL-05" style="text;fontSize=12;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="819" y="230" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="dev1-title" value="SAST 智能降噪" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="819" y="252" width="270" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="dev1-content" value="多层漏斗架构 (规则+ML+LLM)&#xa;误报过滤率 &gt; 80%&#xa;开发者处理效率 +40%" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="819" y="280" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dev2-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="804" y="365" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="dev2-id" value="SDL-09" style="text;fontSize=12;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="819" y="375" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="dev2-title" value="密钥检测与防护" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="819" y="397" width="270" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="dev2-content" value="集成 Pre-commit Hook 拦截&#xa;检测硬编码密钥 + 敏感配置&#xa;密钥泄露拦截率 99%+" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="819" y="425" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dev3-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="804" y="510" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="dev3-id" value="SDL-11" style="text;fontSize=12;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="819" y="520" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="dev3-title" value="安全代码审查" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="819" y="542" width="270" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="dev3-content" value="基于 LLM 的代码安全审查&#xa;检测注入、越权等漏洞&#xa;代码审查覆盖率 &gt; 70%" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="819" y="570" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="test-col-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1136" y="200" width="340" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="test1-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1156" y="220" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="test1-id" value="SDL-06" style="text;fontSize=12;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1171" y="230" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="test1-title" value="DAST 智能测试" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1171" y="252" width="270" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="test1-content" value="基于 LLM 的智能测试用例生成&#xa;认证绕过与逻辑漏洞检测&#xa;漏洞发现率提升 +30%" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1171" y="280" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="test2-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1156" y="365" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="test2-id" value="SDL-07" style="text;fontSize=12;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1171" y="375" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="test2-title" value="BOLA/越权检测" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1171" y="397" width="270" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="test2-content" value="自动构建 API 权限测试矩阵&#xa;横向纵向越权智能检测&#xa;BOLA 检出率提升 +50%" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1171" y="425" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="test3-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1156" y="510" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="test3-id" value="SDL-12" style="text;fontSize=12;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1171" y="520" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="test3-title" value="API 安全测试" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1171" y="542" width="270" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="test3-content" value="解析 OpenAPI/GraphQL 规范&#xa;智能 Fuzz 测试用例生成&#xa;API 漏洞发现率提升 +40%" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1171" y="570" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ops-col-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1488" y="200" width="352" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="ops1-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1508" y="220" width="312" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ops1-id" value="SDL-08" style="text;fontSize=12;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1523" y="230" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="ops1-title" value="漏洞智能排序" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1523" y="252" width="280" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ops1-content" value="融合 CVSS + EPSS + 资产价值&#xa;动态调整修复优先级&#xa;修复效率提升 +40%" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1523" y="280" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ops2-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1508" y="365" width="312" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ops2-id" value="SDL-15" style="text;fontSize=12;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1523" y="375" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="ops2-title" value="安全知识 Bot" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1523" y="397" width="280" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ops2-content" value="基于 RAG 安全知识库问答&#xa;提供 SDL 最佳实践指导&#xa;7x24 小时安全咨询" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1523" y="425" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ops3-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1508" y="510" width="312" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ops3-id" value="SDL-14" style="text;fontSize=12;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1523" y="520" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="ops3-title" value="持续合规检测" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1523" y="542" width="280" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ops3-content" value="配置漂移检测与告警&#xa;证书过期与权限变更审计&#xa;合规检测效率提升 +35%" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1523" y="570" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cross-bar-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="810" width="1760" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cross-bar-title" value="横向能力 Cross-Cutting Capabilities" style="text;fontSize=18;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="825" width="1760" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cross-bar-content" value="安全代码审查 (SDL-11) | API安全测试 (SDL-12) | SCA组件分析 (SDL-10) | 持续合规检测 (SDL-14) | 安全知识Bot (SDL-15)" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=center;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="80" y="855" width="1760" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="tech-bar-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="80" y="920" width="1760" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tech-bar-title" value="技术栈:" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="110" y="940" width="80" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="tech-bar-content" value="LLM (GPT-4/Claude) | RAG | Semgrep/CodeQL | OWASP ZAP | Burp Suite | ML (XGBoost) | AST Analysis | GraphQL/OpenAPI Parser" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="200" y="940" width="1600" height="24" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

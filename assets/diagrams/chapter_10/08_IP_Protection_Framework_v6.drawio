@@ -1,0 +1,130 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="IP Protection Framework V6" id="ip-protection-v6">
+    <mxGraphModel dx="1783" dy="1183" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="background" value="" style="fillColor=#FAFBFC;strokeColor=NONE;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="知识产权保护框架" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="48" width="900" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="IP Protection Framework - Source Code, Patents, Trade Secrets, Open Source Compliance" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="112" width="1400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="code-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="88" y="188" width="858" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="code-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="180" width="850" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="code-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="180" width="850" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="code-title" value="源代码保护 | Source Code Protection" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="193" width="850" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="git-security" value="Git安全&#xa;────────&#xa;• SSO + MFA认证&#xa;• 分支保护规则&#xa;• Code Review强制&#xa;• Commit签名验证" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=16;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="120" y="250" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="secret-scan" value="密钥扫描&#xa;────────&#xa;• GitGuardian检测&#xa;• Pre-commit Hook&#xa;• API密钥/凭证&#xa;• 自动撤销+告警" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=16;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="330" y="250" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="dlp-code" value="DLP防泄漏&#xa;────────&#xa;• 代码特征识别&#xa;• 邮件/USB阻止&#xa;• 云盘上传监控&#xa;• 水印追踪源头" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=16;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="540" y="250" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="obfuscation" value="代码混淆&#xa;────────&#xa;• 变量名混淆&#xa;• 控制流平坦化&#xa;• 字符串加密&#xa;• ProGuard/PyArmor" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=16;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="750" y="250" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="patent-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="978" y="188" width="858" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="patent-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="970" y="180" width="850" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="patent-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="970" y="180" width="850" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="patent-title" value="专利管理 | Patent Portfolio Management" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="970" y="193" width="850" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="innovation" value="创新捕获&#xa;────────&#xa;• 发明披露表&#xa;• 季度委员会审查&#xa;• 商业价值评估&#xa;• 申请决策流程" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=16;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="250" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="filing" value="申请策略&#xa;────────&#xa;• 临时申请占位&#xa;• PCT多国申请&#xa;• 美欧中日覆盖&#xa;• $10K-50K/专利" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=16;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="250" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="maintenance" value="组合维护&#xa;────────&#xa;• 年费管理&#xa;• 定期修剪&#xa;• 防御性公开&#xa;• 授权盈利" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=16;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="1430" y="250" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="monetization" value="价值变现&#xa;────────&#xa;• 许可授权&#xa;• 交叉许可&#xa;• 诉讼维权&#xa;• 资产出售" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=16;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="1640" y="250" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="secret-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="88" y="448" width="858" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="secret-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="440" width="850" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="secret-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="440" width="850" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="secret-title" value="商业秘密 | Trade Secrets Protection" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="453" width="850" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="access-control" value="访问控制&#xa;────────&#xa;• Need-to-Know&#xa;• 最小权限&#xa;• 强制MFA&#xa;• 离职即撤销" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=16;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="120" y="510" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="nda" value="NDA管控&#xa;────────&#xa;• 员工保密协议&#xa;• 供应商单向NDA&#xa;• 合作伙伴双向NDA&#xa;• 2-5年期限" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=16;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="330" y="510" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="marking" value="标记保护&#xa;────────&#xa;• &#39;商业秘密&#39;标签&#xa;• 文档页眉页脚&#xa;• 水印标识&#xa;• 电子加密" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=16;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="540" y="510" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="training" value="培训+审计&#xa;────────&#xa;• 员工保密培训&#xa;• 离职面谈提醒&#xa;• 年度合规审计&#xa;• 泄露诉讼追究" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=16;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="750" y="510" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="oss-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="978" y="448" width="858" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="oss-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="970" y="440" width="850" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="oss-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="970" y="440" width="850" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oss-title" value="开源合规 | Open Source Compliance" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="970" y="453" width="850" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sca-scan" value="SCA扫描&#xa;────────&#xa;• Black Duck/Snyk&#xa;• 依赖分析&#xa;• 许可证检测&#xa;• 漏洞监控" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=16;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="510" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="license" value="许可证管理&#xa;────────&#xa;• MIT/Apache允许&#xa;• LGPL谨慎使用&#xa;• GPL禁止(传染)&#xa;• AGPL网络风险" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=16;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="510" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="approval" value="审批流程&#xa;────────&#xa;• 开发者提交申请&#xa;• 自动扫描评估&#xa;• 法务安全审批&#xa;• 白名单预批准" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=16;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="1430" y="510" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sbom" value="SBOM生成&#xa;────────&#xa;• SPDX/CycloneDX&#xa;• 组件清单&#xa;• 版本追踪&#xa;• 客户交付" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=16;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;spacing=10;" parent="1" vertex="1">
+          <mxGeometry x="1640" y="510" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="risk-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="88" y="708" width="1772" height="442" as="geometry" />
+        </mxCell>
+        <mxCell id="risk-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="700" width="1770" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="risk-title" value="高风险场景与应对策略 | High-Risk Scenarios &amp; Mitigation" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="720" width="1200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="risk-content" value="离职开发者风险:&#xa;• 监控: 离职前30天禁止clone全部repo, USB拷贝告警&#xa;• 审计: 审查最近commit(异常大量代码提交?)&#xa;• 法律: 签署竞业禁止协议(12-24个月)+NDA永久有效&#xa;• 事后: 监控GitHub公开项目,代码相似性检测(SonarQube)&#xa;&#xa;外包/承包商风险:&#xa;• 隔离: 独立repo,不访问主代码库,VPN专用环境&#xa;• 审查: Code Review(安全+IP检查)后才合并主线&#xa;• 合同: NDA + IP归属协议(所有交付物归公司所有)&#xa;• 撤销: 合同结束立即撤销所有访问,备份交付代码&#xa;&#xa;M&amp;A尽职调查:&#xa;• 数据室: 虚拟数据室(Intralinks/ShareFile), IRM强制保护&#xa;• 水印: 动态水印追踪查看者($${User.Name} $${DateTime})&#xa;• 权限: 仅查看(禁止下载/打印/转发),7-30天自动过期&#xa;• 撤销: 交易失败→一键撤销所有外部访问,审计日志留痕" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="120" y="770" width="650" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="risk-legal" value="法律基础:&#xa;• 商业秘密保护三要素 (美国UTSA/DTSA):&#xa;  1. 信息不为公众所知 (Secrecy)&#xa;  2. 因保密获得经济价值 (Economic Value)&#xa;  3. 采取合理保密措施 (Reasonable Efforts) ★关键★&#xa;&#xa;合理措施证明清单:&#xa;✓ 访问控制日志 (谁访问了什么,何时)&#xa;✓ 加密记录 (文件加密,传输加密)&#xa;✓ NDA签署证明 (所有接触者)&#xa;✓ 培训记录 (员工知晓保密义务)&#xa;✓ 物理安全 (机房门禁,文档锁柜)&#xa;✓ 标记记录 (文档标记&#39;商业秘密&#39;)&#xa;✓ 离职提醒 (Exit Interview书面确认)&#xa;&#xa;诉讼案例:&#xa;• Waymo诉Uber (2017): 自动驾驶商业秘密窃取,和解$245M&#xa;• Epic Games诉苹果 (2021): 未保护好商业秘密,部分诉求失败&#xa;• 教训: 必须有完整证据链证明&#39;合理保密措施&#39;,否则法院不支持" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=10;spacingTop=5;" parent="1" vertex="1">
+          <mxGeometry x="990" y="770" width="590" height="352" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

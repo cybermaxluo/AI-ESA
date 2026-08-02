@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" version="22.0.0">
+  <diagram name="Playbook Framework" id="playbook-framework-v6">
+    <mxGraphModel dx="1920" dy="1080" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- 主标题 -->
+        <mxCell id="title-main" value="BISO Playbook 标准框架" style="text;fontSize=48;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="560" y="40" width="800" height="72" as="geometry" />
+        </mxCell>
+
+        <mxCell id="title-sub" value="BISO Playbook Framework - Standardized Security Partnership Workflows" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="360" y="104" width="1200" height="32" as="geometry" />
+        </mxCell>
+
+        <!-- 左侧场景列表 -->
+        <mxCell id="scenarios-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="84" y="168" width="340" height="796" as="geometry" />
+        </mxCell>
+
+        <mxCell id="scenarios-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="340" height="800" as="geometry" />
+        </mxCell>
+
+        <mxCell id="scenarios-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="340" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="scenarios-title" value="关键场景" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="80" y="176" width="340" height="32" as="geometry" />
+        </mxCell>
+
+        <mxCell id="scenarios-title-en" value="Key Scenarios" style="text;fontSize=16;fontColor=#FFFFFF;opacity=80;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="80" y="208" width="340" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- 场景1 -->
+        <mxCell id="scenario1" value="产品上线&#xa;Product Launch" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="112" y="272" width="276" height="72" as="geometry" />
+        </mxCell>
+
+        <!-- 场景2 -->
+        <mxCell id="scenario2" value="营销活动&#xa;Marketing Campaign" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="112" y="368" width="276" height="72" as="geometry" />
+        </mxCell>
+
+        <!-- 场景3 -->
+        <mxCell id="scenario3" value="供应商接入&#xa;Vendor Onboarding" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="112" y="464" width="276" height="72" as="geometry" />
+        </mxCell>
+
+        <!-- 场景4 -->
+        <mxCell id="scenario4" value="并购整合&#xa;M&amp;A Integration" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="112" y="560" width="276" height="72" as="geometry" />
+        </mxCell>
+
+        <!-- 场景5 -->
+        <mxCell id="scenario5" value="AI功能发布&#xa;AI Feature Release" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="112" y="656" width="276" height="72" as="geometry" />
+        </mxCell>
+
+        <!-- 场景6 -->
+        <mxCell id="scenario6" value="数据跨境传输&#xa;Cross-Border Transfer" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="112" y="752" width="276" height="72" as="geometry" />
+        </mxCell>
+
+        <!-- 右侧模板区域 -->
+        <mxCell id="template-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="452" y="168" width="1388" height="796" as="geometry" />
+        </mxCell>
+
+        <mxCell id="template-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="448" y="160" width="1392" height="800" as="geometry" />
+        </mxCell>
+
+        <mxCell id="template-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="448" y="160" width="1392" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="template-title" value="Playbook 标准模板结构" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="448" y="176" width="1392" height="32" as="geometry" />
+        </mxCell>
+
+        <mxCell id="template-title-en" value="Standard Template Structure" style="text;fontSize=16;fontColor=#FFFFFF;opacity=80;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="448" y="208" width="1392" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- Section 1: 适用范围 -->
+        <mxCell id="section1-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="488" y="272" width="640" height="120" as="geometry" />
+        </mxCell>
+
+        <mxCell id="section1-label" value="1. 适用范围 Scope" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="512" y="288" width="592" height="24" as="geometry" />
+        </mxCell>
+
+        <mxCell id="section1-content" value="• 业务场景描述&#xa;• 触发条件&#xa;• 涉及团队角色" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="512" y="320" width="592" height="56" as="geometry" />
+        </mxCell>
+
+        <!-- Section 2: 输入材料 -->
+        <mxCell id="section2-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="488" y="416" width="640" height="120" as="geometry" />
+        </mxCell>
+
+        <mxCell id="section2-label" value="2. 输入材料 Inputs" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="512" y="432" width="592" height="24" as="geometry" />
+        </mxCell>
+
+        <mxCell id="section2-content" value="• 业务需求文档&#xa;• 架构设计文档&#xa;• 数据流图" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="512" y="464" width="592" height="56" as="geometry" />
+        </mxCell>
+
+        <!-- Section 3: 执行步骤 -->
+        <mxCell id="section3-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="488" y="560" width="640" height="168" as="geometry" />
+        </mxCell>
+
+        <mxCell id="section3-label" value="3. 执行步骤 Steps" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="512" y="576" width="592" height="24" as="geometry" />
+        </mxCell>
+
+        <mxCell id="section3-content" value="• Step 1: 风险识别与评估&#xa;• Step 2: 安全方案设计&#xa;• Step 3: 评审与批准&#xa;• Step 4: 实施与验证&#xa;• Step 5: 上线监控" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="512" y="608" width="592" height="104" as="geometry" />
+        </mxCell>
+
+        <!-- Section 4: 交付产出 -->
+        <mxCell id="section4-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="488" y="752" width="640" height="120" as="geometry" />
+        </mxCell>
+
+        <mxCell id="section4-label" value="4. 交付产出 Outputs" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="512" y="768" width="592" height="24" as="geometry" />
+        </mxCell>
+
+        <mxCell id="section4-content" value="• 风险评估报告&#xa;• 安全审查意见&#xa;• 监控看板" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="512" y="800" width="592" height="56" as="geometry" />
+        </mxCell>
+
+        <!-- Section 5: 工具与模板 -->
+        <mxCell id="section5-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="272" width="648" height="264" as="geometry" />
+        </mxCell>
+
+        <mxCell id="section5-label" value="5. 工具与模板 Tools" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1184" y="288" width="600" height="24" as="geometry" />
+        </mxCell>
+
+        <mxCell id="section5-content" value="• 风险评估模板&#xa;• 安全检查清单&#xa;• 威胁建模工具&#xa;• 合规审查清单&#xa;• 监控配置模板&#xa;• 事件响应手册" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1184" y="320" width="600" height="200" as="geometry" />
+        </mxCell>
+
+        <!-- Section 6: 案例参考 -->
+        <mxCell id="section6-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=1;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="560" width="648" height="312" as="geometry" />
+        </mxCell>
+
+        <mxCell id="section6-label" value="6. 案例参考 Examples" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1184" y="576" width="600" height="24" as="geometry" />
+        </mxCell>
+
+        <mxCell id="section6-content" value="• 案例1: 电商大促安全护航&#xa;  风险点: DDoS攻击、库存超卖&#xa;  方案: WAF升级、限流策略&#xa;&#xa;• 案例2: 新产品隐私合规评审&#xa;  风险点: 用户画像、数据出境&#xa;  方案: PIA评估、数据分类" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1184" y="608" width="600" height="248" as="geometry" />
+        </mxCell>
+
+        <!-- 底部说明 -->
+        <mxCell id="note-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="84" y="996" width="1752" height="68" as="geometry" />
+        </mxCell>
+
+        <mxCell id="note-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="992" width="1760" height="68" as="geometry" />
+        </mxCell>
+
+        <mxCell id="note-text" value="Playbook维护建议: 每季度根据业务变化更新,通过案例复盘持续优化,建立Playbook库供全团队共享,新场景启动90天内完成Playbook沉淀" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1008" width="1680" height="40" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

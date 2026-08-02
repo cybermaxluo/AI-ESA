@@ -1,0 +1,183 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Security Design Principles" id="principles-v6">
+    <mxGraphModel dx="2037" dy="1227" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- 主标题 -->
+        <mxCell id="title-main" value="安全架构设计原则" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="560" y="40" width="800" height="72" as="geometry" />
+        </mxCell>
+
+        <mxCell id="title-sub" value="Security Architecture Design Principles - Six Core Principles" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="512" y="104" width="896" height="32" as="geometry" />
+        </mxCell>
+
+        <!-- Principle 1: 最小权限 -->
+        <mxCell id="p1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="84" y="184" width="564" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;strokeWidth=1;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="80" y="176" width="568" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p1-icon" value="LP" style="text;fontSize=56;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="120" y="204" width="120" height="64" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p1-title" value="最小权限原则" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="264" y="204" width="360" height="32" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p1-subtitle" value="Least Privilege" style="text;fontSize=15;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="264" y="240" width="360" height="24" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p1-desc" value="用户和进程仅拥有完成任务所需&#xa;的最小权限,降低误用风险" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="120" y="288" width="504" height="64" as="geometry" />
+        </mxCell>
+
+        <!-- Principle 2: 纵深防御 -->
+        <mxCell id="p2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="684" y="184" width="564" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;strokeWidth=1;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="680" y="176" width="568" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p2-icon" value="DD" style="text;fontSize=56;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="720" y="204" width="120" height="64" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p2-title" value="纵深防御" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="864" y="204" width="360" height="32" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p2-subtitle" value="Defense in Depth" style="text;fontSize=15;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="864" y="240" width="360" height="24" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p2-desc" value="多层安全控制,单层失效不导致&#xa;整体崩溃,增强系统韧性" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="720" y="288" width="504" height="64" as="geometry" />
+        </mxCell>
+
+        <!-- Principle 3: 职责分离 -->
+        <mxCell id="p3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1284" y="184" width="564" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;strokeWidth=1;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="176" width="568" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p3-icon" value="SD" style="text;fontSize=56;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="204" width="120" height="64" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p3-title" value="职责分离" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1464" y="204" width="360" height="32" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p3-subtitle" value="Separation of Duties" style="text;fontSize=15;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1464" y="240" width="360" height="24" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p3-desc" value="关键操作需多人协同,防止单点&#xa;权力滥用和内部威胁" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="288" width="504" height="64" as="geometry" />
+        </mxCell>
+
+        <!-- Principle 4: 开放设计 -->
+        <mxCell id="p4-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="84" y="408" width="564" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;strokeWidth=1;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="80" y="400" width="568" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p4-icon" value="OD" style="text;fontSize=56;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="120" y="428" width="120" height="64" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p4-title" value="开放设计" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="264" y="428" width="360" height="32" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p4-subtitle" value="Open Design" style="text;fontSize=15;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="264" y="464" width="360" height="24" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p4-desc" value="安全不依赖设计保密,经得起公开&#xa;审查和测试,透明可验证" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="120" y="512" width="504" height="64" as="geometry" />
+        </mxCell>
+
+        <!-- Principle 5: 简洁机制 -->
+        <mxCell id="p5-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="684" y="408" width="564" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p5-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;strokeWidth=1;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="680" y="400" width="568" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p5-icon" value="EM" style="text;fontSize=56;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="720" y="428" width="120" height="64" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p5-title" value="简洁机制" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="864" y="428" width="360" height="32" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p5-subtitle" value="Economy of Mechanism" style="text;fontSize=15;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="864" y="464" width="360" height="24" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p5-desc" value="设计保持简单,复杂度越低,安全&#xa;漏洞越少,易于理解和维护" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="720" y="512" width="504" height="64" as="geometry" />
+        </mxCell>
+
+        <!-- Principle 6: 故障安全默认 -->
+        <mxCell id="p6-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1284" y="408" width="564" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p6-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;strokeWidth=1;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="400" width="568" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p6-icon" value="FD" style="text;fontSize=56;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="428" width="120" height="64" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p6-title" value="故障安全默认" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1464" y="428" width="360" height="32" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p6-subtitle" value="Fail-Safe Defaults" style="text;fontSize=15;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1464" y="464" width="360" height="24" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p6-desc" value="默认拒绝访问,仅显式授权允许,&#xa;故障时保持安全状态" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="512" width="504" height="64" as="geometry" />
+        </mxCell>
+
+        <!-- 底部说明 -->
+        <mxCell id="note-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="84" y="652" width="1752" height="68" as="geometry" />
+        </mxCell>
+
+        <mxCell id="note-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#E5E7EB;strokeWidth=1;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="648" width="1760" height="68" as="geometry" />
+        </mxCell>
+
+        <mxCell id="note-text" value="核心理念: 最小化攻击面 + 多层防护 + 职责隔离 + 透明设计 + 简单可靠 + 默认安全" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="120" y="664" width="1680" height="40" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

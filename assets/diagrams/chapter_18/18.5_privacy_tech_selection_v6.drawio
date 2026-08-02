@@ -1,0 +1,547 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Privacy Tech Selection Framework" id="privacy-tech-selection">
+    <mxGraphModel dx="1975" dy="1220" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAFBFC;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="隐私技术选型决策框架" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=36;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="560" y="25" width="800" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Privacy Technology Selection Decision Framework" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontColor=#666666;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="660" y="70" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tree-section" value="" style="rounded=16;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="115" width="900" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="tree-title" value=" 选型决策树" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=20;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="60" y="125" width="300" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="q1" value="业务是否接受&#xa;模型准确率下降？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#0066FF;strokeColor=#0052CC;strokeWidth=2;fontSize=13;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="160" y="175" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-yes" value="是（可接受显著下降）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#16A34A;fontFamily=Inter;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="325" y="195" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="q1-no" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#DC2626;fontFamily=Inter;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="268" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" value="评估差分隐私&#xa;（需评估具体 ε 值）" style="rounded=12;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#166534;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="460" y="185" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-q1-a1" value="" style="endArrow=blockThin;html=1;strokeColor=#0066FF;strokeWidth=4;endFill=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="215" as="sourcePoint" />
+            <mxPoint x="460" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q2" value="是否存在数据跨境/&#xa;跨组织共享需求？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#0066FF;strokeColor=#0052CC;strokeWidth=2;fontSize=13;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="160" y="305" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-q1-q2" value="" style="endArrow=blockThin;html=1;strokeColor=#0066FF;strokeWidth=4;endFill=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="265" as="sourcePoint" />
+            <mxPoint x="240" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q2-yes" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#16A34A;fontFamily=Inter;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="325" y="340" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="q2-no" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#DC2626;fontFamily=Inter;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="398" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" value="评估联邦学习&#xa;或本地部署" style="rounded=12;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#F59E0B;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#B45309;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="460" y="320" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-q2-a2" value="" style="endArrow=blockThin;html=1;strokeColor=#0066FF;strokeWidth=4;endFill=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="350" as="sourcePoint" />
+            <mxPoint x="460" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q3" value="是否存在强制的&#xa;加密计算法规要求？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#0066FF;strokeColor=#0052CC;strokeWidth=2;fontSize=13;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="160" y="430" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-q2-q3" value="" style="endArrow=blockThin;html=1;strokeColor=#0066FF;strokeWidth=4;endFill=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="395" as="sourcePoint" />
+            <mxPoint x="240" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q3-yes" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#16A34A;fontFamily=Inter;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="325" y="465" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="q3-no" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#DC2626;fontFamily=Inter;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="523" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" value="评估 TEE / MPC /&#xa;同态加密（按性能优先级）" style="rounded=12;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#EF4444;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="460" y="445" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-q3-a3" value="" style="endArrow=blockThin;html=1;strokeColor=#0066FF;strokeWidth=4;endFill=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="475" as="sourcePoint" />
+            <mxPoint x="460" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a4" value="数据脱敏 + 访问控制&#xa;（成本最优方案）" style="rounded=12;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#3B82F6;strokeWidth=2;fontSize=12;fontStyle=1;fontColor=#1E40AF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="160" y="545" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-q3-a4" value="" style="endArrow=blockThin;html=1;strokeColor=#0066FF;strokeWidth=4;endFill=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="520" as="sourcePoint" />
+            <mxPoint x="240" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rec-dp" value="推荐" style="rounded=20;whiteSpace=wrap;html=1;fillColor=#16A34A;strokeColor=none;fontSize=10;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="580" y="185" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rec-default" value="默认" style="rounded=20;whiteSpace=wrap;html=1;fillColor=#3B82F6;strokeColor=none;fontSize=10;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="295" y="545" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="note1" value="" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#F0F4FF;strokeColor=#DBEAFE;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="635" y="175" width="285" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="note1-text" value=" 差分隐私考量：&#xa;• 数据集规模大且分布均匀&#xa;• 业务可接受一定准确率下降&#xa;• 监管明确要求隐私增强技术" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;spacing=3;" parent="1" vertex="1">
+          <mxGeometry x="645" y="180" width="265" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="note2" value="" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#FFFBEB;strokeColor=#FEF3C7;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="635" y="270" width="285" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="note2-text" value=" 联邦学习考量：&#xa;• 参与方数量 ≥ 10 个时规模效益显现&#xa;• 存在数据不能出境的合规要求&#xa;• 预算支持 6 个月以上实施周期&#xa;• 少于 5 方时本地部署更经济" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;spacing=3;" parent="1" vertex="1">
+          <mxGeometry x="645" y="275" width="265" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="note3" value="" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#FEF2F2;strokeColor=#FECACA;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="635" y="385" width="285" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="note3-text" value=" 加密计算考量（按性能排序）：&lt;br&gt;1、TEE（Intel SGX）：性能损失最小&lt;br&gt;2、MPC：中等开销，多方协作适用&lt;br&gt;3、同态加密：计算开销 100-1000 倍&lt;br&gt;&lt;br&gt;️ 同态加密仅适用于简单模型和&lt;br&gt;　  批处理场景（延迟可接受秒级）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;spacing=3;" parent="1" vertex="1">
+          <mxGeometry x="645" y="390" width="265" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="note4" value="" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#DBEAFE;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="635" y="525" width="285" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="note4-text" value=" 基础方案适用于：&#xa;• 通用场景，基础合规需求&#xa;• 预算有限或团队经验不足&#xa;• 无强制隐私增强技术要求" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;spacing=3;" parent="1" vertex="1">
+          <mxGeometry x="645" y="530" width="265" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="matrix-section" value="" style="rounded=16;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="960" y="115" width="920" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="matrix-title" value=" 技术对比矩阵" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=20;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="980" y="125" width="300" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="matrix-header" value="" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#0066FF;strokeColor=#0052CC;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="980" y="170" width="880" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="mh1" value="技术方案" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="980" y="180" width="140" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="mh2" value="隐私强度" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="180" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="mh3" value="性能影响" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="180" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="mh4" value="实施复杂度" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="180" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="mh5" value="适用场景" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="180" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="mh6" value="成本等级" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1680" y="180" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="row1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F0FDF4;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="980" y="215" width="880" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="r1c1" value="数据脱敏" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#3B82F6;strokeWidth=1;fontSize=13;fontStyle=1;fontColor=#1E40AF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="995" y="227" width="110" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="r1c2" value=" 中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#F59E0B;fontFamily=Inter;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="230" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="r1c3" value=" 低" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#16A34A;fontFamily=Inter;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="230" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="r1c4" value=" 低" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#16A34A;fontFamily=Inter;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="230" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="r1c5" value="通用场景，基础合规" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="230" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="r1c6" value=" 低" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#16A34A;fontFamily=Inter;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1680" y="230" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="row2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="980" y="270" width="880" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="r2c1" value="差分隐私" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;strokeWidth=1;fontSize=13;fontStyle=1;fontColor=#166534;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="995" y="282" width="110" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="r2c2" value=" 高" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#16A34A;fontFamily=Inter;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="285" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="r2c3" value=" 中-高" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#F59E0B;fontFamily=Inter;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="285" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="r2c4" value=" 高" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#DC2626;fontFamily=Inter;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="285" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="r2c5" value="数据分析，模型训练" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="285" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="r2c6" value=" 高" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#DC2626;fontFamily=Inter;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1680" y="285" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="row3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFBEB;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="980" y="325" width="880" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="r3c1" value="联邦学习" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#F59E0B;strokeWidth=1;fontSize=13;fontStyle=1;fontColor=#B45309;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="995" y="337" width="110" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="r3c2" value=" 高" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#16A34A;fontFamily=Inter;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="340" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="r3c3" value=" 中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#F59E0B;fontFamily=Inter;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="340" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="r3c4" value=" 高" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#DC2626;fontFamily=Inter;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="340" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="r3c5" value="多方协作，数据不出境" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="340" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="r3c6" value=" 很高" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#DC2626;fontFamily=Inter;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1680" y="340" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="row4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEF2F2;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="980" y="380" width="880" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="r4c1" value="同态加密" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#EF4444;strokeWidth=1;fontSize=13;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="995" y="392" width="110" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="r4c2" value=" 极高" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#16A34A;fontFamily=Inter;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="395" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="r4c3" value=" 极高" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#DC2626;fontFamily=Inter;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="395" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="r4c4" value=" 极高" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#DC2626;fontFamily=Inter;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="395" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="r4c5" value="特定合规，简单模型" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="395" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="r4c6" value=" 极高" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#DC2626;fontFamily=Inter;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1680" y="395" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="row5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F0F4FF;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="980" y="435" width="880" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="r5c1" value="TEE" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#6366F1;strokeWidth=1;fontSize=13;fontStyle=1;fontColor=#4338CA;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="995" y="447" width="110" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="r5c2" value=" 高" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#16A34A;fontFamily=Inter;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="450" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="r5c3" value=" 低" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#16A34A;fontFamily=Inter;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="450" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="r5c4" value=" 中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#F59E0B;fontFamily=Inter;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="450" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="r5c5" value="推理保护，硬件支持环境" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="450" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="r5c6" value=" 中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#F59E0B;fontFamily=Inter;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1680" y="450" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="row6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="980" y="490" width="880" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="r6c1" value="MPC" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#F3E8FF;strokeColor=#9333EA;strokeWidth=1;fontSize=13;fontStyle=1;fontColor=#7C3AED;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="995" y="502" width="110" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="r6c2" value=" 高" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#16A34A;fontFamily=Inter;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="505" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="r6c3" value=" 中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#F59E0B;fontFamily=Inter;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="505" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="r6c4" value=" 中-高" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#F59E0B;fontFamily=Inter;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="505" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="r6c5" value="多方协作场景" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="505" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="r6c6" value=" 高" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#DC2626;fontFamily=Inter;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1680" y="505" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="rec-summary" value="" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="980" y="560" width="880" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="rec-summary-text" value=" 推荐路径：数据脱敏 → 需要更强保护时评估差分隐私 → 跨境需求评估联邦学习 → 强制加密计算要求评估 TEE/MPC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#166534;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="990" y="570" width="860" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="budget-section" value="" style="rounded=16;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="635" width="610" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="budget-title" value=" 预算分配原则" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=20;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="60" y="645" width="300" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="budget-subtitle" value="基础合规优先 → 风险缓解其次 → 技术研究补充" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=13;fontColor=#666666;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="60" y="680" width="550" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tier1-bg" value="" style="rounded=12;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="60" y="715" width="570" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tier1-label" value="预算主体" style="rounded=20;whiteSpace=wrap;html=1;fillColor=#16A34A;strokeColor=none;fontSize=11;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="75" y="725" width="70" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="tier1-title" value="基础合规" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#166534;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="155" y="723" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tier1-items" value="必须满足的合规要求：" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="75" y="750" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="t1-item1" value="数据脱敏" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#16A34A;strokeWidth=1;fontSize=11;fontColor=#166534;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="75" y="775" width="80" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="t1-item2" value="访问控制" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#16A34A;strokeWidth=1;fontSize=11;fontColor=#166534;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="165" y="775" width="80" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="t1-item3" value="DLP" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#16A34A;strokeWidth=1;fontSize=11;fontColor=#166534;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="255" y="775" width="55" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="t1-item4" value="GDPR 基础流程" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#16A34A;strokeWidth=1;fontSize=11;fontColor=#166534;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="320" y="775" width="110" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="t1-item5" value="审计日志" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#16A34A;strokeWidth=1;fontSize=11;fontColor=#166534;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="440" y="775" width="75" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="t1-item6" value="PII 检测" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#16A34A;strokeWidth=1;fontSize=11;fontColor=#166534;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="525" y="775" width="70" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tier2-bg" value="" style="rounded=12;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#F59E0B;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="60" y="830" width="570" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tier2-label" value="预算补充" style="rounded=20;whiteSpace=wrap;html=1;fillColor=#F59E0B;strokeColor=none;fontSize=11;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="75" y="840" width="70" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="tier2-title" value="风险缓解" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#B45309;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="155" y="838" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tier2-items" value="降低风险敞口的措施：" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="75" y="865" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="t2-item1" value="数据泄露保险" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#F59E0B;strokeWidth=1;fontSize=11;fontColor=#B45309;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="75" y="890" width="100" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="t2-item2" value="应急响应预留" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#F59E0B;strokeWidth=1;fontSize=11;fontColor=#B45309;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="185" y="890" width="100" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="t2-item3" value="第三方审计" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#F59E0B;strokeWidth=1;fontSize=11;fontColor=#B45309;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="295" y="890" width="85" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="t2-item4" value="安全培训" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#F59E0B;strokeWidth=1;fontSize=11;fontColor=#B45309;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="390" y="890" width="75" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="tier3-bg" value="" style="rounded=12;whiteSpace=wrap;html=1;fillColor=#F3F4F6;strokeColor=#9CA3AF;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="60" y="945" width="570" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="tier3-label" value="预算可选" style="rounded=20;whiteSpace=wrap;html=1;fillColor=#9CA3AF;strokeColor=none;fontSize=11;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="75" y="955" width="70" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="tier3-title" value="技术研究" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#6B7280;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="155" y="953" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tier3-items" value="前沿技术探索（可根据预算调整）：" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="75" y="980" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="t3-item1" value="差分隐私 POC" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9CA3AF;strokeWidth=1;fontSize=11;fontColor=#6B7280;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="75" y="1005" width="100" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="t3-item2" value="联邦学习调研" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9CA3AF;strokeWidth=1;fontSize=11;fontColor=#6B7280;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="185" y="1005" width="100" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="t3-item3" value="TEE 环境评估" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9CA3AF;strokeWidth=1;fontSize=11;fontColor=#6B7280;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="295" y="1005" width="100" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="gdpr-section" value="" style="rounded=16;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="670" y="635" width="1210" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="gdpr-title" value="GDPR 最小可行合规映射" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=20;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="690" y="645" width="400" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="gdpr-header" value="" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#0066FF;strokeColor=#0052CC;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="690" width="1170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gh1" value="GDPR 条款" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="690" y="700" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gh2" value="要求概要" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="820" y="700" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gh3" value="最小可行控制" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="700" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gh4" value="技术实现" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="700" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gh5" value="成本估算" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1420" y="700" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gh6" value="优先级" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1640" y="700" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gr1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEF2F2;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="730" width="1170" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="gr1c1" value="Art. 6 合法依据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="690" y="740" width="130" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr1c2" value="处理个人数据需有合法依据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="820" y="740" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr1c3" value="用户同意机制" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="740" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr1c4" value="Cookie Consent 组件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="740" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr1c5" value="第三方服务年费或一次性开发" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1420" y="740" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr1c6" value="🔴 P0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1640" y="740" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="775" width="1170" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="gr2c1" value="Art. 13 透明告知" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="690" y="785" width="130" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr2c2" value="告知数据主体数据处理目的" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="820" y="785" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr2c3" value="隐私政策文档" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="785" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr2c4" value="分层隐私政策 + AI 决策说明" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="785" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr2c5" value="法务审核费用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1420" y="785" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr2c6" value="🔴 P0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1640" y="785" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEF2F2;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="820" width="1170" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="gr3c1" value="Art. 15 访问权" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#F59E0B;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="690" y="830" width="130" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr3c2" value="数据主体有权获取数据副本" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="820" y="830" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr3c3" value="数据导出 API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="830" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr3c4" value="REST API + 数据导出格式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="830" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr3c5" value="1-2 周开发工作量" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1420" y="830" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr3c6" value="🟡 P1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#F59E0B;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1640" y="830" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="865" width="1170" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="gr4c1" value="Art. 17 被遗忘权" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="690" y="875" width="130" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr4c2" value="数据主体有权要求删除数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="820" y="875" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr4c3" value="数据删除流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="875" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr4c4" value="软删除 + 季度重训练" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="875" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr4c5" value="2-4 周开发工作量" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1420" y="875" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr4c6" value="🔴 P0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1640" y="875" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEF2F2;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="910" width="1170" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="gr5c1" value="Art. 22 自动化决策" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#F59E0B;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="690" y="920" width="130" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr5c2" value="重大影响决策有异议权" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="820" y="920" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr5c3" value="人工复核机制" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="920" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr5c4" value="高风险决策人工审批流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="920" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr5c5" value="持续运营人力投入" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1420" y="920" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr5c6" value="🟡 P1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#F59E0B;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1640" y="920" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="955" width="1170" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6c1" value="Art. 32 安全措施" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="690" y="965" width="130" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6c2" value="实施适当技术和组织措施" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="820" y="965" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6c3" value="加密 + 访问控制" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="965" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6c4" value="TLS + 静态加密 + RBAC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="965" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6c5" value="基础设施投入" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1420" y="965" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr6c6" value="🔴 P0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1640" y="965" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEF2F2;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="1000" width="1170" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="gr7c1" value="Art. 35 DPIA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#F59E0B;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="690" y="1010" width="130" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr7c2" value="高风险处理需影响评估" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="820" y="1010" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr7c3" value="数据影响评估文档" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="1010" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr7c4" value="季度轻量评估报告" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="1010" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr7c5" value="内部或咨询公司支持" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1420" y="1010" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="gr7c6" value="🟡 P1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#F59E0B;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1640" y="1010" width="220" height="25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

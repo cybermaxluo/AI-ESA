@@ -1,0 +1,196 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Vendor Risk Management V6" id="vendor-risk-v6">
+    <mxGraphModel dx="2775" dy="1577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="background" value="" style="fillColor=#FAFBFC;strokeColor=NONE;" parent="1" vertex="1">
+          <mxGeometry width="1730" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="第三方供应商风险管理" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="48" width="1000" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Third-Party Vendor Risk Management (TPRM) Lifecycle" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="128" width="800" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="stage1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="208" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="stage1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="200" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="stage1-number" value="1" style="ellipse;fillColor=#0066FF;strokeColor=NONE;fontColor=#FFFFFF;fontSize=36;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="96" y="224" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="stage1-title" value="供应商识别" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="168" y="232" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="stage1-subtitle" value="Vendor Identification" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="96" y="280" width="194" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="stage1-items" value="• 业务需求识别&#xa;• 供应商清单&#xa;• 初步尽职调查&#xa;• 风险分类 (高/中/低)" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="96" y="312" width="314" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="stage2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="480" y="208" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="stage2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="480" y="200" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="stage2-number" value="2" style="ellipse;fillColor=#0066FF;strokeColor=NONE;fontColor=#FFFFFF;fontSize=36;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="496" y="224" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="stage2-title" value="安全评估" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="568" y="232" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="stage2-subtitle" value="Security Assessment" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="496" y="280" width="164" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="stage2-items" value="• 问卷调查 (SIG/CAIQ)&#xa;• 合规证书审查&#xa;• 渗透测试报告&#xa;• 数据保护评估" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="496" y="312" width="284" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="stage3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="880" y="208" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="stage3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="880" y="200" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="stage3-number" value="3" style="ellipse;fillColor=#0066FF;strokeColor=NONE;fontColor=#FFFFFF;fontSize=36;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="896" y="224" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="stage3-title" value="合同谈判" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="968" y="232" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="stage3-subtitle" value="Contract Negotiation" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="896" y="280" width="174" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="stage3-items" value="• SLA 定义&#xa;• 安全条款纳入&#xa;• 审计权利&#xa;• 事件响应条款" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="896" y="312" width="284" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="stage4-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="208" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="stage4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="200" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="stage4-number" value="4" style="ellipse;fillColor=#0066FF;strokeColor=NONE;fontColor=#FFFFFF;fontSize=36;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1296" y="224" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="stage4-title" value="入职集成" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1368" y="232" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="stage4-subtitle" value="Onboarding" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1296" y="280" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="stage4-items" value="• 技术集成 (API/SDK)&#xa;• 访问权限配置&#xa;• 数据传输通道&#xa;• 安全基线检查" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1296" y="312" width="284" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="stage5-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="448" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="stage5-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="440" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="stage5-number" value="5" style="ellipse;fillColor=#0066FF;strokeColor=NONE;fontColor=#FFFFFF;fontSize=36;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="96" y="464" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="stage5-title" value="持续监控" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="168" y="472" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="stage5-subtitle" value="Continuous Monitoring" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="96" y="520" width="194" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="stage5-items" value="• 安全态势评分&#xa;• 漏洞情报监控&#xa;• 合规证书更新&#xa;• 供应商新闻监控" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="96" y="552" width="294" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="stage6-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="480" y="448" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="stage6-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="480" y="440" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="stage6-number" value="6" style="ellipse;fillColor=#0066FF;strokeColor=NONE;fontColor=#FFFFFF;fontSize=36;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="496" y="464" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="stage6-title" value="年度审查" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="568" y="472" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="stage6-subtitle" value="Annual Review" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="496" y="520" width="184" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="stage6-items" value="• 风险重新评估&#xa;• 合同续签审查&#xa;• 现场审计 (必要时)&#xa;• SLA 合规性检查" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="496" y="552" width="314" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="stage7-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="880" y="448" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="stage7-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="880" y="440" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="stage7-number" value="7" style="ellipse;fillColor=#0066FF;strokeColor=NONE;fontColor=#FFFFFF;fontSize=36;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="896" y="464" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="stage7-title" value="事件响应" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="968" y="472" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="stage7-subtitle" value="Incident Response" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="896" y="520" width="194" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="stage7-items" value="• 供应商安全事件通报&#xa;• 影响评估&#xa;• 应急措施&#xa;• 事后复盘" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="896" y="552" width="324" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="stage8-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="448" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="stage8-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="440" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="stage8-number" value="8" style="ellipse;fillColor=#0066FF;strokeColor=NONE;fontColor=#FFFFFF;fontSize=36;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1296" y="464" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="stage8-title" value="离职管理" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1368" y="472" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="stage8-subtitle" value="Offboarding" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1296" y="520" width="204" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="stage8-items" value="• 数据回收/销毁&#xa;• 访问权限撤销&#xa;• 知识转移&#xa;• 最终审计报告" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1296" y="552" width="264" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="688" width="1560" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="680" width="1560" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-title" value="评估工具与标准" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="704" width="600" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-col1" value="问卷标准:&#xa;• SIG (Standard Information Gathering)&#xa;• CAIQ (Consensus Assessments)&#xa;• VSAQ (Vendor Security Assessment)" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="742" width="320" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-col2" value="合规框架:&#xa;• SOC 2 Type II&#xa;• ISO 27001/27017/27018&#xa;• PCI DSS (支付)" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="560" y="742" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-col3" value="管理平台:&#xa;• OneTrust Vendorpedia&#xa;• ServiceNow VRM&#xa;• Prevalent Third-Party Risk" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="736" width="230" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="tools-col4" value="风险评分:&#xa;• BitSight Security Ratings&#xa;• SecurityScorecard&#xa;• RiskRecon" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="736" width="190" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="kpis-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="897" width="1560" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="kpis-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="885" width="1560" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="kpis-title" value="关键指标 KPIs" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="108" y="920" width="600" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kpis-items" value="• 供应商风险评分 (0-100) | • 高危供应商比例 (&lt;10%) | • 合规证书覆盖率 (&gt;95%) | • 年度审查完成率 (100%)&#xa;• 安全事件响应时间 (&lt;24h) | • SLA 达标率 (&gt;99%) | • 供应商集中度风险 (关键服务 &lt;30%)" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="108" y="960" width="1200" height="42" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

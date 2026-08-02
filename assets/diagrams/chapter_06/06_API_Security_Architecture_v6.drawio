@@ -1,0 +1,277 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="API Security Architecture V6" id="api-security-v6">
+    <mxGraphModel dx="2561" dy="1379" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="background" value="" style="fillColor=#FAFBFC;strokeColor=NONE;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="API 安全架构" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="48" width="800" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="API Security Architecture - Authentication, Authorization, Rate Limiting, Threat Protection" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="128" width="1200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="client-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="184" width="1756" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="client-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="176" width="1756" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="client-title" value="客户端层 Clients" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="192" width="400" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="web-app" value="Web App" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;fontSize=16;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="144" y="232" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mobile-app" value="Mobile App" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;fontSize=16;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="336" y="232" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="third-party" value="3rd Party" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;fontSize=16;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="544" y="232" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iot-device" value="IoT Device" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;fontSize=16;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="736" y="232" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gateway-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="344" width="1756" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="gateway-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=#0066FF;strokeWidth=3;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="336" width="1756" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="gateway-title" value="API 网关层 API Gateway" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="360" width="570" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gw-auth-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="128" y="424" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gw-auth-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="120" y="416" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gw-auth-title" value="认证 Authentication" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="120" y="416" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gw-auth-text" value="OAuth 2.0 / JWT / API Key" style="text;fontSize=14;fontColor=#999999;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="120" y="442" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gw-authz-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="448" y="424" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gw-authz-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="440" y="416" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gw-authz-title" value="授权 Authorization" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="440" y="416" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gw-authz-text" value="RBAC / ABAC / Scope Check" style="text;fontSize=14;fontColor=#999999;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="440" y="442" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gw-rate-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="768" y="424" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gw-rate-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="760" y="416" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gw-rate-title" value="流量控制 Rate Limiting" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="760" y="416" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gw-rate-text" value="Token Bucket / Sliding Window" style="text;fontSize=14;fontColor=#999999;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="760" y="442" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gw-quota-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1088" y="424" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gw-quota-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="416" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gw-quota-title" value="配额管理 Quota" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="416" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gw-quota-text" value="Daily/Monthly Limits" style="text;fontSize=14;fontColor=#999999;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="442" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gw-validate-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="128" y="504" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gw-validate-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="120" y="496" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gw-validate-text" value="Schema Validation (OpenAPI)" style="text;fontSize=16;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="120" y="504" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gw-transform-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="448" y="504" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gw-transform-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="440" y="496" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gw-transform-text" value="Request/Response Transform" style="text;fontSize=16;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="440" y="504" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gw-log-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="768" y="504" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gw-log-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="760" y="496" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gw-log-text" value="Logging &amp; Monitoring" style="text;fontSize=16;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="760" y="504" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gw-cache-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1088" y="504" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gw-cache-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="496" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gw-cache-text" value="Response Caching" style="text;fontSize=16;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="504" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="waf-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1408" y="424" width="400" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="waf-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="416" width="400" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="waf-title" value="WAF / API Firewall" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="416" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="waf-items" value="• OWASP API Top 10&#xa;• SQL/NoSQL Injection&#xa;• XSS / CSRF&#xa;• Bot Detection" style="text;fontSize=14;fontColor=#999999;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1432" y="442" width="348" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="backend-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="608" width="1756" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="backend-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="600" width="1756" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="backend-title" value="后端服务层 Backend Services" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="616" width="600" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="svc1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="136" y="672" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="svc1-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="128" y="672" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="svc1-title" value="User Service" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="128" y="672" width="242" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="svc1-text" value="• RBAC 权限检查&#xa;• 业务逻辑验证" style="text;fontSize=14;fontColor=#999999;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="152" y="704" width="168" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="svc2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="416" y="672" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="svc2-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="408" y="672" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="svc2-title" value="Order Service" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="407" y="672" width="242" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="svc2-text" value="• 输入参数化&#xa;• 敏感数据脱敏" style="text;fontSize=14;fontColor=#999999;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="432" y="704" width="198" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="svc3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="696" y="672" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="svc3-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="688" y="672" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="svc3-title" value="Payment Service" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="687" y="672" width="242" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="svc3-text" value="• PCI DSS 合规&#xa;• 加密传输存储" style="text;fontSize=14;fontColor=#999999;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="712" y="704" width="178" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="svc4-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="976" y="672" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="svc4-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="968" y="672" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="svc4-title" value="Notification Service" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="971" y="672" width="242" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="svc4-text" value="• 消息队列&#xa;• 防重放攻击" style="text;fontSize=14;fontColor=#999999;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="992" y="704" width="198" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="monitoring-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1256" y="672" width="550" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="monitoring-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1248" y="672" width="550" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="monitoring-title" value="安全监控 Security Monitoring" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1248" y="672" width="542" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="monitoring-text" value="• API 调用链追踪 (Distributed Tracing)&#xa;• 异常行为检测 (Anomaly Detection) | 审计日志" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="702" width="322" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="292" as="sourcePoint" />
+            <mxPoint x="260" y="332" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="292" as="sourcePoint" />
+            <mxPoint x="460" y="332" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow3" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="292" as="sourcePoint" />
+            <mxPoint x="660" y="332" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow4" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="560" as="sourcePoint" />
+            <mxPoint x="250" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow5" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="560" as="sourcePoint" />
+            <mxPoint x="530" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow6" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="560" as="sourcePoint" />
+            <mxPoint x="810" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bp-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="824" width="1756" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="bp-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="816" width="1756" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="bp-title" value="API 安全最佳实践 Best Practices" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="840" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bp-col1" value="认证授权:&#xa;• 使用标准协议 (OAuth 2.0)&#xa;• JWT 签名验证&#xa;• 短期 Token + Refresh&#xa;• API Key 轮换机制" style="text;fontSize=16;fontColor=#999999;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="120" y="872" width="400" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="bp-col2" value="输入验证:&#xa;• OpenAPI Schema 校验&#xa;• 白名单过滤&#xa;• 参数类型/长度检查&#xa;• 防止注入攻击" style="text;fontSize=16;fontColor=#999999;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="544" y="872" width="346" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="bp-col3" value="流量保护:&#xa;• Rate Limiting 防滥用&#xa;• DDoS 防护&#xa;• CORS 策略&#xa;• HTTPS Only" style="text;fontSize=16;fontColor=#999999;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="960" y="872" width="320" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="bp-col4" value="监控审计:&#xa;• 全链路追踪&#xa;• 异常告警&#xa;• 敏感操作审计&#xa;• API 版本管理" style="text;fontSize=16;fontColor=#999999;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="1376" y="872" width="394" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="gbAv5Oud_N646xI5KZeu-1" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="292" as="sourcePoint" />
+            <mxPoint x="850" y="332" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

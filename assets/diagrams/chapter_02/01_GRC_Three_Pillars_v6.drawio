@@ -1,0 +1,127 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
+  <diagram name="GRC Three Pillars" id="grc-three-pillars-v6">
+    <mxGraphModel dx="3027" dy="1658" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title-main" value="GRC 三支柱体系" style="text;fontSize=48;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="656" y="32" width="600" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="title-sub" value="Governance, Risk &amp; Compliance - Three Pillars Framework" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="512" y="88" width="900" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="184" width="540" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="176" width="540" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar1-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="176" width="540" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar1-icon" value="G" style="text;fontSize=64;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="120" y="208" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar1-title" value="治理 Governance" style="text;fontSize=36;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="224" y="216" width="360" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar1-subtitle" value="建立方向与决策机制" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="224" y="256" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar1-label1" value="[核心定位]" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="336" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar1-content1" value="明确企业战略方向与安全目标&#xa;建立决策机制与责任体系&#xa;确保GRC活动与业务目标对齐" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="384" width="790" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar1-label2" value="[关键活动]" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="488" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar1-activities" value="• 制定安全战略与政策体系&#xa;• 设计GRC组织架构&#xa;• 建立安全委员会与决策流程&#xa;• 监督与审计机制&#xa;• GRC成熟度评估" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="120" y="528" width="1080" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar1-label3" value="[主要产出]" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="704" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar1-outputs" value="• GRC章程与治理框架&#xa;• 政策标准体系&#xa;• 治理架构文档&#xa;• 委员会会议记录&#xa;• 监督审计报告" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="120" y="736" width="870" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="696" y="184" width="540" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="688" y="176" width="540" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar2-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="688" y="176" width="540" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar2-icon" value="R" style="text;fontSize=64;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="728" y="208" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar2-title" value="风险 Risk" style="text;fontSize=36;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="832" y="216" width="360" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar2-subtitle" value="识别、评估与应对风险" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="832" y="256" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar2-label1" value="[核心定位]" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="728" y="336" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar2-content1" value="量化不确定性,优化资源配置&#xa;基于风险偏好制定处置策略&#xa;持续监控与动态调整" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="728" y="384" width="730" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar2-label2" value="[关键活动]" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="728" y="488" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar2-activities" value="• 风险识别与登记&#xa;• 风险评估与量化(FAIR/ALE)&#xa;• 风险处置决策(接受/规避/转移/缓解)&#xa;• 第三方风险管理(TPRM)&#xa;• 新兴风险监测(AI/云/跨境)" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="728" y="528" width="392" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar2-label3" value="[主要产出]" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="728" y="704" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar2-outputs" value="• 风险登记册(Risk Register)&#xa;• 风险处置计划&#xa;• KRI关键风险指标&#xa;• 风险热力图(Risk Heatmap)&#xa;• 风险监控报告" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="728" y="736" width="1130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1304" y="184" width="540" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1296" y="176" width="540" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar3-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1296" y="176" width="540" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar3-icon" value="C" style="text;fontSize=64;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1344" y="208" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar3-title" value="合规 Compliance" style="text;fontSize=36;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="216" width="360" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar3-subtitle" value="满足法规与标准要求" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="256" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar3-label1" value="[核心定位]" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1344" y="336" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar3-content1" value="满足全球法规要求,支撑市场准入&#xa;建立持续合规机制&#xa;通过认证审计建立客户信任" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1344" y="384" width="400" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar3-label2" value="[关键活动]" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1344" y="488" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar3-activities" value="• 法规监测与影响分析&#xa;• 合规差距分析(Gap Analysis)&#xa;• 审计准备与证据管理&#xa;• 认证维护(ISO 27001/SOC 2)&#xa;• 隐私合规(GDPR/PIPL/CCPA)" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="1344" y="528" width="328" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar3-label3" value="[主要产出]" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1344" y="704" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pillar3-outputs" value="• 合规报告与路线图&#xa;• 认证证书(ISO/SOC/PCI)&#xa;• 审计证据包&#xa;• 合规检查清单&#xa;• 隐私影响评估(PIA)" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="1344" y="736" width="448" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="note-text" value="GRC三支柱协同：治理建立方向→风险量化不确定性→合规确保法规遵从，共同支撑业务可持续增长" style="text;fontSize=16;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="106" y="936" width="1720" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,115 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="SABSA Architecture" id="sabsa-v6">
+    <mxGraphModel dx="1828" dy="1095" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title-main" value="SABSA 六层架构模型" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="560" y="40" width="800" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="title-sub" value="Sherwood Applied Business Security Architecture - Six Layer Model" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="512" y="104" width="896" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="88" y="176" width="1752" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;strokeWidth=1;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="168" width="1760" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-icon" value="1" style="ellipse;fillColor=#0066FF;strokeColor=NONE;fontColor=#FFFFFF;fontSize=40;fontStyle=1;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="120" y="188" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-title" value="情境层 Contextual" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="200" y="200" width="216" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-desc" value="业务视角 - 定义业务目标、风险和安全需求 (Why, What)" style="text;fontSize=20;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="888" y="206" width="568" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="88" y="304" width="1752" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;strokeWidth=1;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="296" width="1760" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-icon" value="2" style="ellipse;fillColor=#0066FF;strokeColor=NONE;fontColor=#FFFFFF;fontSize=40;fontStyle=1;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="120" y="316" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-title" value="概念层 Conceptual" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="200" y="342" width="208" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-desc" value="架构师视角 - 设计安全架构和安全服务 (How)" style="text;fontSize=20;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="888" y="324" width="520" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="88" y="432" width="1752" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;strokeWidth=1;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="424" width="1760" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-icon" value="3" style="ellipse;fillColor=#0066FF;strokeColor=NONE;fontColor=#FFFFFF;fontSize=40;fontStyle=1;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="120" y="444" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-title" value="逻辑层 Logical" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="200" y="462" width="168" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-desc" value="设计师视角 - 详细的安全逻辑模型和数据流 (With What)" style="text;fontSize=20;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="888" y="458" width="528" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="88" y="560" width="1752" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;strokeWidth=1;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="552" width="1760" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-icon" value="4" style="ellipse;fillColor=#0066FF;strokeColor=NONE;fontColor=#FFFFFF;fontSize=40;fontStyle=1;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="120" y="572" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-title" value="物理层 Physical" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="208" y="590" width="184" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-desc" value="构建者视角 - 具体的技术产品和配置 (Where, When)" style="text;fontSize=20;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="888" y="590" width="488" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="layer5-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="88" y="688" width="1752" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="layer5-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;strokeWidth=1;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="680" width="1760" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="layer5-icon" value="5" style="ellipse;fillColor=#0066FF;strokeColor=NONE;fontColor=#FFFFFF;fontSize=40;fontStyle=1;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="120" y="700" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="layer5-title" value="组件层 Component" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="208" y="714" width="224" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="layer5-desc" value="实施者视角 - 安全工具和组件实现 (With What)" style="text;fontSize=20;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="888" y="718" width="504" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="layer6-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="88" y="816" width="1752" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="layer6-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;strokeWidth=1;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="808" width="1760" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="layer6-icon" value="6" style="ellipse;fillColor=#0066FF;strokeColor=NONE;fontColor=#FFFFFF;fontSize=40;fontStyle=1;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="120" y="828" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="layer6-title" value="运营层 Operational" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="208" y="844" width="216" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="layer6-desc" value="操作者视角 - 安全运营流程和监控 (Who)" style="text;fontSize=20;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="888" y="848" width="448" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="note-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="84" y="956" width="1752" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="note-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#E5E7EB;strokeWidth=1;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="952" width="1760" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="note-text" value="SABSA 从业务情境逐层落地到运营执行,每层回答特定问题(Why/What/How/Where/When/Who),确保安全架构与业务战略一致" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="120" y="968" width="1680" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,354 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Red Team Maturity Framework V6" id="rtmf-v6">
+    <mxGraphModel dx="1920" dy="1080" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- Background -->
+        <mxCell id="background" value="" style="fillColor=#FAFBFC;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <!-- Header -->
+        <mxCell id="header-bg" value="" style="fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="红队能力成熟度框架" style="text;fontSize=42;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="30" width="600" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Red Team Maturity Framework (RTMF) - 基于 JDARMY RTASS 评估体系" style="text;fontSize=18;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="80" width="800" height="28" as="geometry" />
+        </mxCell>
+
+        <!-- Level 1: Ad-Hoc -->
+        <mxCell id="l1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="84" y="154" width="340" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="l1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="150" width="340" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="l1-header" value="" style="rounded=1;fillColor=#9CA3AF;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="150" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l1-num" value="L1" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="100" y="162" width="60" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="l1-title" value="Ad-Hoc 零散" style="text;fontSize=22;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="160" y="165" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l1-content" value="组织治理: 无章程&#xa;作战流程: 临时&#xa;技术工具: 零散&#xa;度量改进: 无指标&#xa;&#xa;典型表现:&#xa;• 临时项目无连续性&#xa;• 工具使用随意&#xa;• 无检测能力验证" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="100" y="220" width="300" height="190" as="geometry" />
+        </mxCell>
+
+        <!-- Level 2: Repeatable -->
+        <mxCell id="l2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="464" y="154" width="340" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="l2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="460" y="150" width="340" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="l2-header" value="" style="rounded=1;fillColor=#60A5FA;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="460" y="150" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l2-num" value="L2" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="480" y="162" width="60" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="l2-title" value="Repeatable 可重复" style="text;fontSize=22;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="540" y="165" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l2-content" value="组织治理: 有章程&#xa;作战流程: 标准化&#xa;技术工具: 基础覆盖&#xa;度量改进: 基础指标&#xa;&#xa;典型表现:&#xa;• 年度演练计划&#xa;• RoE 标准化&#xa;• C2/钓鱼/免杀工具就绪" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="480" y="220" width="300" height="190" as="geometry" />
+        </mxCell>
+
+        <!-- Level 3: Defined -->
+        <mxCell id="l3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="844" y="154" width="340" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="l3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="840" y="150" width="340" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="l3-header" value="" style="rounded=1;fillColor=#3B82F6;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="840" y="150" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l3-num" value="L3" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="860" y="162" width="60" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="l3-title" value="Defined 已定义" style="text;fontSize=22;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="920" y="165" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l3-content" value="组织治理: 融入体系&#xa;作战流程: 持续循环&#xa;技术工具: 全阶段覆盖&#xa;度量改进: 业务指标&#xa;&#xa;典型表现:&#xa;• 技术+业务场景并重&#xa;• 检测改进计划 (DDP)&#xa;• 自动化脚本库" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="860" y="220" width="300" height="190" as="geometry" />
+        </mxCell>
+
+        <!-- Level 4: Managed -->
+        <mxCell id="l4-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1224" y="154" width="340" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="150" width="340" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-header" value="" style="rounded=1;fillColor=#2563EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="150" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-num" value="L4" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="162" width="60" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-title" value="Managed 已管理" style="text;fontSize=22;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="165" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-content" value="组织治理: 纳入规划&#xa;作战流程: 制度化&#xa;技术工具: 高度集成&#xa;度量改进: 全面指标&#xa;&#xa;典型表现:&#xa;• 持续演练 (季度+按需)&#xa;• 外部红队定期对标&#xa;• ROI/ROSI 量化" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="220" width="300" height="190" as="geometry" />
+        </mxCell>
+
+        <!-- Level 5: Optimizing -->
+        <mxCell id="l5-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1604" y="154" width="280" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="l5-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1600" y="150" width="280" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="l5-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1600" y="150" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l5-num" value="L5" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1620" y="162" width="60" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="l5-title" value="Optimizing 持续优化" style="text;fontSize=18;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1680" y="168" width="180" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="l5-content" value="组织治理: 战略资产&#xa;作战流程: 业务同步&#xa;技术工具: 智能化&#xa;度量改进: ROI/ROSI&#xa;&#xa;典型表现:&#xa;• AI 驱动攻防&#xa;• 对外输出 (白皮书)&#xa;• 行业标准制定" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="1620" y="220" width="240" height="190" as="geometry" />
+        </mxCell>
+
+        <!-- Progress Arrows -->
+        <mxCell id="arrow-1-2" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=3;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="290" as="sourcePoint" />
+            <mxPoint x="460" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-2-3" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=3;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="290" as="sourcePoint" />
+            <mxPoint x="840" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-3-4" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=3;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1180" y="290" as="sourcePoint" />
+            <mxPoint x="1220" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-4-5" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=3;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1560" y="290" as="sourcePoint" />
+            <mxPoint x="1600" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Dimension Assessment Matrix -->
+        <mxCell id="matrix-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=6;" parent="1" vertex="1">
+          <mxGeometry x="84" y="474" width="1796" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="matrix-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=6;" parent="1" vertex="1">
+          <mxGeometry x="80" y="470" width="1796" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="matrix-title" value="成熟度评估维度 Maturity Assessment Dimensions" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="490" width="600" height="36" as="geometry" />
+        </mxCell>
+
+        <!-- Dimension Headers -->
+        <mxCell id="dim-header-bg" value="" style="rounded=0;fillColor=#F8F9FF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="540" width="1756" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dim-h1" value="维度" style="text;fontSize=14;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="100" y="548" width="140" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="dim-h2" value="Level 1" style="text;fontSize=14;fontStyle=1;fontColor=#9CA3AF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="240" y="548" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="dim-h3" value="Level 2" style="text;fontSize=14;fontStyle=1;fontColor=#60A5FA;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="540" y="548" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="dim-h4" value="Level 3" style="text;fontSize=14;fontStyle=1;fontColor=#3B82F6;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="840" y="548" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="dim-h5" value="Level 4" style="text;fontSize=14;fontStyle=1;fontColor=#2563EB;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="548" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="dim-h6" value="Level 5" style="text;fontSize=14;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="548" width="300" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- Row 1: Organization -->
+        <mxCell id="r1-label" value="组织治理" style="text;fontSize=14;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="592" width="100" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="r1-l1" value="无章程" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="240" y="592" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="r1-l2" value="有章程" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="540" y="592" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="r1-l3" value="融入体系" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="840" y="592" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="r1-l4" value="纳入规划" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="592" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="r1-l5" value="战略资产" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="592" width="300" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- Row 2: Process -->
+        <mxCell id="r2-label" value="作战流程" style="text;fontSize=14;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="632" width="100" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="r2-l1" value="临时" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="240" y="632" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="r2-l2" value="标准化" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="540" y="632" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="r2-l3" value="持续循环" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="840" y="632" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="r2-l4" value="制度化" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="632" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="r2-l5" value="业务同步" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="632" width="300" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- Row 3: Tools -->
+        <mxCell id="r3-label" value="技术工具" style="text;fontSize=14;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="672" width="100" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="r3-l1" value="零散" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="240" y="672" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="r3-l2" value="基础覆盖" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="540" y="672" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="r3-l3" value="全阶段" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="840" y="672" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="r3-l4" value="高度集成" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="672" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="r3-l5" value="智能化" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="672" width="300" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- Row 4: Metrics -->
+        <mxCell id="r4-label" value="度量改进" style="text;fontSize=14;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="712" width="100" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="r4-l1" value="无指标" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="240" y="712" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="r4-l2" value="基础指标" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="540" y="712" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="r4-l3" value="业务指标" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="840" y="712" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="r4-l4" value="全面指标" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="712" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="r4-l5" value="ROI/ROSI" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="712" width="300" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- Row 5: Business Collaboration -->
+        <mxCell id="r5-label" value="业务协同" style="text;fontSize=14;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="752" width="100" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="r5-l1" value="无" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="240" y="752" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="r5-l2" value="有限" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="540" y="752" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="r5-l3" value="风控协同" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="840" y="752" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="r5-l4" value="深度协同" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="752" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="r5-l5" value="战略伙伴" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="752" width="300" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- Row 6: External Benchmark -->
+        <mxCell id="r6-label" value="外部对标" style="text;fontSize=14;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="792" width="100" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="r6-l1" value="无" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="240" y="792" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="r6-l2" value="无" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="540" y="792" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="r6-l3" value="年度" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="840" y="792" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="r6-l4" value="定期" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="792" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="r6-l5" value="常态化" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="792" width="300" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- Bottom Note -->
+        <mxCell id="note-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=none;arcSize=20;" parent="1" vertex="1">
+          <mxGeometry x="80" y="880" width="1796" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="note-text" value="演进建议: 成熟度提升是渐进的，不应跳级。建议每年提升 1 个 Level，从 L1 到 L5 需要 4-5 年持续投入。" style="text;fontSize=16;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="898" width="1796" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- Team Size Reference -->
+        <mxCell id="team-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=6;" parent="1" vertex="1">
+          <mxGeometry x="84" y="964" width="600" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="team-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=6;" parent="1" vertex="1">
+          <mxGeometry x="80" y="960" width="600" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="team-title" value="团队规模参考" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="100" y="975" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="team-content" value="起步期 (L1-L2): 3人 | 扩展期 (L2-L3): 3-5人 | 成熟期 (L4-L5): 5-10人" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="100" y="1005" width="560" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Exercise Frequency Reference -->
+        <mxCell id="freq-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=6;" parent="1" vertex="1">
+          <mxGeometry x="724" y="964" width="600" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="freq-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=6;" parent="1" vertex="1">
+          <mxGeometry x="720" y="960" width="600" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="freq-title" value="演练频率参考" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="740" y="975" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="freq-content" value="L1-L2: 年度 1-2 次 | L3: 季度 | L4-L5: 持续 (月度+按需触发)" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="740" y="1005" width="560" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Source Reference -->
+        <mxCell id="source-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=6;" parent="1" vertex="1">
+          <mxGeometry x="1364" y="964" width="516" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="source-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=6;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="960" width="516" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="source-title" value="参考框架" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1380" y="975" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="source-content" value="JDARMY RTASS | Red Team Maturity Framework (RTMF)" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1380" y="1005" width="476" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,304 @@
+<mxfile host="app.diagrams.net" version="22.0.0">
+  <diagram name="SOC五层架构" id="soc-five-layer-arch">
+    <mxGraphModel dx="1920" dy="1080" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" shadow="0" background="#FAFBFC">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- 页面标题 -->
+        <mxCell id="title" value="SOC 五层架构参考模型" style="text;fontSize=36;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="500" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Security Operations Center - Five-Layer Architecture &amp; Data Flow" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="80" y="90" width="600" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- 左侧数据源列 -->
+        <mxCell id="source-title" value="数据源" style="text;fontSize=20;fontStyle=1;fontColor=#6B7280;fontFamily=Inter;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="120" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- 数据源卡片组 -->
+        <mxCell id="src1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="60" y="200" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="src1-text" value="网络设备" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="60" y="200" width="160" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="src2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="60" y="280" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="src2-text" value="终端/EDR" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="60" y="280" width="160" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="src3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="60" y="360" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="src3-text" value="应用系统" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="60" y="360" width="160" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="src4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="60" y="440" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="src4-text" value="云平台" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="60" y="440" width="160" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="src5-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="60" y="520" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="src5-text" value="威胁情报" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="60" y="520" width="160" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- 右侧角色列 -->
+        <mxCell id="role-title" value="角色" style="text;fontSize=20;fontStyle=1;fontColor=#6B7280;fontFamily=Inter;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="160" width="120" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="role1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="200" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="role1-text" value="CISO/管理层" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="200" width="160" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="role2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="280" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="role2-text" value="SOC经理" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="280" width="160" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="role3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="360" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="role3-text" value="安全分析师" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="360" width="160" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="role4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="440" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="role4-text" value="威胁猎手" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="440" width="160" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="role5-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="520" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="role5-text" value="IR团队" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="520" width="160" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- 五层架构 - 中间主体 -->
+        <!-- Layer 1: 采集层 -->
+        <mxCell id="layer1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="284" y="204" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="200" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-num" value="1" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="300" y="215" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-title" value="采集层" style="text;fontSize=28;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="300" y="270" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-en" value="Collection Layer" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="300" y="305" width="150" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-desc" value="多源采集&#xa;日志标准化" style="text;fontSize=13;fontColor=#9CA3AF;fontFamily=Inter;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="430" y="240" width="110" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Layer 2: 数据层 -->
+        <mxCell id="layer2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="284" y="364" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="360" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-num" value="2" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="300" y="375" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-title" value="数据层" style="text;fontSize=28;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="300" y="430" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-en" value="Data Layer" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="300" y="465" width="150" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-desc" value="统一存储&#xa;生命周期管理" style="text;fontSize=13;fontColor=#9CA3AF;fontFamily=Inter;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="430" y="400" width="110" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Layer 3: 分析层 (高亮中心层) -->
+        <mxCell id="layer3-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=#0066FF;strokeWidth=2;arcSize=12;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="360" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-num" value="3" style="text;fontSize=48;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="620" y="375" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-title" value="分析层" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="620" y="430" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-en" value="Analytics Layer" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=left;verticalAlign=middle;opacity=80;" vertex="1" parent="1">
+          <mxGeometry x="620" y="465" width="150" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-desc" value="检测关联&#xa;ML/规则引擎" style="text;fontSize=13;fontColor=#FFFFFF;fontFamily=Inter;align=right;verticalAlign=middle;opacity=80;" vertex="1" parent="1">
+          <mxGeometry x="750" y="400" width="110" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Layer 4: 编排层 -->
+        <mxCell id="layer4-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="924" y="364" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="360" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-num" value="4" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="940" y="375" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-title" value="编排层" style="text;fontSize=28;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="940" y="430" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-en" value="Orchestration Layer" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="940" y="465" width="150" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-desc" value="SOAR自动化&#xa;Playbook执行" style="text;fontSize=13;fontColor=#9CA3AF;fontFamily=Inter;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="400" width="110" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Layer 5: 表示层 -->
+        <mxCell id="layer5-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1244" y="364" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="layer5-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="360" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="layer5-num" value="5" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="375" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="layer5-title" value="表示层" style="text;fontSize=28;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="430" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="layer5-en" value="Presentation Layer" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="465" width="150" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="layer5-desc" value="仪表板&#xa;报告/告警" style="text;fontSize=13;fontColor=#9CA3AF;fontFamily=Inter;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="400" width="110" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- 数据流箭头 - 从数据源到采集层 -->
+        <mxCell id="arrow-src-layer1" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=3;endSize=10;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="270" as="sourcePoint" />
+            <mxPoint x="280" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 数据流箭头 - 采集层到数据层 -->
+        <mxCell id="arrow-layer1-2" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=3;endSize=10;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="340" as="sourcePoint" />
+            <mxPoint x="420" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 数据流箭头 - 数据层到分析层 -->
+        <mxCell id="arrow-layer2-3" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=3;endSize=10;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="430" as="sourcePoint" />
+            <mxPoint x="600" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 数据流箭头 - 分析层到编排层 -->
+        <mxCell id="arrow-layer3-4" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=3;endSize=10;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="430" as="sourcePoint" />
+            <mxPoint x="920" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 数据流箭头 - 编排层到表示层 -->
+        <mxCell id="arrow-layer4-5" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=3;endSize=10;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1200" y="430" as="sourcePoint" />
+            <mxPoint x="1240" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 数据流箭头 - 表示层到角色 -->
+        <mxCell id="arrow-layer5-role" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=3;endSize=10;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1520" y="390" as="sourcePoint" />
+            <mxPoint x="1680" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 底部关键指标横条 -->
+        <mxCell id="metrics-bar" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=none;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="280" y="540" width="1240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="metrics-title" value="关键控制点" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="300" y="555" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="metrics-text" value="日志丢失率 &lt;0.1%  |  规则延迟 &lt;1min  |  误报率 &lt;5%  |  Playbook成功率 &gt;95%  |  告警延迟 &lt;30s" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="430" y="555" width="1050" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- 反馈回路箭头 (从编排层返回到数据层/分析层) -->
+        <mxCell id="feedback-arrow" value="" style="endArrow=blockThin;strokeColor=#EF4444;strokeWidth=2;endSize=8;endFill=1;dashed=1;dashPattern=8 4;curved=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="360" as="sourcePoint" />
+            <mxPoint x="560" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1060" y="270" />
+              <mxPoint x="800" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="feedback-label" value="响应反馈" style="text;fontSize=12;fontColor=#EF4444;fontFamily=Inter;align=center;verticalAlign=middle;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="760" y="170" width="80" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- 图例 -->
+        <mxCell id="legend-title" value="图例" style="text;fontSize=14;fontStyle=1;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="80" y="620" width="60" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-flow-arrow" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=3;endSize=8;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="665" as="sourcePoint" />
+            <mxPoint x="130" y="665" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend-flow-text" value="数据流向" style="text;fontSize=12;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="140" y="652" width="80" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="legend-feedback-arrow" value="" style="endArrow=blockThin;strokeColor=#EF4444;strokeWidth=2;endSize=8;endFill=1;dashed=1;dashPattern=8 4;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="665" as="sourcePoint" />
+            <mxPoint x="290" y="665" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend-feedback-text" value="反馈回路" style="text;fontSize=12;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="300" y="652" width="80" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- 核心层标识 -->
+        <mxCell id="legend-core-box" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="400" y="655" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-core-text" value="核心分析层" style="text;fontSize=12;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="430" y="652" width="100" height="25" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

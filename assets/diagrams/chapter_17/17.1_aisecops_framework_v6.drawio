@@ -1,0 +1,151 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="AISecOps Framework V6" id="aisecops-framework-v6">
+    <mxGraphModel dx="2633" dy="1627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="background" value="" style="fillColor=#FAFBFC;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="1750" height="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="AISecOps 方法论框架" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="40" width="800" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="AI + Security Operations Methodology Framework" style="text;fontSize=20;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="100" width="800" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="center-shadow" value="" style="ellipse;fillColor=#0052CC;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="764" y="224" width="400" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="center-bg" value="" style="ellipse;fillColor=#0066FF;strokeColor=#0052CC;strokeWidth=4;" parent="1" vertex="1">
+          <mxGeometry x="760" y="220" width="400" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="center-title" value="AISecOps" style="text;fontSize=42;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="760" y="270" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="center-subtitle" value="人工智能安全运营" style="text;fontSize=24;fontColor=#FFFFFF;fontFamily=Inter;align=center;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="760" y="320" width="400" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="center-desc" value="AI驱动的企业安全运营新范式" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=center;opacity=80;" parent="1" vertex="1">
+          <mxGeometry x="760" y="356" width="400" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="line1" value="" style="endArrow=classic;html=1;strokeColor=#0066FF;strokeWidth=4;exitX=0.25;exitY=1;entryX=0.5;entryY=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="420" as="sourcePoint" />
+            <mxPoint x="430" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="line2" value="" style="endArrow=classic;html=1;strokeColor=#0066FF;strokeWidth=4;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="960" y="420" as="sourcePoint" />
+            <mxPoint x="960" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="line3" value="" style="endArrow=classic;html=1;strokeColor=#0066FF;strokeWidth=4;exitX=0.75;exitY=1;entryX=0.5;entryY=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1060" y="420" as="sourcePoint" />
+            <mxPoint x="1490" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a4s-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="134" y="524" width="600" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="a4s-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="130" y="520" width="600" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="a4s-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="130" y="520" width="600" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a4s-title" value="A4S: AI for Security" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="130" y="535" width="600" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="a4s-subtitle" value="用 AI 技术赋能安全能力" style="text;fontSize=18;fontColor=#FFFFFF;fontFamily=Inter;align=center;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="130" y="568" width="600" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a4s-focus" value="Chapter 14 核心内容" style="text;fontSize=14;fontStyle=1;fontColor=#059669;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="160" y="620" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="a4s-section1" value="安全场景覆盖:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="160" y="660" width="560" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="a4s-content1" value="[SecOps] 安全运营 - 告警分诊/威胁检测/自动响应&#xa;[AppSec] 应用安全 - SAST降噪/代码审计/漏洞优先级&#xa;[GRC] 合规治理 - DSR自动化/政策检查/风险评估&#xa;[DataSec] 数据安全 - 敏感数据发现/分类分级/DLP增强&#xa;[BizSec] 业务安全 - 反欺诈/风控决策/异常交易检测" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="160" y="690" width="560" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="a4s-section2" value="技术能力栈:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="160" y="830" width="560" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="a4s-content2" value="ML模型 (XGBoost/Isolation Forest) | Graph分析 (Neo4j/TigerGraph)&#xa;LLM大模型 (GPT-4/Claude) | NER/NLP | RAG 检索增强" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="160" y="860" width="560" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a4s-value" value="核心价值: 效率提升 40-70% | 人力节省 20-30%" style="text;fontSize=14;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="160" y="930" width="560" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="s4a-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="764" y="524" width="400" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="s4a-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="760" y="520" width="400" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="s4a-header" value="" style="rounded=1;fillColor=#4F46E5;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="760" y="520" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s4a-title" value="S4A: Security for AI" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="760" y="535" width="400" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="s4a-subtitle" value="保护 AI 系统自身安全" style="text;fontSize=18;fontColor=#FFFFFF;fontFamily=Inter;align=center;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="760" y="568" width="400" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="s4a-focus" value="Chapter 15 核心内容" style="text;fontSize=14;fontStyle=1;fontColor=#4F46E5;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="790" y="620" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="s4a-section1" value="安全威胁防护:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="790" y="660" width="360" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="s4a-content1" value="[Prompt] 注入攻击防护&#xa;[MCP] 工具调用安全审计&#xa;[LLM] 输出内容过滤&#xa;[Model] 模型投毒检测&#xa;[Data] 训练数据保护" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="790" y="690" width="360" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="s4a-section2" value="安全能力建设:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="790" y="830" width="360" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="s4a-content2" value="[Framework] AI 安全评估框架&#xa;[Monitor] 模型行为监控&#xa;[Guard] LLM Guardrails 护栏" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="790" y="860" width="360" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s4a-value" value="核心价值: 确保 AI 系统可信可控" style="text;fontSize=14;fontStyle=1;fontColor=#4F46E5;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="790" y="950" width="360" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="org-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1194" y="524" width="400" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="org-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="520" width="400" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="org-header" value="" style="rounded=1;fillColor=#059669;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="520" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="org-title" value="ORG: 组织能力建设" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="535" width="400" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="org-subtitle" value="安全团队 + AI 能力融合" style="text;fontSize=18;fontColor=#FFFFFF;fontFamily=Inter;align=center;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="568" width="400" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="org-focus" value="跨章节能力建设" style="text;fontSize=14;fontStyle=1;fontColor=#059669;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="620" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="org-section1" value="团队能力升级:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="660" width="360" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="org-content1" value="[Skill] 安全人员 AI 技能培养&#xa;[COE] AI 卓越中心 (CoE) 建设&#xa;[Process] 人机协同流程设计&#xa;[Culture] 数据驱动文化塑造" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="690" width="360" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="org-section2" value="治理体系完善:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="810" width="360" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="org-content2" value="[Policy] 安全策略制定&#xa;[Metrics] 效果度量体系&#xa;[Vendor] 供应商管理&#xa;[Budget] 投入产出管理" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="840" width="360" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="org-value" value="核心价值: 组织能力持续进化" style="text;fontSize=14;fontStyle=1;fontColor=#059669;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="950" width="360" height="22" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

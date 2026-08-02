@@ -1,0 +1,160 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="DLP Architecture V6" id="dlp-architecture-v6">
+    <mxGraphModel dx="2109" dy="1135" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="数据防泄漏 (DLP) 架构" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="48" width="800" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Data Loss Prevention Architecture - Network, Endpoint, Cloud" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="120" width="900" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="type1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="84" y="204" width="580" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="type1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="200" width="580" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="type1-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="200" width="580" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="type1-number" value="1" style="ellipse;fillColor=#FFFFFF;strokeColor=NONE;fontColor=#0066FF;fontSize=32;fontStyle=1;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="96" y="208" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="type1-title" value="网络 DLP" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="160" y="208" width="480" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="type1-subtitle" value="Network DLP" style="text;fontSize=14;fontColor=#E0E7FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="160" y="236" width="480" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="type1-content" value="部署位置&#xa;• 网关/边界&#xa;• 邮件服务器&#xa;• Web 代理&#xa;&#xa;监控内容&#xa;• Email (SMTP)&#xa;• HTTP/HTTPS&#xa;• FTP / SFTP&#xa;&#xa;动作: 阻断 / 隔离 / 告警" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=20;spacingTop=4;" parent="1" vertex="1">
+          <mxGeometry x="84" y="260" width="544" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="type2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="684" y="204" width="580" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="type2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="680" y="200" width="580" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="type2-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="680" y="200" width="580" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="type2-number" value="2" style="ellipse;fillColor=#FFFFFF;strokeColor=NONE;fontColor=#0066FF;fontSize=32;fontStyle=1;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="696" y="208" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="type2-title" value="终端 DLP" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="760" y="208" width="480" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="type2-subtitle" value="Endpoint DLP" style="text;fontSize=14;fontColor=#E0E7FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="760" y="236" width="480" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="type2-content" value="部署位置&#xa;• Windows / macOS&#xa;• 移动设备 (MDM)&#xa;&#xa;监控内容&#xa;• 文件复制 (USB)&#xa;• 截屏 / 打印&#xa;• 剪贴板&#xa;• 应用上传 (IM / Browser)&#xa;&#xa;动作: 阻断 / 水印 / 加密" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=20;spacingTop=4;" parent="1" vertex="1">
+          <mxGeometry x="692" y="260" width="558" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="type3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1284" y="204" width="556" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="type3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="200" width="556" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="type3-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="200" width="556" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="type3-number" value="3" style="ellipse;fillColor=#FFFFFF;strokeColor=NONE;fontColor=#0066FF;fontSize=32;fontStyle=1;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1296" y="208" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="type3-title" value="云 DLP" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="208" width="456" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="type3-subtitle" value="Cloud DLP (CASB)" style="text;fontSize=14;fontColor=#E0E7FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="236" width="456" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="type3-content" value="部署位置&#xa;• SaaS 应用&#xa;• Cloud Storage&#xa;&#xa;监控内容&#xa;• O365 / G Suite&#xa;• Salesforce / Box&#xa;• Cloud DB&#xa;&#xa;技术: API 集成 / 代理" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=20;spacingTop=4;" parent="1" vertex="1">
+          <mxGeometry x="1296" y="266" width="524" height="188" as="geometry" />
+        </mxCell>
+        <mxCell id="detect-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="84" y="488" width="1756" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="detect-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="484" width="1756" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="detect-title" value="检测技术" style="text;fontSize=28;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="112" y="496" width="200" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="detect-subtitle" value="Detection Techniques" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="112" y="534" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="detect-col1-title" value="内容匹配" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="112" y="568" width="380" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="detect-col1-items" value="• 关键词匹配&#xa;• 正则表达式&#xa;• 文档指纹 (Hash)&#xa;• 精确数据匹配 (EDM)" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=4;" parent="1" vertex="1">
+          <mxGeometry x="112" y="596" width="380" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="detect-col2-title" value="上下文分析" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="524" y="568" width="380" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="3Hr_zhWPv9LAnRzGwH2o-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="detect-col2-items" target="detect-col3-items">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="detect-col2-items" value="• 文件类型识别&#xa;• 元数据分析&#xa;• 数据分类标签&#xa;• 用户/部门上下文" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=4;" parent="1" vertex="1">
+          <mxGeometry x="524" y="596" width="380" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="detect-col3-title" value="统计分析" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="936" y="568" width="380" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="detect-col3-items" value="• Bayesian 分类器&#xa;• 机器学习 (ML)&#xa;• 异常检测&#xa;• 行为基线偏离" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=4;" parent="1" vertex="1">
+          <mxGeometry x="936" y="596" width="380" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="detect-col4-title" value="OCR / NLP" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1348" y="568" width="380" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="detect-col4-items" value="• 图像识别 (OCR)&#xa;• 自然语言处理&#xa;• 实体识别 (NER)&#xa;• 语义分析" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=4;" parent="1" vertex="1">
+          <mxGeometry x="1348" y="596" width="380" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="policy-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="84" y="712" width="876" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="policy-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="708" width="876" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="policy-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="708" width="876" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="policy-number" value="4" style="ellipse;fillColor=#FFFFFF;strokeColor=NONE;fontColor=#0066FF;fontSize=32;fontStyle=1;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="96" y="714" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="policy-title" value="典型策略示例" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="160" y="718" width="776" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="policy-content" value="1. PII 保护&#xa;   • 身份证号 (18位数字) • 信用卡号 (Luhn 算法)&#xa;   • 手机号 / 邮箱&#xa;&#xa;2. 财务数据&#xa;   • 银行账户 • 财务报表 (关键词)&#xa;&#xa;3. 知识产权&#xa;   • 源代码 (文件类型) • 专利文档 (指纹匹配)&#xa;&#xa;4. 医疗数据 (PHI)&#xa;   • 病历号 / 诊断信息" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=20;spacingTop=12;" parent="1" vertex="1">
+          <mxGeometry x="96" y="768" width="614" height="232" as="geometry" />
+        </mxCell>
+        <mxCell id="response-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="984" y="712" width="852" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="response-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="980" y="708" width="852" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="response-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="980" y="708" width="852" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="response-number" value="5" style="ellipse;fillColor=#FFFFFF;strokeColor=NONE;fontColor=#0066FF;fontSize=32;fontStyle=1;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="996" y="714" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="response-title" value="响应动作" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="714" width="360" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="response-subtitle" value="Response Actions" style="text;fontSize=14;fontColor=#E0E7FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="724" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="response-col1" value="阻断类&#xa;• Block (完全阻断)&#xa;• Quarantine (隔离)&#xa;• Encrypt (强制加密)&#xa;&#xa;标记类&#xa;• Watermark (水印)&#xa;• Tag (元数据标记)" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=20;spacingTop=12;" parent="1" vertex="1">
+          <mxGeometry x="996" y="768" width="396" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="response-col2" value="通知类&#xa;• Alert (管理员告警)&#xa;• User Notification (提示)&#xa;• Incident Creation (工单)&#xa;&#xa;审计类&#xa;• Log (详细日志)&#xa;• Evidence Capture (取证)" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=20;spacingTop=12;" parent="1" vertex="1">
+          <mxGeometry x="1416" y="768" width="396" height="224" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

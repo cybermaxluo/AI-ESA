@@ -1,0 +1,169 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="应用安全服务目录" id="appsec-service-catalog">
+    <mxGraphModel dx="2220" dy="1261" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bg" value="" style="fillColor=#FAFBFC;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="应用安全服务目录 (SDL全生命周期)" style="text;fontSize=36;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="560" y="20" width="800" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Application Security Service Catalog - Complete SDL Lifecycle Coverage (Based on Section 6.5.4)" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="410" y="75" width="1100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="service1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="80" y="130" width="584" height="246" as="geometry" />
+        </mxCell>
+        <mxCell id="service1-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="80" y="130" width="580" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="service1-title" value="1. 应用安全培训" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="80" y="130" width="580" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="service1-subtitle" value="Application Security Training | 设计阶段" style="text;fontSize=13;fontColor=#1E40AF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="195" width="580" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="service1-content" value="培训内容&#xa;• 产品研发安全设计&#xa;• 安全编码最佳实践&#xa;• OWASP Top 10 漏洞培训&#xa;• Security Champions 赋能&#xa;&#xa;SLA: 2-5个工作日(P2)&#xa;输出: 培训材料、问题清单、控制建议" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="100" y="220" width="556" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="service7-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="696" y="130" width="584" height="246" as="geometry" />
+        </mxCell>
+        <mxCell id="service7-header" value="" style="rounded=1;fillColor=#6366F1;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="700" y="130" width="580" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="service7-title" value="7. 威胁建模 (P0)" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="700" y="130" width="580" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="service7-subtitle" value="Threat Modeling (STRIDE/PASTA) | 设计阶段" style="text;fontSize=13;fontColor=#4338CA;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="700" y="195" width="580" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="service7-content" value="服务内容&#xa;• STRIDE/PASTA威胁分析&#xa;• 数据流图(DFD)分析&#xa;• 攻击面评估与建模&#xa;• 安全控制设计建议&#xa;&#xa;SLA: 重大项目5-10个工作日(P1/P2)&#xa;输出: 威胁模型文档、风险清单、控制建议" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="720" y="220" width="540" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="service8-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="130" width="580" height="246" as="geometry" />
+        </mxCell>
+        <mxCell id="service8-header" value="" style="rounded=1;fillColor=#14B8A6;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="130" width="580" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="service8-title" value="8. 代码审计/安全评审 (P0)" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="130" width="580" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="service8-subtitle" value="Code Review / Security Design Review | 开发阶段" style="text;fontSize=13;fontColor=#115E59;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="195" width="580" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="service8-content" value="服务内容&#xa;• 安全架构设计评审(SDR)&#xa;• 关键代码人工审计&#xa;• 加密/认证实现审查&#xa;• 权限控制逻辑验证&#xa;&#xa;SLA: P1项目2天/P2项目5天&#xa;输出: 评审报告、代码加固建议、门禁配置" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="220" width="540" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="service2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="80" y="416" width="580" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="service2-header" value="" style="rounded=1;fillColor=#10B981;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="80" y="416" width="580" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="service2-title" value="2. 应用安全测试" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="80" y="416" width="580" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="service2-subtitle" value="Security Testing (DAST/IAST) | 测试阶段" style="text;fontSize=13;fontColor=#065F46;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="481" width="580" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="service2-content" value="测试范围&#xa;• Web应用安全测试&#xa;• 移动应用安全测试&#xa;• OWASP Top 10漏洞扫描&#xa;• 工具自动化+人工测试&#xa;&#xa;SLA: 按范围与排期(P1/P2优先)&#xa;输出: 测试报告、复测结论、修复建议" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="100" y="506" width="540" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="service3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="704" y="416" width="576" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="service3-header" value="" style="rounded=1;fillColor=#8B5CF6;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="700" y="416" width="580" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="service3-title" value="3. 移动端产品逆向" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="700" y="416" width="580" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="service3-subtitle" value="Mobile Reverse Engineering | 测试阶段" style="text;fontSize=13;fontColor=#5B21B6;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="700" y="481" width="580" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="service3-content" value="服务内容&#xa;• 逆向工程分析&#xa;• 恶意代码检测&#xa;• 安全性评估&#xa;• 移动端漏洞分析&#xa;&#xa;SLA: 与项目里程碑协商&#xa;输出: 缓解矩阵、责任人、验证计划" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="720" y="506" width="540" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="service4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="416" width="580" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="service4-header" value="" style="rounded=1;fillColor=#F59E0B;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="416" width="580" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="service4-title" value="4. 供应链安全评估" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="416" width="580" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="service4-subtitle" value="TPRM/SSPM (SBOM/SLSA) | 测试阶段" style="text;fontSize=13;fontColor=#92400E;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="481" width="580" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="service4-content" value="评估范围&#xa;• 供应商与产品清单&#xa;• SBOM安全分析&#xa;• 安全白皮书审查&#xa;• 第三方依赖风险评估&#xa;&#xa;SLA: 按采购/接入计划&#xa;输出: 风险评估报告、整改建议" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="506" width="540" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="service5-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="80" y="680" width="580" height="248" as="geometry" />
+        </mxCell>
+        <mxCell id="service5-header" value="" style="rounded=1;fillColor=#EC4899;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="80" y="680" width="580" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="service5-title" value="5. 发布/变更评审" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="80" y="680" width="580" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="service5-subtitle" value="Release &amp; Change Review | 发布阶段" style="text;fontSize=13;fontColor=#831843;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="745" width="580" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="service5-content" value="评审内容&#xa;• 变更单审查&#xa;• 安全评估结果验证&#xa;• 回滚预案审核&#xa;• 质量门禁检查&#xa;&#xa;SLA: 当日窗口(P1)&#xa;输出: 放行/阻断结论、风险建议" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="100" y="770" width="540" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="service6-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="696" y="680" width="584" height="248" as="geometry" />
+        </mxCell>
+        <mxCell id="service6-header" value="" style="rounded=1;fillColor=#EF4444;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="700" y="680" width="580" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="service6-title" value="6. 应急响应" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="700" y="680" width="580" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="service6-subtitle" value="DFIR (Digital Forensics &amp; Incident Response) | 运营阶段" style="text;fontSize=13;fontColor=#991B1B;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="700" y="745" width="580" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="service6-content" value="响应流程&#xa;• 事件检测与遏制&#xa;• 数字取证分析&#xa;• 根因分析与整改&#xa;• 事后复盘与总结&#xa;&#xa;SLA: 严重1h/高危2h/中危4h/低危8h&#xa;输出: 应急报告、整改措施、复盘总结" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="720" y="770" width="540" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="service9-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="680" width="580" height="248" as="geometry" />
+        </mxCell>
+        <mxCell id="service9-header" value="" style="rounded=1;fillColor=#DC2626;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="680" width="580" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="service9-title" value="9. 漏洞管理服务 (P1)" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="680" width="580" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="service9-subtitle" value="Vulnerability Management (SRC/Bug Bounty) | 运营阶段" style="text;fontSize=13;fontColor=#7F1D1D;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="745" width="580" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="service9-content" value="服务内容&#xa;• 内部漏洞协调(SRC)&#xa;• 漏洞赏金运营(Bug Bounty)&#xa;• 漏洞披露政策(VDP)响应&#xa;• 漏洞奖励计划管理&#xa;&#xa;SLA: 严重1天/高危3天/中危14天/低危30天&#xa;输出: 漏洞响应报告、修复验证、奖励发放" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="770" width="540" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="sla-box" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=none;strokeWidth=2;arcSize=6;" parent="1" vertex="1">
+          <mxGeometry x="72" y="952" width="1824" height="212" as="geometry" />
+        </mxCell>
+        <mxCell id="sla-title" value="服务受理与优先级管理" style="text;fontSize=22;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="72" y="967" width="1820" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="sla-content" value="单一入口: 内网工单系统(分类:威胁建模/代码审计/测试/发布/应急/供应链/培训/漏洞管理/咨询等)&#xa;&#xa;优先级定义:&#xa;• P1=影响生产核心交易/合规时限 (最高优先级,立即响应) | 应用场景: 应急响应、漏洞管理、发布评审&#xa;• P2=临近上线关键里程碑 (高优先级,2-5个工作日) | 应用场景: 威胁建模、代码审计、安全测试、培训&#xa;• P3=常规需求 (标准优先级,按排期协商) | 应用场景: 供应链评估、移动逆向、安全咨询&#xa;&#xa;沟通渠道: 工单+IM群+邮件 | 重要节点使用会议纪要与总结报告" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=5;" parent="1" vertex="1">
+          <mxGeometry x="112" y="1007" width="1736" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" value="" style="rounded=1;fillColor=#F3F4F6;strokeColor=none;arcSize=6;" parent="1" vertex="1">
+          <mxGeometry x="64" y="1188" width="1820" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-text" value="联系方式: appsec@company.com | 工单系统: https://security.company.com/tickets | 文档: https://wiki.company.com/security/appsec" style="text;fontSize=15;fontColor=#6B7280;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="72" y="1188" width="1820" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

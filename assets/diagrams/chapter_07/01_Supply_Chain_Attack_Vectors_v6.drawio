@@ -1,0 +1,256 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Supply Chain Attack Vectors V6" id="supply-chain-attack-vectors-v6">
+    <mxGraphModel dx="2758" dy="1485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="background" value="" style="fillColor=#FAFBFC;strokeColor=NONE;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="供应链攻击向量" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="64" width="800" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Supply Chain Attack Vectors - Software, Hardware, Vendor, Process" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="128" width="1000" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="target-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="720" y="424" width="480" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="target-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=#0066FF;strokeWidth=3;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="720" y="416" width="480" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="target-title" value="目标组织" style="text;fontSize=36;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="720" y="448" width="480" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="target-subtitle" value="Target Organization" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="720" y="496" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="target-items" value="• 应用系统&#xa;• 开发环境&#xa;• 生产环境&#xa;• 基础设施" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="720" y="544" width="480" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="vec1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="208" width="360" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vec1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="200" width="360" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vec1-title" value="源代码污染" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="98" y="200" width="324" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="vec1-subtitle" value="Source Code Compromise" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="98" y="232" width="184" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="vec1-items" value="• 恶意提交/PR&#xa;• 开发者账号劫持&#xa;• Git 仓库入侵&#xa;• Typosquatting" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="98" y="256" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vec2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="528" y="208" width="360" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vec2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="520" y="200" width="360" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vec2-title" value="依赖包投毒" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="544" y="196" width="136" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="vec2-subtitle" value="Dependency Confusion" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="544" y="232" width="166" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="vec2-items" value="• NPM/PyPI 恶意包&#xa;• 依赖混淆攻击&#xa;• 版本锁定绕过&#xa;• Transitive Dependencies" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="544" y="256" width="246" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="vec3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="960" y="208" width="360" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vec3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="960" y="200" width="360" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vec3-title" value="构建系统入侵" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="976" y="196" width="154" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="vec3-subtitle" value="Build System Compromise" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="976" y="232" width="174" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="vec3-items" value="• CI/CD 管道注入&#xa;• 构建脚本篡改&#xa;• SolarWinds 式攻击&#xa;• Codecov 式攻击" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="976" y="260" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vec4-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1488" y="208" width="360" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vec4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="200" width="360" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vec4-title" value="开源漏洞利用" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1504" y="200" width="156" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="vec4-subtitle" value="OSS Vulnerability" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1510" y="236" width="116" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="vec4-items" value="• Log4Shell (CVE-2021-44228)&#xa;• Spring4Shell&#xa;• 0-day 漏洞利用&#xa;• 未修复已知漏洞" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1504" y="256" width="266" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="vec5-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="464" width="360" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vec5-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="464" width="360" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vec5-title" value="容器镜像投毒" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="98" y="464" width="144" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vec5-subtitle" value="Container Image Poisoning" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="98" y="496" width="184" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="vec5-items" value="• 恶意基础镜像&#xa;• 镜像仓库劫持&#xa;• 未签名镜像&#xa;• Layer 层后门" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="98" y="520" width="254" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vec6-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1488" y="464" width="360" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vec6-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="464" width="360" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vec6-title" value="第三方供应商" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1504" y="464" width="146" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vec6-subtitle" value="Third-Party Vendor" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1509" y="496" width="136" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="vec6-items" value="• SaaS 供应商入侵&#xa;• API 供应商漏洞&#xa;• 云服务商攻击链&#xa;• 托管服务后门" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1510" y="520" width="156" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vec7-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="720" width="360" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vec7-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="720" width="360" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vec7-title" value="硬件供应链" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="96" y="720" width="124" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="vec7-subtitle" value="Hardware Supply Chain" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="98" y="752" width="164" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="vec7-items" value="• 硬件后门植入&#xa;• 固件篡改&#xa;• 芯片级后门&#xa;• 网络设备劫持" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="96" y="774" width="214" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vec8-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="528" y="720" width="360" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vec8-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="520" y="720" width="360" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vec8-title" value="开发工具链" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="544" y="720" width="126" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="vec8-subtitle" value="Developer Toolchain" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="544" y="758" width="136" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="vec8-items" value="• IDE 插件后门&#xa;• 编译器篡改&#xa;• Linter 恶意规则&#xa;• 开发环境污染" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="544" y="776" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vec9-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="960" y="720" width="360" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vec9-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="960" y="720" width="360" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vec9-title" value="更新机制劫持" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="976" y="720" width="154" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="vec9-subtitle" value="Update Mechanism Hijack" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="976" y="754" width="174" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="vec9-items" value="• 自动更新劫持&#xa;• 签名验证绕过&#xa;• 中间人攻击&#xa;• 更新服务器入侵" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="976" y="777" width="254" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vec10-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1488" y="720" width="360" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vec10-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="720" width="360" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vec10-title" value="开发流程渗透" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1504" y="720" width="146" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="vec10-subtitle" value="Process Infiltration" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1509" y="754" width="126" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vec10-items" value="• 社会工程学&#xa;• 内部威胁&#xa;• Code Review 绕过&#xa;• 审批流程漏洞" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1509" y="774" width="191" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="290" as="sourcePoint" />
+            <mxPoint x="720" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="340" as="sourcePoint" />
+            <mxPoint x="880" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow3" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="340" as="sourcePoint" />
+            <mxPoint x="1040" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow4" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1480" y="290" as="sourcePoint" />
+            <mxPoint x="1200" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow5" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="530" as="sourcePoint" />
+            <mxPoint x="720" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow6" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1480" y="530" as="sourcePoint" />
+            <mxPoint x="1200" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow7" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="760" as="sourcePoint" />
+            <mxPoint x="720" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow8" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="720" as="sourcePoint" />
+            <mxPoint x="880" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow9" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="720" as="sourcePoint" />
+            <mxPoint x="1040" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow10" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1480" y="760" as="sourcePoint" />
+            <mxPoint x="1200" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="note-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="904" width="1760" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="note-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="896" width="1750" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="note-title" value="[Attack Surface]" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="100" y="896" width="1580" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="note-text" value="供应链攻击面广泛且复杂,涵盖软件开发全生命周期、第三方依赖、硬件供应商、云服务等多个维度。防御需要多层防御策略:&#xa;• 软件层: SBOM + SCA + 签名验证 &#xa;• 流程层: Secure SDLC + Code Review &#xa;• 供应商层: 安全评估 + 持续监控 &#xa;• 基础设施层: 零信任架构" style="text;fontSize=14;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="96" y="930" width="1584" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

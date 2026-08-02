@@ -17,7 +17,7 @@
 
 **操作步骤**：
 
-1. 前往 [GitHub Issues](https://github.com/cybermaxluo/AI-ESA/issues)
+1. 前往 [GitHub Issues](https://github.com/cybermaxluo/AISecOps/issues)
 2. 点击 "New Issue"
 3. 选择合适的模板（Bug Report / Feature Request / Question）
 4. 填写详细信息并提交
@@ -42,8 +42,8 @@
 #### Step 2: Clone 到本地
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/AI-ESA.git
-cd AI-ESA
+git clone https://github.com/YOUR_USERNAME/AISecOps.git
+cd AISecOps
 ```
 
 #### Step 3: 创建分支
@@ -103,7 +103,7 @@ git push origin feature/your-feature-name
 
 **参与方式**：
 
-- [GitHub Discussions](https://github.com/cybermaxluo/AI-ESA/discussions)
+- [GitHub Discussions](https://github.com/cybermaxluo/AISecOps/discussions)
 - 作者邮箱：186616@gmail.com
 
 ---
@@ -123,7 +123,14 @@ git push origin feature/your-feature-name
 
 **Markdown 格式**：使用标准 Markdown 语法，参考现有章节的格式风格，确保标题层级正确（H1, H2, H3...）。
 
-**中英双语**：关键术语提供中英对照，标题建议中英双语。示例：`# Part 1: Foundation & Strategic Governance | 基础与战略治理`
+**标题命名**：一律使用中文体例，禁止 `Part` / `Chapter` / `Ch` 及中文数字。
+
+- 部：`# 第N部分　基础与战略治理`
+- 章：`# 第N章　企业架构基础`
+- 节：`# N.M　小节标题`（编号与标题之间用全角空格 U+3000，不用冒号）
+- 目录名与文件名保留补零（`第01部分_xxx` / `第01章_xxx`），仅为排序，正文引用不补零
+
+**中英对照**：关键术语首次出现给「中文（English full name, ABBR）」，此后用缩写；标题不写英文。
 
 **代码和命令**：使用代码块并标注语言。
 
@@ -213,8 +220,8 @@ kubectl get pods
 
 如有任何问题，请通过以下方式联系：
 
-- **GitHub Issues**: [提交 Issue](https://github.com/cybermaxluo/AI-ESA/issues)
-- **GitHub Discussions**: [参与讨论](https://github.com/cybermaxluo/AI-ESA/discussions)
+- **GitHub Issues**: [提交 Issue](https://github.com/cybermaxluo/AISecOps/issues)
+- **GitHub Discussions**: [参与讨论](https://github.com/cybermaxluo/AISecOps/discussions)
 - **Email**: 186616@gmail.com (Max Luo - 主编)
 
 ---
@@ -243,4 +250,5 @@ kubectl get pods
 
 ---
 
-**© 2025 AI-ESA Project. Licensed under CC BY-NC-SA 4.0**
+**© 2025-2026 AISecOps Project. Licensed under CC BY-NC-SA 4.0**
+

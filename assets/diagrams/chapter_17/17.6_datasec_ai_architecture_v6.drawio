@@ -1,0 +1,217 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="DataSec AI Architecture V6" id="datasec-ai-architecture-v6">
+    <mxGraphModel dx="2370" dy="1464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="background" value="" style="fillColor=#FAFBFC;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="数据安全 AI 能力架构" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="25" width="800" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="AI-Powered Data Security Architecture - Three Engine Design" style="text;fontSize=18;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="80" width="800" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="engine1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="84" y="134" width="560" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="engine1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="130" width="560" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="engine1-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="130" width="560" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="engine1-title" value="数据发现引擎" style="text;fontSize=26;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="145" width="560" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="engine1-subtitle" value="Discovery Engine" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=center;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="80" y="178" width="560" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e1c1-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="110" y="230" width="500" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="e1c1-id" value="DS-01" style="text;fontSize=12;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="245" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="e1c1-title" value="敏感数据智能识别" style="text;fontSize=18;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="268" width="460" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="e1c1-content" value="多模型融合识别 (Regex + NER + ML + LLM)&#xa;自动分类 PII/PHI/财务数据/商业秘密&#xa;识别准确率 &gt; 95%" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="130" y="300" width="460" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="e1c2-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="110" y="375" width="500" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="e1c2-id" value="DS-02" style="text;fontSize=12;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="390" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="e1c2-title" value="数据资产发现" style="text;fontSize=18;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="413" width="460" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="e1c2-content" value="自动发现结构化/非结构化数据资产&#xa;识别影子数据 (Shadow Data)&#xa;资产发现覆盖率 &gt; 90%" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="130" y="445" width="460" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="e1c3-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="110" y="520" width="500" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="e1c3-id" value="DS-03" style="text;fontSize=12;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="535" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="e1c3-title" value="数据血缘分析" style="text;fontSize=18;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="558" width="460" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="e1c3-content" value="自动追踪数据流转路径&#xa;构建数据血缘图谱&#xa;支持合规审计 + 影响分析" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="130" y="590" width="460" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="e1-tech-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=1;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="110" y="670" width="500" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="e1-tech-title" value="技术栈" style="text;fontSize=14;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="685" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e1-tech-content" value="命名实体识别 NER 模型 (BERT/Flair)&#xa;正则表达式模式库&#xa;分类 ML 模型 (XGBoost)&#xa;图数据库 (Neo4j/TigerGraph)" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="130" y="710" width="460" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="engine2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="684" y="134" width="560" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="engine2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="680" y="130" width="560" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="engine2-header" value="" style="rounded=1;fillColor=#4F46E5;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="680" y="130" width="560" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="engine2-title" value="数据保护引擎" style="text;fontSize=26;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="680" y="145" width="560" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="engine2-subtitle" value="Protection Engine" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=center;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="680" y="178" width="560" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e2c1-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#4F46E5;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="710" y="230" width="500" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="e2c1-id" value="DS-04" style="text;fontSize=12;fontStyle=1;fontColor=#4F46E5;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="730" y="245" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="e2c1-title" value="DLP 智能策略优化" style="text;fontSize=18;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="730" y="268" width="460" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="e2c1-content" value="基于 ML 优化数据泄露防护策略&#xa;自动调整误报阈值&#xa;误报率降低 &gt; 70%" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="730" y="300" width="460" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="e2c2-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#4F46E5;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="710" y="375" width="500" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="e2c2-id" value="DS-06" style="text;fontSize=12;fontStyle=1;fontColor=#4F46E5;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="730" y="390" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="e2c2-title" value="智能脱敏处理" style="text;fontSize=18;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="730" y="413" width="460" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="e2c2-content" value="基于场景自动选择脱敏策略&#xa;保持数据可用性与隐私保护平衡&#xa;支持动态脱敏与静态脱敏" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="730" y="445" width="460" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="e2c3-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#4F46E5;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="710" y="520" width="500" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="e2c3-id" value="DS-07" style="text;fontSize=12;fontStyle=1;fontColor=#4F46E5;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="730" y="535" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="e2c3-title" value="访问控制智能化" style="text;fontSize=18;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="730" y="558" width="460" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="e2c3-content" value="基于角色与属性的动态访问控制&#xa;敏感数据访问智能授权&#xa;符合 GDPR/PIPL 合规要求" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="730" y="590" width="460" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="e2-tech-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=1;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="710" y="670" width="500" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="e2-tech-title" value="技术栈" style="text;fontSize=14;fontStyle=1;fontColor=#4F46E5;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="730" y="685" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e2-tech-content" value="企业级 DLP 平台 (Symantec/Forcepoint)&#xa;脱敏算法库&#xa;策略引擎 (OPA)&#xa;LLM 语义分析" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="730" y="710" width="460" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="engine3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1284" y="134" width="560" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="engine3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="130" width="560" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="engine3-header" value="" style="rounded=1;fillColor=#059669;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="130" width="560" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="engine3-title" value="数据监控引擎" style="text;fontSize=26;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="145" width="560" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="engine3-subtitle" value="Monitoring Engine" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=center;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="178" width="560" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e3c1-bg" value="" style="rounded=1;fillColor=#ECFDF5;strokeColor=#059669;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1310" y="230" width="500" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="e3c1-id" value="DS-05" style="text;fontSize=12;fontStyle=1;fontColor=#059669;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="245" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="e3c1-title" value="数据访问异常检测" style="text;fontSize=18;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="268" width="460" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="e3c1-content" value="基于 UEBA 检测异常数据访问行为&#xa;识别内部威胁与数据泄露风险&#xa;检测准确率 &gt; 90%" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="300" width="460" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="e3c2-bg" value="" style="rounded=1;fillColor=#ECFDF5;strokeColor=#059669;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1310" y="375" width="500" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="e3c2-id" value="DS-08" style="text;fontSize=12;fontStyle=1;fontColor=#059669;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="390" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="e3c2-title" value="数据泄露风险预警" style="text;fontSize=18;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="413" width="460" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="e3c2-content" value="实时监控数据外传行为&#xa;自动生成风险评估报告&#xa;支持多渠道告警通知" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="445" width="460" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="e3c3-bg" value="" style="rounded=1;fillColor=#ECFDF5;strokeColor=#059669;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1310" y="520" width="500" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="e3c3-id" value="DS-09" style="text;fontSize=12;fontStyle=1;fontColor=#059669;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="535" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="e3c3-title" value="合规态势监控" style="text;fontSize=18;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="558" width="460" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="e3c3-content" value="持续监控数据合规状态&#xa;自动生成合规报告&#xa;支持多法规对标分析" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="590" width="460" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="e3-tech-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=1;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1310" y="670" width="500" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="e3-tech-title" value="技术栈" style="text;fontSize=14;fontStyle=1;fontColor=#059669;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="685" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e3-tech-content" value="异常检测 Isolation Forest / LSTM&#xa;行为分析引擎&#xa;时序预测 (Prophet)&#xa;可视化报表" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="710" width="460" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="core-bar-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="860" width="1760" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="core-bar-title" value="核心能力层 Core Capability Layer" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="875" width="1760" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="core-bar-content" value="NER命名实体识别 | ML分类模型 | LLM语义理解 | 图数据库 (血缘分析) | 脱敏算法 | 异常检测 (Isolation Forest)" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=center;opacity=95;" parent="1" vertex="1">
+          <mxGeometry x="80" y="910" width="1760" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="value-bar-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="970" width="1760" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="value-bar-title" value="价值指标:" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="110" y="990" width="100" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="value-bar-content" value="识别准确率 &gt; 95% | DLP误报率降低 &gt; 70% | 资产覆盖率 &gt; 90% | 异常检测率 &gt; 90% | 合规准备时间 -60%" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="220" y="990" width="1600" height="24" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

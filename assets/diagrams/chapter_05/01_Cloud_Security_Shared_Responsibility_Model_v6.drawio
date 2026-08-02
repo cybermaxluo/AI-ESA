@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" modified="2025-10-30T00:00:00.000Z" agent="Claude Code" version="24.0.0">
+  <diagram name="云安全责任共担模型" id="cloud-shared-responsibility">
+    <mxGraphModel dx="1920" dy="1080" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- 标题 -->
+        <mxCell id="title" value="云安全责任共担模型 (AWS示例)&#10;Cloud Security Shared Responsibility Model" style="text;html=1;strokeColor=NONE;fillColor=NONE;align=center;verticalAlign=middle;fontSize=48;fontStyle=1;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="160" y="32" width="1600" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- 主容器 (V6标准: 白色背景, 2px #E0E7FF边框) -->
+        <mxCell id="main-container" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=4;" vertex="1" parent="1">
+          <mxGeometry x="560" y="200" width="800" height="720" as="geometry" />
+        </mxCell>
+
+        <!-- Layer 7: 客户数据 (极淡蓝色背景) -->
+        <mxCell id="layer7-card" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="576" y="216" width="768" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="layer7-title" value="客户数据 Customer Data" style="text;html=1;strokeColor=NONE;fillColor=NONE;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;fontColor=#0066FF;" vertex="1" parent="1">
+          <mxGeometry x="576" y="228" width="768" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="layer7-desc" value="业务数据、用户信息、应用配置" style="text;html=1;strokeColor=NONE;fillColor=NONE;align=center;verticalAlign=middle;fontSize=16;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;fontColor=#6B7280;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="576" y="264" width="768" height="36" as="geometry" />
+        </mxCell>
+
+        <!-- Layer 6: 应用程序 -->
+        <mxCell id="layer6-card" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="576" y="314" width="768" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="layer6-title" value="应用程序 Applications" style="text;html=1;strokeColor=NONE;fillColor=NONE;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;fontColor=#0066FF;" vertex="1" parent="1">
+          <mxGeometry x="576" y="324" width="768" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="layer6-desc" value="Web服务、微服务、数据库应用" style="text;html=1;strokeColor=NONE;fillColor=NONE;align=center;verticalAlign=middle;fontSize=16;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;fontColor=#6B7280;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="576" y="356" width="768" height="32" as="geometry" />
+        </mxCell>
+
+        <!-- Layer 5: 操作系统 -->
+        <mxCell id="layer5-card" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="576" y="402" width="768" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="layer5-title" value="操作系统 Guest OS" style="text;html=1;strokeColor=NONE;fillColor=NONE;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;fontColor=#0066FF;" vertex="1" parent="1">
+          <mxGeometry x="576" y="412" width="768" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="layer5-desc" value="Linux/Windows、补丁管理、内核配置" style="text;html=1;strokeColor=NONE;fillColor=NONE;align=center;verticalAlign=middle;fontSize=16;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;fontColor=#6B7280;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="576" y="444" width="768" height="32" as="geometry" />
+        </mxCell>
+
+        <!-- Layer 4: 虚拟网络 (共担层,使用虚线边框) -->
+        <mxCell id="layer4-card" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#BFDBFE;strokeWidth=2;arcSize=8;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="576" y="490" width="768" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-title" value="虚拟网络 VPC / Security Groups" style="text;html=1;strokeColor=NONE;fillColor=NONE;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;fontColor=#0066FF;" vertex="1" parent="1">
+          <mxGeometry x="576" y="500" width="768" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-desc" value="共担: 客户配置规则,云厂商提供能力" style="text;html=1;strokeColor=NONE;fillColor=NONE;align=center;verticalAlign=middle;fontSize=16;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;fontColor=#6B7280;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="576" y="532" width="768" height="32" as="geometry" />
+        </mxCell>
+
+        <!-- Layer 3: 虚拟化层 -->
+        <mxCell id="layer3-card" value="" style="rounded=1;fillColor=#DBEAFE;strokeColor=#93C5FD;strokeWidth=2;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="576" y="578" width="768" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-title" value="虚拟化层 Hypervisor" style="text;html=1;strokeColor=NONE;fillColor=NONE;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;fontColor=#0066FF;" vertex="1" parent="1">
+          <mxGeometry x="576" y="588" width="768" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-desc" value="EC2/VM管理、资源调度、隔离" style="text;html=1;strokeColor=NONE;fillColor=NONE;align=center;verticalAlign=middle;fontSize=16;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;fontColor=#6B7280;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="576" y="620" width="768" height="32" as="geometry" />
+        </mxCell>
+
+        <!-- Layer 2: 计算/存储/网络 -->
+        <mxCell id="layer2-card" value="" style="rounded=1;fillColor=#BFDBFE;strokeColor=#60A5FA;strokeWidth=2;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="576" y="666" width="768" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-title" value="计算/存储/网络 Compute / Storage / Network" style="text;html=1;strokeColor=NONE;fillColor=NONE;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;fontColor=#0066FF;" vertex="1" parent="1">
+          <mxGeometry x="576" y="676" width="768" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-desc" value="服务器、硬盘、网卡、交换机" style="text;html=1;strokeColor=NONE;fillColor=NONE;align=center;verticalAlign=middle;fontSize=16;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;fontColor=#6B7280;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="576" y="708" width="768" height="32" as="geometry" />
+        </mxCell>
+
+        <!-- Layer 1: 物理基础设施 -->
+        <mxCell id="layer1-card" value="" style="rounded=1;fillColor=#93C5FD;strokeColor=#3B82F6;strokeWidth=2;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="576" y="754" width="768" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-title" value="物理基础设施 Physical Infrastructure" style="text;html=1;strokeColor=NONE;fillColor=NONE;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;fontColor=#0066FF;" vertex="1" parent="1">
+          <mxGeometry x="576" y="768" width="768" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-desc" value="数据中心、电力、制冷、物理安全" style="text;html=1;strokeColor=NONE;fillColor=NONE;align=center;verticalAlign=middle;fontSize=16;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;fontColor=#6B7280;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="576" y="800" width="768" height="36" as="geometry" />
+        </mxCell>
+
+        <!-- 左侧客户责任标签 -->
+        <mxCell id="customer-label-bar" value="" style="rounded=0;fillColor=#0066FF;strokeColor=NONE;" vertex="1" parent="1">
+          <mxGeometry x="160" y="216" width="8" height="266" as="geometry" />
+        </mxCell>
+        <mxCell id="customer-label" value="客户负责&#10;Customer&#10;Responsibility" style="text;html=1;strokeColor=NONE;fillColor=NONE;align=right;verticalAlign=middle;fontSize=28;fontStyle=1;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;fontColor=#0066FF;spacingRight=20;" vertex="1" parent="1">
+          <mxGeometry x="176" y="280" width="360" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="customer-subtitle" value="Security IN the Cloud" style="text;html=1;strokeColor=NONE;fillColor=NONE;align=right;verticalAlign=middle;fontSize=16;fontFamily=Inter;fontColor=#6B7280;fontStyle=2;spacingRight=20;" vertex="1" parent="1">
+          <mxGeometry x="176" y="400" width="360" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- 左侧AWS责任标签 -->
+        <mxCell id="aws-label-bar" value="" style="rounded=0;fillColor=#0066FF;strokeColor=NONE;" vertex="1" parent="1">
+          <mxGeometry x="160" y="578" width="8" height="266" as="geometry" />
+        </mxCell>
+        <mxCell id="aws-label" value="AWS负责&#10;AWS&#10;Responsibility" style="text;html=1;strokeColor=NONE;fillColor=NONE;align=right;verticalAlign=middle;fontSize=28;fontStyle=1;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;fontColor=#0066FF;spacingRight=20;" vertex="1" parent="1">
+          <mxGeometry x="176" y="648" width="360" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="aws-subtitle" value="Security OF the Cloud" style="text;html=1;strokeColor=NONE;fillColor=NONE;align=right;verticalAlign=middle;fontSize=16;fontFamily=Inter;fontColor=#6B7280;fontStyle=2;spacingRight=20;" vertex="1" parent="1">
+          <mxGeometry x="176" y="768" width="360" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- 右侧服务模型标题 -->
+        <mxCell id="service-model-title" value="不同服务模型的责任划分" style="text;html=1;strokeColor=NONE;fillColor=NONE;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="200" width="400" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- IaaS卡片 (V6标准: 白色背景, 2px边框, 16px圆角) -->
+        <mxCell id="iaas-card" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="280" width="390" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="iaas-title" value="IaaS (如 EC2)" style="text;html=1;strokeColor=NONE;fillColor=NONE;align=left;verticalAlign=top;fontSize=24;fontStyle=1;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;fontColor=#0066FF;spacingLeft=20;spacingTop=20;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="280" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iaas-customer" value="客户管理:&#10;• 客户数据 ✓&#10;• 应用程序 ✓&#10;• 操作系统 ✓&#10;• 虚拟网络配置 ✓" style="text;html=1;strokeColor=NONE;fillColor=NONE;align=left;verticalAlign=top;fontSize=16;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;fontColor=#6B7280;spacingLeft=20;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="330" width="390" height="130" as="geometry" />
+        </mxCell>
+
+        <!-- PaaS卡片 -->
+        <mxCell id="paas-card" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="480" width="390" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="paas-title" value="PaaS (如 RDS/Lambda)" style="text;html=1;strokeColor=NONE;fillColor=NONE;align=left;verticalAlign=top;fontSize=24;fontStyle=1;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;fontColor=#0066FF;spacingLeft=20;spacingTop=20;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="480" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="paas-customer" value="客户管理:&#10;• 客户数据 ✓&#10;• 应用程序 ✓&#10;• 操作系统 (AWS管理)&#10;• 虚拟网络配置 ✓" style="text;html=1;strokeColor=NONE;fillColor=NONE;align=left;verticalAlign=top;fontSize=16;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;fontColor=#6B7280;spacingLeft=20;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="530" width="390" height="130" as="geometry" />
+        </mxCell>
+
+        <!-- SaaS卡片 -->
+        <mxCell id="saas-card" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="680" width="390" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="saas-title" value="SaaS (如 S3/DynamoDB)" style="text;html=1;strokeColor=NONE;fillColor=NONE;align=left;verticalAlign=top;fontSize=24;fontStyle=1;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;fontColor=#0066FF;spacingLeft=20;spacingTop=20;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="680" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="saas-customer" value="客户管理:&#10;• 客户数据 ✓&#10;• 应用程序 (AWS管理)&#10;• 操作系统 (AWS管理)&#10;• 访问控制配置 ✓" style="text;html=1;strokeColor=NONE;fillColor=NONE;align=left;verticalAlign=top;fontSize=16;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;fontColor=#6B7280;spacingLeft=20;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="730" width="390" height="130" as="geometry" />
+        </mxCell>
+
+        <!-- 底部说明 (V6标准: #EEF2FF背景) -->
+        <mxCell id="footer-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=NONE;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="160" y="960" width="1680" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" value="核心原则: 客户始终负责数据和访问控制  |  云厂商负责基础设施的安全  |  明确责任边界,共同保障云安全" style="text;html=1;strokeColor=NONE;fillColor=NONE;align=center;verticalAlign=middle;fontSize=18;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;fontColor=#0066FF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="972" width="1680" height="36" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

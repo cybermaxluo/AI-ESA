@@ -1,0 +1,242 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Zero Trust Reference Model" id="zero-trust-ref-v6">
+    <mxGraphModel dx="1920" dy="1080" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- 主标题 -->
+        <mxCell id="title-main" value="零信任架构参考模型" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="560" y="40" width="800" height="72" as="geometry" />
+        </mxCell>
+
+        <mxCell id="title-sub" value="NIST SP 800-207 Zero Trust Architecture Reference Model" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="512" y="104" width="896" height="32" as="geometry" />
+        </mxCell>
+
+        <!-- 主体层 Subject -->
+        <mxCell id="subject-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="488" y="176" width="944" height="116" as="geometry" />
+        </mxCell>
+
+        <mxCell id="subject-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;strokeWidth=1;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="480" y="168" width="944" height="116" as="geometry" />
+        </mxCell>
+
+        <mxCell id="subject-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="480" y="168" width="944" height="48" as="geometry" />
+        </mxCell>
+
+        <mxCell id="subject-title" value="主体 Subject" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="480" y="168" width="944" height="48" as="geometry" />
+        </mxCell>
+
+        <mxCell id="subject-content" value="用户 User  •  设备 Device  •  应用 Application  •  工作负载 Workload" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="496" y="232" width="912" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- 访问请求箭头 -->
+        <mxCell id="arrow-subject-pep" value="访问请求&#xa;Access Request" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#0066FF;strokeWidth=4;endArrow=block;endFill=1;fontSize=16;fontColor=#0066FF;labelBackgroundColor=#FAFBFC;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="952" y="284" as="sourcePoint" />
+            <mxPoint x="952" y="344" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 策略执行点 PEP -->
+        <mxCell id="pep-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="488" y="352" width="944" height="116" as="geometry" />
+        </mxCell>
+
+        <mxCell id="pep-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;strokeWidth=1;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="480" y="344" width="944" height="116" as="geometry" />
+        </mxCell>
+
+        <mxCell id="pep-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="480" y="344" width="944" height="48" as="geometry" />
+        </mxCell>
+
+        <mxCell id="pep-title" value="策略执行点 Policy Enforcement Point (PEP)" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="480" y="344" width="944" height="48" as="geometry" />
+        </mxCell>
+
+        <mxCell id="pep-function" value="验证身份  •  执行策略  •  终止异常会话  •  技术实现: API Gateway / Proxy / Agent / Service Mesh" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="496" y="408" width="912" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- 策略查询箭头 -->
+        <mxCell id="arrow-pep-pdp" value="策略查询&#xa;Policy Query" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#0066FF;strokeWidth=4;endArrow=block;endFill=1;fontSize=16;fontColor=#0066FF;labelBackgroundColor=#FAFBFC;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="952" y="460" as="sourcePoint" />
+            <mxPoint x="952" y="536" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 策略决策点 PDP -->
+        <mxCell id="pdp-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="488" y="544" width="944" height="148" as="geometry" />
+        </mxCell>
+
+        <mxCell id="pdp-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;strokeWidth=3;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="480" y="536" width="944" height="148" as="geometry" />
+        </mxCell>
+
+        <mxCell id="pdp-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="480" y="536" width="944" height="56" as="geometry" />
+        </mxCell>
+
+        <mxCell id="pdp-title" value="策略决策点 Policy Decision Point (PDP)" style="text;fontSize=32;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="480" y="536" width="944" height="56" as="geometry" />
+        </mxCell>
+
+        <mxCell id="pdp-engine" value="策略引擎 Policy Engine  •  策略管理器 Policy Administrator" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="496" y="608" width="912" height="32" as="geometry" />
+        </mxCell>
+
+        <mxCell id="pdp-logic" value="决策逻辑: 身份 + 设备信任 + 风险评分 + 资源敏感度" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;fontStyle=2;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="496" y="644" width="912" height="32" as="geometry" />
+        </mxCell>
+
+        <!-- 数据源连接箭头 -->
+        <mxCell id="arrow-pdp-idp" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#0066FF;strokeWidth=3;endArrow=block;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="604" y="688" as="sourcePoint" />
+            <mxPoint x="604" y="744" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow-pdp-device" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#0066FF;strokeWidth=3;endArrow=block;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="836" y="688" as="sourcePoint" />
+            <mxPoint x="836" y="744" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow-pdp-ti" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#0066FF;strokeWidth=3;endArrow=block;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1068" y="688" as="sourcePoint" />
+            <mxPoint x="1068" y="744" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow-pdp-ueba" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#0066FF;strokeWidth=3;endArrow=block;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1300" y="688" as="sourcePoint" />
+            <mxPoint x="1300" y="744" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 数据源 1: IdP -->
+        <mxCell id="idp-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="504" y="752" width="216" height="132" as="geometry" />
+        </mxCell>
+
+        <mxCell id="idp-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="496" y="744" width="216" height="132" as="geometry" />
+        </mxCell>
+
+        <mxCell id="idp-title" value="身份提供商 IdP" style="text;fontSize=18;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="496" y="760" width="216" height="32" as="geometry" />
+        </mxCell>
+
+        <mxCell id="idp-items" value="• 认证 Authentication&#xa;• 身份属性 Attributes" style="text;fontSize=13;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;spacingLeft=12;" parent="1" vertex="1">
+          <mxGeometry x="504" y="800" width="200" height="64" as="geometry" />
+        </mxCell>
+
+        <!-- 数据源 2: 设备信任 -->
+        <mxCell id="device-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="736" y="752" width="216" height="132" as="geometry" />
+        </mxCell>
+
+        <mxCell id="device-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="728" y="744" width="216" height="132" as="geometry" />
+        </mxCell>
+
+        <mxCell id="device-title" value="设备信任服务" style="text;fontSize=18;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="728" y="760" width="216" height="32" as="geometry" />
+        </mxCell>
+
+        <mxCell id="device-items" value="• 设备健康 Health&#xa;• 合规状态 Compliance" style="text;fontSize=13;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;spacingLeft=12;" parent="1" vertex="1">
+          <mxGeometry x="736" y="800" width="200" height="64" as="geometry" />
+        </mxCell>
+
+        <!-- 数据源 3: 威胁情报 -->
+        <mxCell id="ti-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="968" y="752" width="216" height="132" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ti-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="960" y="744" width="216" height="132" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ti-title" value="威胁情报 TI" style="text;fontSize=18;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="960" y="760" width="216" height="32" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ti-items" value="• 实时威胁 Threats&#xa;• IoC 失陷指标" style="text;fontSize=13;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;spacingLeft=12;" parent="1" vertex="1">
+          <mxGeometry x="968" y="800" width="200" height="64" as="geometry" />
+        </mxCell>
+
+        <!-- 数据源 4: 行为分析 -->
+        <mxCell id="ueba-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="752" width="216" height="132" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ueba-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1192" y="744" width="216" height="132" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ueba-title" value="行为分析 UEBA" style="text;fontSize=18;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1192" y="760" width="216" height="32" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ueba-items" value="• 异常检测 Anomaly&#xa;• 风险评分 Scoring" style="text;fontSize=13;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;spacingLeft=12;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="800" width="200" height="64" as="geometry" />
+        </mxCell>
+
+        <!-- 授权通过箭头 -->
+        <mxCell id="arrow-services-resource" value="授权通过&#xa;Authorized" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#34A853;strokeWidth=4;endArrow=block;endFill=1;fontSize=16;fontColor=#34A853;labelBackgroundColor=#FAFBFC;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;fontStyle=1;dashed=1;dashPattern=8 8;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="952" y="876" as="sourcePoint" />
+            <mxPoint x="952" y="928" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 受保护资源 -->
+        <mxCell id="resource-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="488" y="936" width="944" height="116" as="geometry" />
+        </mxCell>
+
+        <mxCell id="resource-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#34A853;strokeWidth=3;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="480" y="928" width="944" height="116" as="geometry" />
+        </mxCell>
+
+        <mxCell id="resource-header" value="" style="rounded=1;fillColor=#34A853;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="480" y="928" width="944" height="48" as="geometry" />
+        </mxCell>
+
+        <mxCell id="resource-title" value="受保护资源 Protected Resource" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="480" y="928" width="944" height="48" as="geometry" />
+        </mxCell>
+
+        <mxCell id="resource-content" value="应用 Application  •  数据 Data  •  API  •  基础设施 Infrastructure" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="496" y="992" width="912" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- 底部说明 -->
+        <mxCell id="footer-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="84" y="1068" width="1752" height="52" as="geometry" />
+        </mxCell>
+
+        <mxCell id="footer-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#E5E7EB;strokeWidth=1;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="1064" width="1760" height="52" as="geometry" />
+        </mxCell>
+
+        <mxCell id="footer-text" value="核心理念: Never Trust, Always Verify (永不信任,始终验证) | 参考标准: NIST SP 800-207" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="120" y="1076" width="1680" height="32" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

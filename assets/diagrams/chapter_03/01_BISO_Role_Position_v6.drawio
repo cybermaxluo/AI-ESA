@@ -1,0 +1,166 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="BISO Role Position" id="biso-role-v6">
+    <mxGraphModel dx="2590" dy="1552" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title-main" value="BISO 角色定位体系 Business Information Security Officer" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="160" y="40" width="1600" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="title-sub" value="桥接安全与业务,实现风险共治 - Bridge Security and Business" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="160" y="112" width="1600" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="exec-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="484" y="188" width="952" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="exec-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=#0066FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="480" y="184" width="960" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="exec-text" value="高管层 Executive Leadership | CEO / CISO / CRO / CFO" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="480" y="208" width="960" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="security-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="84" y="324" width="468" height="532" as="geometry" />
+        </mxCell>
+        <mxCell id="security-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="80" y="320" width="480" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="security-header-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="80" y="320" width="480" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="security-icon" value="SC" style="ellipse;fillColor=#FFFFFF;strokeColor=NONE;fontColor=#0066FF;fontSize=28;fontStyle=1;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="120" y="336" width="56" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="security-title" value="安全中心团队" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="192" y="340" width="320" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="security-title-en" value="Security Center" style="text;fontSize=14;fontColor=#FFFFFF;opacity=80;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="192" y="372" width="320" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="security-tag" value="核心职能 Core Functions" style="text;fontSize=14;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="440" width="400" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="security-functions" value="• 安全战略与政策制定&#xa;• 技术平台与工具研发&#xa;• 威胁情报与安全研究&#xa;• SOC 与应急响应&#xa;• 架构评审与安全咨询" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="120" y="476" width="400" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="security-output-bg" value="" style="rounded=1;fillColor=#E0E7FF;strokeColor=NONE;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="120" y="672" width="400" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="security-output-title" value="交付给 BISO" style="text;fontSize=14;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="120" y="688" width="400" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="security-output" value="Playbook | 安全工具&#xa;技术咨询 | 培训赋能" style="text;fontSize=18;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="120" y="732" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="biso-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="724" y="324" width="468" height="532" as="geometry" />
+        </mxCell>
+        <mxCell id="biso-bg" value="" style="rounded=1;fillColor=#E0E7FF;strokeColor=#0066FF;strokeWidth=3;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="720" y="325" width="480" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="biso-header-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="716" y="320" width="488" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="biso-icon" value="BISO" style="rounded=1;fillColor=#FFFFFF;strokeColor=NONE;fontColor=#0066FF;fontSize=32;fontStyle=1;fontFamily=Inter;align=center;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="728" y="346" width="104" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="biso-header" value="业务安全伙伴&#xa;Business Security Partner" style="text;fontSize=27;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="850" y="337" width="364" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="biso-mission-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=NONE;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="760" y="464" width="400" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="biso-mission" value="使命: 桥接安全与业务,实现风险共治" style="text;fontSize=14;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="760" y="476" width="400" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="biso-tag" value="核心职责 Key Responsibilities" style="text;fontSize=14;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="760" y="548" width="400" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="biso-roles" value="• 业务安全需求受理与分析&#xa;• 风险评估与处置建议&#xa;• 合规要求解读与落地&#xa;• 安全标准在业务中嵌入&#xa;• Playbook 执行与质量保障" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="760" y="584" width="400" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="biso-output-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="760" y="764" width="400" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="biso-output" value="对业务交付: 风险洞察 | 合规保障 | 效率工具" style="text;fontSize=14;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="760" y="780" width="400" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="business-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1364" y="324" width="468" height="532" as="geometry" />
+        </mxCell>
+        <mxCell id="business-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="320" width="480" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="business-header-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="320" width="480" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="business-icon" value="BU" style="ellipse;fillColor=#FFFFFF;strokeColor=NONE;fontColor=#0066FF;fontSize=28;fontStyle=1;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="336" width="56" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="business-title" value="业务单元" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1472" y="340" width="320" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="business-title-en" value="Business Units" style="text;fontSize=14;fontColor=#FFFFFF;opacity=80;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1472" y="372" width="320" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="business-tag" value="业务线示例 Business Lines" style="text;fontSize=14;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="440" width="400" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="business-units" value="• 产品研发团队&#xa;• 营销与增长团队&#xa;• 供应链与采购&#xa;• 财务与人力资源" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="476" width="400" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="business-needs-bg" value="" style="rounded=1;fillColor=#E0E7FF;strokeColor=NONE;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="640" width="400" height="188" as="geometry" />
+        </mxCell>
+        <mxCell id="business-needs-title" value="对 BISO 需求" style="text;fontSize=14;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="656" width="400" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="business-needs" value="• 快速响应业务需求&#xa;• 降低安全摩擦成本&#xa;• 合规支持与认证&#xa;• 风险可视化呈现" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;verticalAlign=top;spacing=6;" parent="1" vertex="1">
+          <mxGeometry x="1420" y="696" width="360" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-security-biso" value="" style="endArrow=block;html=1;strokeWidth=3;strokeColor=#0066FF;startArrow=block;startFill=1;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="571" y="590" as="sourcePoint" />
+            <mxPoint x="711" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-security-biso-label" value="工具/咨询" style="text;fontSize=12;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;labelBackgroundColor=#FAFBFC;" parent="1" vertex="1">
+          <mxGeometry x="602" y="564" width="84" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-biso-business" value="" style="endArrow=block;html=1;strokeWidth=3;strokeColor=#0066FF;startArrow=block;startFill=1;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1220" y="590" as="sourcePoint" />
+            <mxPoint x="1360" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-biso-business-label" value="服务/赋能" style="text;fontSize=12;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;labelBackgroundColor=#FAFBFC;" parent="1" vertex="1">
+          <mxGeometry x="1250" y="564" width="80" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-exec-biso" value="" style="endArrow=block;html=1;strokeWidth=3;strokeColor=#0066FF;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="276" as="sourcePoint" />
+            <mxPoint x="960" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-exec-biso-label" value="战略对齐" style="text;fontSize=12;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;labelBackgroundColor=#FAFBFC;" parent="1" vertex="1">
+          <mxGeometry x="980" y="286" width="80" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="note-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="84" y="908" width="1752" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="note-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="904" width="1760" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="note-label" value="定位说明" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="920" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="note-text" value="BISO 既是安全团队的业务延伸,也是业务团队的安全顾问,通过双向协作实现安全价值最大化" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="256" y="920" width="1552" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" value="[Note] BISO 通过嵌入业务线,确保安全策略与业务目标同步,降低风险摩擦" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="648" y="992" width="624" height="32" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

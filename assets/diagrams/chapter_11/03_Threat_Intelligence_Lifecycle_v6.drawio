@@ -1,0 +1,364 @@
+<mxfile host="app.diagrams.net" version="22.0.0">
+  <diagram name="Threat Intelligence Lifecycle V6" id="ti-lifecycle-v6">
+    <mxGraphModel dx="1920" dy="1080" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Background -->
+        <mxCell id="background" value="" style="fillColor=#FAFBFC;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="1080" as="geometry" />
+        </mxCell>
+
+        <!-- Header -->
+        <mxCell id="header-bg" value="" style="fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="威胁情报生命周期" style="text;fontSize=48;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="40" width="600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Threat Intelligence Lifecycle - Intelligence-Driven Security Operations" style="text;fontSize=18;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="100" width="700" height="28" as="geometry" />
+        </mxCell>
+
+        <!-- Central Hub - 情报中心 -->
+        <mxCell id="hub-shadow" value="" style="ellipse;fillColor=#0066FF;strokeColor=none;opacity=30;" parent="1" vertex="1">
+          <mxGeometry x="804" y="404" width="320" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="hub-bg" value="" style="ellipse;fillColor=#0066FF;strokeColor=#0066FF;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="800" y="400" width="320" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="hub-icon" value="TI" style="text;fontSize=72;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="800" y="470" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hub-title" value="威胁情报" style="text;fontSize=32;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="800" y="550" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hub-subtitle" value="Threat Intelligence" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=center;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="800" y="590" width="320" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- Phase 1: Direction (Top) -->
+        <mxCell id="p1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="784" y="164" width="360" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="780" y="160" width="360" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-icon-bg" value="" style="ellipse;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="805" y="180" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-icon" value="1" style="text;fontSize=36;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="805" y="180" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-title" value="规划与方向" style="text;fontSize=26;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="880" y="190" width="240" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-subtitle" value="Direction" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="880" y="226" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-desc1" value="• 情报需求定义 (PIR)" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="805" y="265" width="320" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-desc2" value="• 利益相关者对齐" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="805" y="290" width="320" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-desc3" value="• 情报优先级排序" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="805" y="315" width="320" height="22" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow from Phase 1 to Hub -->
+        <mxCell id="arrow-1-hub" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=4;endSize=12;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="340" as="sourcePoint" />
+            <mxPoint x="960" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Phase 2: Collection (Top Right) -->
+        <mxCell id="p2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1204" y="254" width="360" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="250" width="360" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-icon-bg" value="" style="ellipse;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="1225" y="270" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-icon" value="2" style="text;fontSize=36;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1225" y="270" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-title" value="收集" style="text;fontSize=26;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="280" width="240" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-subtitle" value="Collection" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="316" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-desc1" value="• 开源情报 (OSINT)" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1225" y="355" width="320" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-desc2" value="• 商业威胁情报 Feed" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1225" y="380" width="320" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-desc3" value="• ISAC/ISAO 共享情报" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1225" y="405" width="320" height="22" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow from Phase 2 to Hub -->
+        <mxCell id="arrow-2-hub" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=4;endSize=12;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1200" y="380" as="sourcePoint" />
+            <mxPoint x="1120" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Phase 3: Processing (Bottom Right) -->
+        <mxCell id="p3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1204" y="604" width="360" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="600" width="360" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-icon-bg" value="" style="ellipse;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="1225" y="620" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-icon" value="3" style="text;fontSize=36;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1225" y="620" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-title" value="处理" style="text;fontSize=26;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="630" width="240" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-subtitle" value="Processing" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="666" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-desc1" value="• 数据标准化 (STIX/TAXII)" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1225" y="705" width="320" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-desc2" value="• IOC/IOA 提取与富化" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1225" y="730" width="320" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-desc3" value="• 去重与关联分析" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1225" y="755" width="320" height="22" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow from Hub to Phase 3 -->
+        <mxCell id="arrow-hub-3" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=4;endSize=12;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="640" as="sourcePoint" />
+            <mxPoint x="1200" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Phase 4: Analysis (Bottom) -->
+        <mxCell id="p4-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="784" y="784" width="360" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="780" y="780" width="360" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-icon-bg" value="" style="ellipse;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="805" y="800" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-icon" value="4" style="text;fontSize=36;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="805" y="800" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-title" value="分析" style="text;fontSize=26;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="880" y="810" width="240" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-subtitle" value="Analysis" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="880" y="846" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-desc1" value="• 威胁行为者画像" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="805" y="885" width="320" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-desc2" value="• MITRE ATT&amp;CK 映射" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="805" y="910" width="320" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-desc3" value="• 威胁趋势与预测" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="805" y="935" width="320" height="22" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow from Hub to Phase 4 -->
+        <mxCell id="arrow-hub-4" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=4;endSize=12;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="720" as="sourcePoint" />
+            <mxPoint x="960" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Phase 5: Dissemination (Bottom Left) -->
+        <mxCell id="p5-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="364" y="604" width="360" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="p5-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="360" y="600" width="360" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="p5-icon-bg" value="" style="ellipse;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="385" y="620" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="p5-icon" value="5" style="text;fontSize=36;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="385" y="620" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="p5-title" value="分发" style="text;fontSize=26;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="460" y="630" width="240" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p5-subtitle" value="Dissemination" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="460" y="666" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p5-desc1" value="• 情报报告 (战术/战略)" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="385" y="705" width="320" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="p5-desc2" value="• SIEM/SOAR 自动推送" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="385" y="730" width="320" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="p5-desc3" value="• TLP 分级受众定向" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="385" y="755" width="320" height="22" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow from Hub to Phase 5 -->
+        <mxCell id="arrow-hub-5" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=4;endSize=12;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="640" as="sourcePoint" />
+            <mxPoint x="720" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Phase 6: Feedback (Top Left) -->
+        <mxCell id="p6-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="364" y="254" width="360" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="p6-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="360" y="250" width="360" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="p6-icon-bg" value="" style="ellipse;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="385" y="270" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="p6-icon" value="6" style="text;fontSize=36;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="385" y="270" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="p6-title" value="反馈" style="text;fontSize=26;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="460" y="280" width="240" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p6-subtitle" value="Feedback" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="460" y="316" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p6-desc1" value="• 情报准确性验证" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="385" y="355" width="320" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="p6-desc2" value="• 情报价值评估" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="385" y="380" width="320" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="p6-desc3" value="• 需求迭代更新" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="385" y="405" width="320" height="22" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow from Phase 6 to Hub -->
+        <mxCell id="arrow-6-hub" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=4;endSize=12;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="380" as="sourcePoint" />
+            <mxPoint x="800" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Circular Flow Indicator -->
+        <mxCell id="flow-indicator" value="" style="ellipse;strokeColor=#EF4444;strokeWidth=3;fillColor=none;dashed=1;dashPattern=8 4;" parent="1" vertex="1">
+          <mxGeometry x="720" y="320" width="480" height="480" as="geometry" />
+        </mxCell>
+
+        <!-- Intelligence Types Left Panel -->
+        <mxCell id="types-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="180" width="240" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="types-title" value="情报类型" style="text;fontSize=22;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="100" y="200" width="200" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="types-subtitle" value="Intelligence Types" style="text;fontSize=12;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="100" y="232" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="type1" value="战略情报 Strategic" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="100" y="270" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="type1-desc" value="董事会/高管决策" style="text;fontSize=13;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="100" y="294" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="type2" value="战术情报 Tactical" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="100" y="330" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="type2-desc" value="安全团队日常运营" style="text;fontSize=13;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="100" y="354" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="type3" value="运营情报 Operational" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="100" y="390" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="type3-desc" value="威胁行动细节" style="text;fontSize=13;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="100" y="414" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="type4" value="技术情报 Technical" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="100" y="450" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="type4-desc" value="IOC/TTP 技术指标" style="text;fontSize=13;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="100" y="474" width="200" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Data Sources Right Panel -->
+        <mxCell id="sources-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1600" y="180" width="240" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="sources-title" value="情报来源" style="text;fontSize=22;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1620" y="200" width="200" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="sources-subtitle" value="Intelligence Sources" style="text;fontSize=12;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1620" y="232" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="source1" value="OSINT 开源情报" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1620" y="270" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="source1-desc" value="VirusTotal, Shodan, MISP" style="text;fontSize=13;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1620" y="294" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="source2" value="商业情报 Commercial" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1620" y="330" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="source2-desc" value="Mandiant, Recorded Future" style="text;fontSize=13;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1620" y="354" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="source3" value="行业共享 ISAC/ISAO" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1620" y="390" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="source3-desc" value="FS-ISAC, H-ISAC" style="text;fontSize=13;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1620" y="414" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="source4" value="政府情报 Government" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1620" y="450" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="source4-desc" value="CISA, FBI, NCSC" style="text;fontSize=13;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1620" y="474" width="200" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- TLP Classification Footer -->
+        <mxCell id="tlp-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="980" width="1760" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tlp-title" value="TLP 分级:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="100" y="1002" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tlp-red" value="TLP:RED 受限" style="text;fontSize=14;fontStyle=1;fontColor=#EF4444;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="220" y="1002" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tlp-amber" value="TLP:AMBER 组织内" style="text;fontSize=14;fontStyle=1;fontColor=#F59E0B;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="420" y="1002" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tlp-green" value="TLP:GREEN 社区" style="text;fontSize=14;fontStyle=1;fontColor=#22C55E;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="640" y="1002" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tlp-clear" value="TLP:CLEAR 公开" style="text;fontSize=14;fontStyle=1;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="840" y="1002" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ref-footer" value="参考标准: FIRST TLP v2.0 | STIX/TAXII 2.1" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=right;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="1002" width="320" height="26" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

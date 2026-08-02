@@ -1,0 +1,166 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Policy Framework" id="policy-framework-v6">
+    <mxGraphModel dx="2194" dy="1322" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title-main" value="四级政策框架体系 Four-Tier Policy Framework" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="160" y="40" width="1600" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="title-sub" value="从战略到执行的层次化政策体系 - 确保上下一致、易于执行" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="160" y="112" width="1600" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="level1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="164" y="188" width="1592" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="level1-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=#0066FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="160" y="184" width="1600" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="level1-icon" value="L1" style="ellipse;fillColor=#FFFFFF;strokeColor=NONE;fontColor=#0066FF;fontSize=32;fontStyle=1;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="200" y="224" width="56" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="level1-title" value="集团级政策 Group Policy" style="text;fontSize=32;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="280" y="208" width="520" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="level1-desc" value="战略方向与治理原则 | 适用范围: 整个集团 | 更新频率: 1-2年" style="text;fontSize=14;fontColor=#FFFFFF;opacity=90;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="280" y="260" width="520" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="level1-example-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=NONE;arcSize=8;opacity=20;" parent="1" vertex="1">
+          <mxGeometry x="840" y="212" width="880" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="level1-example-title" value="示例 Examples" style="text;fontSize=14;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="864" y="224" width="160" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="level1-example" value="信息安全政策 | 数据保护政策 | GRC治理章程" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="864" y="252" width="832" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow1" value="" style="endArrow=block;html=1;strokeWidth=4;strokeColor=#0066FF;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="320" as="sourcePoint" />
+            <mxPoint x="960" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow1-label" value="细化拆解" style="text;fontSize=12;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;labelBackgroundColor=#FAFBFC;" parent="1" vertex="1">
+          <mxGeometry x="984" y="328" width="80" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="level2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="164" y="364" width="1592" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="level2-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="160" y="360" width="1600" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="level2-icon" value="L2" style="ellipse;fillColor=#0066FF;strokeColor=NONE;fontColor=#FFFFFF;fontSize=32;fontStyle=1;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="200" y="400" width="56" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="level2-title" value="主题域政策 Domain Policy" style="text;fontSize=32;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="280" y="384" width="520" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="level2-desc" value="特定安全领域的详细要求 | 适用范围: 特定安全域 | 更新频率: 6-12个月" style="text;fontSize=14;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="280" y="436" width="520" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="level2-example-bg" value="" style="rounded=1;fillColor=#E0E7FF;strokeColor=NONE;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="840" y="388" width="880" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="level2-example-title" value="示例 Examples" style="text;fontSize=14;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="864" y="400" width="160" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="level2-example" value="云安全政策 | 应用安全政策 | 访问控制政策 | 第三方风险管理政策" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="864" y="428" width="832" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow2" value="" style="endArrow=block;html=1;strokeWidth=4;strokeColor=#0066FF;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="496" as="sourcePoint" />
+            <mxPoint x="960" y="536" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow2-label" value="技术落地" style="text;fontSize=12;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;labelBackgroundColor=#FAFBFC;" parent="1" vertex="1">
+          <mxGeometry x="984" y="504" width="80" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="level3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="164" y="540" width="1592" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="level3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="160" y="536" width="1600" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="level3-icon" value="L3" style="ellipse;fillColor=#0066FF;strokeColor=NONE;fontColor=#FFFFFF;fontSize=32;fontStyle=1;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="200" y="576" width="56" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="level3-title" value="标准规范 Standard" style="text;fontSize=32;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="280" y="560" width="520" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="level3-desc" value="技术实施标准与配置基线 | 适用范围: 特定技术栈 | 更新频率: 3-6个月" style="text;fontSize=14;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="280" y="612" width="520" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="level3-example-bg" value="" style="rounded=1;fillColor=#E0E7FF;strokeColor=NONE;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="840" y="564" width="880" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="level3-example-title" value="示例 Examples" style="text;fontSize=14;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="864" y="576" width="160" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="level3-example" value="密码学标准 | 安全配置基线 | 代码安全规范 | 日志审计标准" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="864" y="604" width="832" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow3" value="" style="endArrow=block;html=1;strokeWidth=4;strokeColor=#0066FF;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="672" as="sourcePoint" />
+            <mxPoint x="960" y="712" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow3-label" value="操作指导" style="text;fontSize=12;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;labelBackgroundColor=#FAFBFC;" parent="1" vertex="1">
+          <mxGeometry x="984" y="680" width="80" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="level4-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="164" y="716" width="1592" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="level4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="160" y="712" width="1600" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="level4-icon" value="L4" style="ellipse;fillColor=#0066FF;strokeColor=NONE;fontColor=#FFFFFF;fontSize=32;fontStyle=1;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="200" y="752" width="56" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="level4-title" value="操作流程 Procedure" style="text;fontSize=32;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="280" y="736" width="520" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="level4-desc" value="详细操作指南与SOP | 适用范围: 特定场景/角色 | 更新频率: 按需更新" style="text;fontSize=14;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="280" y="788" width="520" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="level4-example-bg" value="" style="rounded=1;fillColor=#E0E7FF;strokeColor=NONE;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="840" y="740" width="880" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="level4-example-title" value="示例 Examples" style="text;fontSize=14;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="864" y="752" width="160" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="level4-example" value="事件响应手册 | 变更管理流程 | 权限申请SOP | 备份恢复操作指南" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="864" y="780" width="832" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="note-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="164" y="900" width="1592" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="note-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="160" y="896" width="1600" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="note-label" value="管理建议" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="200" y="912" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="note-text" value="政策体系采用版本控制 + 定期审查 + 利益相关方评审,确保上下一致、易于执行" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="336" y="912" width="1392" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hierarchy-title" value="抽象度" style="text;fontSize=14;fontStyle=1;fontColor=#9CA3AF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="1744" y="592" width="84" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="hierarchy-arrow" value="" style="endArrow=block;html=1;strokeWidth=2;strokeColor=#9CA3AF;endFill=1;dashed=1;dashPattern=4 4;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1836" y="240" as="sourcePoint" />
+            <mxPoint x="1836" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hierarchy-top" value="高" style="text;fontSize=12;fontColor=#9CA3AF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1808" y="208" width="56" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="hierarchy-bottom" value="低" style="text;fontSize=12;fontColor=#9CA3AF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1808" y="808" width="56" height="24" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

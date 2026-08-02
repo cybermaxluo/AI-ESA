@@ -1,0 +1,274 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="LLM Security Risks V6 Redesign" id="llm-security-v6-redesign">
+    <mxGraphModel dx="2758" dy="1485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="background" value="" style="fillColor=#FAFBFC;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="2410" height="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="大语言模型安全风险" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="50" width="800" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="LLM Security Risks - OWASP Top 10 for LLM Applications 2025" style="text;fontSize=20;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="120" width="1400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="risk1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="84" y="204" width="440" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="risk1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="80" y="200" width="440" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="risk1-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="80" y="200" width="440" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="risk1-num-bg" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="110" y="215" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="risk1-num" value="1" style="text;fontSize=32;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="110" y="215" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="risk1-title" value="提示注入" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="180" y="208" width="200" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="risk1-subtitle" value="Prompt Injection" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=left;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="180" y="240" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="risk1-attack-label" value="攻击示例:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="110" y="290" width="400" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="risk1-attack" value="• Ignore previous instructions&#xa;• 泄露系统提示词&#xa;• 绕过内容过滤" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="110" y="316" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="risk1-defense-label" value="防御措施:" style="text;fontSize=16;fontStyle=1;fontColor=#059669;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="110" y="390" width="400" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="risk1-defense" value="• 输入验证与过滤&#xa;• 特权分离 (系统/用户提示)&#xa;• 输出监控与审查&#xa;• 红队对抗测试" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="110" y="416" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="risk2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="544" y="204" width="440" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="risk2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="540" y="200" width="440" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="risk2-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="540" y="200" width="440" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="risk2-num-bg" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="570" y="215" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="risk2-num" value="2" style="text;fontSize=32;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="570" y="215" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="risk2-title" value="数据泄露" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="640" y="208" width="200" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="risk2-subtitle" value="Data Leakage" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=left;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="640" y="240" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="risk2-attack-label" value="风险场景:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="570" y="290" width="400" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="risk2-attack" value="• 训练数据泄露&#xa;• 用户输入被记忆&#xa;• 敏感信息回显" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="570" y="316" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="risk2-defense-label" value="防御措施:" style="text;fontSize=16;fontStyle=1;fontColor=#059669;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="570" y="390" width="400" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="risk2-defense" value="• 数据脱敏 (训练前)&#xa;• 输出过滤 (PII检测)&#xa;• 禁用模型记忆功能&#xa;• 审计日志保护" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="570" y="416" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="risk3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1004" y="204" width="440" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="risk3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="200" width="440" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="risk3-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="200" width="440" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="risk3-num-bg" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="215" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="risk3-num" value="3" style="text;fontSize=32;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="215" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="risk3-title" value="模型投毒" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="211" width="200" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="risk3-subtitle" value="Model Poisoning" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=left;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="243" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="risk3-attack-label" value="攻击方式:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="290" width="400" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="risk3-attack" value="• 污染训练数据&#xa;• 后门植入 (Backdoor)&#xa;• Fine-tuning 劫持" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="316" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="risk3-defense-label" value="防御措施:" style="text;fontSize=16;fontStyle=1;fontColor=#059669;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="390" width="400" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="risk3-defense" value="• 数据溯源与验证&#xa;• 训练数据审查&#xa;• 模型行为测试&#xa;• 可信数据源" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="416" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="risk4-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1464" y="204" width="440" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="risk4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="200" width="440" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="risk4-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="200" width="440" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="risk4-num-bg" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1490" y="215" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="risk4-num" value="4" style="text;fontSize=32;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1490" y="215" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="risk4-title" value="拒绝服务" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1560" y="208" width="200" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="risk4-subtitle" value="Denial of Service" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=left;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="1560" y="240" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="risk4-attack-label" value="攻击手法:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1490" y="290" width="400" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="risk4-attack" value="• 超长输入 (Token Bomb)&#xa;• 高频请求&#xa;• 资源耗尽攻击" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1490" y="316" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="risk4-defense-label" value="防御措施:" style="text;fontSize=16;fontStyle=1;fontColor=#059669;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1490" y="390" width="400" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="risk4-defense" value="• Rate Limiting&#xa;• Token 限制&#xa;• 请求队列&#xa;• 成本监控" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1490" y="416" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="risk5-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1924" y="204" width="390" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="risk5-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1920" y="200" width="390" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="risk5-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1920" y="200" width="390" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="risk5-num-bg" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1950" y="215" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="risk5-num" value="5" style="text;fontSize=32;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1950" y="215" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="risk5-title" value="幻觉" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="2020" y="208" width="150" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="risk5-subtitle" value="Hallucination" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=left;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="2020" y="240" width="150" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="risk5-attack-label" value="风险:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1950" y="290" width="350" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="risk5-attack" value="• 虚假信息生成&#xa;• 错误决策依据&#xa;• 法律/合规风险" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1950" y="316" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="risk5-defense-label" value="缓解措施:" style="text;fontSize=16;fontStyle=1;fontColor=#059669;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1950" y="390" width="350" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="risk5-defense" value="• RAG (检索增强)&#xa;• 事实核查&#xa;• 人工审核&#xa;• 置信度评分" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1950" y="416" width="350" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="defense-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="84" y="604" width="2226" height="396" as="geometry" />
+        </mxCell>
+        <mxCell id="defense-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="80" y="592" width="2220" height="398" as="geometry" />
+        </mxCell>
+        <mxCell id="defense-title" value="LLM 防护架构" style="text;fontSize=36;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="630" width="400" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="defense-subtitle" value="Defense Architecture" style="text;fontSize=18;fontColor=#FFFFFF;fontFamily=Inter;align=left;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="130" y="674" width="300" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="d1-number-circle" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="130" y="730" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d1-number" value="1" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="130" y="730" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d1-title" value="输入防护 Input Layer" style="text;fontSize=18;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="185" y="738" width="445" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="d1-items" value="1) Prompt Firewall (提示词防火墙)&#xa;  - 检测注入攻击模式&#xa;  - Jailbreak 尝试识别&#xa;2) 输入内容过滤 (有害/敏感内容)&#xa;3) Rate Limiting (用户/IP 限速)&#xa;4) Token 计数与限制&#xa;5) 工具: Lakera Guard, Prompt Security" style="text;fontSize=15;fontColor=#FFFFFF;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;opacity=95;" parent="1" vertex="1">
+          <mxGeometry x="130" y="790" width="390" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="d2-number-circle" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="680" y="730" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d2-number" value="2" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="680" y="730" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d2-title" value="模型层 Model Layer" style="text;fontSize=18;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="735" y="738" width="445" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="d2-items" value="1) System Prompt 加固 (特权分离)&#xa;2) Fine-tuning 安全审查&#xa;3) 模型行为监控 (异常响应检测)&#xa;4) Model Versioning (回滚能力)&#xa;5) RAG 数据源验证&#xa;6) Guardrails (护栏,限制模型行为)&#xa;7) 工具: NeMo Guardrails, Guardrails AI" style="text;fontSize=15;fontColor=#FFFFFF;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;opacity=95;" parent="1" vertex="1">
+          <mxGeometry x="680" y="785" width="340" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="d3-number-circle" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="730" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d3-number" value="3" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="730" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d3-title" value="输出验证 Output Layer" style="text;fontSize=18;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1285" y="738" width="445" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="d3-items" value="1) PII/敏感信息检测与脱敏&#xa;2) 有害内容过滤 (暴力/仇恨/NSFW)&#xa;3) 幻觉检测 (事实核查)&#xa;4) 输出审计日志&#xa;5) 人工审核队列 (高风险响应)&#xa;6) Watermarking (AI生成内容标记)&#xa;7) 工具: Microsoft Azure AI Content Safety" style="text;fontSize=15;fontColor=#FFFFFF;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;opacity=95;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="788" width="340" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="d4-number-circle" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1780" y="730" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d4-number" value="4" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1780" y="730" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d4-title" value="访问控制 Access Control" style="text;fontSize=18;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1835" y="738" width="475" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="d4-items" value="1) API Key 管理&#xa;2) OAuth 2.0 认证&#xa;3) RBAC (角色权限)&#xa;4) 审计日志 (完整请求链)&#xa;5) Cost Tracking (成本监控)&#xa;6) 数据隔离 (多租户)" style="text;fontSize=15;fontColor=#FFFFFF;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;opacity=95;" parent="1" vertex="1">
+          <mxGeometry x="1790" y="790" width="320" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="dev-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="84" y="1024" width="2230" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="dev-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="80" y="1020" width="2230" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="dev-title" value="安全开发实践 Secure Development" style="text;fontSize=28;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="1050" width="2100" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="dev1-title" value="红队测试 Red Teaming:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="1110" width="700" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="dev1-content" value="• 持续对抗性测试 (Jailbreak尝试)&#xa;• 自动化测试工具 (Garak, PyRIT)&#xa;• 奖励漏洞赏金计划" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="130" y="1136" width="700" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dev2-title" value="数据治理:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="880" y="1110" width="700" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="dev2-content" value="• 训练数据审计 (内容合规)&#xa;• 用户输入脱敏 (不记录敏感数据)&#xa;• 数据保留策略 (GDPR合规)" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="880" y="1136" width="700" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dev3-title" value="监控与响应:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="1114" width="160" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="dev3-content" value="• 异常使用模式检测&#xa;• 成本异常告警 (Token爆增) &#xa;• 安全事件响应 Playbook &#xa;• 模型降级/隔离机制" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="1143" width="460" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" value="参考: OWASP Top 10 for LLM Applications 2025 | NIST AI Risk Management Framework | Microsoft Responsible AI Standard" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="84" y="1340" width="2200" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

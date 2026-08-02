@@ -1,0 +1,178 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="AI Security Platform Six-Layer Architecture" id="ai-platform-six-layer-redesign">
+    <mxGraphModel dx="2852" dy="1824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="background" value="" style="fillColor=#FAFBFC;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="2400" height="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="AI 安全中台六层技术架构" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="40" width="1840" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="AI Security Platform Six-Layer Architecture" style="text;fontSize=20;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="110" width="1840" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="layer6-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="84" y="184" width="1840" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="layer6-card" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=3;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="180" width="1840" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="layer6-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="180" width="1840" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="layer6-title" value="Layer 6: 业务场景层 Business Application" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="188" width="1840" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="layer6-content" value="威胁检测智能体  •  响应运营智能体  •  漏洞治理智能体  •  合规治理智能体  •  业务安全智能体" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="110" y="248" width="1780" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-6-5" value="" style="endArrow=blockThin;html=1;strokeColor=#0066FF;strokeWidth=4;endFill=1;fillColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="320" as="sourcePoint" />
+            <mxPoint x="1000" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="layer5-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="84" y="354" width="1840" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="layer5-card" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=3;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="350" width="1840" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="layer5-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="350" width="1840" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="layer5-title" value="Layer 5: 编排与策略层 Orchestration &amp; Policy" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="358" width="1840" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="layer5-content" value="策略引擎 OPA  •  工作流 Airflow  •  Agent框架 LangChain  •  上下文服务 知识图谱  •  SOAR集成 Shuffle" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="110" y="418" width="1780" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-5-4" value="" style="endArrow=blockThin;html=1;strokeColor=#0066FF;strokeWidth=4;endFill=1;fillColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="490" as="sourcePoint" />
+            <mxPoint x="1000" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="layer4-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="84" y="524" width="1840" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-card" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=3;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="520" width="1840" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="520" width="1840" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-title" value="Layer 4: 模型服务层 Model Serving" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="528" width="1840" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-content" value="推理网关 KServe  •  异常检测 LSTM  •  威胁识别 XGBoost  •  风险评估 LightGBM  •  LLM助手 GPT-4+RAG  •  内容审核 BERT" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="110" y="588" width="1780" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-4-3" value="" style="endArrow=blockThin;html=1;strokeColor=#0066FF;strokeWidth=4;endFill=1;fillColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="660" as="sourcePoint" />
+            <mxPoint x="1000" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="layer3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="84" y="694" width="1840" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-card" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=3;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="690" width="1840" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="690" width="1840" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-title" value="Layer 3: AI基础设施层 AI Infrastructure" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="698" width="1840" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-content" value="数据湖 Iceberg  •  特征仓 Feast  •  向量库 Milvus  •  图谱库 Neo4j  •  训练平台 Kubeflow  •  MLOps MLflow" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="110" y="758" width="1780" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-3-2" value="" style="endArrow=blockThin;html=1;strokeColor=#0066FF;strokeWidth=4;endFill=1;fillColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="830" as="sourcePoint" />
+            <mxPoint x="1000" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="layer2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="84" y="864" width="1840" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-card" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=3;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="860" width="1840" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="860" width="1840" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-title" value="Layer 2: 中间件层 Middleware" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="868" width="1840" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-content" value="服务网格 Istio  •  消息队列 Kafka  •  API网关 Kong  •  配置中心 Consul  •  服务发现 Eureka" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="110" y="923" width="1780" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-2-1" value="" style="endArrow=blockThin;html=1;strokeColor=#0066FF;strokeWidth=4;endFill=1;fillColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="980" as="sourcePoint" />
+            <mxPoint x="1000" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="layer1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="84" y="1014" width="1840" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-card" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#34A853;strokeWidth=3;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="1010" width="1840" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-header" value="" style="rounded=1;fillColor=#34A853;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="1010" width="1840" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-title" value="Layer 1: 基础设施层 Infrastructure" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="1018" width="1840" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-content" value="容器编排 Kubernetes  •  GPU集群 NVIDIA  •  对象存储 S3  •  网络 VPC+零信任  •  监控 Prometheus+Grafana" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="110" y="1073" width="1780" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="support-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1964" y="184" width="352" height="946" as="geometry" />
+        </mxCell>
+        <mxCell id="support-card" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1960" y="180" width="352" height="946" as="geometry" />
+        </mxCell>
+        <mxCell id="support-title" value="横向支撑能力" style="text;fontSize=22;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1960" y="200" width="352" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="support-subtitle" value="Cross-Cutting Concerns" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1960" y="234" width="352" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gov-title" value="治理 Governance" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1990" y="274" width="292" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="gov-content" value="• ModelSec&#xa;• 隐私保护&#xa;• 审计追溯&#xa;• 合规对齐" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1990" y="300" width="292" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="cost-title" value="成本 Cost" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1990" y="392" width="292" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="cost-content" value="• 资源调度&#xa;• 成本监控&#xa;• 预算管理" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1990" y="418" width="292" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="sec-title" value="安全 Security" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1990" y="492" width="292" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="sec-content" value="• 访问控制&#xa;• 数据加密&#xa;• 审计日志&#xa;• 威胁防护" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1990" y="518" width="292" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="ops-title" value="运营 Operations" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1990" y="610" width="292" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="ops-content" value="• 服务目录&#xa;• SLA管理&#xa;• 指标度量&#xa;• 知识库" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1990" y="636" width="292" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" value="数据驱动 Data-Driven  |  模型支持 Model-Powered  |  服务化交付 Service-Oriented" style="text;fontSize=16;fontColor=#9CA3AF;fontFamily=Inter;align=center;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="80" y="1160" width="1840" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

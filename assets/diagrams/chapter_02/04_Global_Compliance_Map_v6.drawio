@@ -1,0 +1,124 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Global Compliance Map" id="compliance-map-v6">
+    <mxGraphModel dx="2037" dy="1227" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title-main" value="全球合规地图" style="text;fontSize=48;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="760" y="40" width="400" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="title-sub" value="Global Compliance Landscape - Key Regulations &amp; Standards" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="560" y="104" width="800" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="header-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="80" y="160" width="1760" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="header-col1" value="法规/标准" style="text;fontSize=18;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="96" y="176" width="300" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="header-col2" value="适用地区" style="text;fontSize=18;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="416" y="176" width="280" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="header-col3" value="核心要求" style="text;fontSize=18;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="720" y="176" width="640" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="header-col4" value="罚款上限" style="text;fontSize=18;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1376" y="176" width="420" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="row1-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=1;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="80" y="240" width="1760" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="row1-col1" value="GDPR" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="112" y="272" width="268" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="row1-col2" value="欧盟 EU" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="416" y="272" width="280" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="row1-col3" value="数据保护、隐私权、同意管理&#xa;数据跨境传输、DPO任命、DPIA" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="736" y="260" width="608" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="row1-col4" value="€20M 或&#xa;4%全球年收入" style="text;fontSize=16;fontColor=#DC2626;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fontStyle=1;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="1392" y="260" width="388" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="row2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=1;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="80" y="360" width="1760" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="row2-col1" value="PIPL" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="112" y="392" width="268" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="row2-col2" value="中国 China" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="416" y="392" width="280" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="row2-col3" value="个人信息保护、敏感信息处理&#xa;跨境数据传输、安全评估、告知同意" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="736" y="380" width="608" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="row2-col4" value="¥50M" style="text;fontSize=16;fontColor=#DC2626;fontFamily=Inter;align=center;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1392" y="392" width="388" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="row3-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=1;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="80" y="480" width="1760" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="row3-col1" value="ISO 27001" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="112" y="512" width="268" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="row3-col2" value="全球 Global" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="416" y="512" width="280" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="row3-col3" value="信息安全管理体系(ISMS)&#xa;93项控制措施、风险评估、PDCA循环" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="736" y="500" width="608" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="row3-col4" value="无罚款&#xa;(认证要求)" style="text;fontSize=16;fontColor=#059669;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fontStyle=1;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="1392" y="500" width="388" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="row4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=1;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="80" y="600" width="1760" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="row4-col1" value="SOC 2" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="112" y="632" width="268" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="row4-col2" value="北美 North America" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="416" y="632" width="280" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="row4-col3" value="服务组织控制(Trust Service Criteria)&#xa;安全/可用性/保密性/隐私/处理完整性" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="736" y="620" width="608" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="row4-col4" value="无罚款&#xa;(审计报告)" style="text;fontSize=16;fontColor=#059669;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fontStyle=1;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="1392" y="620" width="388" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="row5-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=1;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="80" y="720" width="1760" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="row5-col1" value="PCI DSS" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="112" y="752" width="268" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="row5-col2" value="全球 Global" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="416" y="752" width="280" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="row5-col3" value="支付卡数据安全标准&#xa;网络隔离、数据加密、访问控制、监控审计" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="736" y="740" width="608" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="row5-col4" value="$500K/月+&#xa;限制交易权限" style="text;fontSize=16;fontColor=#DC2626;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fontStyle=1;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="1392" y="740" width="388" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="row6-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=1;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="80" y="840" width="1760" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="row6-col1" value="CCPA" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="112" y="872" width="268" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="row6-col2" value="美国加州 California" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="416" y="872" width="280" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="row6-col3" value="消费者隐私权(知情/访问/删除/拒绝)&#xa;数据销售披露、选择退出机制" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="736" y="860" width="608" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="row6-col4" value="$7,500/次违规" style="text;fontSize=16;fontColor=#DC2626;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1392" y="872" width="388" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="note-text" value="合规策略建议：优先级排序(业务相关性+罚款风险)→差距分析→路线图制定→认证审计→持续维护" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="480" y="1016" width="960" height="32" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,253 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="GRC AI Scenario Matrix V6" id="grc-ai-scenario-matrix-v6">
+    <mxGraphModel dx="1823" dy="1126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="background" value="" style="fillColor=#FAFBFC;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="GRC AI 场景优先级矩阵" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="30" width="800" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="GRC AI Scenario ICE Priority Matrix - Impact x Confidence x Ease" style="text;fontSize=20;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="90" width="900" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="matrix-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=4;" parent="1" vertex="1">
+          <mxGeometry x="200" y="160" width="1200" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="yaxis-label" value="置信度" style="text;fontSize=20;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="-20" y="452" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yaxis-sublabel" value="Confidence" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=center;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="20" y="463" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yaxis-high" value="高 High" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=right;" parent="1" vertex="1">
+          <mxGeometry x="130" y="255" width="60" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="yaxis-medium" value="中 Medium" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=right;" parent="1" vertex="1">
+          <mxGeometry x="115" y="455" width="75" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="yaxis-low" value="低 Low" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=right;" parent="1" vertex="1">
+          <mxGeometry x="130" y="655" width="60" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="xaxis-label" value="影响度 Impact" style="text;fontSize=20;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="700" y="900" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xaxis-low" value="低 Low" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="350" y="865" width="100" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="xaxis-medium" value="中 Medium" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="750" y="865" width="100" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="xaxis-high" value="高 High" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="865" width="100" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="grid-v1" value="" style="endArrow=none;html=1;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="160" as="sourcePoint" />
+            <mxPoint x="600" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="grid-v2" value="" style="endArrow=none;html=1;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1000" y="160" as="sourcePoint" />
+            <mxPoint x="1000" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="grid-h1" value="" style="endArrow=none;html=1;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="393" as="sourcePoint" />
+            <mxPoint x="1400" y="393" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="grid-h2" value="" style="endArrow=none;html=1;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="627" as="sourcePoint" />
+            <mxPoint x="1400" y="627" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cell-hl-bg" value="" style="rounded=1;fillColor=#FEF3C7;strokeColor=#F59E0B;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="230" y="190" width="340" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-hl-id" value="GRC-09" style="text;fontSize=14;fontStyle=1;fontColor=#F59E0B;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="250" y="205" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-hl-title" value="Cookie 合规管理" style="text;fontSize=18;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="250" y="230" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-hl-content" value="基于规则引擎 + ML 检测&#xa;自动生成 Cookie Banner 配置&#xa;合规检测自动化" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="250" y="265" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-hl-priority" value="P2" style="text;fontSize=14;fontStyle=1;fontColor=#F59E0B;fontFamily=Inter;align=right;" parent="1" vertex="1">
+          <mxGeometry x="500" y="205" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-hm-bg" value="" style="rounded=1;fillColor=#FEF3C7;strokeColor=#F59E0B;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="630" y="190" width="340" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-hm-id" value="GRC-04" style="text;fontSize=14;fontStyle=1;fontColor=#F59E0B;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="650" y="205" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-hm-title" value="合规差距分析" style="text;fontSize=18;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="650" y="230" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-hm-content" value="对标法规要求 (等保/ISO)&#xa;自动识别控制措施差距&#xa;生成整改建议报告" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="650" y="265" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-hm-priority" value="P1" style="text;fontSize=14;fontStyle=1;fontColor=#F59E0B;fontFamily=Inter;align=right;" parent="1" vertex="1">
+          <mxGeometry x="900" y="205" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-hh-bg" value="" style="rounded=1;fillColor=#FEE2E2;strokeColor=#DC2626;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="190" width="340" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-hh-id" value="GRC-02" style="text;fontSize=14;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="205" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-hh-title" value="DSR 自动化响应" style="text;fontSize=18;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="230" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-hh-content" value="基于 NER 识别数据主体请求&#xa;自动化数据检索与删除&#xa;处理效率提升 +80%" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="265" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-hh-priority" value="P0" style="text;fontSize=16;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;align=right;" parent="1" vertex="1">
+          <mxGeometry x="1290" y="205" width="60" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-ml-bg" value="" style="rounded=1;fillColor=#ECFDF5;strokeColor=#059669;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="230" y="420" width="340" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-ml-id" value="GRC-07" style="text;fontSize=14;fontStyle=1;fontColor=#059669;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="250" y="435" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-ml-title" value="供应商风险评估" style="text;fontSize=18;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="250" y="460" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-ml-content" value="基于爬虫采集 + LLM 分析&#xa;自动生成供应商安全评分&#xa;评估效率提升 +50%" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="250" y="495" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-ml-priority" value="P2" style="text;fontSize=14;fontStyle=1;fontColor=#059669;fontFamily=Inter;align=right;" parent="1" vertex="1">
+          <mxGeometry x="500" y="435" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-mm-bg" value="" style="rounded=1;fillColor=#FEF3C7;strokeColor=#F59E0B;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="630" y="420" width="340" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-mm-id" value="GRC-05" style="text;fontSize=14;fontStyle=1;fontColor=#F59E0B;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="650" y="435" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-mm-title" value="风险量化评估" style="text;fontSize=18;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="650" y="460" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-mm-content" value="基于蒙特卡洛模拟风险损失&#xa;生成风险量化报告&#xa;评估时间缩短 -60%" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="650" y="495" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-mm-priority" value="P1" style="text;fontSize=14;fontStyle=1;fontColor=#F59E0B;fontFamily=Inter;align=right;" parent="1" vertex="1">
+          <mxGeometry x="900" y="435" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-mh-bg" value="" style="rounded=1;fillColor=#FEE2E2;strokeColor=#DC2626;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="420" width="340" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-mh-id" value="GRC-03" style="text;fontSize=14;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="435" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-mh-title" value="政策法规解读" style="text;fontSize=18;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="460" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-mh-content" value="基于 LLM 解读法规更新&#xa;自动生成合规影响分析&#xa;法规响应速度提升 +70%" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="495" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-mh-priority" value="P0" style="text;fontSize=16;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;align=right;" parent="1" vertex="1">
+          <mxGeometry x="1290" y="435" width="60" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-ll-bg" value="" style="rounded=1;fillColor=#ECFDF5;strokeColor=#059669;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="230" y="650" width="340" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-ll-id" value="GRC-08" style="text;fontSize=14;fontStyle=1;fontColor=#059669;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="250" y="665" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-ll-title" value="培训内容生成" style="text;fontSize=18;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="250" y="690" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-ll-content" value="基于 LLM 生成安全培训内容&#xa;自动化培训材料更新&#xa;培训效率提升 +40%" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="250" y="725" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-ll-priority" value="P2" style="text;fontSize=14;fontStyle=1;fontColor=#059669;fontFamily=Inter;align=right;" parent="1" vertex="1">
+          <mxGeometry x="500" y="665" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-lm-bg" value="" style="rounded=1;fillColor=#ECFDF5;strokeColor=#059669;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="630" y="650" width="340" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-lm-id" value="GRC-10" style="text;fontSize=14;fontStyle=1;fontColor=#059669;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="650" y="665" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-lm-title" value="审计证据收集" style="text;fontSize=18;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="650" y="690" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-lm-content" value="自动化收集审计证据&#xa;智能匹配控制措施&#xa;审计准备时间缩短 -50%" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="650" y="725" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-lm-priority" value="P2" style="text;fontSize=14;fontStyle=1;fontColor=#059669;fontFamily=Inter;align=right;" parent="1" vertex="1">
+          <mxGeometry x="900" y="665" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-lh-bg" value="" style="rounded=1;fillColor=#FEF3C7;strokeColor=#F59E0B;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="650" width="340" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-lh-id" value="GRC-01" style="text;fontSize=14;fontStyle=1;fontColor=#F59E0B;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="665" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-lh-title" value="合规知识问答" style="text;fontSize=18;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="690" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-lh-content" value="基于 RAG 合规知识库问答&#xa;支持多语言法规解读&#xa;问答响应效率提升 +60%" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="725" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cell-lh-priority" value="P1" style="text;fontSize=14;fontStyle=1;fontColor=#F59E0B;fontFamily=Inter;align=right;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="665" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1450" y="200" width="420" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-title" value="优先级图例" style="text;fontSize=18;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1450" y="215" width="420" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-p0" value="" style="rounded=1;fillColor=#FEE2E2;strokeColor=#DC2626;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="260" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-p0-text" value="P0 紧急" style="text;fontSize=14;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="270" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-p0-desc" value="高影响 + 高/中置信度" style="text;fontSize=12;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1595" y="270" width="250" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-p1" value="" style="rounded=1;fillColor=#FEF3C7;strokeColor=#F59E0B;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="310" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-p1-text" value="P1 重要" style="text;fontSize=14;fontStyle=1;fontColor=#F59E0B;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="320" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-p1-desc" value="高置信 + 中影响 / 低置信 + 高影响" style="text;fontSize=12;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1595" y="320" width="260" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-p2" value="" style="rounded=1;fillColor=#ECFDF5;strokeColor=#059669;strokeWidth=2;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="360" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-p2-text" value="P2 常规" style="text;fontSize=14;fontStyle=1;fontColor=#059669;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="370" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-p2-desc" value="低影响 / 低置信度场景" style="text;fontSize=12;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1595" y="370" width="260" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="path-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="80" y="940" width="1760" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="path-title" value="推荐实施路径" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="955" width="1760" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="path-content" value="P0: DSR自动化响应 / 政策法规解读  →  P1: 合规差距分析 / 风险量化评估 / 合规知识问答  →  P2: 供应商评估 / 培训生成 / Cookie合规" style="text;fontSize=18;fontColor=#FFFFFF;fontFamily=Inter;align=center;opacity=95;" parent="1" vertex="1">
+          <mxGeometry x="80" y="990" width="1760" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="version" value="V6 Design" style="text;fontSize=12;fontColor=#9CA3AF;fontFamily=Inter;align=right;" parent="1" vertex="1">
+          <mxGeometry x="1760" y="30" width="120" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

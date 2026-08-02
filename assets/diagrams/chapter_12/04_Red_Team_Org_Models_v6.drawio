@@ -1,0 +1,381 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Red Team Organization Models V6" id="rt-org-v6">
+    <mxGraphModel dx="1920" dy="1080" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- Background -->
+        <mxCell id="background" value="" style="fillColor=#FAFBFC;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <!-- Header -->
+        <mxCell id="header-bg" value="" style="fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="红队组织模型对比" style="text;fontSize=42;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="25" width="500" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Red Team Organization Models - 三种典型架构模式" style="text;fontSize=18;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="70" width="600" height="28" as="geometry" />
+        </mxCell>
+
+        <!-- Model 1: Direct to CSO/CISO -->
+        <mxCell id="m1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=6;" parent="1" vertex="1">
+          <mxGeometry x="84" y="134" width="580" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="m1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=6;" parent="1" vertex="1">
+          <mxGeometry x="80" y="130" width="580" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="m1-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=6;" parent="1" vertex="1">
+          <mxGeometry x="80" y="130" width="580" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m1-badge" value="推荐" style="text;fontSize=14;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;fillColor=#FFFFFF;strokeColor=none;rounded=1;arcSize=20;" parent="1" vertex="1">
+          <mxGeometry x="580" y="145" width="60" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="m1-title" value="模型 1: 直属 CSO/CISO" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="110" y="150" width="400" height="36" as="geometry" />
+        </mxCell>
+
+        <!-- Model 1 Org Chart -->
+        <mxCell id="m1-committee" value="风险治理委员会" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="260" y="220" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m1-cso" value="CSO/CISO" style="rounded=1;fillColor=#0066FF;strokeColor=none;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="280" y="290" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="m1-redteam" value="红队负责人" style="rounded=1;fillColor=#EF4444;strokeColor=none;fontSize=14;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="120" y="370" width="110" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="m1-blueteam" value="蓝队/SOC" style="rounded=1;fillColor=#3B82F6;strokeColor=none;fontSize=14;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="250" y="370" width="110" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="m1-grc" value="GRC" style="rounded=1;fillColor=#10B981;strokeColor=none;fontSize=14;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="380" y="370" width="80" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="m1-eng" value="安全工程" style="rounded=1;fillColor=#8B5CF6;strokeColor=none;fontSize=14;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="480" y="370" width="100" height="36" as="geometry" />
+        </mxCell>
+
+        <!-- Model 1 Lines -->
+        <mxCell id="m1-line1" value="" style="endArrow=none;strokeColor=#9CA3AF;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="260" as="sourcePoint" />
+            <mxPoint x="340" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m1-line2" value="" style="endArrow=none;strokeColor=#9CA3AF;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="334" as="sourcePoint" />
+            <mxPoint x="340" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m1-line-h" value="" style="endArrow=none;strokeColor=#9CA3AF;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="360" as="sourcePoint" />
+            <mxPoint x="530" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m1-line-v1" value="" style="endArrow=none;strokeColor=#9CA3AF;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="360" as="sourcePoint" />
+            <mxPoint x="175" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m1-line-v2" value="" style="endArrow=none;strokeColor=#9CA3AF;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="360" as="sourcePoint" />
+            <mxPoint x="305" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m1-line-v3" value="" style="endArrow=none;strokeColor=#9CA3AF;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="360" as="sourcePoint" />
+            <mxPoint x="420" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m1-line-v4" value="" style="endArrow=none;strokeColor=#9CA3AF;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="360" as="sourcePoint" />
+            <mxPoint x="530" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Model 1 Pros/Cons -->
+        <mxCell id="m1-pros-title" value="优势" style="text;fontSize=16;fontStyle=1;fontColor=#10B981;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="110" y="430" width="100" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="m1-pros" value="• 保持独立性和客观性&#xa;• 直接向高层汇报，影响力大&#xa;• 便于跨团队协调&#xa;• 避免与蓝队利益冲突" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="110" y="456" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="m1-cons-title" value="约束" style="text;fontSize=16;fontStyle=1;fontColor=#EF4444;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="380" y="430" width="100" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="m1-cons" value="• 需 CSO/CISO 有足够精力&#xa;• 管理跨度较大" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="380" y="456" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m1-scope" value="适用: 中大型企业 (5000+员工) | 安全团队 50+ | 红队成熟度 L3+" style="text;fontSize=14;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;fillColor=#EEF2FF;rounded=1;arcSize=20;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="570" width="540" height="36" as="geometry" />
+        </mxCell>
+
+        <!-- Model 2: Under SOC -->
+        <mxCell id="m2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=6;" parent="1" vertex="1">
+          <mxGeometry x="704" y="134" width="560" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="m2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=6;" parent="1" vertex="1">
+          <mxGeometry x="700" y="130" width="560" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="m2-header" value="" style="rounded=1;fillColor=#3B82F6;strokeColor=none;arcSize=6;" parent="1" vertex="1">
+          <mxGeometry x="700" y="130" width="560" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m2-title" value="模型 2: 隶属安全运营中心" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="730" y="150" width="400" height="36" as="geometry" />
+        </mxCell>
+
+        <!-- Model 2 Org Chart -->
+        <mxCell id="m2-cso" value="CSO/CISO" style="rounded=1;fillColor=#0066FF;strokeColor=none;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="920" y="220" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="m2-soc-lead" value="安全运营中心负责人" style="rounded=1;fillColor=#3B82F6;strokeColor=none;fontSize=14;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="880" y="300" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m2-redteam" value="红队组" style="rounded=1;fillColor=#EF4444;strokeColor=none;fontSize=14;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="740" y="380" width="100" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="m2-blueteam" value="蓝队/SOC" style="rounded=1;fillColor=#60A5FA;strokeColor=none;fontSize=14;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="870" y="380" width="110" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="m2-ti" value="威胁情报组" style="rounded=1;fillColor=#F59E0B;strokeColor=none;fontSize=14;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="380" width="110" height="36" as="geometry" />
+        </mxCell>
+
+        <!-- Model 2 Lines -->
+        <mxCell id="m2-line1" value="" style="endArrow=none;strokeColor=#9CA3AF;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="264" as="sourcePoint" />
+            <mxPoint x="980" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2-line2" value="" style="endArrow=none;strokeColor=#9CA3AF;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="340" as="sourcePoint" />
+            <mxPoint x="980" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2-line-h" value="" style="endArrow=none;strokeColor=#9CA3AF;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="370" as="sourcePoint" />
+            <mxPoint x="1065" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2-line-v1" value="" style="endArrow=none;strokeColor=#9CA3AF;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="370" as="sourcePoint" />
+            <mxPoint x="790" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2-line-v2" value="" style="endArrow=none;strokeColor=#9CA3AF;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="925" y="370" as="sourcePoint" />
+            <mxPoint x="925" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2-line-v3" value="" style="endArrow=none;strokeColor=#9CA3AF;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1065" y="370" as="sourcePoint" />
+            <mxPoint x="1065" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Model 2 Pros/Cons -->
+        <mxCell id="m2-pros-title" value="优势" style="text;fontSize=16;fontStyle=1;fontColor=#10B981;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="730" y="440" width="100" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="m2-pros" value="• 与蓝队协同紧密&#xa;• 情报共享效率高&#xa;• 资源共享 (靶场/工具)" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="730" y="466" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m2-cons-title" value="劣势" style="text;fontSize=16;fontStyle=1;fontColor=#EF4444;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="440" width="100" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="m2-cons" value="• 可能影响独立性&#xa;• 与蓝队 KPI 可能冲突&#xa;• 评估 SOC 时存在利益冲突" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="466" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m2-scope" value="适用: 中小型企业 (1000-5000员工) | 紫队模式为主 | 资源有限需共享" style="text;fontSize=14;fontStyle=1;fontColor=#3B82F6;fontFamily=Inter;align=center;fillColor=#EFF6FF;rounded=1;arcSize=20;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="720" y="570" width="520" height="36" as="geometry" />
+        </mxCell>
+
+        <!-- Model 3: Virtual Team -->
+        <mxCell id="m3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=6;" parent="1" vertex="1">
+          <mxGeometry x="1304" y="134" width="580" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="m3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=6;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="130" width="580" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="m3-header" value="" style="rounded=1;fillColor=#8B5CF6;strokeColor=none;arcSize=6;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="130" width="580" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m3-title" value="模型 3: 虚拟红队" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="150" width="400" height="36" as="geometry" />
+        </mxCell>
+
+        <!-- Model 3 Org Chart -->
+        <mxCell id="m3-lead" value="红队项目负责人 (兼职)" style="rounded=1;fillColor=#8B5CF6;strokeColor=none;fontSize=14;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1470" y="230" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m3-member1" value="应用安全工程师" style="rounded=1;fillColor=#F3F4F6;strokeColor=#D1D5DB;strokeWidth=2;fontSize=13;fontColor=#374151;fontFamily=Inter;strokeDasharray=3;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="320" width="130" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="m3-member2" value="安全架构师" style="rounded=1;fillColor=#F3F4F6;strokeColor=#D1D5DB;strokeWidth=2;fontSize=13;fontColor=#374151;fontFamily=Inter;strokeDasharray=3;" parent="1" vertex="1">
+          <mxGeometry x="1490" y="320" width="110" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="m3-member3" value="SOC 分析师" style="rounded=1;fillColor=#F3F4F6;strokeColor=#D1D5DB;strokeWidth=2;fontSize=13;fontColor=#374151;fontFamily=Inter;strokeDasharray=3;" parent="1" vertex="1">
+          <mxGeometry x="1620" y="320" width="110" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="m3-member4" value="外部顾问" style="rounded=1;fillColor=#FEF3C7;strokeColor=#F59E0B;strokeWidth=2;fontSize=13;fontColor=#92400E;fontFamily=Inter;strokeDasharray=3;" parent="1" vertex="1">
+          <mxGeometry x="1750" y="320" width="100" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="m3-note" value="虚线表示兼职成员" style="text;fontSize=12;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1490" y="375" width="160" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Model 3 Lines -->
+        <mxCell id="m3-line1" value="" style="endArrow=none;strokeColor=#9CA3AF;strokeWidth=2;strokeDasharray=3;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1570" y="270" as="sourcePoint" />
+            <mxPoint x="1570" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m3-line-h" value="" style="endArrow=none;strokeColor=#9CA3AF;strokeWidth=2;strokeDasharray=3;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1405" y="310" as="sourcePoint" />
+            <mxPoint x="1800" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m3-line-v1" value="" style="endArrow=none;strokeColor=#9CA3AF;strokeWidth=2;strokeDasharray=3;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1405" y="310" as="sourcePoint" />
+            <mxPoint x="1405" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m3-line-v2" value="" style="endArrow=none;strokeColor=#9CA3AF;strokeWidth=2;strokeDasharray=3;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1545" y="310" as="sourcePoint" />
+            <mxPoint x="1545" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m3-line-v3" value="" style="endArrow=none;strokeColor=#9CA3AF;strokeWidth=2;strokeDasharray=3;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1675" y="310" as="sourcePoint" />
+            <mxPoint x="1675" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m3-line-v4" value="" style="endArrow=none;strokeColor=#9CA3AF;strokeWidth=2;strokeDasharray=3;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1800" y="310" as="sourcePoint" />
+            <mxPoint x="1800" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Model 3 Pros/Cons -->
+        <mxCell id="m3-pros-title" value="优势" style="text;fontSize=16;fontStyle=1;fontColor=#10B981;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="410" width="100" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="m3-pros" value="• 成本低，适合起步期&#xa;• 多元技能组合&#xa;• 知识传播快 (回到原岗位)" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="436" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m3-cons-title" value="劣势" style="text;fontSize=16;fontStyle=1;fontColor=#EF4444;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1600" y="410" width="100" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="m3-cons" value="• 成员时间有限&#xa;• 能力深度不足&#xa;• 持续性差，易断档" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1600" y="436" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m3-scope" value="适用: 初创/小型企业 (&lt;1000员工) | 预算有限 | 红队能力探索阶段" style="text;fontSize=14;fontStyle=1;fontColor=#8B5CF6;fontFamily=Inter;align=center;fillColor=#F5F3FF;rounded=1;arcSize=20;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="570" width="540" height="36" as="geometry" />
+        </mxCell>
+
+        <!-- Comparison Matrix -->
+        <mxCell id="cmp-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=6;" parent="1" vertex="1">
+          <mxGeometry x="84" y="764" width="1796" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="cmp-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=6;" parent="1" vertex="1">
+          <mxGeometry x="80" y="760" width="1796" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="cmp-title" value="模型选型决策矩阵" style="text;fontSize=20;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="780" width="300" height="32" as="geometry" />
+        </mxCell>
+
+        <!-- Comparison Header -->
+        <mxCell id="cmp-hdr-bg" value="" style="rounded=0;fillColor=#F8F9FF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="820" width="1756" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="cmp-h1" value="评估维度" style="text;fontSize=14;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="100" y="826" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="cmp-h2" value="模型1: 直属CSO/CISO" style="text;fontSize=14;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="300" y="826" width="500" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="cmp-h3" value="模型2: 隶属SOC" style="text;fontSize=14;fontStyle=1;fontColor=#3B82F6;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="800" y="826" width="400" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="cmp-h4" value="模型3: 虚拟红队" style="text;fontSize=14;fontStyle=1;fontColor=#8B5CF6;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="826" width="400" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- Row 1 -->
+        <mxCell id="cmp-r1-l" value="独立性" style="text;fontSize=14;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="870" width="160" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="cmp-r1-1" value="高 (直接汇报高层)" style="text;fontSize=13;fontColor=#10B981;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="300" y="870" width="500" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="cmp-r1-2" value="中 (受SOC负责人影响)" style="text;fontSize=13;fontColor=#F59E0B;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="800" y="870" width="400" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="cmp-r1-3" value="低 (兼职无专属)" style="text;fontSize=13;fontColor=#EF4444;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="870" width="400" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- Row 2 -->
+        <mxCell id="cmp-r2-l" value="协同效率" style="text;fontSize=14;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="910" width="160" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="cmp-r2-1" value="中 (需跨团队协调)" style="text;fontSize=13;fontColor=#F59E0B;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="300" y="910" width="500" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="cmp-r2-2" value="高 (同一团队内)" style="text;fontSize=13;fontColor=#10B981;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="800" y="910" width="400" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="cmp-r2-3" value="中 (多元视角)" style="text;fontSize=13;fontColor=#F59E0B;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="910" width="400" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- Row 3 -->
+        <mxCell id="cmp-r3-l" value="成本投入" style="text;fontSize=14;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="950" width="160" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="cmp-r3-1" value="高 (全职专业团队)" style="text;fontSize=13;fontColor=#EF4444;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="300" y="950" width="500" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="cmp-r3-2" value="中 (资源共享)" style="text;fontSize=13;fontColor=#F59E0B;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="800" y="950" width="400" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="cmp-r3-3" value="低 (兼职为主)" style="text;fontSize=13;fontColor=#10B981;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="950" width="400" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- Row 4 -->
+        <mxCell id="cmp-r4-l" value="持续性" style="text;fontSize=14;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="990" width="160" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="cmp-r4-1" value="高 (专职保障)" style="text;fontSize=13;fontColor=#10B981;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="300" y="990" width="500" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="cmp-r4-2" value="高 (团队稳定)" style="text;fontSize=13;fontColor=#10B981;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="800" y="990" width="400" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="cmp-r4-3" value="低 (人员流动易断档)" style="text;fontSize=13;fontColor=#EF4444;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="990" width="400" height="24" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

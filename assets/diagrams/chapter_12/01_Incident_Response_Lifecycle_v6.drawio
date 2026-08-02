@@ -1,0 +1,256 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Incident Response Lifecycle V6 Redesign" id="ir-lifecycle-v6-redesign">
+    <mxGraphModel dx="1665" dy="912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="background" value="" style="fillColor=#FAFBFC;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="2400" height="1660" as="geometry" />
+        </mxCell>
+        <mxCell id="header-bg" value="" style="fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="2400" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="应急响应生命周期" style="text;fontSize=48;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="50" width="800" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Incident Response Lifecycle - NIST 6-Phase Framework" style="text;fontSize=20;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="120" width="1200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="84" y="244" width="700" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="80" y="240" width="700" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="80" y="240" width="700" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-num-circle" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="110" y="260" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-num" value="1" style="text;fontSize=40;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="110" y="260" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-title-cn" value="准备" style="text;fontSize=32;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="190" y="260" width="200" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-title-en" value="Preparation" style="text;fontSize=18;fontColor=#FFFFFF;fontFamily=Inter;align=left;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="190" y="300" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-content" value="关键活动:&#xa;• 制定应急响应计划 (IRP)&#xa;• 组建 CSIRT 团队&#xa;• 部署监控工具 (SIEM/EDR/NDR)&#xa;• 建立通信渠道 (War Room)&#xa;• 准备取证工具包&#xa;• 定期演练 (Tabletop Exercise)" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="104" y="360" width="270" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="844" y="244" width="700" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="840" y="240" width="700" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="840" y="240" width="700" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-num-circle" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="870" y="260" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-num" value="2" style="text;fontSize=40;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="870" y="260" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-title-cn" value="检测与分析" style="text;fontSize=32;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="950" y="260" width="280" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-title-en" value="Detection &amp; Analysis" style="text;fontSize=18;fontColor=#FFFFFF;fontFamily=Inter;align=left;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="950" y="300" width="280" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-content" value="检测来源:&#xa;• SIEM 告警 (规则触发)&#xa;• EDR 异常行为 | 用户报告&#xa;• 第三方通知 (安全厂商/客户)&#xa;&#xa;初步分析:&#xa;• 事件分类 (True/False Positive)&#xa;• 严重性评级 (Critical/High/Medium/Low)&#xa;• 影响范围评估 (受影响资产)&#xa;• 时间线构建 (事件起点)&#xa;&#xa;升级决策: L1 → L2 → L3 → CSIRT Manager&#xa;文档: 初始事件报告 (Initial Incident Report)" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="868" y="350" width="350" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1604" y="244" width="700" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1600" y="240" width="700" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1600" y="240" width="700" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-num-circle" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1630" y="260" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-num" value="3" style="text;fontSize=40;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1630" y="260" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-title-cn" value="遏制" style="text;fontSize=32;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1710" y="260" width="200" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-title-en" value="Containment" style="text;fontSize=18;fontColor=#FFFFFF;fontFamily=Inter;align=left;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="1710" y="300" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-content" value="短期遏制:&#xa;• 隔离受感染主机 | 阻断恶意 IP/域名&#xa;• 禁用受损账户 | 断开网络连接&#xa;&#xa;长期遏制:&#xa;• 打补丁修复漏洞 | 重置所有密码&#xa;• 部署临时防护规则 | 加强监控&#xa;" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1630" y="348" width="280" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="sev-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="84" y="1140" width="1080" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="sev-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="80" y="1136" width="1080" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="sev-title" value="严重性分级 Severity Classification" style="text;fontSize=28;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="1176" width="1000" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sev-p0-label" value="Critical (P0 - 1小时响应):" style="text;fontSize=18;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="1236" width="1000" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sev-p0-desc" value="• 核心业务中断 | 大规模数据泄露 | 勒索软件加密 | APT 入侵" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="1266" width="1000" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="sev-p1-label" value="High (P1 - 4小时响应):" style="text;fontSize=18;fontStyle=1;fontColor=#EA580C;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="1316" width="1000" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sev-p1-desc" value="• 部分系统受损 | 敏感数据访问 | 特权账户被盗" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="1346" width="1000" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="sev-p2-label" value="Medium (P2 - 24小时响应):" style="text;fontSize=18;fontStyle=1;fontColor=#F59E0B;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="1396" width="1000" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sev-p2-desc" value="• 单个主机感染 | 钓鱼邮件点击 | 非关键系统漏洞" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="1426" width="1000" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="sev-p3-label" value="Low (P3 - 72小时响应):" style="text;fontSize=18;fontStyle=1;fontColor=#10B981;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="1476" width="1000" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sev-p3-desc" value="• 策略违规 | 误报确认 | 安全配置问题" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="1506" width="1000" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-1-2" value="" style="endArrow=blockThin;html=1;strokeColor=#0066FF;strokeWidth=4;endFill=1;fillColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="430" as="sourcePoint" />
+            <mxPoint x="840" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-2-3" value="" style="endArrow=blockThin;html=1;strokeColor=#0066FF;strokeWidth=4;endFill=1;fillColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1540" y="430" as="sourcePoint" />
+            <mxPoint x="1600" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-6-1-label" value="持续改进" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=2;arcSize=20;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="2050" y="120" width="120" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="QtGjoeCXC79n-cEd3VtX-1" value="决策考量:&#xa;• 业务连续性影响 | 证据保全需求&#xa;• 攻击者反制风险&#xa;&#xa;取证保护:&#xa;• 内存镜像 (RAM dump) | 磁盘镜像&#xa;• 网络流量抓包 | 日志备份" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1980" y="348" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="QtGjoeCXC79n-cEd3VtX-2" value="交付物:&#xa;• IR Playbook (按威胁类型)&#xa;• 联系人清单 (内部/外部/供应商)&#xa;• 法律/PR 模板 | 备用系统&#xa;&#xa;工具: TheHive/Cortex | Volatility | Wireshark" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="428" y="360" width="336" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="QtGjoeCXC79n-cEd3VtX-3" value="升级决策: L1 → L2 → L3 → CSIRT Manager&#xa;文档: 初始事件报告 (Initial Incident Report)" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1198" y="350" width="300" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="QtGjoeCXC79n-cEd3VtX-4" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="88" y="684" width="700" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="QtGjoeCXC79n-cEd3VtX-5" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="84" y="680" width="700" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="QtGjoeCXC79n-cEd3VtX-6" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="84" y="680" width="700" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="QtGjoeCXC79n-cEd3VtX-7" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="109" y="690" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QtGjoeCXC79n-cEd3VtX-8" value="4" style="text;fontSize=40;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="109" y="690" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QtGjoeCXC79n-cEd3VtX-9" value="根除" style="text;fontSize=32;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="189" y="690" width="200" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="QtGjoeCXC79n-cEd3VtX-10" value="Eradication" style="text;fontSize=18;fontColor=#FFFFFF;fontFamily=Inter;align=left;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="189" y="725" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="QtGjoeCXC79n-cEd3VtX-11" value="• 删除恶意软件 (所有变种)&#xa;• 关闭后门/C2 通道&#xa;• 清除持久化机制 (计划任务/注册表)&#xa;• 重建受损系统 (从干净镜像)&#xa;• 验证清除完整性 (扫描残留)" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="114" y="780" width="270" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="QtGjoeCXC79n-cEd3VtX-13" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="842" y="688" width="700" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="QtGjoeCXC79n-cEd3VtX-14" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="838" y="684" width="700" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="QtGjoeCXC79n-cEd3VtX-15" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="838" y="684" width="700" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QtGjoeCXC79n-cEd3VtX-16" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="863" y="694" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QtGjoeCXC79n-cEd3VtX-17" value="5" style="text;fontSize=40;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="863" y="694" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QtGjoeCXC79n-cEd3VtX-18" value="恢复" style="text;fontSize=32;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="943" y="694" width="200" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="QtGjoeCXC79n-cEd3VtX-19" value="Recovery" style="text;fontSize=18;fontColor=#FFFFFF;fontFamily=Inter;align=left;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="943" y="729" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="QtGjoeCXC79n-cEd3VtX-20" value="• 删除恶意软件 (所有变种)&#xa;• 关闭后门/C2 通道&#xa;• 清除持久化机制 (计划任务/注册表)&#xa;• 重建受损系统 (从干净镜像)&#xa;• 验证清除完整性 (扫描残留)" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="868" y="784" width="270" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="QtGjoeCXC79n-cEd3VtX-21" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1596" y="688" width="700" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="QtGjoeCXC79n-cEd3VtX-22" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1592" y="684" width="700" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="QtGjoeCXC79n-cEd3VtX-23" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1592" y="684" width="700" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QtGjoeCXC79n-cEd3VtX-24" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1617" y="694" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QtGjoeCXC79n-cEd3VtX-25" value="6" style="text;fontSize=40;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1617" y="694" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QtGjoeCXC79n-cEd3VtX-26" value="总结改进" style="text;fontSize=32;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1697" y="694" width="200" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="QtGjoeCXC79n-cEd3VtX-27" value="Post-Incident" style="text;fontSize=18;fontColor=#FFFFFF;fontFamily=Inter;align=left;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="1697" y="729" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="QtGjoeCXC79n-cEd3VtX-28" value="• 复盘会议 (Lessons Learned)&#xa;• 事件总结报告 (详细时间线)&#xa;• 改进措施 (防御/检测/响应)&#xa;• 更新 Playbook&#xa;• 培训团队 (新战术)&#xa;• IoC 共享 (ISAC)" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=left;verticalAlign=top;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1622" y="784" width="270" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="QtGjoeCXC79n-cEd3VtX-30" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1212" y="1136" width="1080" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="QtGjoeCXC79n-cEd3VtX-31" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1208" y="1132" width="1080" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="QtGjoeCXC79n-cEd3VtX-32" value="沟通与协调 Communication" style="text;fontSize=28;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1258" y="1172" width="1000" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QtGjoeCXC79n-cEd3VtX-41" value="内部沟通:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1272" y="1258" width="406" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QtGjoeCXC79n-cEd3VtX-42" value="• CSIRT 团队 (Lark/Slack/Teams 专用频道)&#xa;• 管理层 (定期更新 - 每2小时)&#xa;• 业务部门 (受影响系统状态) | IT 运维 (协作恢复)" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=left;opacity=95;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1272" y="1288" width="406" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QtGjoeCXC79n-cEd3VtX-43" value="外部沟通:" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1802" y="1258" width="386" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QtGjoeCXC79n-cEd3VtX-44" value="• 法律顾问 (合规义务) | PR/Marketing (公开声明)&#xa;• 监管机构 (GDPR 72小时/PCI DSS 立即)&#xa;• 客户 (透明度 vs 恐慌平衡)&#xa;• 安全厂商 (技术支持) | 执法机构 (FBI/公安,如涉及犯罪)&#xa;&#xa;最佳实践: 指定单一发言人 + 预审所有对外信息" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=left;opacity=95;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1802" y="1288" width="386" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="QtGjoeCXC79n-cEd3VtX-47" value="" style="endArrow=blockThin;html=1;strokeColor=#0066FF;strokeWidth=4;endFill=1;fillColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="782" y="877.78" as="sourcePoint" />
+            <mxPoint x="842" y="877.78" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QtGjoeCXC79n-cEd3VtX-48" value="" style="endArrow=blockThin;html=1;strokeColor=#0066FF;strokeWidth=4;endFill=1;fillColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1532" y="873.41" as="sourcePoint" />
+            <mxPoint x="1592" y="873.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

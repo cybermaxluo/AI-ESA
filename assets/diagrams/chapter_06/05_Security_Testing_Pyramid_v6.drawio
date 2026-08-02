@@ -1,0 +1,217 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Security Testing Pyramid V6" id="security-testing-pyramid-v6">
+    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="background" value="" style="fillColor=#FAFBFC;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="应用安全测试漏斗" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="64" width="800" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Security Testing Funnel - From High-Frequency Automation to Deep Manual Testing" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="132" width="1000" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="level1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="264" y="228" width="1100" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="level1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="256" y="224" width="1100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="level1-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="256" y="224" width="1100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="level1-number" value="1" style="ellipse;fillColor=#FFFFFF;strokeColor=NONE;fontColor=#0066FF;fontSize=32;fontStyle=1;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="272" y="227" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="level1-title" value="SAST + SCA 静态分析 + 组件扫描" style="text;fontSize=22;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="330" y="235" width="650" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="level1-subtitle" value="Static Application Security Testing + Software Composition Analysis" style="text;fontSize=13;fontColor=#FFFFFF;fontFamily=Inter;align=right;" parent="1" vertex="1">
+          <mxGeometry x="700" y="241" width="640" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="level1-desc" value="频率: 每次 Commit/PR | 工具: SonarQube, Checkmarx, Snyk | 白盒测试,最早发现" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="272" y="286" width="1068" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="level2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="368" y="372" width="900" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="level2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="360" y="368" width="900" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="level2-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="360" y="368" width="900" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="level2-number" value="2" style="ellipse;fillColor=#FFFFFF;strokeColor=NONE;fontColor=#0066FF;fontSize=32;fontStyle=1;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="376" y="371" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="level2-title" value="IAST 交互式应用安全测试" style="text;fontSize=22;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="434" y="379" width="450" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="level2-subtitle" value="Interactive Application Security Testing" style="text;fontSize=13;fontColor=#FFFFFF;fontFamily=Inter;align=right;" parent="1" vertex="1">
+          <mxGeometry x="634" y="385" width="610" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="level2-desc" value="频率: 持续/测试环境 | 工具: Contrast Security, Veracode | 灰盒测试,低误报率" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="376" y="430" width="868" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="level3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="472" y="516" width="700" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="level3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="464" y="512" width="700" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="level3-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="464" y="512" width="700" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="level3-number" value="3" style="ellipse;fillColor=#FFFFFF;strokeColor=NONE;fontColor=#0066FF;fontSize=32;fontStyle=1;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="480" y="515" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="level3-title" value="DAST 动态应用安全测试" style="text;fontSize=22;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="538" y="523" width="420" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="level3-subtitle" value="Dynamic Application Security Testing" style="text;fontSize=13;fontColor=#FFFFFF;fontFamily=Inter;align=right;" parent="1" vertex="1">
+          <mxGeometry x="658" y="529" width="490" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="level3-desc" value="频率: 每周/Nightly Build | 工具: OWASP ZAP, Burp Suite | 黑盒测试,运行时扫描" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="480" y="574" width="668" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="level4-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="568" y="660" width="500" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="level4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="560" y="656" width="500" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="level4-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="560" y="656" width="500" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="level4-number" value="4" style="ellipse;fillColor=#FFFFFF;strokeColor=NONE;fontColor=#0066FF;fontSize=32;fontStyle=1;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="576" y="659" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="level4-title" value="手动渗透测试" style="text;fontSize=22;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="634" y="667" width="280" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="level4-subtitle" value="Manual Penetration Testing" style="text;fontSize=13;fontColor=#FFFFFF;fontFamily=Inter;align=right;" parent="1" vertex="1">
+          <mxGeometry x="684" y="673" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="level4-desc" value="频率: 每季度/发布前 | 成本: 高 | 覆盖: 深度业务逻辑" style="text;fontSize=13;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="576" y="718" width="468" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="funnel-tip" value="" style="shape=triangle;direction=south;fillColor=#f5f5f5;strokeColor=none;fontColor=none;labelBorderColor=none;noLabel=1;" parent="1" vertex="1">
+          <mxGeometry x="606.75" y="800" width="414.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rasp-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1432" y="228" width="420" height="604" as="geometry" />
+        </mxCell>
+        <mxCell id="rasp-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1424" y="224" width="420" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="rasp-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1424" y="224" width="420" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rasp-title" value="RASP" style="text;fontSize=44;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1424" y="244" width="420" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="rasp-subtitle" value="运行时应用自保护" style="text;fontSize=15;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1424" y="292" width="420" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="rasp-divider" value="" style="rounded=0;fillColor=#E0E7FF;strokeColor=NONE;" parent="1" vertex="1">
+          <mxGeometry x="1448" y="348" width="372" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="rasp-features-title" value="核心特性" style="text;fontSize=17;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1448" y="370" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rasp-feature1" value="• 实时攻击防护" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1448" y="406" width="360" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="rasp-feature2" value="• 应用内部保护" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1448" y="436" width="360" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="rasp-feature3" value="• 上下文感知" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1448" y="466" width="360" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="rasp-feature4" value="• 自适应响应" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1448" y="496" width="360" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="rasp-divider2" value="" style="rounded=0;fillColor=#E5E7EB;strokeColor=NONE;" parent="1" vertex="1">
+          <mxGeometry x="1448" y="538" width="372" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rasp-tools-title" value="工具示例" style="text;fontSize=17;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1448" y="558" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rasp-tool1" value="• Contrast Protect" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1448" y="594" width="360" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="rasp-tool2" value="• Imperva RASP" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1448" y="624" width="360" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="rasp-tool3" value="• Signal Sciences" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1448" y="654" width="360" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="rasp-divider3" value="" style="rounded=0;fillColor=#E5E7EB;strokeColor=NONE;" parent="1" vertex="1">
+          <mxGeometry x="1448" y="696" width="372" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rasp-deploy-title" value="部署方式" style="text;fontSize=17;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1448" y="716" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rasp-deploy1" value="• Agent注入/字节码插桩" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1448" y="752" width="360" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="rasp-deploy2" value="• 无需修改应用代码" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1448" y="782" width="360" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="note-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="88" y="909" width="1756" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="note-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="901" width="1756" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="note-title" value="测试策略说明" style="text;fontSize=17;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="96" y="917" width="1720" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="note-text" value="漏斗顶部(SAST/SCA): 自动化程度高,执行频繁,成本低,覆盖广 - Shift Left 核心 | 漏斗底部(Manual PenTest): 手动执行,频率低,成本高,深度分析 - 业务逻辑/复杂场景 | RASP: 生产环境最后防线,实时防护,与测试漏斗互补" style="text;fontSize=13;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="96" y="947" width="1720" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="char-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="88" y="228" width="144" height="604" as="geometry" />
+        </mxCell>
+        <mxCell id="char-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="224" width="140" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="char-title" value="特征" style="text;fontSize=17;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="244" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="freq-arrow" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#999999;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="323" as="sourcePoint" />
+            <mxPoint x="150" y="733" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="freq-label" value="频率" style="text;fontSize=15;fontStyle=0;fontColor=#999999;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="70" y="405" width="108" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="freq-high" value="高" style="text;fontSize=13;fontColor=#10B981;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="96" y="286" width="108" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="freq-low" value="低" style="text;fontSize=13;fontColor=#10B981;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="96" y="742" width="108" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="cost-arrow" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#999999;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="720" as="sourcePoint" />
+            <mxPoint x="150" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cost-label" value="成本" style="text;fontSize=15;fontStyle=0;fontColor=#999999;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="70" y="602" width="108" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="cost-low" value="低" style="text;fontSize=13;fontColor=#999999;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="96" y="742" width="108" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="cost-high" value="高" style="text;fontSize=13;fontColor=#999999;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="96" y="286" width="108" height="18" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

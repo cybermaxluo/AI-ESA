@@ -1,0 +1,169 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Document Security Lifecycle V6" id="doc-security-v6">
+    <mxGraphModel dx="1975" dy="1188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="background" value="" style="fillColor=#FAFBFC;strokeColor=NONE;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="文档安全生命周期" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="48" width="800" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Document Security Lifecycle - IRM, DRM, Watermarking, Tracking" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="128" width="1200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="stage1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="208" width="360" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="stage1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="200" width="360" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="stage1-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="200" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="stage1-num" value="1" style="ellipse;fillColor=#FFFFFF;strokeColor=NONE;fontColor=#0066FF;fontSize=36;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="96" y="208" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="stage1-title" value="创建 Creation" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="160" y="208" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="stage1-items" value="• 分类标签嵌入&#xa;• 元数据标记&#xa;  - Author, Date, Classification&#xa;• 模板应用 (预设权限)&#xa;• IRM 保护激活&#xa;• 初始审计日志" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="96" y="270" width="328" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="stage2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="480" y="208" width="360" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="stage2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="480" y="200" width="360" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="stage2-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="480" y="200" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="stage2-num" value="2" style="ellipse;fillColor=#FFFFFF;strokeColor=NONE;fontColor=#0066FF;fontSize=36;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="496" y="208" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="stage2-title" value="存储 Storage" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="560" y="208" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="stage2-items" value="• 加密存储 (AES-256)&#xa;• 访问控制 (RBAC)&#xa;• 版本控制&#xa;• 备份保护&#xa;• 索引加密&#xa;• 位置限制 (地理围栏)" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="496" y="270" width="328" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="stage3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="880" y="208" width="360" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="stage3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="880" y="200" width="360" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="stage3-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="880" y="200" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="stage3-num" value="3" style="ellipse;fillColor=#FFFFFF;strokeColor=NONE;fontColor=#0066FF;fontSize=36;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="896" y="208" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="stage3-title" value="共享 Sharing" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="960" y="208" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="stage3-items" value="• 动态权限控制&#xa;  - View Only / Edit / Print&#xa;• 过期时间设置&#xa;• 水印嵌入 (动态/静态)&#xa;• 外部共享审批&#xa;• DLP 扫描检查&#xa;• 安全链接生成" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="896" y="270" width="328" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="stage4-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="208" width="280" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="stage4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="200" width="280" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="stage4-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="200" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="stage4-num" value="4" style="ellipse;fillColor=#FFFFFF;strokeColor=NONE;fontColor=#0066FF;fontSize=36;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1296" y="208" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="stage4-title" value="使用 Usage" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="208" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="stage4-items" value="• 实时权限验证&#xa;• 操作审计&#xa;  - Open, View, Edit&#xa;  - Print, Copy&#xa;• 离线访问控制&#xa;• 截屏防护&#xa;• 地理位置验证" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="1296" y="270" width="248" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="stage5-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1600" y="208" width="240" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="stage5-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1600" y="200" width="240" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="stage5-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1600" y="200" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="stage5-num" value="5" style="ellipse;fillColor=#FFFFFF;strokeColor=NONE;fontColor=#0066FF;fontSize=36;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1616" y="208" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="stage5-title" value="销毁" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1680" y="216" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="stage5-items" value="Disposal&#xa;&#xa;• 安全删除&#xa;• 覆盖写入 (3遍)&#xa;• 备份清除&#xa;• 证书吊销&#xa;• 销毁记录" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="1616" y="270" width="208" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="irm-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="464" width="1756" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="irm-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=#0066FF;strokeWidth=3;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="464" width="1756" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="irm-title" value="IRM / DRM 技术 Information Rights Management" style="text;fontSize=36;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="480" width="1000" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="irm-col1-title" value="权限粒度" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="544" width="420" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="irm-col1-items" value="View (查看): 仅阅读,无复制&#xa;Edit (编辑): 修改内容&#xa;Print (打印): 打印许可&#xa;Copy (复制): 复制文本&#xa;Forward (转发): Email 转发&#xa;Export (导出): 另存为其他格式&#xa;Reply (回复): Email 回复权限" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="120" y="570" width="370" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="irm-col2-title" value="实现机制" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="576" y="544" width="520" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="irm-col2-items" value="• 加密文档本体 (AES-256)&#xa;• 权限策略嵌入元数据&#xa;• 密钥服务器集中管理&#xa;• 客户端插件/应用解密&#xa;• 持久化保护 (文档携带权限)&#xa;• 远程撤销能力 (密钥失效)&#xa;• 使用策略: 在线验证 / 离线 Token" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="576" y="570" width="294" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="irm-col3-title" value="主流方案" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1136" y="544" width="680" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="irm-col3-items" value="Microsoft Azure RMS / AIP&#xa;• 与 Office 365 深度集成&#xa;• 支持 PDF, Office, Email&#xa;• 移动端支持 (iOS, Android)" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="1136" y="565" width="264" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="water-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="744" width="870" height="286" as="geometry" />
+        </mxCell>
+        <mxCell id="water-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="736" width="860" height="284" as="geometry" />
+        </mxCell>
+        <mxCell id="water-title" value="水印技术 Watermarking" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="760" width="400" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="water-items" value="静态水印:&#xa;• 创建时嵌入固定文本/图像&#xa;• 不可移除 (嵌入文档层)&#xa;• 内容示例: Company Confidential + 日期&#xa;&#xa;动态水印:&#xa;• 打开时实时生成&#xa;• 个性化信息 (用户名 + IP + 时间戳)&#xa;• 追溯泄露源头&#xa;" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="120" y="800" width="320" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="track-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="984" y="744" width="866" height="286" as="geometry" />
+        </mxCell>
+        <mxCell id="track-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="976" y="736" width="864" height="284" as="geometry" />
+        </mxCell>
+        <mxCell id="track-title" value="文档追踪与审计" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1024" y="760" width="400" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="track-items" value="审计事件:&#xa;• 文档创建/修改/删除&#xa;• 权限变更历史&#xa;• 访问记录 (Who, When, Where, What)&#xa;• 打印/复制/截屏尝试&#xa;• 共享链接生成/使用" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="1024" y="800" width="276" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MIANnZuFzLcxkF9qQepA-1" value="Adobe Experience Manager&#xa;• PDF 级别 DRM&#xa;• 数字签名集成&#xa;&#xa;Google Workspace DLP &amp; IRM&#xa;• Gmail 机密模式&#xa;• Drive 文件权限管理" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="560" width="264" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="MIANnZuFzLcxkF9qQepA-2" value="数字水印:&#xa;• 隐形嵌入 (Steganography)&#xa;• 图像/视频水印 (频域嵌入)&#xa;• 抗截图/拍照 (屏幕动态刷新)&#xa;&#xa;实现工具:&#xa;• Microsoft AIP (动态水印)&#xa;• Seclore Digital Watermarking&#xa;• iText PDF 水印库&#xa;• Screen Watermark (端点代理)" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" vertex="1" parent="1">
+          <mxGeometry x="470" y="800" width="344" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="MIANnZuFzLcxkF9qQepA-3" value="保留策略:&#xa;• 业务文档: 7年 (合规要求)&#xa;• 个人数据: 最小必要期限&#xa;• 审计日志: 3年 (SOX/GDPR)&#xa;• 自动归档/销毁 (Lifecycle Policy)" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="800" width="250" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

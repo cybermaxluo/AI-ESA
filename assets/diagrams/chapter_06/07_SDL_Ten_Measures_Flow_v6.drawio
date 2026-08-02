@@ -1,0 +1,217 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="SDL十项关键措施" id="sdl-ten-key-practices">
+    <mxGraphModel dx="1975" dy="1188" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bg" value="" style="fillColor=#FAFBFC;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="904" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="SDL落地十项关键措施" style="text;fontSize=36;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="610" y="40" width="700" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Ten Key Practices for SDL Implementation" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="610" y="95" width="700" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="measure1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="180" width="410" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="measure1-num" value="" style="ellipse;fillColor=#0066FF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="200" width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="measure1-num-text" value="1" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="100" y="200" width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="measure1-title" value="安全标准与指标" style="text;fontSize=22;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="150" y="205" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="measure1-subtitle" value="Standards &amp; Metrics" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="100" y="250" width="370" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="measure1-desc" value="• 制定开发安全规范&#xa;• 考核指标与例外流程&#xa;• 嵌入SDL至业务流程" style="text;fontSize=12;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="100" y="275" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="measure2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="530" y="180" width="410" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="measure2-num" value="" style="ellipse;fillColor=#0066FF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="550" y="200" width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="measure2-num-text" value="2" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="550" y="200" width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="measure2-title" value="可信组件与框架" style="text;fontSize=22;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="600" y="205" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="measure2-subtitle" value="Trusted Components" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="550" y="250" width="370" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="measure2-desc" value="• 内部安全基础设施优先&#xa;• 外部依赖严格准入&#xa;• 覆盖数据/AI环境" style="text;fontSize=12;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="550" y="275" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="measure3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="980" y="180" width="410" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="measure3-num" value="" style="ellipse;fillColor=#0066FF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="200" width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="measure3-num-text" value="3" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="200" width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="measure3-title" value="安全评审建模" style="text;fontSize=22;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="205" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="measure3-subtitle" value="Review &amp; Threat Modeling" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="250" width="370" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="measure3-desc" value="• 轻量化评审方法&#xa;• STRIDE威胁建模&#xa;• DFD数据流分析" style="text;fontSize=12;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="275" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="measure4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1430" y="180" width="410" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="measure4-num" value="" style="ellipse;fillColor=#0066FF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1450" y="200" width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="measure4-num-text" value="4" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1450" y="200" width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="measure4-title" value="加密工程" style="text;fontSize=22;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="205" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="measure4-subtitle" value="Cryptography Engineering" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1450" y="250" width="370" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="measure4-desc" value="• 算法选型(国际/国密)&#xa;• 禁用弱算法&#xa;• 密钥生命周期管理" style="text;fontSize=12;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1450" y="275" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="measure5-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="380" width="410" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="measure5-num" value="" style="ellipse;fillColor=#0066FF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="400" width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="measure5-num-text" value="5" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="100" y="400" width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="measure5-title" value="供应链安全" style="text;fontSize=22;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="150" y="405" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="measure5-subtitle" value="Supply Chain Security" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="100" y="450" width="370" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="measure5-desc" value="• SBOM管理&#xa;• 制品签名与SLSA认证&#xa;• 数据/模型供应链" style="text;fontSize=12;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="100" y="475" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="measure6-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="530" y="380" width="410" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="measure6-num" value="" style="ellipse;fillColor=#0066FF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="550" y="400" width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="measure6-num-text" value="6" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="550" y="400" width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="measure6-title" value="CI/CD安全" style="text;fontSize=22;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="600" y="405" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="measure6-subtitle" value="CI/CD Pipeline Security" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="550" y="450" width="370" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="measure6-desc" value="• 身份强认证&#xa;• 代码签名与密钥托管&#xa;• 构建隔离与流水线加固" style="text;fontSize=12;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="550" y="475" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="measure7-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="980" y="380" width="410" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="measure7-num" value="" style="ellipse;fillColor=#0066FF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="400" width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="measure7-num-text" value="7" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="400" width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="measure7-title" value="安全测试" style="text;fontSize=22;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="405" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="measure7-subtitle" value="Security Testing" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="450" width="370" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="measure7-desc" value="• SAST/DAST/SCA/IAST&#xa;• 渗透测试与对抗测试&#xa;• 覆盖全生命周期" style="text;fontSize=12;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="475" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="measure8-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1430" y="380" width="410" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="measure8-num" value="" style="ellipse;fillColor=#0066FF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1450" y="400" width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="measure8-num-text" value="8" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1450" y="400" width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="measure8-title" value="基础设施安全" style="text;fontSize=22;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="405" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="measure8-subtitle" value="Infrastructure Security" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1450" y="450" width="370" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="measure8-desc" value="• 云账户隔离&#xa;• 零信任网络&#xa;• 容器K8s准入与运行时防护" style="text;fontSize=12;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1450" y="475" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="measure9-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="580" width="410" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="measure9-num" value="" style="ellipse;fillColor=#0066FF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="600" width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="measure9-num-text" value="9" style="text;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="100" y="600" width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="measure9-title" value="监控与应急" style="text;fontSize=22;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="150" y="605" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="measure9-subtitle" value="Monitoring &amp; Incident Response" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="100" y="650" width="370" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="measure9-desc" value="• 日志全量采集&#xa;• SIEM规则与分级响应&#xa;• SOAR自动化" style="text;fontSize=12;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="100" y="675" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="measure10-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="530" y="580" width="410" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="measure10-num" value="" style="ellipse;fillColor=#0066FF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="550" y="600" width="40" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="measure10-num-text" value="10" style="text;fontSize=18;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="550" y="600" width="40" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="measure10-title" value="度量与改进" style="text;fontSize=22;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="605" y="605" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="measure10-subtitle" value="Metrics &amp; Continuous Improvement" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="550" y="650" width="370" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="measure10-desc" value="• 指标看板(团队/平台级)&#xa;• 成熟度对标(BSIMM/SLSA)&#xa;• 实战输入与持续优化" style="text;fontSize=12;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="550" y="675" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lifecycle-label" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="980" y="580" width="860" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="lifecycle-title" value="SDL生命周期覆盖" style="text;fontSize=24;fontStyle=1;fontColor=#333333;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="980" y="600" width="860" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lifecycle-flow" value="需求分析 → 设计 → 开发 → 测试 → 上线 → 运营" style="text;fontSize=16;fontColor=#999999;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="980" y="640" width="860" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="lifecycle-desc" value="十项措施贯穿全生命周期,实现安全左移与持续防护" style="text;fontSize=14;fontColor=#999999;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="980" y="680" width="860" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=none;arcSize=6;" parent="1" vertex="1">
+          <mxGeometry x="80" y="780" width="1760" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-text" value="完整SDL体系框架: 标准制定 → 工具使用 → 流程嵌入 → 安全验证 → 运营改进 | 参考: BSIMM/DSOMM/SLSA/MASVS成熟度模型" style="text;fontSize=16;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="80" y="780" width="1760" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

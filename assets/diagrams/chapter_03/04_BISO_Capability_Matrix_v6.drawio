@@ -1,0 +1,340 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" version="22.0.0">
+  <diagram name="BISO Capability Matrix" id="biso-capability-matrix-v6">
+    <mxGraphModel dx="1920" dy="1080" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        
+        <mxCell id="title-main" value="BISO 能力发展矩阵" style="text;fontSize=48;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="560" y="24" width="800" height="120" as="geometry" />
+        </mxCell>
+
+        <mxCell id="title-sub" value="BISO Capability Development Matrix - 6 Levels × 8 Dimensions" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="464" y="88" width="1000" height="60" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="matrix-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="1760" height="780" as="geometry" />
+        </mxCell>
+
+        <mxCell id="matrix-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="1760" height="780" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="header-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="1760" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="header-dimension" value="能力维度 Dimension" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="96" y="176" width="280" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="header-l1" value="L1&#10;Junior GSBP" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="400" y="176" width="220" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="header-l2" value="L2&#10;Senior GSBP" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="640" y="176" width="220" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="header-l3" value="L3&#10;BISO" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="880" y="176" width="220" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="header-l4" value="L4&#10;Senior BISO" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="176" width="220" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="header-l5" value="L5&#10;Lead BISO" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="176" width="220" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="header-l6" value="L6&#10;BISO Director" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="176" width="220" height="90" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="row1-bg" value="" style="rounded=0;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="1760" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="dim1" value="技术深度&#10;Technical Depth" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="96" y="256" width="280" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r1c1" value="基础安全概念" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="400" y="264" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r1c2" value="独立评估漏洞" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="640" y="264" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r1c3" value="架构安全设计" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="880" y="264" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r1c4" value="复杂系统优化" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="264" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r1c5" value="技术战略决策" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="264" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r1c6" value="行业技术领导" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="264" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="row2-bg" value="" style="rounded=0;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="1760" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="dim2" value="业务理解&#10;Business Acumen" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="96" y="336" width="280" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r2c1" value="理解业务流程" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="400" y="344" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r2c2" value="识别业务风险" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="640" y="344" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r2c3" value="深入行业洞察" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="880" y="344" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r2c4" value="战略业务影响" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="344" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r2c5" value="业务战略制定" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="344" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r2c6" value="跨领域整合" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="344" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="row3-bg" value="" style="rounded=0;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="1760" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="dim3" value="沟通协作&#10;Communication" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="96" y="416" width="280" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r3c1" value="团队内沟通" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="400" y="424" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r3c2" value="跨团队协调" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="640" y="424" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r3c3" value="影响业务决策" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="880" y="424" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r3c4" value="高管层汇报" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="424" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r3c5" value="跨组织协调" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="424" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r3c6" value="外部代言人" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="424" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="row4-bg" value="" style="rounded=0;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="480" width="1760" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="dim4" value="风险评估&#10;Risk Assessment" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="96" y="496" width="280" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r4c1" value="识别常见风险" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="400" y="504" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r4c2" value="独立风险分析" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="640" y="504" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r4c3" value="复杂场景建模" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="880" y="504" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r4c4" value="风险量化决策" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="504" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r4c5" value="战略风险管理" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="504" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r4c6" value="企业风险治理" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="504" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="row5-bg" value="" style="rounded=0;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="560" width="1760" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="dim5" value="项目管理&#10;Project Management" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="96" y="576" width="280" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r5c1" value="执行任务" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="400" y="584" width="220" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r5c2" value="管理小型项目" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="640" y="584" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r5c3" value="跨团队项目" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="880" y="584" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r5c4" value="复杂项目群" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="584" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r5c5" value="项目组合管理" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="584" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r5c6" value="战略规划执行" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="584" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="row6-bg" value="" style="rounded=0;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="640" width="1760" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="dim6" value="合规知识&#10;Compliance" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="96" y="656" width="280" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r6c1" value="了解基本法规" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="400" y="664" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r6c2" value="执行合规检查" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="640" y="664" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r6c3" value="合规方案设计" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="880" y="664" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r6c4" value="多区域合规" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="664" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r6c5" value="合规战略制定" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="664" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r6c6" value="行业合规领导" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="664" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="row7-bg" value="" style="rounded=0;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="720" width="1760" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="dim7" value="影响力&#10;Influence" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="96" y="736" width="280" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r7c1" value="团队内影响" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="400" y="744" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r7c2" value="业务单元认可" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="640" y="744" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r7c3" value="跨部门影响" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="880" y="744" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r7c4" value="组织级影响" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="744" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r7c5" value="战略决策者" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="744" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r7c6" value="行业影响力" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="744" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="row8-bg" value="" style="rounded=0;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="800" width="1760" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="dim8" value="创新能力&#10;Innovation" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" vertex="1" parent="1">
+          <mxGeometry x="96" y="816" width="280" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r8c1" value="学习新技术" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="400" y="824" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r8c2" value="改进现有流程" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="640" y="824" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r8c3" value="创新方案设计" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="880" y="824" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r8c4" value="变革性创新" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="824" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r8c5" value="建立创新体系" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="824" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r8c6" value="行业颠覆创新" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="824" width="220" height="50" as="geometry" />
+        </mxCell>
+
+        
+        <mxCell id="note-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="984" width="1760" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="note-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=NONE;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="976" width="1760" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="note-text" value="能力发展路径：建议每6-12个月进行能力评估,制定个人发展计划(IDP),通过项目实践、培训认证、导师辅导等方式持续提升" style="text;fontSize=16;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" vertex="1" parent="1">
+          <mxGeometry x="96" y="992" width="1720" height="60" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

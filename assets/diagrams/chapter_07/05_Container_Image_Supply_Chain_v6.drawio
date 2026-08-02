@@ -1,0 +1,154 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Container Image Supply Chain V6" id="container-supply-chain-v6">
+    <mxGraphModel dx="2391" dy="1287" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="background" value="" style="fillColor=#FAFBFC;strokeColor=NONE;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="容器镜像供应链安全" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="64" width="450" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Container Image Supply Chain Security - Build, Scan, Sign, Verify" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="80" y="128" width="510" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="base-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="208" width="400" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="base-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="200" width="400" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="base-title" value="1. 基础镜像选择" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="96" y="200" width="344" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="base-items" value="• 官方镜像 (Docker Hub Verified)&#xa;• 最小化镜像 (Alpine, Distroless)&#xa;• 定期更新基础镜像&#xa;• 私有 Base Image Registry" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="96" y="236" width="354" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="build-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="528" y="208" width="400" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="build-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="520" y="200" width="400" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="build-title" value="2. 安全构建" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="544" y="208" width="156" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="build-items" value="• Multi-stage Build (减小攻击面)&#xa;• 非 root 用户运行&#xa;• .dockerignore (敏感文件)&#xa;• Build-time Secret 管理" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="544" y="246" width="226" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="scan-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="960" y="208" width="400" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="scan-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="960" y="200" width="400" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="scan-title" value="3. 漏洞扫描" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="976" y="208" width="134" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="scan-items" value="• Trivy / Grype / Clair&#xa;• OS + Application 依赖扫描&#xa;• CVE 数据库匹配&#xa;• 阈值策略 (Critical 阻断)" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="976" y="246" width="204" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="sign-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1408" y="208" width="440" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="sign-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="200" width="440" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="sign-title" value="4. 镜像签名" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1424" y="210" width="146" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="sign-items" value="• Cosign (Sigstore) 签名&#xa;• Docker Content Trust (Notary)&#xa;• Keyless Signing (OIDC)&#xa;• SLSA Provenance 附加" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1424" y="246" width="226" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="270" as="sourcePoint" />
+            <mxPoint x="520" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="270" as="sourcePoint" />
+            <mxPoint x="960" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow3" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1360" y="270" as="sourcePoint" />
+            <mxPoint x="1400" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="registry-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="90" y="384" width="1756" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="registry-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=#0066FF;strokeWidth=3;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="370" width="1756" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="registry-title" value="Private Container Registry" style="text;fontSize=36;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="400" width="480" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="reg-col1-title" value="访问控制" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="464" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="reg-col1-items" value="• RBAC (push/pull 权限)&#xa;• OIDC 集成&#xa;• Service Account Token" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="488" width="210" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="reg-col2-title" value="存储安全" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="554" y="464" width="106" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="reg-col2-items" value="• 加密存储 (at rest)&#xa;• Layer 去重&#xa;• Immutability Tags" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="554" y="488" width="176" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="reg-col3-title" value="审计日志" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="970" y="464" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="reg-col3-items" value="• Push/Pull 记录&#xa;• 扫描历史&#xa;• 签名验证日志" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="970" y="488" width="170" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="reg-col4-title" value="工具示例" style="text;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1386" y="464" width="114" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="reg-col4-items" value="• Harbor / Artifactory&#xa;• AWS ECR / GCR / ACR&#xa;• GitLab/GitHub Container Registry" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1386" y="488" width="304" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="deploy-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="624" width="860" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="deploy-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="624" width="860" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="deploy-title" value="5. 部署验证" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="624" width="140" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="deploy-items" value="Admission Webhook (K8s):&#xa;• 签名验证 (cosign verify)&#xa;• Policy 检查 (Kyverno/OPA)&#xa;• SBOM 存在性检查&#xa;• 漏洞阈值门禁 (Critical = 0)&#xa;• Image 白名单/Registry 限制" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="120" y="666" width="420" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="runtime-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="984" y="624" width="856" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="runtime-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="976" y="624" width="856" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="runtime-title" value="6. 运行时保护" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1024" y="624" width="156" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="runtime-items" value="Container Runtime Security:&#xa;• Falco 行为监控 (syscall anomaly)&#xa;• AppArmor / SELinux 强制访问控制&#xa;• Seccomp Profile (系统调用白名单)&#xa;• Read-only Filesystem&#xa;• Network Policy 网络隔离" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="1024" y="668" width="326" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="sbom-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="78" y="824" width="1772" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="sbom-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#0066FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="816" width="1756" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="sbom-title" value="Container SBOM (软件物料清单)" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="816" width="370" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sbom-items" value="生成工具: Syft, Tern, Anchore&#xa;格式: SPDX / CycloneDX&#xa;内容: OS packages + Application dependencies + Layer metadata&#xa;用途: 漏洞追溯 (Log4Shell 式快速定位) | License 合规 | 供应商透明度 | 事件响应" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="856" width="590" height="78" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,154 @@
+<mxfile host="app.diagrams.net" version="24.0.0">
+  <diagram name="DevSecOps工具链架构" id="devsecops-toolchain">
+    <mxGraphModel dx="1920" dy="1080" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- 背景 -->
+        <mxCell id="bg" value="" style="fillColor=#FAFBFC;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry" />
+        </mxCell>
+
+        <!-- 标题 -->
+        <mxCell id="title" value="DevSecOps工具链完整架构" style="text;fontSize=36;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="560" y="40" width="800" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- 副标题 -->
+        <mxCell id="subtitle" value="从IDE到运行时的端到端安全自动化" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" vertex="1" parent="1">
+          <mxGeometry x="610" y="95" width="700" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Layer 1: IDE安全插件 -->
+        <mxCell id="layer1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="160" y="160" width="1600" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-title" value="Layer 1: IDE安全插件" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" vertex="1" parent="1">
+          <mxGeometry x="190" y="178" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-tools" value="工具: SonarLint  •  Snyk Plugin  •  GitLeaks Pre-commit Hook" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;" vertex="1" parent="1">
+          <mxGeometry x="190" y="215" width="1400" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-desc" value="开发阶段实时反馈,降低缺陷修复成本" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=left;" vertex="1" parent="1">
+          <mxGeometry x="190" y="242" width="1400" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Layer 2: 代码仓库 -->
+        <mxCell id="layer2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="160" y="300" width="1600" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-title" value="Layer 2: 代码仓库与Secret扫描" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" vertex="1" parent="1">
+          <mxGeometry x="190" y="318" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-tools" value="工具: GitLab/GitHub  •  TruffleHog  •  GitLeaks Server" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;" vertex="1" parent="1">
+          <mxGeometry x="190" y="355" width="1400" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-desc" value="防止密钥泄露,代码合并前检测" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=left;" vertex="1" parent="1">
+          <mxGeometry x="190" y="382" width="1400" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Layer 3: CI/CD安全门禁 -->
+        <mxCell id="layer3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="160" y="440" width="1600" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-title" value="Layer 3: CI/CD安全门禁" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" vertex="1" parent="1">
+          <mxGeometry x="190" y="458" width="450" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-tools" value="工具: SAST (SonarQube/Semgrep)  •  SCA (Snyk/Murphysec)  •  IAST (Contrast Security)" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;" vertex="1" parent="1">
+          <mxGeometry x="190" y="495" width="1400" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-desc" value="自动化安全测试,严重/高危漏洞阻断构建" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=left;" vertex="1" parent="1">
+          <mxGeometry x="190" y="522" width="1400" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Layer 4: 镜像仓库 -->
+        <mxCell id="layer4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="160" y="580" width="1600" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-title" value="Layer 4: 容器镜像安全" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" vertex="1" parent="1">
+          <mxGeometry x="190" y="598" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-tools" value="工具: Harbor  •  Trivy/Clair/Grype  •  Cosign镜像签名" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;" vertex="1" parent="1">
+          <mxGeometry x="190" y="635" width="1400" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-desc" value="镜像扫描与验证,仅允许签名镜像部署" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=left;" vertex="1" parent="1">
+          <mxGeometry x="190" y="662" width="1400" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Layer 5: 运行时防护 -->
+        <mxCell id="layer5-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="160" y="720" width="1600" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="layer5-title" value="Layer 5: 运行时防护" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" vertex="1" parent="1">
+          <mxGeometry x="190" y="738" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="layer5-tools" value="工具: K8s Security Context/PSA  •  Falco  •  RASP  •  Istio Service Mesh" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;" vertex="1" parent="1">
+          <mxGeometry x="190" y="775" width="1400" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="layer5-desc" value="运行时威胁检测,异常行为拦截" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=left;" vertex="1" parent="1">
+          <mxGeometry x="190" y="802" width="1400" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Layer 6: 安全运营平台 -->
+        <mxCell id="layer6-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="160" y="860" width="1600" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="layer6-title" value="Layer 6: 安全运营平台" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" vertex="1" parent="1">
+          <mxGeometry x="190" y="878" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="layer6-tools" value="工具: SIEM (Splunk/ELK)  •  SOAR自动化编排  •  漏洞管理平台 (DefectDojo)" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=Inter;align=left;" vertex="1" parent="1">
+          <mxGeometry x="190" y="915" width="1400" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="layer6-desc" value="统一安全视图,自动化响应" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=left;" vertex="1" parent="1">
+          <mxGeometry x="190" y="942" width="1400" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- 垂直连接箭头 -->
+        <mxCell id="arrow1-2" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=5;endSize=12;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="270" as="sourcePoint" />
+            <mxPoint x="960" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow2-3" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=5;endSize=12;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="410" as="sourcePoint" />
+            <mxPoint x="960" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow3-4" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=5;endSize=12;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="550" as="sourcePoint" />
+            <mxPoint x="960" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow4-5" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=5;endSize=12;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="690" as="sourcePoint" />
+            <mxPoint x="960" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arrow5-6" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=5;endSize=12;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="830" as="sourcePoint" />
+            <mxPoint x="960" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 底部总结条 -->
+        <mxCell id="footer" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=none;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1000" width="1600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-text" value="端到端安全覆盖：IDE → 代码仓库 → CI/CD → 镜像仓库 → 运行时 → 安全运营" style="text;fontSize=18;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1000" width="1600" height="60" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

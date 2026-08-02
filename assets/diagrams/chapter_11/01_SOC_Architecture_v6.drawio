@@ -1,0 +1,301 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="SOC Architecture V6 Redesign" id="soc-arch-v6-redesign">
+    <mxGraphModel dx="3586" dy="2036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="background" value="" style="fillColor=#FAFBFC;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="32" width="2448" height="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="header-bg" value="" style="fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="32" width="2400" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="SOC 架构与能力体系" style="text;fontSize=56;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="112" y="60" width="900" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Security Operations Center - People, Process, Technology" style="text;fontSize=20;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="112" y="140" width="900" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pillars-title" value="核心支柱" style="text;fontSize=36;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="112" y="240" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pillars-subtitle" value="People • Process • Technology" style="text;fontSize=18;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="112" y="295" width="500" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="people-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="116" y="364" width="700" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="people-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="112" y="360" width="700" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="people-icon-circle" value="" style="ellipse;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=4;gradientColor=#FFFFFF;gradientDirection=south;" parent="1" vertex="1">
+          <mxGeometry x="152" y="400" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="people-icon" value="P" style="text;fontSize=64;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="152" y="400" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="people-title" value="人员" style="text;fontSize=38;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="272" y="425" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="people-subtitle" value="People" style="text;fontSize=18;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="272" y="475" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="people-divider" value="" style="strokeColor=#E0E7FF;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="152" y="520" as="sourcePoint" />
+            <mxPoint x="752" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="people-desc1" value="• 24×7 轮班分析师 (L1/L2/L3)" style="text;fontSize=20;fontColor=#9CA3AF;fontFamily=Inter;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="142" y="546" width="620" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="people-desc2" value="• 威胁猎手 | 逆向工程师 | 事件响应专家" style="text;fontSize=20;fontColor=#9CA3AF;fontFamily=Inter;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="142" y="576" width="620" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="people-desc3" value="• 技能矩阵: MITRE ATT&amp;CK | 云安全 | DFIR" style="text;fontSize=20;fontColor=#9CA3AF;fontFamily=Inter;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="142" y="606" width="620" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="people-desc4" value="• 持续培训 + 认证 (GCIH/GCFA/GCIA/OSCP)" style="text;fontSize=20;fontColor=#9CA3AF;fontFamily=Inter;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="142" y="636" width="620" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="process-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="928" y="371" width="700" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="process-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="924" y="367" width="700" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="process-icon-circle" value="" style="ellipse;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=4;gradientColor=#FFFFFF;gradientDirection=south;" parent="1" vertex="1">
+          <mxGeometry x="964" y="407" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="process-icon" value="P" style="text;fontSize=64;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="964" y="407" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="process-title" value="流程" style="text;fontSize=38;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1084" y="432" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="process-subtitle" value="Process" style="text;fontSize=18;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1084" y="482" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="process-divider" value="" style="strokeColor=#E0E7FF;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="974" y="522" as="sourcePoint" />
+            <mxPoint x="1574" y="522" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="process-desc1" value="• 检测 → 分析 → 遏制 → 根除 → 恢复 (NIST)" style="text;fontSize=20;fontColor=#9CA3AF;fontFamily=Inter;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="964" y="553" width="620" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="process-desc2" value="• Playbook 自动化 (Phishing/Malware/DDoS)" style="text;fontSize=20;fontColor=#9CA3AF;fontFamily=Inter;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="964" y="583" width="620" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="process-desc3" value="• SLA: P1-15min | P2-1h | P3-4h | P4-24h" style="text;fontSize=20;fontColor=#9CA3AF;fontFamily=Inter;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="964" y="613" width="620" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="process-desc4" value="• 案例库 + 战术分析 + 经验萃取" style="text;fontSize=20;fontColor=#9CA3AF;fontFamily=Inter;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="964" y="643" width="620" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="tech-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1770" y="373" width="700" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="tech-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1766" y="369" width="700" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="tech-icon-circle" value="" style="ellipse;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=4;gradientColor=#FFFFFF;gradientDirection=south;" parent="1" vertex="1">
+          <mxGeometry x="1806" y="409" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tech-icon" value="T" style="text;fontSize=64;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1806" y="409" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tech-title" value="技术" style="text;fontSize=38;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1936" y="434" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tech-subtitle" value="Technology" style="text;fontSize=18;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1936" y="484" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="tech-divider" value="" style="strokeColor=#E0E7FF;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1806" y="539" as="sourcePoint" />
+            <mxPoint x="2406" y="539" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tech-desc1" value="• 检测: SIEM (Splunk/ELK) | XDR | NDR | EDR" style="text;fontSize=20;fontColor=#9CA3AF;fontFamily=Inter;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1816" y="540" width="620" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="tech-desc2" value="• 响应: SOAR (Cortex/Phantom) | Case Management" style="text;fontSize=20;fontColor=#9CA3AF;fontFamily=Inter;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1816" y="570" width="620" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="tech-desc3" value="• 情报: TIP (MISP/ThreatConnect) | Feed 聚合" style="text;fontSize=20;fontColor=#9CA3AF;fontFamily=Inter;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1816" y="600" width="620" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="tech-desc4" value="• 数据源: 日志 (Syslog/CEF) | 流量 | 端点 | 云" style="text;fontSize=20;fontColor=#9CA3AF;fontFamily=Inter;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1816" y="630" width="620" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="maturity-title" value="SOC 成熟度演进" style="text;fontSize=36;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="112" y="820" width="500" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="maturity-subtitle" value="Framework: NIST CSF &amp; SOC-CMM | Maturity Model: SOC-CMM" style="text;fontSize=18;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="112" y="875" width="900" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="timeline-1-2" value="" style="strokeColor=#0066FF;strokeWidth=4;endArrow=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1" target="l2-dot">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="1000" as="sourcePoint" />
+            <mxPoint x="572" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="timeline-2-3" value="" style="strokeColor=#0066FF;strokeWidth=4;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1" target="l3-dot" source="l2-dot">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="1000" as="sourcePoint" />
+            <mxPoint x="1162" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="timeline-3-4" value="" style="strokeColor=#0066FF;strokeWidth=4;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1" source="l3-dot">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1380" y="1000" as="sourcePoint" />
+            <mxPoint x="1702" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="timeline-4-5" value="" style="strokeColor=#0066FF;strokeWidth=4;endArrow=blockThin;endFill=1;fillColor=#0066FF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1" source="93PZXuUJWzYoSoveu1tA-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2266" y="999.5" as="sourcePoint" />
+            <mxPoint x="2456" y="999.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l1-dot" value="" style="ellipse;fillColor=none;strokeColor=#0066FF;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="190" y="985" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l1-card-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="116" y="1054" width="420" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="l1-card-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="112" y="1050" width="420" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="l1-number-circle" value="" style="ellipse;fillColor=#0066FF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="152" y="1080" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l1-number" value="1" style="text;fontSize=56;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="152" y="1080" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l1-title" value="初始级" style="text;fontSize=30;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="240" y="1100" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l1-subtitle" value="Initial" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="240" y="1140" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="l1-features" value="• 基础工具分散&#xa;• 手动流程为主&#xa;• 被动响应模式&#xa;• 规则驱动检测&#xa;• 缺乏可见性" style="text;fontSize=20;fontColor=#9CA3AF;fontFamily=Inter;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="220" y="1180" width="148" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="l2-dot" value="" style="ellipse;fillColor=none;strokeColor=#0066FF;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="786" y="985" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l2-card-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="596" y="1054" width="420" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="l2-card-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="592" y="1050" width="420" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="l2-number-circle" value="" style="ellipse;fillColor=#0066FF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="632" y="1080" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l2-number" value="2" style="text;fontSize=56;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="632" y="1080" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l2-title" value="管理级" style="text;fontSize=30;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="730" y="1100" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l2-subtitle" value="Managed" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="730" y="1138" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="l2-features" value="• SIEM 集中化&#xa;• 流程标准化&#xa;• 7×24 运营&#xa;• 基础情报集成&#xa;• 指标化测量" style="text;fontSize=20;fontColor=#9CA3AF;fontFamily=Inter;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="712" y="1180" width="188" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="l3-dot" value="" style="ellipse;fillColor=#0066FF;strokeColor=#0066FF;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="1276" y="985" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l3-card-shadow" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=10;opacity=20;" parent="1" vertex="1">
+          <mxGeometry x="1076" y="1054" width="420" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="l3-card-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=#0066FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1072" y="1050" width="420" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="l3-badge" value="推荐" style="rounded=1;fillColor=#FFFFFF;strokeColor=none;arcSize=30;text;fontSize=14;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1382" y="1070" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l3-number" value="3" style="text;fontSize=72;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1112" y="1080" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="l3-title" value="定义级" style="text;fontSize=30;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1182" y="1098" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l3-subtitle" value="Defined" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=left;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="1182" y="1140" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="l3-features" value="• 威胁猎捕能力&#xa;• SOAR 编排自动化&#xa;• 情报驱动检测&#xa;• ATT&amp;CK 全覆盖&#xa;• 自动化 30-50%" style="text;fontSize=20;fontColor=#FFFFFF;fontFamily=Inter;align=left;verticalAlign=top;opacity=95;" parent="1" vertex="1">
+          <mxGeometry x="1162" y="1180" width="228" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-dot" value="" style="ellipse;fillColor=none;strokeColor=#0066FF;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="1702" y="985" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-card-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1556" y="1054" width="420" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-card-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1552" y="1050" width="420" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-number-circle" value="" style="ellipse;fillColor=#0066FF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1592" y="1080" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-number" value="4" style="text;fontSize=56;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1592" y="1080" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-title" value="量化级" style="text;fontSize=30;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1692" y="1105" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-subtitle" value="Quantitatively Managed" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1692" y="1145" width="208" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="l4-features" value="• XDR 统一检测响应&#xa;• ML 驱动威胁检测&#xa;• 预测性安全分析&#xa;• 业务风险量化&#xa;• 自动化 50-70%" style="text;fontSize=20;fontColor=#9CA3AF;fontFamily=Inter;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1690" y="1183" width="194" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="l5-card-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="2036" y="1054" width="420" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="l5-card-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=3;arcSize=10;" parent="1" vertex="1">
+          <mxGeometry x="2032" y="1050" width="420" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="l5-number-circle" value="" style="ellipse;fillColor=#0066FF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2072" y="1080" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l5-number" value="5" style="text;fontSize=56;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="2072" y="1080" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l5-title" value="优化级" style="text;fontSize=30;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="2170" y="1105" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l5-subtitle" value="Optimizing" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="2177" y="1148" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="l5-features" value="• AI 自主运营&#xa;• 零信任深度集成&#xa;• 威胁预测与预防&#xa;• 行业领导力&#xa;• 自动化 &gt;70%" style="text;fontSize=20;fontColor=#9CA3AF;fontFamily=Inter;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="2170" y="1183" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="metrics-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="112" y="1400" width="2358" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="metrics-title" value="关键性能指标 KPI" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="172" y="1430" width="300" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="metrics-text" value="领先企业: MTTD &lt;24h | MTTR &lt;4h | 自动化率 &gt;70% | False Positive &lt;5% | IBM 2024: 平均检测204天/遏制73天" style="text;fontSize=17;fontColor=#999999;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="172" y="1470" width="2100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="93PZXuUJWzYoSoveu1tA-2" value="" style="ellipse;fillColor=none;strokeColor=#0066FF;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="2210" y="985" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="93PZXuUJWzYoSoveu1tA-3" value="" style="strokeColor=#0066FF;strokeWidth=4;endArrow=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="93PZXuUJWzYoSoveu1tA-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1732" y="999.5" as="sourcePoint" />
+            <mxPoint x="2170" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

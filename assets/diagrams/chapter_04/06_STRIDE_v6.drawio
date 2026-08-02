@@ -1,0 +1,130 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="STRIDE Threat Model" id="stride-v6">
+    <mxGraphModel dx="2072" dy="1241" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title-main" value="STRIDE 威胁建模" style="text;fontSize=48;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="560" y="40" width="800" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="title-sub" value="Microsoft STRIDE Threat Modeling Framework" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="512" y="104" width="896" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="t1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="496" y="208" width="380" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="t1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;strokeWidth=1;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="488" y="200" width="380" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="t1-icon" value="S" style="text;fontSize=64;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="608" y="224" width="140" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="t1-title" value="身份欺骗" style="text;fontSize=32;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="488" y="312" width="380" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="t1-subtitle" value="Spoofing" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="488" y="352" width="380" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="t1-desc" value="伪造身份或凭证&#xa;非法访问系统资源" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="488" y="376" width="380" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="904" y="208" width="380" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="t2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;strokeWidth=1;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="896" y="200" width="380" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="t2-icon" value="T" style="text;fontSize=64;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1016" y="224" width="140" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="t2-title" value="数据篡改" style="text;fontSize=32;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="896" y="312" width="380" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="t2-subtitle" value="Tampering" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="896" y="352" width="380" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="t2-desc" value="恶意修改数据或代码&#xa;破坏数据完整性" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="896" y="376" width="380" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="t3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1312" y="208" width="380" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="t3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;strokeWidth=1;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1304" y="200" width="380" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="t3-icon" value="R" style="text;fontSize=64;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1424" y="224" width="140" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="t3-title" value="否认行为" style="text;fontSize=32;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1304" y="312" width="380" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="t3-subtitle" value="Repudiation" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1304" y="352" width="380" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="t3-desc" value="用户否认操作行为&#xa;缺乏审计追踪能力" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1304" y="376" width="380" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="t4-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="496" y="472" width="380" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="t4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;strokeWidth=1;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="488" y="464" width="380" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="t4-icon" value="I" style="text;fontSize=64;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="608" y="488" width="140" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="t4-title" value="信息泄露" style="text;fontSize=32;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="488" y="576" width="380" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="t4-subtitle" value="Information Disclosure" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="488" y="616" width="380" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="t4-desc" value="敏感信息暴露&#xa;未授权数据访问" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="488" y="640" width="380" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="t5-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="904" y="472" width="380" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="t5-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;strokeWidth=1;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="896" y="464" width="380" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="t5-icon" value="D" style="text;fontSize=64;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1016" y="488" width="140" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="t5-title" value="拒绝服务" style="text;fontSize=32;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="896" y="576" width="380" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="t5-subtitle" value="Denial of Service" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="896" y="616" width="380" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="t5-desc" value="耗尽系统资源&#xa;使服务不可用" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="898" y="640" width="380" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="t6-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1312" y="472" width="380" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="t6-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;strokeWidth=1;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1304" y="464" width="380" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="t6-icon" value="E" style="text;fontSize=64;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1424" y="488" width="140" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="t6-title" value="权限提升" style="text;fontSize=32;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1304" y="576" width="380" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="t6-subtitle" value="Elevation of Privilege" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1304" y="616" width="380" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="t6-desc" value="获取未授权权限&#xa;执行特权操作" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1304" y="640" width="380" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-shadow" value="" style="rounded=1;arcSize=8;glass=1;shadow=1;fontColor=none;noLabel=1;" parent="1" vertex="1">
+          <mxGeometry x="488" y="752" width="1200" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="footer-text" value="应用场景: 设计阶段威胁识别 • 安全需求分析 • 风险评估 • 安全测试用例生成" style="text;fontSize=20;fontColor=#999999;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="776" y="764" width="744" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

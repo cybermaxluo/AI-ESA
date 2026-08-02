@@ -1,0 +1,280 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Differential Privacy ε Tradeoff" id="dp-epsilon-tradeoff">
+    <mxGraphModel dx="1975" dy="1220" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAFBFC;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="差分隐私 ε 参数权衡矩阵" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=36;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="560" y="30" width="800" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Differential Privacy ε Parameter Trade-off Matrix" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontColor=#666666;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="660" y="80" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="formula-card" value="" style="rounded=16;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="130" width="500" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="formula-title" value="数学定义" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="100" y="145" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="formula-text" value="(ε, δ)-差分隐私机制 M 满足：" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontColor=#333333;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="100" y="175" width="450" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="formula-main" value="P[M(D) ∈ S] ≤ e^ε × P[M(D&#39;) ∈ S] + δ" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#F0F4FF;strokeColor=#0066FF;strokeWidth=1;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=Consolas;" parent="1" vertex="1">
+          <mxGeometry x="100" y="205" width="460" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="formula-note" value="D 与 D&#39; 为相邻数据集（仅相差一条记录）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontColor=#666666;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="100" y="260" width="400" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="insight-card" value="" style="rounded=16;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="600" y="130" width="460" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="insight-title" value="核心权衡" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="620" y="145" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="insight-arrow" value="" style="shape=flexArrow;endArrow=classic;html=1;strokeColor=#0066FF;fillColor=#0066FF;width=20;endSize=6;startArrow=classic;startSize=6;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="210" as="sourcePoint" />
+            <mxPoint x="1030" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="insight-left" value="ε 越小&#xa;隐私保护越强&#xa;准确率损失越大" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontColor=#DC2626;fontFamily=Inter;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="620" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="insight-right" value="ε 越大&#xa;隐私保护越弱&#xa;准确率损失越小" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontColor=#16A34A;fontFamily=Inter;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="930" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="factors-card" value="" style="rounded=16;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="130" width="760" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="factors-title" value="ε 值选择影响因素" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="145" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="factor1" value="模型架构" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#3B82F6;strokeWidth=1;fontSize=13;fontColor=#1E40AF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="185" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="factor1-desc" value="简单模型影响较小" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#666666;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="222" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="factor2" value="数据规模" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#3B82F6;strokeWidth=1;fontSize=13;fontColor=#1E40AF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="185" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="factor2-desc" value="大规模可用更小 ε" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#666666;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="222" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="factor3" value="训练轮次" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#3B82F6;strokeWidth=1;fontSize=13;fontColor=#1E40AF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="185" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="factor3-desc" value="轮次多则累积消耗" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#666666;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="222" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="factor4" value="业务容忍度" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#EF4444;strokeWidth=1;fontSize=13;fontColor=#DC2626;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="185" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="factor4-desc" value="关键决策因素" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#666666;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="222" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="factor5" value="监管要求" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#F59E0B;strokeWidth=1;fontSize=13;fontColor=#B45309;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="185" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="factor5-desc" value="合规最低标准" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#666666;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="222" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="factor6" value="任务类型" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#3B82F6;strokeWidth=1;fontSize=13;fontColor=#1E40AF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1700" y="185" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="factor6-desc" value="分类/回归差异" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#666666;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1700" y="222" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="matrix-header" value="" style="rounded=16;whiteSpace=wrap;html=1;fillColor=#0066FF;strokeColor=#0052CC;strokeWidth=2;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="340" width="1760" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="header-col1" value="ε 值区间" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="80" y="355" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="header-col2" value="隐私保护强度" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="280" y="355" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="header-col3" value="典型准确率影响" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="480" y="355" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="header-col4" value="适用场景" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="760" y="355" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="header-col5" value="决策建议" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="355" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="header-col6" value="典型案例" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="355" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="row1-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FEF2F2;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="400" width="1760" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="row1-epsilon" value="ε ≤ 1" style="rounded=12;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=#B91C1C;strokeWidth=2;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="105" y="425" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="row1-strength" value="️ 强保护" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;strokeWidth=1;fontSize=16;fontStyle=1;fontColor=#166534;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="305" y="435" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="row1-accuracy" value="准确率可能下降&#xa;5-15 个百分点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#DC2626;fontFamily=Inter;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="430" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="row1-scenario" value="• 高敏感医疗/金融数据&#xa;• 强监管合规要求（GDPR）&#xa;• 对准确率容忍度高的场景" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=13;fontColor=#333333;fontFamily=Inter;spacing=3;" parent="1" vertex="1">
+          <mxGeometry x="770" y="415" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="row1-decision" value="需业务方明确签署准确率容忍声明&#xa;建议从 ε=1 开始实验&#xa;逐步降低观察效果" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=13;fontColor=#333333;fontFamily=Inter;spacing=3;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="415" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="row1-case" value="医疗诊断 AI&#xa;基因数据分析&#xa;敏感人群画像" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=13;fontColor=#666666;fontFamily=Inter;spacing=3;" parent="1" vertex="1">
+          <mxGeometry x="1470" y="415" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="row2-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFBEB;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="510" width="1760" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="row2-epsilon" value="1 &lt; ε ≤ 5" style="rounded=12;whiteSpace=wrap;html=1;fillColor=#F59E0B;strokeColor=#D97706;strokeWidth=2;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="105" y="535" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="row2-strength" value="⚖️ 中等保护" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#F59E0B;strokeWidth=1;fontSize=16;fontStyle=1;fontColor=#B45309;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="305" y="545" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="row2-accuracy" value="准确率可能下降&#xa;2-8 个百分点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#B45309;fontFamily=Inter;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="540" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="row2-scenario" value="• 平衡隐私与效用场景&#xa;• 内部数据分析&#xa;• 中等敏感度业务数据" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=13;fontColor=#333333;fontFamily=Inter;spacing=3;" parent="1" vertex="1">
+          <mxGeometry x="770" y="525" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="row2-decision" value="推荐起点：多数企业首选区间&#xa;需在自有数据集上实验验证&#xa;记录隐私-效用曲线供决策" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=13;fontColor=#333333;fontFamily=Inter;spacing=3;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="525" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="row2-case" value="用户行为分析&#xa;推荐系统训练&#xa;一般分类任务" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=13;fontColor=#666666;fontFamily=Inter;spacing=3;" parent="1" vertex="1">
+          <mxGeometry x="1470" y="525" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="row3-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F0FDF4;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="620" width="1760" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="row3-epsilon" value="5 &lt; ε ≤ 10" style="rounded=12;whiteSpace=wrap;html=1;fillColor=#16A34A;strokeColor=#15803D;strokeWidth=2;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="105" y="645" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="row3-strength" value=" 较弱保护" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#3B82F6;strokeWidth=1;fontSize=16;fontStyle=1;fontColor=#1E40AF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="305" y="655" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="row3-accuracy" value="准确率下降通常&#xa;&lt; 3 个百分点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#16A34A;fontFamily=Inter;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="650" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="row3-scenario" value="• 业务优先场景&#xa;• 低敏感度数据&#xa;• 内部实验性项目" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=13;fontColor=#333333;fontFamily=Inter;spacing=3;" parent="1" vertex="1">
+          <mxGeometry x="770" y="635" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="row3-decision" value="业务对准确率敏感时的妥协选择&#xa;隐私保护有限，需配合其他措施&#xa;监管审计时可能被质疑" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=13;fontColor=#333333;fontFamily=Inter;spacing=3;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="635" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="row3-case" value="内部报表统计&#xa;非敏感画像分析&#xa;辅助决策模型" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=13;fontColor=#666666;fontFamily=Inter;spacing=3;" parent="1" vertex="1">
+          <mxGeometry x="1470" y="635" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="row4-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F3F4F6;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="730" width="1760" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="row4-epsilon" value="ε &gt; 10" style="rounded=12;whiteSpace=wrap;html=1;fillColor=#6B7280;strokeColor=#4B5563;strokeWidth=2;fontSize=20;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="105" y="755" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="row4-strength" value="️ 弱保护" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#F3F4F6;strokeColor=#9CA3AF;strokeWidth=1;fontSize=16;fontStyle=1;fontColor=#6B7280;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="305" y="765" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="row4-accuracy" value="准确率接近基线&#xa;几乎无损失" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontColor=#6B7280;fontFamily=Inter;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="760" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="row4-scenario" value="• 形式合规需求&#xa;• 已有其他保护措施&#xa;• 非隐私敏感数据" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=13;fontColor=#333333;fontFamily=Inter;spacing=3;" parent="1" vertex="1">
+          <mxGeometry x="770" y="745" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="row4-decision" value="隐私保护效果有限&#xa;不建议作为主要隐私手段&#xa;仅作为多层防护的补充" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=13;fontColor=#333333;fontFamily=Inter;spacing=3;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="745" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="row4-case" value="公开数据聚合分析&#xa;已脱敏数据的二次保护&#xa;研究实验场景" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=13;fontColor=#666666;fontFamily=Inter;spacing=3;" parent="1" vertex="1">
+          <mxGeometry x="1470" y="745" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cost-card" value="" style="rounded=16;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="870" width="550" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="cost-title" value="实施成本隐藏项" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="100" y="885" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cost1" value="超参数调优" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#EF4444;strokeWidth=1;fontSize=13;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="100" y="925" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="cost1-desc" value="ε、噪声乘数、梯度裁剪&#xa;需大量实验" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#666666;fontFamily=Inter;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="100" y="960" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cost2" value="训练延长" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#EF4444;strokeWidth=1;fontSize=13;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="220" y="925" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="cost2-desc" value="DP-SGD 计算开销&#xa;通常为数倍" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#666666;fontFamily=Inter;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="220" y="960" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cost3" value="持续维护" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#EF4444;strokeWidth=1;fontSize=13;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="340" y="925" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="cost3-desc" value="模型更新需重新调优&#xa;预算需跨版本累积" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#666666;fontFamily=Inter;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="340" y="960" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cost4" value="专业门槛" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#F59E0B;strokeWidth=1;fontSize=13;fontStyle=1;fontColor=#B45309;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="460" y="925" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="cost4-desc" value="团队需具备&#xa;差分隐私经验" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#666666;fontFamily=Inter;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="460" y="960" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="validation-card" value="" style="rounded=16;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="660" y="870" width="550" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="validation-title" value="验证方法" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="680" y="885" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="val1" value="成员推断攻击测试" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;strokeWidth=1;fontSize=13;fontStyle=1;fontColor=#166534;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="680" y="925" width="150" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="val1-desc" value="评估模型是否泄露&#xa;训练数据成员身份" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#666666;fontFamily=Inter;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="680" y="960" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="val2" value="隐私审计工具" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;strokeWidth=1;fontSize=13;fontStyle=1;fontColor=#166534;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="850" y="925" width="150" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="val2-desc" value="Opacus Auditor&#xa;验证实际 ε 值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#666666;fontFamily=Inter;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="850" y="960" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="val3" value="准确率-隐私曲线" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;strokeWidth=1;fontSize=13;fontStyle=1;fontColor=#166534;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="925" width="150" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="val3-desc" value="绘制不同 ε 下曲线&#xa;为业务决策提供依据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#666666;fontFamily=Inter;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="960" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pitfall-card" value="" style="rounded=16;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="870" width="600" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="pitfall-title" value="️ 常见误区" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1260" y="885" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pitfall1" value="" style="rounded=12;whiteSpace=wrap;html=1;fillColor=#FEF2F2;strokeColor=#FECACA;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1260" y="920" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="pitfall1-title" value="过度承诺隐私保护效果" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1275" y="930" width="240" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="pitfall1-desc" value="差分隐私提供的是概率保证而非绝对保护。&#xa;在 ε 值较大或攻击者拥有辅助信息时，&#xa;仍存在推断风险。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontColor=#666666;fontFamily=Inter;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1275" y="955" width="240" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="pitfall2" value="" style="rounded=12;whiteSpace=wrap;html=1;fillColor=#FEF2F2;strokeColor=#FECACA;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="1550" y="920" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="pitfall2-title" value="低估调优复杂度" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="1565" y="930" width="240" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="pitfall2-desc" value="差分隐私的参数调优涉及隐私-效用曲线&#xa;的探索，实验次数和成本常被低估。&#xa;建议预留 2-3 倍时间预算。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontColor=#666666;fontFamily=Inter;spacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1565" y="955" width="240" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="footer" value="说明：上述区间为基于 DP-SGD 算法在图像分类（CIFAR-10、MNIST）和文本分类任务上的典型观察值。实际影响取决于模型架构、数据集规模、训练轮次等因素。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#666666;fontFamily=Inter;" parent="1" vertex="1">
+          <mxGeometry x="80" y="1080" width="1760" height="25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

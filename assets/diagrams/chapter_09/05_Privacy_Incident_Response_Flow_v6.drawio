@@ -1,0 +1,427 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="隐私事件响应六阶段流程" id="privacy-incident-response-v6">
+    <mxGraphModel dx="2155" dy="1331" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bg" value="" style="fillColor=#FAFBFC;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="隐私事件响应六阶段流程" style="text;fontSize=48;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="560" y="40" width="800" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Privacy Incident Response - Six Phase Model (GDPR 72h Compliance)" style="text;fontSize=20;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="460" y="105" width="1000" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="timeline-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=4;" parent="1" vertex="1">
+          <mxGeometry x="80" y="155" width="1760" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="timeline-label" value="GDPR 72h Timeline" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="100" y="168" width="200" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="timeline-t0" value="T+0" style="text;fontSize=14;fontColor=#EF4444;fontFamily=Inter;align=center;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="168" width="60" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="timeline-t4" value="T+4h" style="text;fontSize=14;fontColor=#F59E0B;fontFamily=Inter;align=center;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="168" width="60" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="timeline-t24" value="T+24h" style="text;fontSize=14;fontColor=#F59E0B;fontFamily=Inter;align=center;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="750" y="168" width="60" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="timeline-t72" value="T+72h" style="text;fontSize=14;fontColor=#EF4444;fontFamily=Inter;align=center;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="168" width="60" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="timeline-t30d" value="T+30d" style="text;fontSize=14;fontColor=#10B981;fontFamily=Inter;align=center;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="168" width="60" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="timeline-t60d" value="T+60d" style="text;fontSize=14;fontColor=#10B981;fontFamily=Inter;align=center;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1620" y="168" width="60" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="84" y="234" width="260" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#EF4444;strokeWidth=3;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="230" width="260" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1-num-bg" value="" style="ellipse;fillColor=#EF4444;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="250" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1-num" value="1" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="100" y="257" width="48" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1-title" value="检测与报告" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="160" y="255" width="160" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1-en" value="Detection" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="160" y="290" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1-time" value="T+0" style="text;fontSize=16;fontStyle=1;fontColor=#EF4444;fontFamily=Inter;align=center;fillColor=#FEF2F2;rounded=1;arcSize=20;" parent="1" vertex="1">
+          <mxGeometry x="100" y="320" width="60" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1-desc1" value="安全监控系统告警" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="100" y="360" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1-desc2" value="员工/用户报告" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="100" y="385" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1-desc3" value="第三方/媒体通知" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="100" y="410" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1-output" value="启动IRT,记录计时起点" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="100" y="470" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow1" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=4;endSize=12;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="370" as="sourcePoint" />
+            <mxPoint x="375" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phase2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="384" y="234" width="260" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#F59E0B;strokeWidth=3;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="380" y="230" width="260" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2-num-bg" value="" style="ellipse;fillColor=#F59E0B;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="400" y="250" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2-num" value="2" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="400" y="257" width="48" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2-title" value="遏制" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="460" y="255" width="160" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2-en" value="Containment" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="460" y="290" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2-time" value="T+0 ~ T+4h" style="text;fontSize=16;fontStyle=1;fontColor=#F59E0B;fontFamily=Inter;align=center;fillColor=#FFFBEB;rounded=1;arcSize=20;" parent="1" vertex="1">
+          <mxGeometry x="400" y="320" width="100" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2-desc1" value="隔离受影响系统" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="400" y="360" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2-desc2" value="撤销泄露凭证" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="400" y="385" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2-desc3" value="证据保全 (日志/内存)" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="400" y="410" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2-desc4" value="关闭漏洞入口" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="400" y="435" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2-output" value="阻止泄露扩大" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="400" y="470" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow2" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=4;endSize=12;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="370" as="sourcePoint" />
+            <mxPoint x="675" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phase3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="684" y="234" width="260" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#F59E0B;strokeWidth=3;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="680" y="230" width="260" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3-num-bg" value="" style="ellipse;fillColor=#F59E0B;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="700" y="250" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3-num" value="3" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="700" y="257" width="48" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3-title" value="影响评估" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="760" y="255" width="160" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3-en" value="Assessment" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="760" y="290" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3-time" value="T+4h ~ T+24h" style="text;fontSize=16;fontStyle=1;fontColor=#F59E0B;fontFamily=Inter;align=center;fillColor=#FFFBEB;rounded=1;arcSize=20;" parent="1" vertex="1">
+          <mxGeometry x="700" y="320" width="110" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3-desc1" value="确定受影响数据类型" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="700" y="360" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3-desc2" value="评估影响人数" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="700" y="385" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3-desc3" value="风险等级评估" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="700" y="410" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3-desc4" value="通知义务判定" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="700" y="435" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3-output" value="风险评估报告" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="700" y="470" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow3" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=4;endSize=12;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="370" as="sourcePoint" />
+            <mxPoint x="975" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phase4-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="984" y="234" width="260" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=#0066FF;strokeWidth=3;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="980" y="230" width="260" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4-num-bg" value="" style="ellipse;fillColor=#FFFFFF;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="250" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4-num" value="4" style="text;fontSize=28;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="257" width="48" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4-title" value="通知" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="255" width="160" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4-en" value="Notification" style="text;fontSize=14;fontColor=#E0E7FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="290" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4-time" value="72h Deadline" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;fillColor=#FFFFFF;rounded=1;arcSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="320" width="110" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4-desc1" value="通知监管机构 (72h)" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="360" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4-desc2" value="通知数据主体 (高风险)" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="385" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4-desc3" value="内部通知 (高管/董事会)" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="410" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4-desc4" value="公关声明 (如需)" style="text;fontSize=14;fontColor=#FFFFFF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="435" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4-output" value="通知记录,监管确认" style="text;fontSize=13;fontColor=#E0E7FF;fontFamily=Inter;align=left;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="470" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow4" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=4;endSize=12;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="370" as="sourcePoint" />
+            <mxPoint x="1275" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phase5-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1284" y="234" width="260" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="phase5-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#10B981;strokeWidth=3;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="230" width="260" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="phase5-num-bg" value="" style="ellipse;fillColor=#10B981;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="250" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="phase5-num" value="5" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="257" width="48" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="phase5-title" value="补救" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="255" width="160" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="phase5-en" value="Remediation" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="290" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="phase5-time" value="T+72h ~ T+30d" style="text;fontSize=16;fontStyle=1;fontColor=#10B981;fontFamily=Inter;align=center;fillColor=#ECFDF5;rounded=1;arcSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="320" width="120" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="phase5-desc1" value="漏洞修补与系统加固" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="360" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="phase5-desc2" value="数据恢复 (从备份)" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="385" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="phase5-desc3" value="用户支持服务 (信用监测)" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="410" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="phase5-desc4" value="监控能力增强" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="435" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="phase5-output" value="补救措施报告" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="470" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow5" value="" style="endArrow=blockThin;strokeColor=#0066FF;strokeWidth=4;endSize=12;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1540" y="370" as="sourcePoint" />
+            <mxPoint x="1575" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phase6-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1584" y="234" width="260" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="phase6-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#10B981;strokeWidth=3;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="230" width="260" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="phase6-num-bg" value="" style="ellipse;fillColor=#10B981;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1600" y="250" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="phase6-num" value="6" style="text;fontSize=28;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1600" y="257" width="48" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="phase6-title" value="事后回顾" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1660" y="255" width="160" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="phase6-en" value="Post-Incident Review" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1660" y="290" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="phase6-time" value="T+30d ~ T+60d" style="text;fontSize=16;fontStyle=1;fontColor=#10B981;fontFamily=Inter;align=center;fillColor=#ECFDF5;rounded=1;arcSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1600" y="320" width="120" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="phase6-desc1" value="根因分析 (RCA)" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1600" y="360" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="phase6-desc2" value="流程与技术改进" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1600" y="385" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="phase6-desc3" value="更新响应预案" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1600" y="410" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="phase6-desc4" value="向监管提交最终报告" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1600" y="435" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="phase6-output" value="事后报告,改进计划" style="text;fontSize=13;fontColor=#6B7280;fontFamily=Inter;align=left;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="1600" y="470" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="irt-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="540" width="1760" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="irt-title" value="IRT 核心团队 | Incident Response Team" style="text;fontSize=20;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="100" y="555" width="450" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="irt-role1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="100" y="595" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="irt-role1" value="事件指挥官" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="100" y="600" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="irt-role1-sub" value="CISO / 高级安全经理" style="text;fontSize=12;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="100" y="620" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="irt-role2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="320" y="595" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="irt-role2" value="DPO" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="320" y="600" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="irt-role2-sub" value="合规评估/监管沟通" style="text;fontSize=12;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="320" y="620" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="irt-role3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="540" y="595" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="irt-role3" value="法务顾问" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="540" y="600" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="irt-role3-sub" value="法律风险/诉讼评估" style="text;fontSize=12;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="540" y="620" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="irt-role4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="760" y="595" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="irt-role4" value="安全分析师" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="760" y="600" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="irt-role4-sub" value="技术调查/取证分析" style="text;fontSize=12;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="760" y="620" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="irt-role5-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="980" y="595" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="irt-role5" value="IT 运维" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="980" y="600" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="irt-role5-sub" value="系统隔离/恢复" style="text;fontSize=12;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="980" y="620" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="irt-role6-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="595" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="irt-role6" value="公关/沟通" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="600" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="irt-role6-sub" value="媒体应对/用户通知" style="text;fontSize=12;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="620" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="irt-role7-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1420" y="595" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="irt-role7" value="HR (如涉及内部)" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1420" y="600" width="200" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="irt-role7-sub" value="员工约谈/纪律处分" style="text;fontSize=12;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1420" y="620" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="irt-role8-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1640" y="595" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="irt-role8" value="外部资源" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1640" y="600" width="180" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="irt-role8-sub" value="取证/律所/网络保险" style="text;fontSize=12;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1640" y="620" width="180" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="metrics-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="690" width="1760" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="metrics-title" value="关键运行指标 | Key Metrics" style="text;fontSize=20;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="100" y="705" width="350" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="metric1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="100" y="740" width="300" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="metric1" value="72h 通知达标率 &gt; 95%" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="100" y="747" width="300" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="metric2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="420" y="740" width="320" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="metric2" value="检测到决策平均时长 &lt; 24h" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="420" y="747" width="320" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="metric3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="760" y="740" width="280" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="metric3" value="RCA 完成率 = 100%" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="760" y="747" width="280" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="metric4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="740" width="320" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="metric4" value="改进措施实施率 &gt; 90%" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="747" width="320" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="metric5-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="740" width="420" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="metric5" value="年度演练完成次数 &gt;= 2 (桌面+技术)" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="747" width="420" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="breach-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="820" width="1760" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="breach-title" value="数据泄露类型 | Breach Types (GDPR Art.4(12))" style="text;fontSize=20;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="100" y="835" width="500" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="breach1-bg" value="" style="rounded=1;fillColor=#EF4444;strokeColor=#EF4444;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="100" y="870" width="500" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="breach1" value="保密性破坏 (Confidentiality): 未授权披露/访问" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="100" y="877" width="500" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="breach2-bg" value="" style="rounded=1;fillColor=#F59E0B;strokeColor=#F59E0B;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="620" y="870" width="500" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="breach2" value="完整性破坏 (Integrity): 未授权篡改" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="620" y="877" width="500" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="breach3-bg" value="" style="rounded=1;fillColor=#10B981;strokeColor=#10B981;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="870" width="500" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="breach3" value="可用性破坏 (Availability): 丢失/无法访问" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="877" width="500" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="source" value="参考: GDPR Art.33-34, NIST SP 800-61, WP29 Guidelines (WP250), EDPB 01/2021" style="text;fontSize=12;fontColor=#9CA3AF;fontFamily=Inter;align=right;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="950" width="760" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

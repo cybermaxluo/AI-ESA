@@ -1,0 +1,157 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="GRC Integration" id="grc-integration-v6">
+    <mxGraphModel dx="2194" dy="1322" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title-main" value="GRC 集成架构" style="text;fontSize=48;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="760" y="32" width="400" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="title-sub" value="GRC Platform Integration - Unified Risk &amp; Compliance Management" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="464" y="88" width="1000" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="grc-platform-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="640" y="400" width="640" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="grc-platform-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=#0066FF;strokeWidth=3;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="640" y="400" width="640" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="grc-title" value="GRC 平台核心" style="text;fontSize=36;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="760" y="440" width="400" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="grc-modules" value="• 风险登记册 (Risk Register)&#xa;• 合规管理 (Compliance Management)&#xa;• 政策库 (Policy Repository)&#xa;• 审计证据 (Audit Evidence)&#xa;• 报告看板 (Dashboard &amp; Reports)" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacingLeft=5;spacingRight=5;spacingTop=2;spacingBottom=2;" parent="1" vertex="1">
+          <mxGeometry x="832" y="504" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="business-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="160" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="business-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="160" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="business-title" value="业务系统" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="96" y="176" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="business-content" value="ERP/CRM/财务&#xa;项目管理&#xa;合同系统" style="text;fontSize=14;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="96" y="208" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-business" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;startArrow=classic;startFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="300" as="sourcePoint" />
+            <mxPoint x="700" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="security-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="480" y="160" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="security-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="480" y="160" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="security-title" value="安全工具" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="496" y="176" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="security-content" value="SIEM/SOAR&#xa;漏洞扫描&#xa;EDR/XDR" style="text;fontSize=14;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="496" y="208" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-security" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;startArrow=classic;startFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="300" as="sourcePoint" />
+            <mxPoint x="820" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cloud-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="880" y="160" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cloud-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="880" y="160" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cloud-title" value="云平台" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="896" y="176" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cloud-content" value="AWS/Azure/GCP&#xa;CSPM工具&#xa;云审计日志" style="text;fontSize=14;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="896" y="208" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-cloud" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;startArrow=classic;startFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="300" as="sourcePoint" />
+            <mxPoint x="1100" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="identity-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="160" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="identity-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="160" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="identity-title" value="身份系统" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1296" y="176" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="identity-content" value="SSO/IAM&#xa;PAM特权管理&#xa;访问审计" style="text;fontSize=14;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1296" y="208" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-identity" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;startArrow=classic;startFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1440" y="300" as="sourcePoint" />
+            <mxPoint x="1220" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tprm-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="160" y="720" width="380" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tprm-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="160" y="720" width="380" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tprm-title" value="第三方风险" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="176" y="736" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tprm-content" value="供应商评估&#xa;合同审查&#xa;持续监控" style="text;fontSize=14;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="176" y="768" width="340" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-tprm" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;startArrow=classic;startFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="720" as="sourcePoint" />
+            <mxPoint x="700" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ai-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="720" y="720" width="480" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ai-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="720" y="720" width="480" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ai-title" value="AI 赋能" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="736" y="736" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ai-content" value="风险预测建模 | 合规自动化扫描&#xa;审计证据智能采集 | 异常检测" style="text;fontSize=14;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="736" y="776" width="440" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-ai" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;startArrow=classic;startFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="713" as="sourcePoint" />
+            <mxPoint x="960" y="653" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="report-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="720" width="380" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="report-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="720" width="380" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="report-title" value="报告输出" style="text;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1296" y="736" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="report-content" value="董事会汇报&#xa;高管风险报告&#xa;监管报送" style="text;fontSize=14;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1296" y="768" width="340" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-report" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#0066FF;startArrow=classic;startFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1380" y="720" as="sourcePoint" />
+            <mxPoint x="1220" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="note-text" value="集成要点：统一数据标准+API对接+实时同步+双向流动，实现风险可视化、合规自动化、决策智能化" style="text;fontSize=16;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="584" y="888" width="856" height="32" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

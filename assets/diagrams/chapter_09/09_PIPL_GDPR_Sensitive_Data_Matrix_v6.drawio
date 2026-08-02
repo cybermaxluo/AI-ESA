@@ -1,0 +1,199 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="PIPL vs GDPR敏感数据对比矩阵" id="pipl-gdpr-matrix-v6">
+    <mxGraphModel dx="3330" dy="1892" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bg" value="" style="fillColor=#FAFBFC;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="PIPL vs GDPR 敏感数据对比矩阵" style="text;fontSize=48;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="560" y="50" width="800" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Sensitive Personal Information Comparison Matrix" style="text;fontSize=20;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="660" y="120" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="180" width="1760" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-match-box" value="" style="rounded=1;fillColor=#10B981;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="120" y="200" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-match" value="完全匹配" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="150" y="197" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-partial-box" value="" style="rounded=1;fillColor=#F59E0B;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="300" y="200" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-partial" value="部分匹配" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="330" y="197" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-pipl-box" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="480" y="200" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-pipl" value="PIPL独有" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="510" y="197" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-gdpr-box" value="" style="rounded=1;fillColor=#EF4444;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="660" y="200" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-gdpr" value="GDPR独有" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="690" y="197" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pipl-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=#0066FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="280" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pipl-title" value="PIPL 敏感个人信息" style="text;fontSize=32;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="80" y="295" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gdpr-header" value="" style="rounded=1;fillColor=#EF4444;strokeColor=#EF4444;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="280" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gdpr-title" value="GDPR 特殊类别数据" style="text;fontSize=32;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="295" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pipl-bio-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="84" y="394" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pipl-bio" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#10B981;strokeWidth=3;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="390" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pipl-bio-text" value="生物识别信息" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="150" y="405" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pipl-bio-sub" value="Biometric Data" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="150" y="440" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gdpr-bio-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1504" y="394" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gdpr-bio" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#10B981;strokeWidth=3;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="390" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gdpr-bio-text" value="Biometric Data" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1570" y="405" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gdpr-bio-sub" value="Art.9(1) 生物识别数据" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1570" y="440" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-bio" value="" style="endArrow=blockThin;startArrow=blockThin;strokeColor=#10B981;strokeWidth=4;endSize=10;startSize=10;endFill=1;startFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="430" as="sourcePoint" />
+            <mxPoint x="1500" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="match-label-1" value="完全匹配" style="text;fontSize=18;fontStyle=1;fontColor=#10B981;fontFamily=Inter;align=center;fillColor=#FFFFFF;strokeColor=#10B981;strokeWidth=2;rounded=1;arcSize=20;" parent="1" vertex="1">
+          <mxGeometry x="860" y="410" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pipl-health-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="84" y="504" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pipl-health" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#10B981;strokeWidth=3;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="500" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pipl-health-text" value="医疗健康信息" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="150" y="515" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pipl-health-sub" value="Health Data" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="150" y="550" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gdpr-health-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1504" y="504" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gdpr-health" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#10B981;strokeWidth=3;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="500" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gdpr-health-text" value="Health Data" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1570" y="515" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gdpr-health-sub" value="Art.9(1) 健康数据" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1570" y="550" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-health" value="" style="endArrow=blockThin;startArrow=blockThin;strokeColor=#10B981;strokeWidth=4;endSize=10;startSize=10;endFill=1;startFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="540" as="sourcePoint" />
+            <mxPoint x="1500" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="match-label-2" value="完全匹配" style="text;fontSize=18;fontStyle=1;fontColor=#10B981;fontFamily=Inter;align=center;fillColor=#FFFFFF;strokeColor=#10B981;strokeWidth=2;rounded=1;arcSize=20;" parent="1" vertex="1">
+          <mxGeometry x="860" y="520" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pipl-location-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="84" y="614" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pipl-location" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#F59E0B;strokeWidth=3;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="610" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pipl-location-text" value="行踪轨迹" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="150" y="625" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pipl-location-sub" value="Location Tracking" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="150" y="660" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gdpr-location-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1504" y="614" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gdpr-location" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=#F59E0B;strokeWidth=3;arcSize=8;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="610" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gdpr-location-text" value="间接保护" style="text;fontSize=24;fontStyle=1;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1570" y="625" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gdpr-location-sub" value="通过普通个人数据条款" style="text;fontSize=14;fontColor=#9CA3AF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1570" y="660" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-location" value="" style="endArrow=blockThin;strokeColor=#F59E0B;strokeWidth=4;endSize=10;endFill=1;dashed=1;dashPattern=8 8;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="650" as="sourcePoint" />
+            <mxPoint x="1500" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="match-label-3" value="部分匹配" style="text;fontSize=18;fontStyle=1;fontColor=#F59E0B;fontFamily=Inter;align=center;fillColor=#FFFFFF;strokeColor=#F59E0B;strokeWidth=2;rounded=1;arcSize=20;" parent="1" vertex="1">
+          <mxGeometry x="860" y="630" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pipl-children-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="84" y="724" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pipl-children" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#0066FF;strokeWidth=3;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="720" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pipl-children-text" value="不满14周岁未成年人" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="150" y="735" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pipl-children-sub" value="Children Under 14" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="150" y="770" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pipl-unique-label" value="PIPL独有" style="text;fontSize=18;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=2;rounded=1;arcSize=20;" parent="1" vertex="1">
+          <mxGeometry x="860" y="740" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gdpr-race-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1504" y="834" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gdpr-race" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#EF4444;strokeWidth=3;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="830" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gdpr-race-text" value="Racial/Ethnic Origin" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1570" y="845" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gdpr-race-sub" value="Art.9(1) 种族民族血统" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1570" y="880" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gdpr-unique-label" value="GDPR独有" style="text;fontSize=18;fontStyle=1;fontColor=#EF4444;fontFamily=Inter;align=center;fillColor=#FEF2F2;strokeColor=#EF4444;strokeWidth=2;rounded=1;arcSize=20;" parent="1" vertex="1">
+          <mxGeometry x="860" y="850" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="stats-bg" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="80" y="960" width="1760" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="stats-pipl" value="PIPL: 7类敏感信息" style="text;fontSize=20;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="120" y="985" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="stats-gdpr" value="GDPR: 9类特殊数据" style="text;fontSize=20;fontStyle=1;fontColor=#EF4444;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="985" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="stats-match" value="完全匹配: 5类 | 部分匹配: 1类 | 各自独有: PIPL 1类, GDPR 3类" style="text;fontSize=18;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="460" y="982" width="1000" height="36" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

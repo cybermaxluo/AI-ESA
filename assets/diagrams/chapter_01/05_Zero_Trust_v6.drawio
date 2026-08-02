@@ -1,0 +1,103 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
+  <diagram name="Zero Trust Architecture" id="zero-trust-v6">
+    <mxGraphModel dx="2037" dy="1303" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title-main" value="零信任架构基线" style="text;fontSize=48;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="656" y="32" width="600" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="title-sub" value="Zero Trust Architecture - Never Trust, Always Verify" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="560" y="88" width="800" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="principles-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=#0066FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="160" y="160" width="1600" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="principle1" value="永不信任&#xa;Never Trust" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="240" y="184" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="principle2" value="持续验证&#xa;Always Verify" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="760" y="184" width="320" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="principle3" value="最小权限&#xa;Least Privilege" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="184" width="368" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="160" y="344" width="1600" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="152" y="338" width="1600" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-number" value="1" style="ellipse;fillColor=#0066FF;strokeColor=NONE;fontColor=#FFFFFF;fontSize=48;fontStyle=1;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="200" y="368" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-title" value="身份与访问层&#xa;Identity &amp; Access" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="320" y="368" width="610" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-content" value="• 统一身份认证(SSO/MFA)&#xa;• 基于风险的自适应访问&#xa;• 特权访问管理(PAM)" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="800" y="372" width="320" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="160" y="528" width="1600" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="152" y="521" width="1600" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-number" value="2" style="ellipse;fillColor=#0066FF;strokeColor=NONE;fontColor=#FFFFFF;fontSize=48;fontStyle=1;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="200" y="552" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-title" value="设备与端点层&#xa;Device &amp; Endpoint" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="320" y="552" width="610" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-content" value="• 设备信任评估与健康检查&#xa;• EDR/XDR端点保护&#xa;• BYOD/企业设备统一管理" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="800" y="560" width="256" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="160" y="704" width="1600" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="152" y="695" width="1600" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-number" value="3" style="ellipse;fillColor=#0066FF;strokeColor=NONE;fontColor=#FFFFFF;fontSize=48;fontStyle=1;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="200" y="728" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-title" value="网络层&#xa;Network" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="320" y="728" width="400" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-content" value="• 微隔离(Microsegmentation)&#xa;• SDP软件定义边界&#xa;• ZTNA零信任网络访问" style="text;fontSize=16;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="800" y="728" width="256" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="160" y="880" width="760" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="152" y="873" width="760" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-number" value="4" style="ellipse;fillColor=#0066FF;strokeColor=NONE;fontColor=#FFFFFF;fontSize=48;fontStyle=1;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="200" y="912" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-title" value="应用层&#xa;Application" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="320" y="912" width="330" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-content" value="• 应用级访问控制&#xa;• API安全网关&#xa;• WAAP保护" style="text;fontSize=14;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="592" y="912" width="224" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="layer5-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1008" y="880" width="760" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="layer5-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="872" width="760" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="layer5-number" value="5" style="ellipse;fillColor=#0066FF;strokeColor=NONE;fontColor=#FFFFFF;fontSize=48;fontStyle=1;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="912" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="layer5-title" value="数据层&#xa;Data" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1160" y="912" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="layer5-content" value="• 数据分类标签化&#xa;• 动态加密与脱敏&#xa;• DLP数据防泄漏" style="text;fontSize=14;fontColor=#6B7280;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1408" y="912" width="200" height="72" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,211 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Cloud-Native Security Toolchain" id="cloud-native-toolchain-v6">
+    <mxGraphModel dx="1793" dy="931" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title-main" value="云原生安全工具链生态" style="text;fontSize=48;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="512" y="24" width="900" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="title-sub" value="Cloud-Native Security Toolchain - CSPM, CWPP, CNAPP, CIEM, DSPM" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="312" y="88" width="1300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cnapp-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="720" y="384" width="480" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="cnapp-bg" value="" style="rounded=1;fillColor=#0066FF;strokeColor=#0066FF;strokeWidth=3;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="720" y="384" width="480" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="cnapp-title" value="CNAPP" style="text;fontSize=36;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="736" y="408" width="440" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cnapp-subtitle" value="Cloud-Native Application Protection Platform" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="740" y="456" width="416" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="cnapp-desc" value="统一云原生应用保护平台&#xa;整合 CSPM + CWPP + CIEM + IaC Security" style="text;fontSize=16;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="740" y="496" width="432" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="cspm-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="160" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="cspm-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="160" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="cspm-title" value="CSPM" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="96" y="176" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cspm-subtitle" value="Cloud Security Posture Mgmt" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="96" y="216" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cspm-desc" value="云安全态势管理&#xa;• 配置合规检查&#xa;• 漂移检测&#xa;• 多云统一视图" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="168" y="240" width="240" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="cwpp-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="480" y="160" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="cwpp-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="480" y="160" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="cwpp-title" value="CWPP" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="496" y="176" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cwpp-subtitle" value="Cloud Workload Protection" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="496" y="216" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cwpp-desc" value="云工作负载保护&#xa;• VM/容器/K8s安全&#xa;• 运行时保护&#xa;• 漏洞管理" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="576" y="240" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ciem-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="880" y="160" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ciem-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="880" y="160" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ciem-title" value="CIEM" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="896" y="176" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ciem-subtitle" value="Cloud Infra Entitlement Mgmt" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="896" y="216" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ciem-desc" value="云权限管理&#xa;• 过度权限检测&#xa;• JIT访问&#xa;• 权限分析" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="972" y="240" width="224" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iac-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="160" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="iac-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="160" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="iac-title" value="IaC Security" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1296" y="176" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iac-subtitle" value="Infrastructure as Code" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1296" y="216" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iac-desc" value="基础设施代码安全&#xa;• Terraform扫描&#xa;• PaC (策略即代码)&#xa;• 左移安全" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1396" y="240" width="200" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="dspm-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="664" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dspm-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="656" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dspm-title" value="DSPM" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="96" y="680" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dspm-subtitle" value="Data Security Posture Mgmt" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="96" y="712" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dspm-desc" value="数据安全态势管理&#xa;• 数据发现分类&#xa;• 敏感数据保护&#xa;• 数据流分析" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="168" y="734" width="168" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="casb-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="480" y="664" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="casb-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="480" y="656" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="casb-title" value="CASB" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="496" y="680" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="casb-subtitle" value="Cloud Access Security Broker" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="496" y="712" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="casb-desc" value="云访问安全代理&#xa;• SaaS安全&#xa;• 影子IT发现&#xa;• DLP策略" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="572" y="731" width="176" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="caasm-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="880" y="664" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="caasm-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="880" y="656" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="caasm-title" value="CAASM" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="896" y="680" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="caasm-subtitle" value="Cloud Attack Surface Mgmt" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="896" y="712" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="caasm-desc" value="云攻击面管理&#xa;• 资产发现&#xa;• 暴露面评估&#xa;• 风险优先级" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="972" y="736" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="siem-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="664" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="siem-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="656" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="siem-title" value="SIEM/SOAR" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1296" y="680" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="siem-subtitle" value="Security Info &amp; Event Mgmt" style="text;fontSize=14;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1296" y="712" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="siem-desc" value="日志集成与响应&#xa;• 事件聚合&#xa;• 威胁检测&#xa;• 自动化编排" style="text;fontSize=14;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1376" y="734" width="240" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow-cspm" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="340" as="sourcePoint" />
+            <mxPoint x="820" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-cwpp" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="340" as="sourcePoint" />
+            <mxPoint x="900" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-ciem" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="340" as="sourcePoint" />
+            <mxPoint x="1020" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-iac" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1460" y="340" as="sourcePoint" />
+            <mxPoint x="1100" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-dspm" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="560" as="sourcePoint" />
+            <mxPoint x="260" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-casb" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="560" as="sourcePoint" />
+            <mxPoint x="660" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-caasm" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1020" y="560" as="sourcePoint" />
+            <mxPoint x="1060" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arrow-siem" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="560" as="sourcePoint" />
+            <mxPoint x="1460" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="note-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="864" width="1560" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="note-bg" value="" style="rounded=1;fillColor=#F8F9FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="864" width="1560" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="note-title" value="领先云原生安全平台 (CNAPP)" style="text;fontSize=16;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="96" y="880" width="1520" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="note-text" value="Prisma Cloud (Palo Alto) | Wiz | Orca Security | Lacework | Snyk | Aqua Security | Sysdig" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="96" y="920" width="1520" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,617 @@
+<mxfile host="app.diagrams.net" agent="Claude Code" version="24.7.6">
+  <diagram name="Compliance Framework Selection" id="compliance-framework-selection">
+    <mxGraphModel dx="1920" dy="1080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- Background -->
+        <mxCell id="bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAFBFC;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry width="1920" height="1080" as="geometry" />
+        </mxCell>
+
+        <!-- Title -->
+        <mxCell id="title" value="AI 合规框架选择决策树" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=36;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="560" y="25" width="800" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="subtitle" value="AI Compliance Framework Selection Decision Tree" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontColor=#666666;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="660" y="70" width="600" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Decision Tree Section -->
+        <mxCell id="tree-section" value="" style="rounded=16;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="115" width="1100" height="570" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tree-title" value=" 框架选择决策树" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=20;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="60" y="125" width="300" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Level 1 Decision -->
+        <mxCell id="q1" value="是否存在&#xa;强制监管要求？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#0066FF;strokeColor=#0052CC;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="200" y="180" width="150" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Level 1 Yes Branch - Regional -->
+        <mxCell id="q1-yes-label" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#16A34A;fontFamily=Inter;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="215" width="30" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow-q1-region" value="" style="endArrow=blockThin;html=1;strokeColor=#0066FF;strokeWidth=4;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="230" as="sourcePoint" />
+            <mxPoint x="420" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Regional Sub-decision -->
+        <mxCell id="region-box" value="" style="rounded=12;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#F59E0B;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="420" y="165" width="650" height="250" as="geometry" />
+        </mxCell>
+
+        <mxCell id="region-title" value="按地域/行业确定框架" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#B45309;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="435" y="175" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- EU High Risk -->
+        <mxCell id="eu-high" value="" style="rounded=10;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#DC2626;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="205" width="305" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eu-high-cond" value="欧盟业务 + 高风险 AI (Annex III)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="445" y="210" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eu-high-result" value="→ EU AI Act Art. 9-15 强制" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="445" y="230" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eu-high-badge" value="强制" style="rounded=20;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=none;fontSize=10;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="690" y="218" width="40" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- EU Limited Risk -->
+        <mxCell id="eu-limited" value="" style="rounded=10;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#F59E0B;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="270" width="305" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eu-limited-cond" value="欧盟业务 + 有限/最小风险 AI" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="445" y="275" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eu-limited-result" value="→ EU AI Act 透明度要求（轻量级）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#B45309;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="445" y="295" width="230" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- China GenAI -->
+        <mxCell id="china" value="" style="rounded=10;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#DC2626;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="335" width="305" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="china-cond" value="中国境内 + 面向公众生成式 AI" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="445" y="340" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="china-result" value="→《生成式 AI 管理办法》算法备案" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="445" y="360" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="china-badge" value="强制" style="rounded=20;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=none;fontSize=10;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="690" y="348" width="40" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- US Gov -->
+        <mxCell id="us-gov" value="" style="rounded=10;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#3B82F6;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="755" y="205" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="us-gov-cond" value="美国政府客户采购" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="765" y="210" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="us-gov-result" value="→ NIST AI RMF（合同常见要求）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#1E40AF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="765" y="230" width="220" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Industry -->
+        <mxCell id="industry" value="" style="rounded=10;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#6366F1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="755" y="270" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="industry-cond" value="特定行业（金融、医疗等）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="765" y="275" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="industry-result" value="→ 行业监管指引优先" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#4338CA;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="765" y="295" width="200" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- ISO Note -->
+        <mxCell id="iso-note" value=" ISO 42001 认证可作为 EU AI Act 合格评定证据" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#666666;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="755" y="345" width="290" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Level 1 No Branch -->
+        <mxCell id="q1-no-label" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#DC2626;fontFamily=Inter;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="283" width="30" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow-q1-q2" value="" style="endArrow=blockThin;html=1;strokeColor=#0066FF;strokeWidth=4;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="275" y="280" as="sourcePoint" />
+            <mxPoint x="275" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Level 2 Decision -->
+        <mxCell id="q2" value="是否有客户&#xa;认证要求？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#0066FF;strokeColor=#0052CC;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="200" y="340" width="150" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Level 2 Yes Branch -->
+        <mxCell id="q2-yes-label" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#16A34A;fontFamily=Inter;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="375" width="30" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow-q2-iso" value="" style="endArrow=blockThin;html=1;strokeColor=#0066FF;strokeWidth=4;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="390" as="sourcePoint" />
+            <mxPoint x="420" y="445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ISO 42001 Result Box -->
+        <mxCell id="iso-box" value="" style="rounded=12;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="420" y="425" width="310" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="iso-title" value="ISO 42001" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#166534;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="435" y="435" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="iso-desc" value="• 客户明确要求第三方认证&#xa;• 已具备 ISO 27001 体系&#xa;• 边际成本较低，可复用文档" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontColor=#333333;fontFamily=Inter;spacing=3;" vertex="1" parent="1">
+          <mxGeometry x="435" y="460" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iso-badge" value="推荐" style="rounded=20;whiteSpace=wrap;html=1;fillColor=#16A34A;strokeColor=none;fontSize=10;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="680" y="438" width="40" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Level 2 No Branch -->
+        <mxCell id="q2-no-label" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#DC2626;fontFamily=Inter;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="443" width="30" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow-q2-q3" value="" style="endArrow=blockThin;html=1;strokeColor=#0066FF;strokeWidth=4;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="275" y="440" as="sourcePoint" />
+            <mxPoint x="275" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Level 3 Decision -->
+        <mxCell id="q3" value="内部治理&#xa;成熟度如何？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#0066FF;strokeColor=#0052CC;strokeWidth=2;fontSize=14;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="200" y="500" width="150" height="100" as="geometry" />
+        </mxCell>
+
+        <!-- Level 3 Low Branch -->
+        <mxCell id="q3-low-label" value="低" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#F59E0B;fontFamily=Inter;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="535" width="30" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow-q3-nist" value="" style="endArrow=blockThin;html=1;strokeColor=#0066FF;strokeWidth=4;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="550" as="sourcePoint" />
+            <mxPoint x="420" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- NIST Result Box -->
+        <mxCell id="nist-box" value="" style="rounded=12;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#3B82F6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="420" y="545" width="310" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="nist-title" value="NIST AI RMF" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#1E40AF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="435" y="555" width="140" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="nist-desc" value="• 启动成本低，灵活性高&#xa;• 不强制认证，可灵活裁剪&#xa;• 后续可向 ISO 42001 过渡" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontColor=#333333;fontFamily=Inter;spacing=3;" vertex="1" parent="1">
+          <mxGeometry x="435" y="580" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nist-badge" value="默认" style="rounded=20;whiteSpace=wrap;html=1;fillColor=#3B82F6;strokeColor=none;fontSize=10;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="680" y="558" width="40" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- High Maturity Arrow to ISO -->
+        <mxCell id="q3-high-label" value="高/已有 ISO 体系" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#16A34A;fontFamily=Inter;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="535" width="120" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="arrow-q3-iso" value="" style="endArrow=blockThin;html=1;strokeColor=#16A34A;strokeWidth=3;endFill=1;curved=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="550" as="sourcePoint" />
+            <mxPoint x="420" y="475" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="550" />
+              <mxPoint x="100" y="475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Framework Comparison Section -->
+        <mxCell id="compare-section" value="" style="rounded=16;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="115" width="720" height="570" as="geometry" />
+        </mxCell>
+
+        <mxCell id="compare-title" value=" 框架对比矩阵" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=20;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="125" width="300" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Comparison Table Header -->
+        <mxCell id="cmp-header" value="" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#0066FF;strokeColor=#0052CC;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="170" width="680" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cmph1" value="维度" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="180" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cmph2" value="NIST AI RMF" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="180" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cmph3" value="ISO 42001" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="180" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cmph4" value="EU AI Act" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="180" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cmph5" value="中国管理办法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="180" width="170" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Row 1: 性质 -->
+        <mxCell id="cmp-r1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F3F4F6;strokeColor=#E0E7FF;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="210" width="680" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r1c1" value="性质" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="220" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r1c2" value="自愿框架" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#3B82F6;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="220" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r1c3" value="自愿认证" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#16A34A;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="220" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r1c4" value="强制法规" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#DC2626;fontFamily=Inter;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="220" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r1c5" value="强制法规" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#DC2626;fontFamily=Inter;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="220" width="170" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Row 2: 认证 -->
+        <mxCell id="cmp-r2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="250" width="680" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r2c1" value="第三方认证" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="260" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r2c2" value=" 无" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#6B7280;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="260" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r2c3" value=" 有" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#16A34A;fontFamily=Inter;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="260" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r2c4" value=" CE 标志" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#16A34A;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="260" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r2c5" value=" 备案编号" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#16A34A;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="260" width="170" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Row 3: 启动周期 -->
+        <mxCell id="cmp-r3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F3F4F6;strokeColor=#E0E7FF;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="290" width="680" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r3c1" value="启动周期" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="300" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r3c2" value="~3 个月" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#16A34A;fontFamily=Inter;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="300" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r3c3" value="6-12 个月" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#F59E0B;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="300" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r3c4" value="视情况" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#6B7280;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="300" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r3c5" value="1-3 个月" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#F59E0B;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="300" width="170" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Row 4: 成本 -->
+        <mxCell id="cmp-r4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="330" width="680" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r4c1" value="相对成本" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="340" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r4c2" value=" 低" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#16A34A;fontFamily=Inter;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="340" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r4c3" value=" 高" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#DC2626;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="340" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r4c4" value=" 很高" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#DC2626;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="340" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r4c5" value=" 中等" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#F59E0B;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="340" width="170" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Row 5: 灵活性 -->
+        <mxCell id="cmp-r5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F3F4F6;strokeColor=#E0E7FF;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="370" width="680" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r5c1" value="灵活性" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="380" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r5c2" value=" 高" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#16A34A;fontFamily=Inter;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="380" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r5c3" value=" 中" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#F59E0B;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="380" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r5c4" value=" 低" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#DC2626;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="380" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r5c5" value=" 低" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=11;fontColor=#DC2626;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="380" width="170" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Row 6: 适用场景 -->
+        <mxCell id="cmp-r6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="410" width="680" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="r6c1" value="适用场景" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#333333;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="425" width="120" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="r6c2" value="快速启动&#xa;无认证需求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontColor=#333333;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="420" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r6c3" value="客户要求认证&#xa;欧盟业务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontColor=#333333;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="420" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r6c4" value="欧盟市场&#xa;高风险 AI" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontColor=#333333;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="420" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="r6c5" value="中国境内&#xa;面向公众服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontColor=#333333;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="420" width="170" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Common Pitfalls Section -->
+        <mxCell id="pitfall-title" value="️ 常见误区" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="480" width="200" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="pitfall1" value="" style="rounded=10;whiteSpace=wrap;html=1;fillColor=#FEF2F2;strokeColor=#FECACA;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="510" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pitfall1-title" value="先 NIST 再 ISO 的隐性成本" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="515" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pitfall1-desc" value="前期投入仅能部分复用&#xa;明确有欧盟业务时&#xa;直接 ISO 更经济" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#666666;fontFamily=Inter;spacing=2;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="535" width="200" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="pitfall2" value="" style="rounded=10;whiteSpace=wrap;html=1;fillColor=#FEF2F2;strokeColor=#FECACA;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="510" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pitfall2-title" value="低估跨框架映射工作量" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="515" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pitfall2-desc" value="NIST 与 ISO 文档格式&#xa;审计要求差异显著&#xa;映射非简单复制" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#666666;fontFamily=Inter;spacing=2;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="535" width="200" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="pitfall3" value="" style="rounded=10;whiteSpace=wrap;html=1;fillColor=#FEF2F2;strokeColor=#FECACA;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="510" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pitfall3-title" value="忽视"影子 AI"" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="515" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pitfall3-desc" value="业务部门自行采购的&#xa;SaaS AI 工具常被遗漏&#xa;导致合规盲区" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=10;fontColor=#666666;fontFamily=Inter;spacing=2;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="535" width="200" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Recommendation Summary -->
+        <mxCell id="rec-box" value="" style="rounded=10;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="605" width="680" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rec-text" value=" 推荐路径：无强制监管 + 无认证需求 → NIST AI RMF 快速启动&#xa;　 有欧盟业务或客户认证需求 → 直接 ISO 42001&#xa;　 高风险 AI + 欧盟市场 → EU AI Act 全面合规 + ISO 42001 认证" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontColor=#166534;fontFamily=Inter;spacing=3;" vertex="1" parent="1">
+          <mxGeometry x="1195" y="615" width="650" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- Phased Compliance Section -->
+        <mxCell id="phase-section" value="" style="rounded=16;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="705" width="1840" height="350" as="geometry" />
+        </mxCell>
+
+        <mxCell id="phase-title" value=" 分阶段合规路径" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=20;fontStyle=1;fontColor=#1A1A1A;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="60" y="715" width="300" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Phase 1 -->
+        <mxCell id="phase1-bg" value="" style="rounded=12;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#3B82F6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="60" y="760" width="560" height="275" as="geometry" />
+        </mxCell>
+
+        <mxCell id="phase1-badge" value="阶段 1" style="rounded=20;whiteSpace=wrap;html=1;fillColor=#3B82F6;strokeColor=none;fontSize=12;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="75" y="773" width="65" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1-title" value="合规 MVP" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#1E40AF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="150" y="770" width="150" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="phase1-goal" value="目标：通过客户尽调，满足基础治理要求" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontColor=#333333;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="75" y="805" width="300" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="phase1-method" value="方案：NIST AI RMF 快速实施（90天）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#1E40AF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="75" y="830" width="280" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="phase1-timeline" value="" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#F0F4FF;strokeColor=#DBEAFE;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="860" width="530" height="160" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p1-t1" value="Phase 1&#xa;治理基础" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#0066FF;strokeColor=none;fontSize=11;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="90" y="875" width="115" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-t1-desc" value="委员会设立&#xa;资产盘点&#xa;风险分级" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontColor=#666666;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="90" y="925" width="115" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-t1-week" value="第 1-4 周" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=9;fontColor=#3B82F6;fontFamily=Inter;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="970" width="115" height="15" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p1-arrow1" value="" style="endArrow=blockThin;html=1;strokeColor=#0066FF;strokeWidth=3;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="897" as="sourcePoint" />
+            <mxPoint x="225" y="897" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="p1-t2" value="Phase 2&#xa;风险映射" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#0066FF;strokeColor=none;fontSize=11;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="225" y="875" width="115" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-t2-desc" value="高优先级系统&#xa;MITRE ATLAS 映射&#xa;AIIA 简化模板" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontColor=#666666;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="225" y="925" width="115" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-t2-week" value="第 5-8 周" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=9;fontColor=#3B82F6;fontFamily=Inter;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="970" width="115" height="15" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p1-arrow2" value="" style="endArrow=blockThin;html=1;strokeColor=#0066FF;strokeWidth=3;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="345" y="897" as="sourcePoint" />
+            <mxPoint x="360" y="897" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="p1-t3" value="Phase 3&#xa;度量体系" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#0066FF;strokeColor=none;fontSize=11;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="360" y="875" width="115" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-t3-desc" value="监控仪表盘&#xa;KPI/KRI 指标&#xa;告警响应演练" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontColor=#666666;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="360" y="925" width="115" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-t3-week" value="第 9-12 周" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=9;fontColor=#3B82F6;fontFamily=Inter;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="970" width="115" height="15" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p1-arrow3" value="" style="endArrow=blockThin;html=1;strokeColor=#0066FF;strokeWidth=3;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="897" as="sourcePoint" />
+            <mxPoint x="495" y="897" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="p1-t4" value="Phase 4&#xa;风险管理" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#16A34A;strokeColor=none;fontSize=11;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="490" y="875" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-t4-desc" value="事件响应&#xa;持续改进" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=10;fontColor=#666666;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="490" y="925" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="p1-t4-week" value="持续" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=9;fontColor=#16A34A;fontFamily=Inter;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="970" width="100" height="15" as="geometry" />
+        </mxCell>
+
+        <mxCell id="phase1-scope" value="适用：初创公司 | 无强制监管 | 客户不要求认证" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#666666;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="75" y="1000" width="350" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow to Phase 2 -->
+        <mxCell id="phase-arrow1" value="" style="endArrow=blockThin;html=1;strokeColor=#0066FF;strokeWidth=5;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="897" as="sourcePoint" />
+            <mxPoint x="680" y="897" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Phase 2 -->
+        <mxCell id="phase2-bg" value="" style="rounded=12;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#16A34A;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="680" y="760" width="460" height="275" as="geometry" />
+        </mxCell>
+
+        <mxCell id="phase2-badge" value="阶段 2" style="rounded=20;whiteSpace=wrap;html=1;fillColor=#16A34A;strokeColor=none;fontSize=12;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="695" y="773" width="65" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2-title" value="认证落地" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#166534;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="770" y="770" width="150" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="phase2-goal" value="目标：获得第三方认证，满足客户合同要求" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontColor=#333333;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="695" y="805" width="300" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="phase2-method" value="方案：ISO 42001 认证（6-12 个月）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#166534;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="695" y="830" width="280" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="phase2-timeline" value="" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#F0FDF4;strokeColor=#DCFCE7;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="695" y="860" width="430" height="120" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p2-items" value=" 差距分析：评估 AIMS 成熟度&#xa; 体系建设：政策 + AIIA + 变更管理&#xa; 内部审核：培训 + 不符合项整改&#xa; 认证审核：阶段一 + 阶段二&#xa; 纠正措施：整改 + 证书颁发" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#333333;fontFamily=Inter;spacing=4;" vertex="1" parent="1">
+          <mxGeometry x="710" y="865" width="400" height="105" as="geometry" />
+        </mxCell>
+
+        <mxCell id="phase2-scope" value="适用：有欧盟业务 | 客户要求认证 | 已有 ISO 体系" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#666666;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="695" y="1000" width="350" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Arrow to Phase 3 -->
+        <mxCell id="phase-arrow2" value="" style="endArrow=blockThin;html=1;strokeColor=#0066FF;strokeWidth=5;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1140" y="897" as="sourcePoint" />
+            <mxPoint x="1200" y="897" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Phase 3 -->
+        <mxCell id="phase3-bg" value="" style="rounded=12;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#DC2626;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="760" width="660" height="275" as="geometry" />
+        </mxCell>
+
+        <mxCell id="phase3-badge" value="阶段 3" style="rounded=20;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=none;fontSize=12;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="773" width="65" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3-title" value="深度合规" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="770" width="150" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="phase3-goal" value="目标：满足高风险 AI 全部监管要求" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontColor=#333333;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="805" width="300" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="phase3-method" value="方案：EU AI Act Art. 9-15 全面实施 + EU 数据库注册" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#DC2626;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="830" width="400" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="phase3-timeline" value="" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#FEF2F2;strokeColor=#FECACA;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="860" width="630" height="120" as="geometry" />
+        </mxCell>
+
+        <mxCell id="p3-art9" value="Art.9&#xa;风险管理" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=none;fontSize=10;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="875" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-art10" value="Art.10&#xa;数据治理" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=none;fontSize=10;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1325" y="875" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-art13" value="Art.13&#xa;透明度" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=none;fontSize=10;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="875" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-art14" value="Art.14&#xa;人工监督" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=none;fontSize=10;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1515" y="875" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-art64" value="Art.64&#xa;EU 数据库" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#DC2626;strokeColor=none;fontSize=10;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="875" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-iso" value="ISO 42001&#xa;认证" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#16A34A;strokeColor=none;fontSize=10;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1705" y="875" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p3-ce" value="CE 标志 + EU 数据库注册" style="rounded=6;whiteSpace=wrap;html=1;fillColor=#F59E0B;strokeColor=none;fontSize=10;fontStyle=1;fontColor=#FFFFFF;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="930" width="180" height="35" as="geometry" />
+        </mxCell>
+
+        <mxCell id="phase3-scope" value="适用：高风险 AI（招聘/信贷/医疗） | 监管强制 | 欧盟市场" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontColor=#666666;fontFamily=Inter;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="1000" width="400" height="20" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

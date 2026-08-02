@@ -1,0 +1,152 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Partnership Lifecycle" id="lifecycle-v6">
+    <mxGraphModel dx="2742" dy="1432" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title-main" value="业务安全伙伴关系生命周期" style="text;fontSize=48;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="560" y="40" width="800" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="title-sub" value="Partnership Lifecycle - Build → Deepen → Deliver → Optimize" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="512" y="104" width="896" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="88" y="176" width="404" height="216" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="80" y="168" width="404" height="216" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1-number" value="1" style="ellipse;fillColor=#0066FF;strokeColor=NONE;fontColor=#FFFFFF;fontSize=48;fontStyle=1;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="112" y="200" width="72" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1-title" value="关系建立期" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="208" y="200" width="240" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1-title-en" value="Build" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="208" y="232" width="240" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="phase1-content" value="• Onboarding业务团队&#xa;• 识别关键利益相关方&#xa;• 建立信任与初步沟通" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="208" y="272" width="248" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow1" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="280" as="sourcePoint" />
+            <mxPoint x="540" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phase2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="556" y="176" width="404" height="216" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="548" y="168" width="404" height="216" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2-number" value="2" style="ellipse;fillColor=#0066FF;strokeColor=NONE;fontColor=#FFFFFF;fontSize=48;fontStyle=1;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="580" y="200" width="72" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2-title" value="合作深化期" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="676" y="200" width="240" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2-title-en" value="Deepen" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="676" y="232" width="240" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="phase2-content" value="• 需求管理与优先级治理&#xa;• SLA承诺与期望对齐&#xa;• 定期沟通机制建立" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="676" y="272" width="248" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow2" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#0066FF;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="968" y="280" as="sourcePoint" />
+            <mxPoint x="1008" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="phase3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1024" y="176" width="404" height="216" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1016" y="168" width="404" height="216" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3-number" value="3" style="ellipse;fillColor=#0066FF;strokeColor=NONE;fontColor=#FFFFFF;fontSize=48;fontStyle=1;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1048" y="200" width="72" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3-title" value="价值交付期" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1144" y="200" width="240" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3-title-en" value="Deliver" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1144" y="232" width="240" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="phase3-content" value="• Playbook执行&#xa;• 质量保障与风险控制&#xa;• 项目复盘与经验沉淀" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="1144" y="272" width="248" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1488" y="176" width="404" height="216" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="168" width="404" height="216" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4-number" value="4" style="ellipse;fillColor=#0066FF;strokeColor=NONE;fontColor=#FFFFFF;fontSize=48;fontStyle=1;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1512" y="200" width="72" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4-title" value="持续优化期" style="text;fontSize=24;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1608" y="200" width="240" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4-title-en" value="Optimize" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1608" y="232" width="240" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="phase4-content" value="• VOC反馈收集(NPS调研)&#xa;• 服务改进与流程优化&#xa;• QBR季度业务回顾" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="1608" y="272" width="248" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow4" value="循环迭代" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#0066FF;dashed=1;fontSize=16;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;shadow=0;" parent="1" edge="1" target="phase2-shadow">
+          <mxGeometry x="-0.1554" y="-16" relative="1" as="geometry">
+            <mxPoint x="1696" y="496" as="sourcePoint" />
+            <mxPoint x="759.9599999999996" y="488.0000000000002" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="activities-title" value="各阶段关键活动与产出" style="text;fontSize=36;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="108" y="696" width="404" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="activities-title-en" value="Key Activities &amp; Outputs" style="text;fontSize=18;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="120" y="752" width="224" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="stage1-label" value="阶段1产出:" style="text;fontSize=15;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="600" y="656" width="104" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="stage1-content" value="利益相关方地图 | 90天Onboarding计划 | 初步服务目录" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="600" y="680" width="376" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="stage2-label" value="阶段2产出:" style="text;fontSize=15;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="600" y="704" width="88" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="stage2-content" value="需求管理流程 | 优先级矩阵 | SLA承诺书 | 沟通节奏表" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="600" y="728" width="360" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="stage3-label" value="阶段3产出:" style="text;fontSize=15;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="600" y="752" width="104" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="stage3-content" value="项目交付记录 | 风险评估报告 | Playbook执行清单 | 复盘文档" style="text;fontSize=15;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="600" y="776" width="424" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="WBKJWtd3Fn1hh4AswL95-1" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#0066FF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="968" y="280" as="sourcePoint" />
+            <mxPoint x="1008" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WBKJWtd3Fn1hh4AswL95-2" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#0066FF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1432" y="283.77" as="sourcePoint" />
+            <mxPoint x="1472" y="283.77" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WBKJWtd3Fn1hh4AswL95-6" value="" style="endArrow=classic;html=1;strokeWidth=4;strokeColor=#0066FF;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1696" y="496" as="sourcePoint" />
+            <mxPoint x="1696" y="392" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WBKJWtd3Fn1hh4AswL95-9" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="88" y="638" width="944" height="194" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

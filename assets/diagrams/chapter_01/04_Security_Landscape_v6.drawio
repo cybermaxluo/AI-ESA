@@ -1,0 +1,148 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
+  <diagram name="Security Architecture Landscape" id="security-landscape-v6">
+    <mxGraphModel dx="2194" dy="1403" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title-main" value="安全架构全景" style="text;fontSize=48;fontStyle=1;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="656" y="32" width="600" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="title-sub" value="Security Architecture Landscape - Three Domains × Four Layers × Three-in-One" style="text;fontSize=16;fontColor=#6B7280;fontFamily=Inter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="464" y="88" width="1000" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="domain1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="160" width="380" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="domain1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="160" width="380" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="domain1-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="160" width="380" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="domain1-title" value="基础安全域&#xa;Infrastructure Security" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="120" y="180" width="272" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="domain1-layer1" value="&#xa;云平台安全&#xa;CSPM/CIEM/CNAPP" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#F8F9FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="96" y="280" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="domain1-layer2" value="&#xa;网络安全&#xa;微隔离/零信任/边界防护" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#F8F9FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="96" y="384" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="domain1-layer3" value="&#xa;计算安全&#xa;主机/容器/工作负载保护" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#F8F9FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="96" y="480" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="domain1-layer4" value="&#xa;存储安全&#xa;加密/备份/密钥管理" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#F8F9FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="96" y="576" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="domain1-governance" value="&#xa;[Security] 基础设施治理&#xa;配置基线/补丁/审计" style="text;fontSize=16;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="96" y="704" width="344" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="domain2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="528" y="160" width="380" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="domain2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="520" y="160" width="380" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="domain2-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="520" y="160" width="380" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="domain2-title" value="应用安全域&#xa;Application Security" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="566" y="180" width="288" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="domain2-layer1" value="&#xa;设计安全&#xa;威胁建模/安全架构评审" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#F8F9FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="544" y="280" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="domain2-layer2" value="&#xa;开发安全&#xa;SDL/SAST/SCA/秘钥扫描" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#F8F9FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="544" y="384" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="domain2-layer3" value="&#xa;运行时安全&#xa;WAF/RASP/API防护" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#F8F9FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="544" y="480" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="domain2-layer4" value="&#xa;认证鉴权&#xa;SSO/IAM/MFA/RBAC" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#F8F9FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="544" y="576" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="domain2-governance" value="&#xa;[Security] DevSecOps&#xa;安全左移/持续验证" style="text;fontSize=16;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="544" y="704" width="336" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="domain3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="960" y="160" width="380" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="domain3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="960" y="160" width="380" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="domain3-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="960" y="160" width="380" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="domain3-title" value="数据安全域&#xa;Data Security" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="177" width="240" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="domain3-layer1" value="&#xa;数据治理&#xa;分类分级/资产盘点" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#F8F9FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="976" y="280" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="domain3-layer2" value="&#xa;数据保护&#xa;加密/脱敏/去标识化" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#F8F9FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="976" y="384" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="domain3-layer3" value="&#xa;访问控制&#xa;数据权限/动态授权" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#F8F9FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="976" y="480" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="domain3-layer4" value="&#xa;数据监测&#xa;DLP/审计/血缘追踪" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#F8F9FF;rounded=1;arcSize=8;strokeColor=#E0E7FF;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="976" y="576" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="domain3-governance" value="&#xa;[Security] 隐私合规&#xa;GDPR/CCPA/PIPL" style="text;fontSize=16;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;fillColor=#EEF2FF;rounded=1;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="976" y="704" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="governance-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1408" y="160" width="440" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="governance-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="160" width="440" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="governance-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=NONE;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="160" width="440" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="governance-title" value="三位一体治理&#xa;Three-in-One Governance" style="text;fontSize=24;fontStyle=1;fontColor=#FFFFFF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1485" y="174" width="286" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="governance-mgmt-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="304" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="governance-mgmt" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="304" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="governance-mgmt-label" value="管理治理&#xa;Management" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1451" y="352" width="157" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="governance-mgmt-content" value="• 安全策略与标准&#xa;• GRC框架&#xa;• 风险管理" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1624" y="360" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="governance-tech-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="504" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="governance-tech" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="496" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="governance-tech-label" value="技术治理&#xa;Technology" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1456" y="540" width="144" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="governance-tech-content" value="• 安全工具与平台&#xa;• 自动化能力&#xa;• 技术栈标准化" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1624" y="540" width="200" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="governance-ops-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=NONE;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="704" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="governance-ops" value="" style="rounded=1;fillColor=#EEF2FF;strokeColor=#0066FF;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="704" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="governance-ops-label" value="运营治理&#xa;Operations" style="text;fontSize=24;fontStyle=1;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1456" y="744" width="128" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="governance-ops-content" value="• SOC 安全运营中心&#xa;• 事件响应SIEM&#xa;• 持续监控与改进" style="text;fontSize=16;fontColor=#1A1A1A;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1624" y="736" width="168" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="note-text" value="[Note] 全景要点: 三域协同(基础/应用/数据) × 四层架构(Business/Data/App/Tech) × 三位一体治理(管理/技术/运营)" style="text;fontSize=16;fontColor=#0066FF;fontFamily=PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif;align=center;" parent="1" vertex="1">
+          <mxGeometry x="524" y="976" width="864" height="34" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

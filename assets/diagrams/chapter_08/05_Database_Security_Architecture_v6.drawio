@@ -1,0 +1,226 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="数据库安全架构" id="db-security-arch">
+    <mxGraphModel dx="2391" dy="1287" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#FAFBFC" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="main-title" value="数据库安全架构" style="text;html=1;fontSize=48;fontStyle=1;fontColor=#1F2937;align=center;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="660" y="40" width="600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="84" y="144" width="856" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="140" width="856" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="140" width="856" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-number" value="1" style="ellipse;fillColor=#FFFFFF;strokeColor=none;fontColor=#0066FF;fontSize=32;fontStyle=1;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="96" y="147" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-title" value="访问控制层 Access Control Layer" style="text;html=1;fontSize=24;fontStyle=1;fontColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="156" y="154" width="700" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-item1-title" value="身份认证" style="text;html=1;fontSize=16;fontStyle=1;fontColor=#0066FF;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="112" y="220" width="192" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-item1-content" value="• 多因素认证(MFA)&#xa;• Kerberos/LDAP集成&#xa;• 证书认证" style="text;html=1;fontSize=14;fontColor=#6B7280;align=left;verticalAlign=top;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="112" y="248" width="192" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-item2-title" value="权限管理" style="text;html=1;fontSize=16;fontStyle=1;fontColor=#0066FF;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="328" y="220" width="192" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-item2-content" value="• 基于角色的访问控制(RBAC)&#xa;• 最小权限原则&#xa;• 权限审批流程" style="text;html=1;fontSize=14;fontColor=#6B7280;align=left;verticalAlign=top;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="328" y="248" width="192" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-item3-title" value="行级安全" style="text;html=1;fontSize=16;fontStyle=1;fontColor=#0066FF;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="544" y="220" width="176" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-item3-content" value="• Row-Level Security(RLS)&#xa;• 动态数据过滤&#xa;• 租户隔离" style="text;html=1;fontSize=14;fontColor=#6B7280;align=left;verticalAlign=top;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="544" y="248" width="176" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-item4-title" value="特权访问管理" style="text;html=1;fontSize=16;fontStyle=1;fontColor=#0066FF;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="744" y="220" width="168" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="layer1-item4-content" value="• PAM凭据保险库&#xa;• 会话录制&#xa;• 双人授权" style="text;html=1;fontSize=14;fontColor=#6B7280;align=left;verticalAlign=top;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="744" y="248" width="168" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="984" y="144" width="856" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="980" y="140" width="856" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="980" y="140" width="856" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-number" value="2" style="ellipse;fillColor=#FFFFFF;strokeColor=none;fontColor=#0066FF;fontSize=32;fontStyle=1;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="996" y="147" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-title" value="数据加密层 Data Encryption Layer" style="text;html=1;fontSize=24;fontStyle=1;fontColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="1056" y="154" width="700" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-item1-title" value="透明数据加密" style="text;html=1;fontSize=16;fontStyle=1;fontColor=#0066FF;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="1012" y="220" width="256" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-item1-content" value="• TDE(Transparent Data Encryption)&#xa;• 数据文件/日志加密&#xa;• 密钥自动轮换" style="text;html=1;fontSize=14;fontColor=#6B7280;align=left;verticalAlign=top;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1012" y="248" width="256" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-item2-title" value="列级加密" style="text;html=1;fontSize=16;fontStyle=1;fontColor=#0066FF;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="1292" y="220" width="256" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-item2-content" value="• 敏感字段选择性加密&#xa;• Always Encrypted(SQL Server)&#xa;• 应用层透明解密" style="text;html=1;fontSize=14;fontColor=#6B7280;align=left;verticalAlign=top;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1292" y="248" width="256" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-item3-title" value="网络传输加密" style="text;html=1;fontSize=16;fontStyle=1;fontColor=#0066FF;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="1572" y="220" width="244" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="layer2-item3-content" value="• TLS 1.3强制加密&#xa;• 证书管理&#xa;• 端到端加密" style="text;html=1;fontSize=14;fontColor=#6B7280;align=left;verticalAlign=top;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1572" y="248" width="244" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="84" y="368" width="856" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="364" width="856" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="364" width="856" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-number" value="3" style="ellipse;fillColor=#FFFFFF;strokeColor=none;fontColor=#0066FF;fontSize=32;fontStyle=1;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="96" y="371" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-title" value="审计与监控层 Audit &amp; Monitoring Layer" style="text;html=1;fontSize=24;fontStyle=1;fontColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="156" y="378" width="700" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-item1-title" value="审计日志" style="text;html=1;fontSize=16;fontStyle=1;fontColor=#0066FF;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="112" y="444" width="192" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-item1-content" value="• 所有数据库操作日志&#xa;• DDL/DML操作记录&#xa;• 合规性审计报告" style="text;html=1;fontSize=14;fontColor=#6B7280;align=left;verticalAlign=top;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="112" y="472" width="192" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-item2-title" value="实时监控" style="text;html=1;fontSize=16;fontStyle=1;fontColor=#0066FF;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="328" y="444" width="192" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-item2-content" value="• 异常查询检测&#xa;• 性能基线监控&#xa;• 告警与响应" style="text;html=1;fontSize=14;fontColor=#6B7280;align=left;verticalAlign=top;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="328" y="472" width="192" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-item3-title" value="数据库活动监控" style="text;html=1;fontSize=16;fontStyle=1;fontColor=#0066FF;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="544" y="444" width="176" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-item3-content" value="• DAM实时监控&#xa;• SQL注入检测&#xa;• 越权访问检测" style="text;html=1;fontSize=14;fontColor=#6B7280;align=left;verticalAlign=top;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="544" y="472" width="176" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-item4-title" value="SIEM集成" style="text;html=1;fontSize=16;fontStyle=1;fontColor=#0066FF;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="744" y="444" width="168" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="layer3-item4-content" value="• 日志集中收集&#xa;• 关联分析&#xa;• 威胁情报融合" style="text;html=1;fontSize=14;fontColor=#6B7280;align=left;verticalAlign=top;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="744" y="472" width="168" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="984" y="368" width="856" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="980" y="364" width="856" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="980" y="364" width="856" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-number" value="4" style="ellipse;fillColor=#FFFFFF;strokeColor=none;fontColor=#0066FF;fontSize=32;fontStyle=1;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="996" y="371" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-title" value="备份与恢复层 Backup &amp; Recovery Layer" style="text;html=1;fontSize=24;fontStyle=1;fontColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="1056" y="378" width="700" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-item1-title" value="自动化备份" style="text;html=1;fontSize=16;fontStyle=1;fontColor=#0066FF;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="1012" y="444" width="192" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-item1-content" value="• 全量/增量/日志备份&#xa;• 定时备份策略&#xa;• 备份加密" style="text;html=1;fontSize=14;fontColor=#6B7280;align=left;verticalAlign=top;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1012" y="472" width="192" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-item2-title" value="异地容灾" style="text;html=1;fontSize=16;fontStyle=1;fontColor=#0066FF;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="1228" y="444" width="192" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-item2-content" value="• 跨区域备份&#xa;• 主从复制&#xa;• 故障自动切换" style="text;html=1;fontSize=14;fontColor=#6B7280;align=left;verticalAlign=top;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1228" y="472" width="192" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-item3-title" value="快速恢复" style="text;html=1;fontSize=16;fontStyle=1;fontColor=#0066FF;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="1444" y="444" width="176" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-item3-content" value="• PITR时间点恢复&#xa;• 数据恢复演练&#xa;• RTO/RPO保障" style="text;html=1;fontSize=14;fontColor=#6B7280;align=left;verticalAlign=top;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1444" y="472" width="176" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-item4-title" value="备份验证" style="text;html=1;fontSize=16;fontStyle=1;fontColor=#0066FF;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="1644" y="444" width="172" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="layer4-item4-content" value="• 完整性校验&#xa;• 恢复测试&#xa;• 备份监控报告" style="text;html=1;fontSize=14;fontColor=#6B7280;align=left;verticalAlign=top;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1644" y="472" width="172" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="threats-shadow" value="" style="rounded=1;fillColor=#E5E7EB;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="84" y="592" width="1756" height="448" as="geometry" />
+        </mxCell>
+        <mxCell id="threats-bg" value="" style="rounded=1;fillColor=#FFFFFF;strokeColor=#E0E7FF;strokeWidth=2;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="588" width="1756" height="448" as="geometry" />
+        </mxCell>
+        <mxCell id="threats-header" value="" style="rounded=1;fillColor=#0066FF;strokeColor=none;arcSize=12;" parent="1" vertex="1">
+          <mxGeometry x="80" y="588" width="1756" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="threats-number" value="5" style="ellipse;fillColor=#FFFFFF;strokeColor=none;fontColor=#0066FF;fontSize=32;fontStyle=1;fontFamily=Inter;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="96" y="595" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="threats-title" value="常见威胁与控制措施 Common Threats &amp; Controls" style="text;html=1;fontSize=24;fontStyle=1;fontColor=#FFFFFF;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="156" y="602" width="1600" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="threat1-title" value="SQL注入攻击" style="text;html=1;fontSize=16;fontStyle=1;fontColor=#999999;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="112" y="668" width="400" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="threat1-content" value="控制措施:&#xa;• 使用参数化查询/预编译语句&#xa;• 输入验证与过滤&#xa;• 部署WAF与DAM实时监控&#xa;• 最小权限原则" style="text;html=1;fontSize=14;fontColor=#6B7280;align=left;verticalAlign=top;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="112" y="696" width="400" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="threat2-title" value="越权访问" style="text;html=1;fontSize=16;fontStyle=1;fontColor=#999999;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="544" y="668" width="400" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="threat2-content" value="控制措施:&#xa;• 严格的RBAC权限管理&#xa;• 行级安全策略(RLS)&#xa;• 定期权限审计&#xa;• 账号权限最小化" style="text;html=1;fontSize=14;fontColor=#6B7280;align=left;verticalAlign=top;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="544" y="696" width="400" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="threat3-title" value="数据泄露" style="text;html=1;fontSize=16;fontStyle=1;fontColor=#999999;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="976" y="668" width="400" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="threat3-content" value="控制措施:&#xa;• 静态与传输加密(TDE + TLS)&#xa;• 数据脱敏与掩码&#xa;• DLP数据防泄漏系统&#xa;• 访问日志审计" style="text;html=1;fontSize=14;fontColor=#6B7280;align=left;verticalAlign=top;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="976" y="696" width="400" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="threat4-title" value="内部威胁" style="text;html=1;fontSize=16;fontStyle=1;fontColor=#999999;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="1408" y="668" width="400" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="threat4-content" value="控制措施:&#xa;• PAM特权访问管理&#xa;• 会话录制与回放&#xa;• 行为基线与异常检测&#xa;• 职责分离(SoD)" style="text;html=1;fontSize=14;fontColor=#6B7280;align=left;verticalAlign=top;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1408" y="696" width="400" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="threat5-title" value="勒索软件/数据破坏" style="text;html=1;fontSize=16;fontStyle=1;fontColor=#999999;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="112" y="816" width="400" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="threat5-content" value="控制措施:&#xa;• 自动化备份与异地存储&#xa;• 备份加密与不可变存储&#xa;• 快速恢复演练(RTO &lt; 4h)&#xa;• 网络隔离与访问控制" style="text;html=1;fontSize=14;fontColor=#6B7280;align=left;verticalAlign=top;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="112" y="844" width="400" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="threat6-title" value="配置错误与漏洞" style="text;html=1;fontSize=16;fontStyle=1;fontColor=#999999;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="544" y="816" width="400" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="threat6-content" value="控制措施:&#xa;• 安全基线与配置管理(CIS Benchmark)&#xa;• 自动化漏洞扫描&#xa;• 及时补丁更新&#xa;• 定期安全评估" style="text;html=1;fontSize=14;fontColor=#6B7280;align=left;verticalAlign=top;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="544" y="844" width="400" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="threat7-title" value="合规性违规" style="text;html=1;fontSize=16;fontStyle=1;fontColor=#999999;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="976" y="816" width="400" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="threat7-content" value="控制措施:&#xa;• 完整的审计日志(GDPR/PCI DSS)&#xa;• 数据分类与标签&#xa;• 定期合规性审计&#xa;• 隐私影响评估(PIA)" style="text;html=1;fontSize=14;fontColor=#6B7280;align=left;verticalAlign=top;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="976" y="844" width="400" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="threat8-title" value="拒绝服务攻击(DoS/DDoS)" style="text;html=1;fontSize=16;fontStyle=1;fontColor=#999999;align=left;verticalAlign=middle;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;" parent="1" vertex="1">
+          <mxGeometry x="1408" y="816" width="400" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="threat8-content" value="控制措施:&#xa;• 连接限速与资源配额&#xa;• 查询复杂度限制&#xa;• 数据库防火墙&#xa;• 高可用架构(主从/集群)" style="text;html=1;fontSize=14;fontColor=#6B7280;align=left;verticalAlign=top;fontFamily=PingFang SC,Microsoft YaHei,sans-serif;spacing=4;" parent="1" vertex="1">
+          <mxGeometry x="1408" y="844" width="400" height="96" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
